@@ -15,6 +15,12 @@ SideNavigation_Compact As CanvasComponent:
                 MenuID: 1, 
                 MenuName: "Products", 
                 PageNavigation: App.ActiveScreen
+                },
+                 {
+                MenuIcon: UPI,
+                MenuID: 1, 
+                MenuName: "Products", 
+                PageNavigation: App.ActiveScreen
                 }
             )
     NavBG: =RGBA(244, 244, 244, 1)
@@ -76,16 +82,29 @@ SideNavigation_Compact As CanvasComponent:
                 Container6 As groupContainer.manualLayoutContainer:
                     Height: =Parent.Height *70%
                     Width: =Self.Height
-                    X: =10
-                    Y: =5
+                    X: =(Parent.Width - Self.Width) / 2 
+                    Y: =(Parent.Height - Self.Height) / 2 
                     ZIndex: =1
 
                     Image6 As image:
                         Height: =Parent.Height
+                        Image: =ThisItem.MenuIcon
                         Width: =Parent.Width
                         X: =35
                         Y: =35
                         ZIndex: =1
+
+                    Button4 As button:
+                        BorderThickness: =0
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =Parent.Height
+                        HoverFill: =RGBA(0,0,0,0.1)
+                        PressedFill: =RGBA(0,0,0,0.2)
+                        Text: =
+                        Width: =Parent.Width
+                        X: =35
+                        Y: =35
+                        ZIndex: =2
 
         Container3 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.None
