@@ -1,0 +1,56 @@
+SideNavigation_Compact As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    First_Logo: =Viewmore
+    Height: =640
+    NavBG: =RGBA(244, 244, 244, 1)
+    Width: =70
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Container2 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.None
+        Fill: =SideNavigation_Compact.NavBG
+        Height: =Parent.Height
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+        LayoutMode: =LayoutMode.Auto
+        PaddingBottom: =20
+        PaddingLeft: =7
+        PaddingRight: =7
+        PaddingTop: =20
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Width: =Parent.Width
+        X: =40
+        ZIndex: =1
+
+        Image2 As image:
+            AlignInContainer: =AlignInContainer.Stretch
+            Height: =30
+            Image: =SideNavigation_Compact.First_Logo
+            LayoutMinWidth: =0
+            ZIndex: =1
+
+        Container3 As groupContainer.horizontalAutoLayoutContainer:
+            DropShadow: =DropShadow.None
+            FillPortions: =0
+            Height: =40
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutJustifyContent: =LayoutJustifyContent.Center
+            LayoutMinHeight: =100
+            LayoutMinWidth: =40
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            ZIndex: =2
+
+            Image3 As image:
+                Height: =Parent.Height
+                Width: =Self.Height
+                ZIndex: =1
+
