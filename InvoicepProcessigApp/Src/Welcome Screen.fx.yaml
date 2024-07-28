@@ -1,6 +1,6 @@
 "'Welcome Screen' As screen":
     BackgroundImage: =
-    Fill: =RGBA(234, 245, 233, 1)
+    Fill: =RGBA(189, 204, 180, 1)
     ImagePosition: =ImagePosition.Stretch
     LoadingSpinner: =LoadingSpinner.Data
 
@@ -52,22 +52,45 @@
             Width: =Parent.Width
             ZIndex: =1
 
-            Image11 As image:
-                Height: =348
-                Image: =file
-                Width: =591
-                X: =88
-                Y: =24
-                ZIndex: =1
-
             Label4 As label:
-                Font: =Font.Arial
+                Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Bold
-                Height: =113
-                Size: =30
-                Text: ="Inovice"
-                Width: =252
-                X: =288
-                Y: =356
+                Height: =218
+                Size: =70
+                Text: ="Invoice"
+                Width: =461
+                X: =216
+                Y: =44
                 ZIndex: =2
+
+            Label4_1 As label:
+                Color: =RGBA(221, 79, 14, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Bold
+                Height: =95
+                Size: =45
+                Text: ="Processing"
+                Width: =524
+                X: =232
+                Y: =192
+                ZIndex: =3
+
+            Label5 As label:
+                Font: =Font.'Dancing Script'
+                Height: =157
+                Size: =20
+                Text: ="Where smart invoicing meets seamless solutions."
+                Width: =487
+                X: =144
+                Y: =233
+                ZIndex: =4
+
+            Button5 As button:
+                Fill: =RGBA(246, 88, 16, 1)
+                Height: =49
+                Text: ="Get Started"
+                Width: =382
+                X: =196
+                Y: =455
+                ZIndex: =5
 

@@ -107,9 +107,9 @@
     "DocumentAppType": "DesktopOrTablet",
     "DocumentLayoutHeight": 768,
     "DocumentLayoutLockOrientation": false,
-    "DocumentLayoutMaintainAspectRatio": true,
+    "DocumentLayoutMaintainAspectRatio": false,
     "DocumentLayoutOrientation": "landscape",
-    "DocumentLayoutScaleToFit": true,
+    "DocumentLayoutScaleToFit": false,
     "DocumentLayoutWidth": 1366,
     "DocumentType": "App",
     "EnableInstrumentation": false,
@@ -138,6 +138,7 @@
     "Screen1_1",
     "Screen1_2",
     "Screen2",
-    "Welcome Screen"
+    "Welcome Screen",
+    "Welcome Screen_1"
   ]
 }

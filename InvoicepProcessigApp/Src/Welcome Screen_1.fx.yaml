@@ -1,0 +1,66 @@
+"'Welcome Screen_1' As screen":
+    BackgroundImage: ='invoice-processing'
+    Fill: =RGBA(189, 204, 180, 1)
+    ImagePosition: =ImagePosition.Stretch
+    LoadingSpinner: =LoadingSpinner.Data
+
+    ContainerLogo_1 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.None
+        Height: =Parent.Height * 99%
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Width: =Parent.Width * 50%
+        X: =Self.Width
+        ZIndex: =3
+
+        Container12_1 As groupContainer.manualLayoutContainer:
+            Height: =Parent.Height
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            Width: =Parent.Width
+            ZIndex: =1
+
+            Container14 As groupContainer.manualLayoutContainer:
+                BorderThickness: =2
+                DropShadow: =DropShadow.Regular
+                Height: =Parent.Height * 7%
+                RadiusBottomLeft: =30
+                RadiusBottomRight: =30
+                RadiusTopLeft: =30
+                RadiusTopRight: =30
+                Width: =Parent.Width * 50%
+                X: =(Parent.Width - Self.Width)/2 + 25
+                Y: =Container12_1.Height *83%
+                ZIndex: =8
+
+                Button5_1 As button:
+                    Fill: =RGBA(50, 51, 59, 1)
+                    Font: =Font.Arial
+                    FontWeight: =FontWeight.Normal
+                    Height: =Parent.Height
+                    RadiusBottomLeft: =30
+                    RadiusBottomRight: =30
+                    RadiusTopLeft: =30
+                    RadiusTopRight: =30
+                    Size: =20
+                    Text: ="Get Started"
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+            Label5_1 As label:
+                Align: =Align.Center
+                AutoHeight: =true
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Bold
+                Height: =90
+                Size: =20
+                Text: ="Where smart invoicing meets seamless solutions."
+                Width: =Parent.Width * 75%
+                X: =Container14.X - 70
+                Y: =Container14.Y - 170
+                ZIndex: =9
+

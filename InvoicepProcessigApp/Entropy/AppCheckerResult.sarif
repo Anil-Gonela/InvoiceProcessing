@@ -1630,17 +1630,47 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.invoice-processing"
+                  "fullyQualifiedName": "App.file"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.invoice-processing",
+                  "fullyQualifiedName": "App.file",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "invoice-processing",
+                "member": "file",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.Accounts-Payable-Invoice-Processing"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.Accounts-Payable-Invoice-Processing",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Accounts-Payable-Invoice-Processing",
                 "module": "App",
                 "type": "App"
               }
