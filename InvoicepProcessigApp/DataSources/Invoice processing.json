@@ -1,0 +1,3084 @@
+[
+  {
+    "DataBoundServiceDataSetName": "default.cds",
+    "DataBoundServiceFunctionNamesKey": [
+      "Predict-202406.4.18.1"
+    ],
+    "DataBoundServiceOperationGroupNameKey": "AIBuilder\\5ed4d0fd-e9d4-4026-b09b-71f83ea90c60",
+    "DataBoundServiceRawMetadata": {
+      "Input": {
+        "Attributes": {
+          "base64Encoded": {
+            "Attributes": null,
+            "IsCollection": false,
+            "SchemaName": null,
+            "Title": "Document",
+            "Type": "string/byte"
+          }
+        },
+        "RequiredAttributes": [
+          "base64Encoded"
+        ]
+      },
+      "Output": {
+        "Attributes": {
+          "Fields": {
+            "Attributes": {
+              "AmountDue": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "CurrencySymbol": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Number": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "number"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "BillingAddress": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "BillingAddressRecipient": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "CustomerAddress": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "CustomerAddressRecipient": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "CustomerId": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "CustomerName": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "CustomerTaxId": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "DueDate": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Date": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string/date-time"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "InvoiceDate": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Date": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string/date-time"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "InvoiceId": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "InvoiceTotal": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "CurrencySymbol": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Number": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "number"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "paymentTerms": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "PreviousUnpaidBalance": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "CurrencySymbol": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Number": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "number"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "PurchaseOrder": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "RemittanceAddress": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "RemittanceAddressRecipient": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "ServiceAddress": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "ServiceAddressRecipient": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "ServiceEndDate": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Date": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string/date-time"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "ServiceStartDate": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Date": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string/date-time"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "ShippingAddress": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "ShippingAddressRecipient": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "SubTotal": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "CurrencySymbol": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Number": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "number"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "TotalTax": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "CurrencySymbol": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Number": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "number"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "VendorAddress": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "VendorAddressRecipient": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "VendorName": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "VendorTaxId": {
+                "Attributes": {
+                  "Confidence": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "number"
+                  },
+                  "FieldType": {
+                    "Attributes": null,
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "string"
+                  },
+                  "Value": {
+                    "Attributes": {
+                      "BoundingBox": {
+                        "Attributes": {
+                          "Height": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Left": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Top": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "Width": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Text": {
+                        "Attributes": null,
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "string"
+                      }
+                    },
+                    "IsCollection": false,
+                    "SchemaName": null,
+                    "Title": "",
+                    "Type": "object"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              }
+            },
+            "IsCollection": false,
+            "SchemaName": null,
+            "Title": "",
+            "Type": "object"
+          },
+          "Tables": {
+            "Attributes": {
+              "Items": {
+                "Attributes": {
+                  "Rows": {
+                    "Attributes": {
+                      "Amount": {
+                        "Attributes": {
+                          "Confidence": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "CurrencySymbol": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "string"
+                          },
+                          "FieldType": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "string"
+                          },
+                          "Value": {
+                            "Attributes": {
+                              "BoundingBox": {
+                                "Attributes": {
+                                  "Height": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Left": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Top": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Width": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  }
+                                },
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "object"
+                              },
+                              "Number": {
+                                "Attributes": null,
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "number"
+                              },
+                              "Text": {
+                                "Attributes": null,
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "string"
+                              }
+                            },
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "object"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Date": {
+                        "Attributes": {
+                          "Confidence": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "FieldType": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "string"
+                          },
+                          "Value": {
+                            "Attributes": {
+                              "BoundingBox": {
+                                "Attributes": {
+                                  "Height": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Left": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Top": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Width": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  }
+                                },
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "object"
+                              },
+                              "Date": {
+                                "Attributes": null,
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "string/date-time"
+                              },
+                              "Text": {
+                                "Attributes": null,
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "string"
+                              }
+                            },
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "object"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Description": {
+                        "Attributes": {
+                          "Confidence": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "FieldType": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "string"
+                          },
+                          "Value": {
+                            "Attributes": {
+                              "BoundingBox": {
+                                "Attributes": {
+                                  "Height": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Left": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Top": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Width": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  }
+                                },
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "object"
+                              },
+                              "Text": {
+                                "Attributes": null,
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "string"
+                              }
+                            },
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "object"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "ProductCode": {
+                        "Attributes": {
+                          "Confidence": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "FieldType": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "string"
+                          },
+                          "Value": {
+                            "Attributes": {
+                              "BoundingBox": {
+                                "Attributes": {
+                                  "Height": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Left": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Top": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Width": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  }
+                                },
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "object"
+                              },
+                              "Text": {
+                                "Attributes": null,
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "string"
+                              }
+                            },
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "object"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Quantity": {
+                        "Attributes": {
+                          "Confidence": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "FieldType": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "string"
+                          },
+                          "Value": {
+                            "Attributes": {
+                              "BoundingBox": {
+                                "Attributes": {
+                                  "Height": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Left": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Top": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Width": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  }
+                                },
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "object"
+                              },
+                              "Number": {
+                                "Attributes": null,
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "number"
+                              },
+                              "Text": {
+                                "Attributes": null,
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "string"
+                              }
+                            },
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "object"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Tax": {
+                        "Attributes": {
+                          "Confidence": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "CurrencySymbol": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "string"
+                          },
+                          "FieldType": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "string"
+                          },
+                          "Value": {
+                            "Attributes": {
+                              "BoundingBox": {
+                                "Attributes": {
+                                  "Height": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Left": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Top": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Width": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  }
+                                },
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "object"
+                              },
+                              "Number": {
+                                "Attributes": null,
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "number"
+                              },
+                              "Text": {
+                                "Attributes": null,
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "string"
+                              }
+                            },
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "object"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Unit": {
+                        "Attributes": {
+                          "Confidence": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "FieldType": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "string"
+                          },
+                          "Value": {
+                            "Attributes": {
+                              "BoundingBox": {
+                                "Attributes": {
+                                  "Height": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Left": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Top": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Width": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  }
+                                },
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "object"
+                              },
+                              "Text": {
+                                "Attributes": null,
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "string"
+                              }
+                            },
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "object"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "UnitPrice": {
+                        "Attributes": {
+                          "Confidence": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "CurrencySymbol": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "string"
+                          },
+                          "FieldType": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "string"
+                          },
+                          "Value": {
+                            "Attributes": {
+                              "BoundingBox": {
+                                "Attributes": {
+                                  "Height": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Left": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Top": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Width": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  }
+                                },
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "object"
+                              },
+                              "Number": {
+                                "Attributes": null,
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "number"
+                              },
+                              "Text": {
+                                "Attributes": null,
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "string"
+                              }
+                            },
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "object"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      }
+                    },
+                    "IsCollection": true,
+                    "SchemaName": null,
+                    "Title": null,
+                    "Type": "array"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              },
+              "KeyValuePairs": {
+                "Attributes": {
+                  "Rows": {
+                    "Attributes": {
+                      "Key": {
+                        "Attributes": {
+                          "Confidence": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "FieldType": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "string"
+                          },
+                          "Value": {
+                            "Attributes": {
+                              "BoundingBox": {
+                                "Attributes": {
+                                  "Height": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Left": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Top": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Width": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  }
+                                },
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "object"
+                              },
+                              "Text": {
+                                "Attributes": null,
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "string"
+                              }
+                            },
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "object"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      },
+                      "Value": {
+                        "Attributes": {
+                          "Confidence": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "number"
+                          },
+                          "FieldType": {
+                            "Attributes": null,
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "string"
+                          },
+                          "Value": {
+                            "Attributes": {
+                              "BoundingBox": {
+                                "Attributes": {
+                                  "Height": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Left": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Top": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  },
+                                  "Width": {
+                                    "Attributes": null,
+                                    "IsCollection": false,
+                                    "SchemaName": null,
+                                    "Title": "",
+                                    "Type": "number"
+                                  }
+                                },
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "object"
+                              },
+                              "Text": {
+                                "Attributes": null,
+                                "IsCollection": false,
+                                "SchemaName": null,
+                                "Title": "",
+                                "Type": "string"
+                              }
+                            },
+                            "IsCollection": false,
+                            "SchemaName": null,
+                            "Title": "",
+                            "Type": "object"
+                          }
+                        },
+                        "IsCollection": false,
+                        "SchemaName": null,
+                        "Title": "",
+                        "Type": "object"
+                      }
+                    },
+                    "IsCollection": true,
+                    "SchemaName": null,
+                    "Title": null,
+                    "Type": "array"
+                  }
+                },
+                "IsCollection": false,
+                "SchemaName": null,
+                "Title": "",
+                "Type": "object"
+              }
+            },
+            "IsCollection": false,
+            "SchemaName": null,
+            "Title": "",
+            "Type": "object"
+          }
+        }
+      },
+      "Source": true,
+      "TemplateName": "InvoiceProcessing"
+    },
+    "DataBoundSourceDataSourceName": "43b0dc67-68af-47ae-9a9c-9e69d396ba3e",
+    "Name": "Invoice processing",
+    "ServiceKind": "DataBound",
+    "Type": "ServiceInfo"
+  }
+]

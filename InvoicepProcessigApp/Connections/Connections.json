@@ -1,0 +1,77 @@
+{
+  "8f9d0675-56d6-47d2-9a20-acd60a53ab76": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3784/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://eyindia.sharepoint.com/sites/AutomationTeamSmartInvoiceProcessing": {
+        "dataSources": {
+          "Invoice System Demo": {
+            "tableName": "1830d4bd-e6c4-427b-b749-188d9c672cbf"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Invoice System Demo"
+    ],
+    "dependencies": {},
+    "dependents": [
+      "9349ca25-d577-4d2f-ab3d-4ebf0b9ed05b"
+    ],
+    "id": "8f9d0675-56d6-47d2-9a20-acd60a53ab76"
+  },
+  "9349ca25-d577-4d2f-ab3d-4ebf0b9ed05b": {
+    "appActions": [
+      "Run"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "8f9d0675-56d6-47d2-9a20-acd60a53ab76": {
+          "value": "shared_sharepointonline"
+        },
+        "workflowDisplayName": {
+          "value": "Save PDF to SP"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "2d48d674-5396-4178-b428-a65245e07b4e"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_sharepointonline": {
+          "value": "8f9d0675-56d6-47d2-9a20-acd60a53ab76"
+        },
+        "workflowDisplayName": {
+          "value": "Save PDF to SP"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "2d48d674-5396-4178-b428-a65245e07b4e"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "SavePDFtoSP"
+    ],
+    "dependencies": {
+      "shared_sharepointonline": "8f9d0675-56d6-47d2-9a20-acd60a53ab76"
+    },
+    "dependents": [],
+    "id": "9349ca25-d577-4d2f-ab3d-4ebf0b9ed05b"
+  }
+}
