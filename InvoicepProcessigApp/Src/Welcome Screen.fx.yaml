@@ -1,0 +1,73 @@
+"'Welcome Screen' As screen":
+    BackgroundImage: =
+    Fill: =RGBA(234, 245, 233, 1)
+    ImagePosition: =ImagePosition.Stretch
+    LoadingSpinner: =LoadingSpinner.Data
+
+    ContainerGIF As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.None
+        Height: =Parent.Height * 95%
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Width: =Parent.Width*40%
+        ZIndex: =2
+
+        Container10 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =Parent.Height
+            LayoutMinHeight: =100
+            LayoutMinWidth: =0
+            Width: =Parent.Width
+            ZIndex: =1
+
+            Image10 As image:
+                Height: =Parent.Height
+                Image: ='graphic-4-gif-Copy-unscreen'
+                Width: =Parent.Width
+                X: =(Parent.Width - Self.Width) / 2
+                Y: =(Parent.Height - Self.Height) / 2
+                ZIndex: =1
+
+    ContainerLogo As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.None
+        Height: =Parent.Height * 99%
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Width: =Parent.Width * 60%
+        X: =ContainerGIF.Width + ContainerGIF.X
+        ZIndex: =3
+
+        Container12 As groupContainer.manualLayoutContainer:
+            Height: =Parent.Height
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            Width: =Parent.Width
+            ZIndex: =1
+
+            Image11 As image:
+                Height: =348
+                Image: =file
+                Width: =591
+                X: =88
+                Y: =24
+                ZIndex: =1
+
+            Label4 As label:
+                Font: =Font.Arial
+                FontWeight: =FontWeight.Bold
+                Height: =113
+                Size: =30
+                Text: ="Inovice"
+                Width: =252
+                X: =288
+                Y: =356
+                ZIndex: =2
+
