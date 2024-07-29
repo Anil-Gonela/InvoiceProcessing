@@ -461,7 +461,7 @@ Screen1_2 As screen:
                         TitleProperty: =""
                         Type: ="s"
                         VariantName: ="textualViewCard"
-                        Width: =398
+                        Width: =264
                         X: =0
                         Y: =0
                         ZIndex: =1
@@ -477,10 +477,26 @@ Screen1_2 As screen:
                         TitleProperty: =""
                         Type: ="s"
                         VariantName: ="textualViewCard"
-                        Width: =398
+                        Width: =264
                         X: =0
                         Y: =0
                         ZIndex: =2
+
+                    Units As customControl.dataColumn:
+                        AutoWidth: =true
+                        DisplayName: ="Units"
+                        FieldName: ="Units"
+                        Height: =0
+                        IsHyperlink: =false
+                        Order: =2
+                        Required: =false
+                        TitleProperty: =""
+                        Type: ="s"
+                        VariantName: ="textualViewCard"
+                        Width: =264
+                        X: =0
+                        Y: =0
+                        ZIndex: =3
 
                 Group1 As group:
                     Height: =5
