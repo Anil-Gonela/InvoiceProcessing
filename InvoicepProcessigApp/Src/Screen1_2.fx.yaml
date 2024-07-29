@@ -872,7 +872,25 @@ Screen1_2 As screen:
     Button1_5 As button:
         OnSelect: =NewForm(Form1_2)
         Text: ="New Form"
-        X: =924
-        Y: =56
+        X: =815
+        Y: =700
         ZIndex: =6
+
+    Icon3_1 As icon.DocumentPDF:
+        Icon: =Icon.DocumentPDF
+        OnSelect: |-
+            =Set(MyPDFContent,PDF(Container1_1,{ExpandContainers:true}));
+            SavePDFtoSP.Run({file:{name:"PDF Genrated from PA",contentBytes:MyPDFContent}})
+        X: =1284
+        Y: =688
+        ZIndex: =7
+
+    PdfViewer2_2 As pdfViewer:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Document: =MyPDFContent
+        Fill: =RGBA(0, 0, 0, 0.5)
+        Height: =662
+        Width: =562
+        X: =800
+        ZIndex: =8
 
