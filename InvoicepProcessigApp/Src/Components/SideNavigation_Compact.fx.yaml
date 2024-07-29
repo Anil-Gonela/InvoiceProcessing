@@ -73,7 +73,7 @@ SideNavigation_Compact As CanvasComponent:
             LayoutMinHeight: =
             LayoutMinWidth: =0
             LoadingSpinner: =LoadingSpinner.Data
-            TemplatePadding: =0
+            TemplatePadding: =10
             TemplateSize: =70
             ZIndex: =2
 
