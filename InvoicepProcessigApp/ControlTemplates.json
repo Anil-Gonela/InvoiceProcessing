@@ -41,6 +41,20 @@
     "OverridableProperties": {},
     "Version": "2.2.0"
   },
+  "dataGrid": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/dataGrid",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "dataGrid",
+    "OverridableProperties": {},
+    "Version": "2.2.0"
+  },
   "datepicker": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,

@@ -26,7 +26,7 @@
       "Author": "Created By",
       "Author#Claims": "Created By Claims",
       "BalanceDue": "Balance Due",
-      "BillTo": "Bill To",
+      "BillTo": "Customer Name",
       "ComplianceAssetId": "Compliance Asset Id",
       "Created": "Created",
       "Date": "Invoice Date",
@@ -44,8 +44,12 @@
       "ReferenceNumber": "Reference Number",
       "SaleAmount": "Total Amount",
       "ShippingCost": "Shipping Cost",
+      "SubTotal": "SubTotal",
+      "Subtotal0": "Subtotal",
       "Title": "Title",
-      "VendorDetails": "Customer Address"
+      "VendorAddress": "Vendor Address",
+      "VendorDetails": "Customer Address",
+      "VendorName": "Vendor Name"
     },
     "DatasetName": "https://eyindia.sharepoint.com/sites/AutomationTeamSmartInvoiceProcessing",
     "EncodeDataset": true,

@@ -117,13 +117,13 @@
     "Id": "c16a248e-b415-4e24-bbbe-7d46ee689a69",
     "InstrumentationKey": "",
     "ManualOfflineProfileId": "",
-    "Name": "Smart Invoice Processing",
+    "Name": "Smart Invoice Processing - copy",
     "OriginatingVersion": "1.342",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "Smart Invoice Processing",
+    "AppName": "Smart Invoice Processing - copy",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",

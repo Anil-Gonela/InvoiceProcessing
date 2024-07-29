@@ -361,12 +361,12 @@ Screen1 As screen:
         "'Bill To_DataCard1' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="BillTo"
-            Default: =ThisItem.'Bill To'
+            Default: =ThisItem.'Customer Name'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Bill To')
+            DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Customer Name')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =150
-            MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Bill To')
+            MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Customer Name')
             Required: =false
             Update: =DataCardValue2.Text
             Width: =400

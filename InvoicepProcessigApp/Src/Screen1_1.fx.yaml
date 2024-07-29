@@ -142,7 +142,7 @@ Screen1_1 As screen:
                 DataField: ="Date"
                 Default: =ThisItem.'Invoice Date'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,Date)
+                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Invoice Date')
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 Required: =false
@@ -213,12 +213,12 @@ Screen1_1 As screen:
             "'Bill To_DataCard2' As typedDataCard.textualEditCard":
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="BillTo"
-                Default: =ThisItem.'Bill To'
+                Default: =ThisItem.'Customer Name'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,BillTo)
+                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Customer Name')
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, BillTo)
+                MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Customer Name')
                 Required: =false
                 Update: =DataCardValue24.Text
                 Width: =400
@@ -291,10 +291,10 @@ Screen1_1 As screen:
                 DataField: ="VendorDetails"
                 Default: =ThisItem.'Customer Address'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,VendorDetails)
+                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Customer Address')
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, VendorDetails)
+                MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Customer Address')
                 Required: =false
                 Update: =DataCardValue23.Text
                 Width: =400
@@ -367,7 +367,7 @@ Screen1_1 As screen:
                 DataField: ="DueDate"
                 Default: =ThisItem.'Due Date'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,DueDate)
+                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Due Date')
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 Required: =false
@@ -440,10 +440,10 @@ Screen1_1 As screen:
                 DataField: ="ShippingCost"
                 Default: =ThisItem.'Shipping Cost'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,ShippingCost)
+                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Shipping Cost')
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, ShippingCost)
+                MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Shipping Cost')
                 Required: =false
                 Update: =DataCardValue25.Text
                 Width: =400
@@ -516,10 +516,10 @@ Screen1_1 As screen:
                 DataField: ="BalanceDue"
                 Default: =ThisItem.'Balance Due'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,BalanceDue)
+                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Balance Due')
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, BalanceDue)
+                MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Balance Due')
                 Required: =false
                 Update: =DataCardValue7.Text
                 Width: =400
@@ -668,10 +668,10 @@ Screen1_1 As screen:
                 DataField: ="SaleAmount"
                 Default: =ThisItem.'Total Amount'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,SaleAmount)
+                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Total Amount')
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, SaleAmount)
+                MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Total Amount')
                 Required: =false
                 Update: =DataCardValue8.Text
                 Width: =400
