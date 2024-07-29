@@ -15,12 +15,6 @@ SideNavigation_Compact As CanvasComponent:
                 MenuID: 1, 
                 MenuName: "Products", 
                 PageNavigation: App.ActiveScreen
-                },
-                 {
-                MenuIcon: UPI,
-                MenuID: 1, 
-                MenuName: "Products", 
-                PageNavigation: App.ActiveScreen
                 }
             )
     NavBG: =RGBA(244, 244, 244, 1)
@@ -45,7 +39,6 @@ SideNavigation_Compact As CanvasComponent:
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Width: =Parent.Width
-        X: =40
         ZIndex: =1
 
         Logo As image:
@@ -75,8 +68,6 @@ SideNavigation_Compact As CanvasComponent:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Width: =Gallery4.TemplateWidth
-                X: =40
-                Y: =40
                 ZIndex: =1
 
                 Container6 As groupContainer.manualLayoutContainer:
@@ -90,8 +81,6 @@ SideNavigation_Compact As CanvasComponent:
                         Height: =Parent.Height
                         Image: =ThisItem.MenuIcon
                         Width: =Parent.Width
-                        X: =35
-                        Y: =35
                         ZIndex: =1
 
                     Button4 As button:
@@ -102,8 +91,6 @@ SideNavigation_Compact As CanvasComponent:
                         PressedFill: =RGBA(0,0,0,0.2)
                         Text: =
                         Width: =Parent.Width
-                        X: =35
-                        Y: =35
                         ZIndex: =2
 
         Container3 As groupContainer.horizontalAutoLayoutContainer:
@@ -136,8 +123,8 @@ SideNavigation_Compact As CanvasComponent:
                 ZIndex: =1
 
                 Image5 As image:
+                    Height: =Parent.Height
                     Image: =User().Image
-                    X: =35
-                    Y: =35
+                    Width: =Parent.Width
                     ZIndex: =1
 
