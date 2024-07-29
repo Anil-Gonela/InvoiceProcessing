@@ -16,33 +16,6 @@ InvoiceList As screen:
         SideNavigation_Compact_2 As SideNavigation_Compact:
             LayoutMinHeight: =640
             LayoutMinWidth: =640
-            MenuContent: |-
-                =Table(
-                    {
-                        MenuIcon: MainIcon,
-                        MenuID: 1, 
-                        MenuName: "Main", 
-                        PageNavigation: 'Welcome Screen_1'
-                        },
-                        {
-                        MenuIcon: CreateInvoice,
-                        MenuID: 2, 
-                        MenuName: "CreateInvoice", 
-                        PageNavigation: App.ActiveScreen
-                        },
-                        {
-                        MenuIcon: CaptureInovice,
-                        MenuID: 3, 
-                        MenuName: "CaptureInvoice", 
-                        PageNavigation: InvoiceList
-                        },
-                        {
-                        MenuIcon: InovceList,
-                        MenuID: 4, 
-                        MenuName: "InvoiceList", 
-                        PageNavigation: InvoiceCapture
-                        }
-                    )
 
     Container8_1 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None

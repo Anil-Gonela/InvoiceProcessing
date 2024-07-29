@@ -8,29 +8,33 @@ SideNavigation_Compact As CanvasComponent:
                 MenuIcon: MainIcon,
                 MenuID: 1, 
                 MenuName: "Main", 
-                PageNavigation: App.ActiveScreen
+                PageNavigation: App.ActiveScreen,
+                ScreenName: "Overview"
                 },
                 {
                 MenuIcon: CreateInvoice,
                 MenuID: 2, 
                 MenuName: "CreateInvoice", 
-                PageNavigation: App.ActiveScreen
+                PageNavigation: App.ActiveScreen,
+                ScreenName: "Create Invoice"
                 },
                 {
                 MenuIcon: CaptureInovice,
                 MenuID: 3, 
                 MenuName: "CaptureInvoice", 
-                PageNavigation: App.ActiveScreen
+                PageNavigation: App.ActiveScreen,
+                ScreenName: "Capture Invoice"
                 },
                 {
                 MenuIcon: InovceList,
                 MenuID: 4, 
                 MenuName: "InvoiceList", 
-                PageNavigation: App.ActiveScreen
+                PageNavigation: App.ActiveScreen,
+                ScreenName: "Invoice List"
                 }
             )
-    NavBG: =RGBA(244, 244, 244, 1)
-    Width: =109
+    NavBG: =RGBA(221, 79, 14, 1)
+    Width: =250
     X: =0
     Y: =0
     ZIndex: =1
@@ -62,7 +66,7 @@ SideNavigation_Compact As CanvasComponent:
 
         Gallery4 As gallery.galleryVertical:
             DelayItemLoading: =true
-            Fill: =RGBA(241, 244, 249, 1)
+            Fill: =RGBA(221, 79, 14, 1)
             Height: =Self.AllItemsCount * (Self.TemplateHeight+Self.TemplatePadding)
             Items: =SideNavigation_Compact.MenuContent
             Layout: =Layout.Vertical
@@ -86,7 +90,9 @@ SideNavigation_Compact As CanvasComponent:
                 Container6 As groupContainer.manualLayoutContainer:
                     Height: =Parent.Height *70%
                     Width: =Self.Height
-                    X: =(Parent.Width - Self.Width) / 2 
+                    X: |-
+                        =
+                        Container5.X
                     Y: =(Parent.Height - Self.Height) / 2 
                     ZIndex: =1
 
@@ -106,6 +112,16 @@ SideNavigation_Compact As CanvasComponent:
                         Text: =
                         Width: =Parent.Width
                         ZIndex: =2
+
+                Label6 As label:
+                    Color: =RGBA(255, 255, 255, 1)
+                    Font: =Font.'Lato Black'
+                    Height: =Gallery4.TemplateHeight *70%
+                    Text: =ThisItem.ScreenName
+                    Width: =Gallery4.TemplateWidth * 70%
+                    X: =Container6.X + Container6.Width
+                    Y: =(Parent.Height - Self.Height) / 2
+                    ZIndex: =2
 
         Container3 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.None

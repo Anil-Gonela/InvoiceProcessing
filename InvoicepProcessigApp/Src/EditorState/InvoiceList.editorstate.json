@@ -3279,7 +3279,7 @@
         {
           "Category": "Data",
           "PropertyName": "MenuContent",
-          "RuleProviderType": "User"
+          "RuleProviderType": "System"
         },
         {
           "Category": "Design",
@@ -3299,7 +3299,7 @@
         {
           "Category": "Design",
           "PropertyName": "Width",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "System"
         },
         {
           "Category": "Design",
