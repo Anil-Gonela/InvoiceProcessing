@@ -19,10 +19,18 @@
             "tableName": "1830d4bd-e6c4-427b-b749-188d9c672cbf"
           }
         }
+      },
+      "https://eyindia.sharepoint.com/sites/PowerAutomateUse": {
+        "dataSources": {
+          "Invoice Data": {
+            "tableName": "4353daff-0881-445b-8303-9467ae6dc036"
+          }
+        }
       }
     },
     "dataSources": [
-      "Invoice System Demo"
+      "Invoice System Demo",
+      "Invoice Data"
     ],
     "dependencies": {},
     "dependents": [

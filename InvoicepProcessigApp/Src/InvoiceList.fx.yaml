@@ -1,0 +1,160 @@
+InvoiceList As screen:
+    Fill: =RGBA(255, 250, 247, 1)
+
+    Container_Component_1 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.None
+        Height: =Parent.Height
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Width: =Parent.Width*8%
+        ZIndex: =1
+
+        SideNavigation_Compact_2 As SideNavigation_Compact:
+            LayoutMinHeight: =640
+            LayoutMinWidth: =640
+            MenuContent: |-
+                =Table(
+                    {
+                        MenuIcon: MainIcon,
+                        MenuID: 1, 
+                        MenuName: "Main", 
+                        PageNavigation: 'Welcome Screen_1'
+                        },
+                        {
+                        MenuIcon: CreateInvoice,
+                        MenuID: 2, 
+                        MenuName: "CreateInvoice", 
+                        PageNavigation: App.ActiveScreen
+                        },
+                        {
+                        MenuIcon: CaptureInovice,
+                        MenuID: 3, 
+                        MenuName: "CaptureInvoice", 
+                        PageNavigation: InvoiceList
+                        },
+                        {
+                        MenuIcon: InovceList,
+                        MenuID: 4, 
+                        MenuName: "InvoiceList", 
+                        PageNavigation: InvoiceCapture
+                        }
+                    )
+
+    Container8_1 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.None
+        Height: =Parent.Height
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Width: =Parent.Width * 80%
+        X: =Container_Component_1.X + Container_Component_1.Width
+        ZIndex: =2
+
+        Container9_1 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
+            Height: =Parent.Height
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Width: =Parent.Width
+            ZIndex: =1
+
+            Button6_2 As button:
+                Fill: =RGBA(221, 79, 14, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Normal
+                RadiusBottomLeft: =20
+                RadiusBottomRight: =20
+                RadiusTopLeft: =20
+                RadiusTopRight: =20
+                Text: ="Extract Details"
+                X: =175
+                Y: =632
+                ZIndex: =2
+
+            Gallery2 As gallery.variableTemplateHeightGallery:
+                DelayItemLoading: =true
+                Items: ='Invoice Data'
+                Layout: =Layout.Vertical
+                LoadingSpinner: =LoadingSpinner.Data
+                TemplatePadding: =0
+                TemplateSize: =150
+                Width: =Parent.Width
+                X: =40
+                Y: =40
+                ZIndex: =3
+
+                Container15 As groupContainer.manualLayoutContainer:
+                    BorderColor: =RGBA(221, 79, 14, 1)
+                    BorderThickness: =2
+                    Height: =87
+                    RadiusBottomLeft: =50
+                    RadiusBottomRight: =50
+                    RadiusTopLeft: =50
+                    RadiusTopRight: =50
+                    Width: =87
+                    X: =40
+                    Y: =48
+                    ZIndex: =1
+
+                    Image2 As image:
+                        Height: =Parent.Height
+                        Image: =ThisItem.'Customer Picture'
+                        Width: =Parent.Width
+                        ZIndex: =1
+
+                Label7 As label:
+                    Font: =Font.Lato
+                    OnSelect: =Select(Parent)
+                    Text: =ThisItem.'Bill To'
+                    X: =268
+                    Y: =95
+                    ZIndex: =3
+
+                Label8 As label:
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Bold
+                    OnSelect: =Select(Parent)
+                    Text: =ThisItem.'Customer Name'
+                    X: =268
+                    Y: =48
+                    ZIndex: =4
+
+                Label9 As label:
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Semibold
+                    OnSelect: =Select(Parent)
+                    Text: =ThisItem.'Customer Address'
+                    X: =517
+                    Y: =71
+                    ZIndex: =5
+
+                Label10 As label:
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Bold
+                    OnSelect: =Select(Parent)
+                    Text: =ThisItem.'Balance Due'
+                    X: =745
+                    Y: =71
+                    ZIndex: =6
+
+                Label11 As label:
+                    Color: =RGBA(221, 79, 14, 1)
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Semibold
+                    OnSelect: =Select(Parent)
+                    Text: ="Pending"
+                    X: =745
+                    Y: =95
+                    ZIndex: =7
+
