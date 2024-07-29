@@ -454,6 +454,7 @@ Screen1_2 As screen:
                         Reset(TotalAmountInput_4);
                         Set(FormattedNum, "");
                     Text: ="Add Row"
+                    Visible: =Group1Visibility
                     Width: =97
                     X: =678
                     Y: =52
