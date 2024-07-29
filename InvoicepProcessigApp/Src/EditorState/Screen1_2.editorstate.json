@@ -22,7 +22,14 @@
         "FieldName",
         "Required",
         "TitleProperty",
-        "Order",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "1",
+          "InvariantPropertyName": "Order",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "VariantName"
       ],
       "HasDynamicProperties": false,
@@ -15832,7 +15839,14 @@
         "FieldName",
         "Required",
         "TitleProperty",
-        "Order",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "2",
+          "InvariantPropertyName": "Order",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "VariantName"
       ],
       "HasDynamicProperties": false,

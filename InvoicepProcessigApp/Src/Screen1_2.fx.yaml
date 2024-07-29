@@ -488,13 +488,13 @@ Screen1_2 As screen:
                         FieldName: ="Amount"
                         Height: =0
                         IsHyperlink: =false
-                        Order: =1
+                        Order: =2
                         Required: =false
                         TitleProperty: =""
                         Type: ="s"
                         VariantName: ="textualViewCard"
                         Width: =264
-                        X: =0
+                        X: =284
                         Y: =0
                         ZIndex: =2
 
@@ -504,13 +504,13 @@ Screen1_2 As screen:
                         FieldName: ="Units"
                         Height: =0
                         IsHyperlink: =false
-                        Order: =2
+                        Order: =1
                         Required: =false
                         TitleProperty: =""
                         Type: ="s"
                         VariantName: ="textualViewCard"
                         Width: =264
-                        X: =0
+                        X: =248
                         Y: =0
                         ZIndex: =3
 
