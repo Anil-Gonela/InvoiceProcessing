@@ -821,3 +821,10 @@ Screen1_2 As screen:
                     Y: =DataCardKey8_1.Y
                     ZIndex: =4
 
+    Button1_5 As button:
+        OnSelect: =NewForm(Form1_1)
+        Text: ="New Form"
+        X: =924
+        Y: =56
+        ZIndex: =6
+
