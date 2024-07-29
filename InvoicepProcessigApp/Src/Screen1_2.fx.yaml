@@ -436,10 +436,23 @@ Screen1_2 As screen:
                     Fill: =RGBA(0, 0, 0, 0)
                     Font: =Font.Lato
                     FontWeight: =FontWeight.Normal
-                    OnSelect: |
-                        =RemoveIf(MyCol, Description = Blank() And Units = Blank());
-                        
-                        Collect(MyCol,{Description:DescriptionInput_5.Text,Units:UnitsInput_4.Text,Amount:TotalAmountInput_4.Text})
+                    OnSelect: |-
+                        =Collect(
+                            InvoiceRowsCollection,
+                            {
+                                ColDescription: DescriptionInput_5.Text,
+                                ColUnits: UnitsInput_4.Text,
+                                ColTotalAmount: TotalAmountInput_4.Text
+                            }
+                        );
+                        Set(RawVar, Substitute( TotalAmountInput_4.Text, "$", "" ));
+                        Set(RawVar2, Substitute( RawVar, ",", "" ));
+                        Set(VarTotalValue, VarTotalValue + Value(RawVar2));
+                        Set(VarGST, VarGST + Value(RawVar2)*.2);
+                        Reset(DescriptionInput_5);
+                        Reset(UnitsInput_4);
+                        Reset(TotalAmountInput_4);
+                        Set(FormattedNum, "");
                     Text: ="Add Row"
                     Width: =97
                     X: =678
