@@ -438,11 +438,11 @@ Screen1_2 As screen:
                     FontWeight: =FontWeight.Normal
                     OnSelect: |-
                         =Collect(
-                            InvoiceRowsCollection,
+                            MyCol,
                             {
-                                ColDescription: DescriptionInput_5.Text,
-                                ColUnits: UnitsInput_4.Text,
-                                ColTotalAmount: TotalAmountInput_4.Text
+                                Description: DescriptionInput_5.Text,
+                                Units: UnitsInput_4.Text,
+                                Amount: TotalAmountInput_4.Text
                             }
                         );
                         Set(RawVar, Substitute( TotalAmountInput_4.Text, "$", "" ));
@@ -454,6 +454,7 @@ Screen1_2 As screen:
                         Reset(TotalAmountInput_4);
                         Set(FormattedNum, "");
                     Text: ="Add Row"
+                    Visible: =Group1Visibility
                     Width: =97
                     X: =678
                     Y: =52
@@ -487,13 +488,13 @@ Screen1_2 As screen:
                         FieldName: ="Amount"
                         Height: =0
                         IsHyperlink: =false
-                        Order: =1
+                        Order: =2
                         Required: =false
                         TitleProperty: =""
                         Type: ="s"
                         VariantName: ="textualViewCard"
                         Width: =264
-                        X: =0
+                        X: =284
                         Y: =0
                         ZIndex: =2
 
@@ -503,13 +504,13 @@ Screen1_2 As screen:
                         FieldName: ="Units"
                         Height: =0
                         IsHyperlink: =false
-                        Order: =2
+                        Order: =1
                         Required: =false
                         TitleProperty: =""
                         Type: ="s"
                         VariantName: ="textualViewCard"
                         Width: =264
-                        X: =0
+                        X: =248
                         Y: =0
                         ZIndex: =3
 
@@ -525,6 +526,7 @@ Screen1_2 As screen:
                         Default: =
                         Fill: =RGBA(215, 223, 240, 1)
                         Height: =46
+                        Visible: =Group1Visibility
                         Width: =313
                         X: =14
                         Y: =46
@@ -535,6 +537,7 @@ Screen1_2 As screen:
                         Default: =
                         Fill: =RGBA(215, 223, 240, 1)
                         Height: =44
+                        Visible: =Group1Visibility
                         Width: =121
                         X: =362
                         Y: =48
@@ -545,6 +548,7 @@ Screen1_2 As screen:
                         Default: =
                         Fill: =RGBA(215, 223, 240, 1)
                         Height: =44
+                        Visible: =Group1Visibility
                         Width: =128
                         X: =524
                         Y: =48
@@ -555,6 +559,7 @@ Screen1_2 As screen:
                         Color: =RGBA(0, 18, 107, 1)
                         Height: =39
                         Text: ="Units"
+                        Visible: =Group1Visibility
                         Width: =UnitsInput_4.Width
                         Wrap: =false
                         X: =382
@@ -565,6 +570,7 @@ Screen1_2 As screen:
                         Color: =RGBA(0, 18, 107, 1)
                         Height: =39
                         Text: ="Amount"
+                        Visible: =Group1Visibility
                         Width: =TotalAmountInput_4.Width
                         Wrap: =false
                         X: =539
@@ -575,6 +581,7 @@ Screen1_2 As screen:
                         Color: =RGBA(0, 18, 107, 1)
                         Height: =39
                         Text: ="Description"
+                        Visible: =Group1Visibility
                         Width: =211
                         Wrap: =false
                         X: =16
@@ -885,7 +892,8 @@ Screen1_2 As screen:
                     ZIndex: =4
 
     Button1_5 As button:
-        OnSelect: =NewForm(Form1_2)
+        OnSelect: |-
+            =NewForm(Form1_2);ClearCollect(MyCol,{Description:DescriptionInput_5.Text,Units:UnitsInput_4.Text,Amount:TotalAmountInput_4.Text});
         Text: ="New Form"
         X: =815
         Y: =700
@@ -894,7 +902,9 @@ Screen1_2 As screen:
     Icon3_1 As icon.DocumentPDF:
         Icon: =Icon.DocumentPDF
         OnSelect: |
-            =Set(MyPDFContent,PDF(Container1_1,{ExpandContainers:true}));
+            =Set(Group1Visibility,false);
+            
+            Set(MyPDFContent,PDF(Container1_1,{ExpandContainers:true}));
             SavePDFtoSP.Run({file:{name:"PDF Genrated from PA",contentBytes:MyPDFContent}});
             ClearCollect(MyCol,{Description:"",Units:"",Amount:""});
         X: =1284

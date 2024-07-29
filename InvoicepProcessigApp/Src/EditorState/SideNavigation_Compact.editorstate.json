@@ -2918,7 +2918,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "Table(\n    {\n        MenuIcon: MainIcon,\n        MenuID: 1, \n        MenuName: \"Main\", \n        PageNavigation: App.ActiveScreen,\n        ScreenName: \"\n        },\n        {\n        MenuIcon: CreateInvoice,\n        MenuID: 2, \n        MenuName: \"CreateInvoice\", \n        PageNavigation: App.ActiveScreen\n        },\n        {\n        MenuIcon: CaptureInovice,\n        MenuID: 3, \n        MenuName: \"CaptureInvoice\", \n        PageNavigation: App.ActiveScreen\n        },\n        {\n        MenuIcon: InovceList,\n        MenuID: 4, \n        MenuName: \"InvoiceList\", \n        PageNavigation: App.ActiveScreen\n        }\n    )",
+          "AutoRuleBindingString": "Table(\n    {\n        MenuIcon: mA,\n        MenuID: 1, \n        MenuName: \"Products\", \n        PageNavigation: App.ActiveScreen\n        },\n        {\n        MenuIcon: TransferMoney,\n        MenuID: 1, \n        MenuName: \"Products\", \n        PageNavigation: App.ActiveScreen\n        }\n    )",
           "InvariantPropertyName": "MenuContent",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -2970,7 +2970,7 @@
         {
           "Category": "Design",
           "PropertyName": "Width",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
