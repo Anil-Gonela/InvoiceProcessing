@@ -1,24 +1,36 @@
 SideNavigation_Compact As CanvasComponent:
-    Fill: =RGBA(0, 0, 0, 0)
+    Fill: =RGBA(238, 204, 204, 1)
     First_Logo: =Viewmore
-    Height: =640
+    Height: =765
     MenuContent: |-
         =Table(
             {
-                MenuIcon: AccountTransfer,
+                MenuIcon: MainIcon,
                 MenuID: 1, 
-                MenuName: "Products", 
+                MenuName: "Main", 
                 PageNavigation: App.ActiveScreen
                 },
                 {
-                MenuIcon: TransferMoney,
-                MenuID: 1, 
-                MenuName: "Products", 
+                MenuIcon: CreateInvoice,
+                MenuID: 2, 
+                MenuName: "CreateInvoice", 
+                PageNavigation: App.ActiveScreen
+                },
+                {
+                MenuIcon: CaptureInovice,
+                MenuID: 3, 
+                MenuName: "CaptureInvoice", 
+                PageNavigation: App.ActiveScreen
+                },
+                {
+                MenuIcon: InovceList,
+                MenuID: 4, 
+                MenuName: "InvoiceList", 
                 PageNavigation: App.ActiveScreen
                 }
             )
     NavBG: =RGBA(244, 244, 244, 1)
-    Width: =70
+    Width: =109
     X: =0
     Y: =0
     ZIndex: =1
@@ -43,7 +55,7 @@ SideNavigation_Compact As CanvasComponent:
 
         Logo As image:
             AlignInContainer: =AlignInContainer.Stretch
-            Height: =30
+            Height: =50
             Image: =SideNavigation_Compact.First_Logo
             LayoutMinWidth: =0
             ZIndex: =1
@@ -57,7 +69,7 @@ SideNavigation_Compact As CanvasComponent:
             LayoutMinWidth: =0
             LoadingSpinner: =LoadingSpinner.Data
             TemplatePadding: =0
-            TemplateSize: =50
+            TemplateSize: =70
             ZIndex: =2
 
             Container5 As groupContainer.manualLayoutContainer:
@@ -88,6 +100,7 @@ SideNavigation_Compact As CanvasComponent:
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =Parent.Height
                         HoverFill: =RGBA(0,0,0,0.1)
+                        OnSelect: =Navigate(ThisItem.PageNavigation)
                         PressedFill: =RGBA(0,0,0,0.2)
                         Text: =
                         Width: =Parent.Width
@@ -96,11 +109,11 @@ SideNavigation_Compact As CanvasComponent:
         Container3 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
-            Height: =40
+            Height: =70
             LayoutAlignItems: =LayoutAlignItems.Center
             LayoutJustifyContent: =LayoutJustifyContent.Center
             LayoutMinHeight: =100
-            LayoutMinWidth: =40
+            LayoutMinWidth: =70
             LayoutMode: =LayoutMode.Auto
             RadiusBottomLeft: =0
             RadiusBottomRight: =0
@@ -119,7 +132,7 @@ SideNavigation_Compact As CanvasComponent:
                 RadiusBottomRight: =35
                 RadiusTopLeft: =35
                 RadiusTopRight: =35
-                Width: =35
+                Width: =65
                 ZIndex: =1
 
                 Image5 As image:

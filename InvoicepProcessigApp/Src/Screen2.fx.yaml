@@ -3,7 +3,6 @@ Screen2 As screen:
     RectQuickActionBar1 As rectangle:
         Height: =88
         Width: =Parent.Width
-        Y: =40
         ZIndex: =1
 
     LblAppName1 As label:
@@ -14,7 +13,7 @@ Screen2 As screen:
         Size: =18
         Text: ="Invoice Processing"
         Width: =Parent.Width
-        Y: =40
+        Y: =12
         ZIndex: =2
 
     Form2 As form:
@@ -577,10 +576,11 @@ Screen2 As screen:
             ZIndex: =9
 
         AddMediaButton1 As addMedia:
-            Height: =448
+            Height: =63
             Size: =25
-            X: =16
-            Y: =164
+            Width: =139
+            X: =636
+            Y: =561
             ZIndex: =10
 
     Button3 As button:
