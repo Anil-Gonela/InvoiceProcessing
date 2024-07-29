@@ -739,6 +739,26 @@ Screen1_1 As screen:
                     Y: =DataCardKey8.Y
                     ZIndex: =4
 
+            DataCard6 As typedDataCard.blankCard:
+                BorderStyle: =BorderStyle.Solid
+                DisplayMode: =DisplayMode.Edit
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =200
+                Width: =789
+                WidthFit: =true
+                X: =0
+                Y: =6
+                ZIndex: =1
+
+                Gallery3 As gallery.galleryVertical:
+                    DelayItemLoading: =true
+                    Items: =MyCol
+                    Layout: =Layout.Vertical
+                    LoadingSpinner: =LoadingSpinner.Data
+                    TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+                    Width: =800
+                    ZIndex: =1
+
     DescriptionInput_3 As text:
         BorderThickness: =0
         Default: =
@@ -819,4 +839,21 @@ Screen1_1 As screen:
         X: =441
         Y: =634
         ZIndex: =14
+
+    Button2_3 As button:
+        BorderColor: =RGBA(0,18,107,1)
+        BorderThickness: =1
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Normal
+        OnSelect: |
+            =RemoveIf(MyCol, Description = Blank() And Units = Blank());
+            
+            Collect(MyCol,{Description:DescriptionInput_3.Text,Units:UnitsInput_2.Text,Amount:TotalAmountInput_2.Text})
+        Text: ="Add Row"
+        Width: =97
+        X: =441
+        Y: =342
+        ZIndex: =15
 

@@ -140,7 +140,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 302,
+            "PublishOrderIndex": 304,
             "Rules": [
               {
                 "Category": "Data",
@@ -362,7 +362,7 @@
                 "OptimizeForDevices": "Off",
                 "Parent": "Gallery4",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 304,
+                "PublishOrderIndex": 306,
                 "Rules": [
                   {
                     "Category": "Design",
@@ -476,7 +476,7 @@
                         "OptimizeForDevices": "Off",
                         "Parent": "Container6",
                         "PersistMetaDataIDKey": false,
-                        "PublishOrderIndex": 307,
+                        "PublishOrderIndex": 309,
                         "Rules": [
                           {
                             "Category": "Data",
@@ -794,7 +794,7 @@
                         "OptimizeForDevices": "Off",
                         "Parent": "Container6",
                         "PersistMetaDataIDKey": false,
-                        "PublishOrderIndex": 308,
+                        "PublishOrderIndex": 310,
                         "Rules": [
                           {
                             "Category": "Data",
@@ -1096,7 +1096,7 @@
                     "OptimizeForDevices": "Off",
                     "Parent": "Container5",
                     "PersistMetaDataIDKey": false,
-                    "PublishOrderIndex": 306,
+                    "PublishOrderIndex": 308,
                     "Rules": [
                       {
                         "Category": "Design",
@@ -1349,7 +1349,7 @@
                 "OptimizeForDevices": "Off",
                 "Parent": "Gallery4",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 305,
+                "PublishOrderIndex": 307,
                 "Rules": [
                   {
                     "Category": "Design",
@@ -1640,7 +1640,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 303,
+            "PublishOrderIndex": 305,
             "Rules": [
               {
                 "Category": "Data",
@@ -1898,7 +1898,7 @@
                     "OptimizeForDevices": "Off",
                     "Parent": "Container4",
                     "PersistMetaDataIDKey": false,
-                    "PublishOrderIndex": 311,
+                    "PublishOrderIndex": 313,
                     "Rules": [
                       {
                         "Category": "Data",
@@ -2236,7 +2236,7 @@
                 "OptimizeForDevices": "Off",
                 "Parent": "Container3",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 310,
+                "PublishOrderIndex": 312,
                 "Rules": [
                   {
                     "Category": "Design",
@@ -2545,7 +2545,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 309,
+            "PublishOrderIndex": 311,
             "Rules": [
               {
                 "Category": "Design",
@@ -2851,7 +2851,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "SideNavigation_Compact",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 301,
+        "PublishOrderIndex": 303,
         "Rules": [
           {
             "Category": "Design",
@@ -3086,7 +3086,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638578428703009383",
+    "LastModifiedTimestamp": "638578437302622549",
     "Name": "SideNavigation_Compact",
     "Rules": [
       {
@@ -3191,7 +3191,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638578428703009383",
+  "LastModifiedTimestamp": "638578437302622549",
   "Name": "d4521f6e39724073a64c56d93e35a98f",
   "OverridableProperties": {},
   "Version": "1.0"
