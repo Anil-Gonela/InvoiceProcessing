@@ -450,6 +450,22 @@ Screen1_2 As screen:
                     Y: =112
                     ZIndex: =8
 
+                    Description As customControl.dataColumn:
+                        AutoWidth: =true
+                        DisplayName: ="Description"
+                        FieldName: ="Description"
+                        Height: =0
+                        IsHyperlink: =false
+                        Order: =0
+                        Required: =false
+                        TitleProperty: =""
+                        Type: ="s"
+                        VariantName: ="textualViewCard"
+                        Width: =798
+                        X: =0
+                        Y: =0
+                        ZIndex: =1
+
                 Group1 As group:
                     Height: =5
                     Width: =5

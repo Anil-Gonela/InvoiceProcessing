@@ -157,6 +157,7 @@
     "Date_DataCard1": 38,
     "Date_DataCard3": 163,
     "Date_DataCard3_1": 218,
+    "Description": 321,
     "DescriptionInput": 64,
     "DescriptionInput_3": 145,
     "DescriptionInput_5": 294,
@@ -327,9 +328,12 @@
     "Welcome Screen": 17,
     "Welcome Screen_1": 27
   },
+  "DataTableCustomControlTemplateJsons": {
+    "Description": "{\"name\":\"dataColumn\",\"version\":\"1.1\",\"properties\":[{\"name\":\"AutoWidth\",\"hidden\":false,\"type\":\"boolean\",\"category\":\"data\",\"displayName\":\"Can grow\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"true\"},{\"name\":\"DisplayName\",\"hidden\":false,\"type\":\"string\",\"category\":\"data\",\"displayName\":\"Text\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"\"},{\"name\":\"IsHyperlink\",\"hidden\":false,\"type\":\"boolean\",\"category\":\"data\",\"displayName\":\"Is hyperlink\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"false\"},{\"name\":\"OnSelect\",\"hidden\":false,\"type\":\"boolean\",\"category\":\"behavior\",\"displayName\":\"On select\",\"direction\":\"in\",\"useForProjection\":false,\"defaultValue\":\"false\"},{\"name\":\"Width\",\"hidden\":false},{\"name\":\"Height\",\"hidden\":true},{\"name\":\"X\",\"hidden\":true},{\"name\":\"Y\",\"hidden\":true},{\"name\":\"Type\",\"hidden\":true,\"type\":\"string\",\"category\":\"data\",\"displayName\":\"Type\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"\"},{\"name\":\"FieldName\",\"hidden\":true,\"type\":\"string\",\"category\":\"data\",\"displayName\":\"Field name\",\"direction\":\"inout\",\"useForProjection\":true,\"defaultValue\":\"\"},{\"name\":\"Required\",\"hidden\":true,\"type\":\"boolean\",\"category\":\"data\",\"displayName\":\"Required\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"false\"},{\"name\":\"TitleProperty\",\"hidden\":true,\"type\":\"string\",\"category\":\"data\",\"displayName\":\"Title\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"\"},{\"name\":\"Order\",\"hidden\":true,\"type\":\"number\",\"category\":\"data\",\"displayName\":\"Order\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"-1\"},{\"name\":\"VariantName\",\"hidden\":true,\"type\":\"string\",\"category\":\"data\",\"displayName\":\"Variant name\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"\"}],\"docVersion\":\"1.343\"}"
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/29/2024 09:30:45",
+  "HeaderLastSavedDateTimeUTC": "07/29/2024 09:31:49",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "8f9d0675-56d6-47d2-9a20-acd60a53ab76": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/a00c33c66f5c4438ae76e79d0a3a6eea\"",
@@ -577,6 +581,7 @@
     "Date_DataCard1": {},
     "Date_DataCard3": {},
     "Date_DataCard3_1": {},
+    "Description": {},
     "DescriptionInput": {},
     "DescriptionInput_3": {},
     "DescriptionInput_5": {},
@@ -2270,6 +2275,7 @@
     "Date_DataCard1": 4,
     "Date_DataCard3": 188,
     "Date_DataCard3_1": 255,
+    "Description": 0,
     "DescriptionInput": 30,
     "DescriptionInput_3": 110,
     "DescriptionInput_5": 149,
