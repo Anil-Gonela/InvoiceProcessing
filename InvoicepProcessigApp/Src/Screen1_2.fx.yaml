@@ -436,8 +436,10 @@ Screen1_2 As screen:
                     Fill: =RGBA(0, 0, 0, 0)
                     Font: =Font.Lato
                     FontWeight: =FontWeight.Normal
-                    OnSelect: |-
-                        =Collect(MyCol,{Description:DescriptionInput_5.Text,Units:UnitsInput_4.Text,Amount:TotalAmountInput_4.Text})
+                    OnSelect: |
+                        =RemoveIf(MyCol, Description = Blank() And Units = Blank());
+                        
+                        Collect(MyCol,{Description:DescriptionInput_5.Text,Units:UnitsInput_4.Text,Amount:TotalAmountInput_4.Text})
                     Text: ="Add Row"
                     Width: =97
                     X: =678
