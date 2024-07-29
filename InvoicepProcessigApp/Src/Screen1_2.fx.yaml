@@ -461,10 +461,26 @@ Screen1_2 As screen:
                         TitleProperty: =""
                         Type: ="s"
                         VariantName: ="textualViewCard"
-                        Width: =798
+                        Width: =398
                         X: =0
                         Y: =0
                         ZIndex: =1
+
+                    Amount As customControl.dataColumn:
+                        AutoWidth: =true
+                        DisplayName: ="Amount"
+                        FieldName: ="Amount"
+                        Height: =0
+                        IsHyperlink: =false
+                        Order: =1
+                        Required: =false
+                        TitleProperty: =""
+                        Type: ="s"
+                        VariantName: ="textualViewCard"
+                        Width: =398
+                        X: =0
+                        Y: =0
+                        ZIndex: =2
 
                 Group1 As group:
                     Height: =5
