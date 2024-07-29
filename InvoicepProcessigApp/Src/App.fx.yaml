@@ -1,7 +1,7 @@
 App As appinfo:
     BackEnabled: =true
     OnStart: |-
-        =ClearCollect(MyCol,{Description:"",Units:"",Amount:""});
+        =ClearCollect(MyCol,{Description:DescriptionInput_5.Text,Units:UnitsInput_4.Text,Amount:TotalAmountInput_4.Text});
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
