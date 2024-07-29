@@ -161,7 +161,7 @@ InvoiceCapture As screen:
                     DataCardValue14_1 As text:
                         BorderColor: =RGBA(221, 79, 14, 1)
                         BorderThickness: =1
-                        Default: =First (InvoiceResults).Fields.InvoiceId.Value.Text
+                        Default: =FormProcessor1.Fields.Invoice_id
                         DelayOutput: =true
                         DisplayMode: =Parent.DisplayMode
                         MaxLength: =Parent.MaxLength
@@ -239,7 +239,7 @@ InvoiceCapture As screen:
                     DataCardValue15_1 As text:
                         BorderColor: =RGBA(221, 79, 14, 1)
                         BorderThickness: =1
-                        Default: =First (InvoiceResults).Fields.BillingAddress.Value.Text
+                        Default: =FormProcessor1.Fields.Billing_Address
                         DelayOutput: =true
                         DisplayMode: =Parent.DisplayMode
                         MaxLength: =Parent.MaxLength
@@ -316,7 +316,7 @@ InvoiceCapture As screen:
                     DataCardValue16_1 As datepicker:
                         BorderColor: =RGBA(221, 79, 14, 1)
                         BorderThickness: =1
-                        DefaultDate: =Parent.Default
+                        DefaultDate: =FormProcessor1.Fields.Invoice_Date
                         DisplayMode: =Parent.DisplayMode
                         EndYear: =Year(Today())+100
                         Font: =Font.Lato
@@ -394,7 +394,7 @@ InvoiceCapture As screen:
                     DataCardValue17_1 As text:
                         BorderColor: =If(IsBlank(Parent.Error), RGBA(221, 79, 14, 1), Color.Red)
                         BorderThickness: =1
-                        Default: =Parent.Default
+                        Default: =FormProcessor1.Fields.Total
                         DelayOutput: =true
                         DisplayMode: =Parent.DisplayMode
                         Font: =Font.Lato
@@ -474,7 +474,7 @@ InvoiceCapture As screen:
                     DataCardValue18_1 As text:
                         BorderColor: =If(IsBlank(Parent.Error), RGBA(221, 79, 14, 1), Color.Red)
                         BorderThickness: =1
-                        Default: =Parent.Default
+                        Default: =FormProcessor1.Fields.Tax
                         DelayOutput: =true
                         DisplayMode: =Parent.DisplayMode
                         MaxLength: =Parent.MaxLength
@@ -552,7 +552,7 @@ InvoiceCapture As screen:
                     DataCardValue19_1 As text:
                         BorderColor: =If(IsBlank(Parent.Error), RGBA(221, 79, 14, 1), Color.Red)
                         BorderThickness: =1
-                        Default: =First (InvoiceResults).Fields.InvoiceTotal.Value.Text
+                        Default: =FormProcessor1.Fields.BalanceDue
                         DelayOutput: =true
                         DisplayMode: =Parent.DisplayMode
                         MaxLength: =Parent.MaxLength
@@ -630,7 +630,7 @@ InvoiceCapture As screen:
                     DataCardValue20_1 As text:
                         BorderColor: =If(IsBlank(Parent.Error), RGBA(221, 79, 14, 1), Color.Red)
                         BorderThickness: =1
-                        Default: =Parent.Default
+                        Default: =FormProcessor1.Fields.Customer_address
                         DelayOutput: =true
                         DisplayMode: =Parent.DisplayMode
                         MaxLength: =Parent.MaxLength
