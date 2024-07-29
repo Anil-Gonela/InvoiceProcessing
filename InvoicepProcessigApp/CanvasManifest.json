@@ -101,7 +101,7 @@
       "zeroalltabindexes": true
     },
     "Author": "",
-    "BindingErrorCount": 0,
+    "BindingErrorCount": 1,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -140,7 +140,6 @@
     "Screen2",
     "Welcome Screen",
     "Welcome Screen_1",
-    "InvoiceCapture",
-    "InvoiceList"
+    "InvoiceCapture"
   ]
 }

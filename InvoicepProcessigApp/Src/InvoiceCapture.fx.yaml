@@ -2,7 +2,7 @@ InvoiceCapture As screen:
     BackgroundImage: =
     Fill: =RGBA(253, 222, 207, 0.1)
 
-    Container_Component As groupContainer.verticalAutoLayoutContainer:
+    Component As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
         Height: =Parent.Height *90%
         LayoutDirection: =LayoutDirection.Vertical
@@ -62,8 +62,8 @@ InvoiceCapture As screen:
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Width: =Parent.Width * 30%
-        X: =Container_Component.X + Container_Component.Width
-        Y: =Container_Component.Y
+        X: =Component.X + Component.Width
+        Y: =Component.Y
         ZIndex: =2
 
         Container9 As groupContainer.manualLayoutContainer:
@@ -121,7 +121,7 @@ InvoiceCapture As screen:
         RadiusTopRight: =0
         Width: =Parent.Width * 50%
         X: ='Form Processor'.X + 'Form Processor'.Width
-        Y: =Container_Component.Y
+        Y: =Component.Y
         ZIndex: =3
 
         Container13 As groupContainer.manualLayoutContainer:
@@ -726,7 +726,7 @@ InvoiceCapture As screen:
             Width: =Parent.Width
             ZIndex: =1
 
-            Container19 As groupContainer.manualLayoutContainer:
+            HeaderIcon As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
                 Height: =Parent.Height * 95%
@@ -752,25 +752,63 @@ InvoiceCapture As screen:
                 Size: =20
                 Text: ="Capture Invoice"
                 Width: =Parent.Width * 25%
-                X: =Container19.X + Container19.Width
+                X: =HeaderIcon.X + HeaderIcon.Width
                 ZIndex: =2
 
-            Container19_1 As groupContainer.manualLayoutContainer:
+            SettingsIcon As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
-                Height: =Parent.Height * 95%
+                Height: =Parent.Height * 80%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
                 RadiusTopLeft: =50
                 RadiusTopRight: =50
-                Width: =Parent.Height * 95%
-                X: =Parent.X + 5
-                Y: =Parent.Y + 2
+                Width: =Parent.Height * 80%
+                X: =Parent.Width *85%
+                Y: =(Parent.Height - Self.Height) / 2
                 ZIndex: =3
 
                 Image4_1 As image:
                     Height: =Parent.Height
-                    Image: =MainIcon1
+                    Image: =SettingsIcon_1
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+            Notifications As groupContainer.manualLayoutContainer:
+                BorderColor: =RGBA(221, 79, 14, 1)
+                BorderThickness: =1
+                Height: =Parent.Height * 80%
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Width: =Parent.Height * 80%
+                X: =SettingsIcon.X + SettingsIcon.Width + 5
+                Y: =(Parent.Height - Self.Height) / 2
+                ZIndex: =4
+
+                Image4_2 As image:
+                    Height: =Parent.Height
+                    Image: =Notifications_1
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+            UserIcon As groupContainer.manualLayoutContainer:
+                BorderColor: =RGBA(221, 79, 14, 1)
+                BorderThickness: =1
+                Height: =Parent.Height * 80%
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Width: =Parent.Height * 80%
+                X: =Notifications.X + Notifications.Width + 5
+                Y: =(Parent.Height - Self.Height) / 2
+                ZIndex: =5
+
+                Image4_3 As image:
+                    Height: =Parent.Height
+                    Image: =User().Image
                     Width: =Parent.Width
                     ZIndex: =1
 
