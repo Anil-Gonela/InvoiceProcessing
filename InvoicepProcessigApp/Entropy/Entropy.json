@@ -322,7 +322,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/29/2024 05:40:51",
+  "HeaderLastSavedDateTimeUTC": "07/29/2024 05:42:40",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "8f9d0675-56d6-47d2-9a20-acd60a53ab76": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/c36bfc85dbde425cac88ba7c2fccad57\""
@@ -340,6 +340,7 @@
     "InovceList": "38138ba9-42e8-4480-ae71-1e6c547e874f.png",
     "Invoice3": "230333eb-c74c-4377-9ae7-b0981f0d887f.png",
     "invoice-processing": "74f9a1ae-b748-4d5f-9727-face9396c128.png",
+    "jane": "61ae3933-1c65-45b3-af73-61588eb17efd.jpg",
     "MainIcon": "2c7c0d2c-b78a-4ab4-b7ab-3d7706fd94da.png",
     "statement": "135dd5db-d5e8-441a-99ae-419d8b714d95.svg",
     "TransferMoney": "58d9591d-fedb-4350-a6e0-f4f20f9f310d.svg",
@@ -358,6 +359,7 @@
     "InovceList": "https://docserverpwaprodeas.blob.core.windows.net/420e9cd3-d87b-4a51-92c2-45193bbad8b4-1/resource/9daf129b-bcc9-4ed8-a701-2fd297fbaf0c.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T03%3A41%3A35Z&ske=2024-07-30T03%3A56%3A35Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T03%3A56%3A35Z&sr=b&sp=r&sig=cA3c%2FPYUeQypduiXaj%2FBLn6iQ8lrvreoiPHWBzSIb%2B8%3D",
     "Invoice3": "https://docserverpwaprodeas.blob.core.windows.net/420e9cd3-d87b-4a51-92c2-45193bbad8b4-1/resource/Assets0Images0230333eb-c74c-4377-9ae7-b0981f0d887f.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T03%3A08%3A11Z&ske=2024-07-30T03%3A23%3A11Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T03%3A23%3A11Z&sr=b&sp=r&sig=1ANImuf%2FjV3NHAQYb17BI8lbLICg1Y0ZIZenf8zO3fI%3D",
     "invoice-processing": "https://docserverpwaprodeas.blob.core.windows.net/420e9cd3-d87b-4a51-92c2-45193bbad8b4-1/resource/Assets0Images074f9a1ae-b748-4d5f-9727-face9396c128.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T03%3A08%3A11Z&ske=2024-07-30T03%3A23%3A11Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T03%3A23%3A11Z&sr=b&sp=r&sig=1inSVBH6dD6m2sQSkjEfLg2Pyvw13leygUeULbp3lA8%3D",
+    "jane": "https://docserverpwaprodeas.blob.core.windows.net/420e9cd3-d87b-4a51-92c2-45193bbad8b4-1/resource/7c2bcca2-1db5-4661-9553-c30579272ef9.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T05%3A42%3A23Z&ske=2024-07-30T05%3A57%3A23Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T05%3A57%3A23Z&sr=b&sp=r&sig=iblN1AvCcJQLlYdEhhQqlhsYb5f0wSU%2BbhUyFycZR3w%3D",
     "MainIcon": "https://docserverpwaprodeas.blob.core.windows.net/420e9cd3-d87b-4a51-92c2-45193bbad8b4-1/resource/43b972fc-2fde-44d0-aba2-ef71121e7a67.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T03%3A41%3A36Z&ske=2024-07-30T03%3A56%3A36Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T03%3A56%3A36Z&sr=b&sp=r&sig=F12W4y5eRIll7yZFjmiAKwWxrQjiWJ3J9GOHbwGDifg%3D",
     "statement": "https://docserverpwaprodeas.blob.core.windows.net/420e9cd3-d87b-4a51-92c2-45193bbad8b4-1/resource/Assets0Images0135dd5db-d5e8-441a-99ae-419d8b714d95.svg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T03%3A08%3A11Z&ske=2024-07-30T03%3A23%3A11Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T03%3A23%3A11Z&sr=b&sp=r&sig=B3YqYRvjCAnhfuUumqW5Hsgkve9nydTs4Ls2f%2BuQqU0%3D",
     "TransferMoney": "https://docserverpwaprodeas.blob.core.windows.net/420e9cd3-d87b-4a51-92c2-45193bbad8b4-1/resource/Assets0Images058d9591d-fedb-4350-a6e0-f4f20f9f310d.svg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T03%3A08%3A11Z&ske=2024-07-30T03%3A23%3A11Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T03%3A23%3A11Z&sr=b&sp=r&sig=JeADAzoHLoAVn6abPLWfV1CryNGZA1ywiVBjDou4BA8%3D",
@@ -2425,6 +2427,7 @@
     "Image-InovceList": 16,
     "Image-Invoice3": 1,
     "Image-invoice-processing": 12,
+    "Image-jane": 18,
     "Image-MainIcon": 17,
     "Image-SampleImage": 0,
     "Image-statement": 4,

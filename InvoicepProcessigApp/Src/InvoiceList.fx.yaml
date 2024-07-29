@@ -109,7 +109,7 @@ InvoiceList As screen:
 
                     Image2 As image:
                         Height: =Parent.Height
-                        Image: =ThisItem.'Customer Picture'
+                        Image: =jane
                         Width: =Parent.Width
                         ZIndex: =1
 
