@@ -1,7 +1,8 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |-
+    OnStart: |
         =ClearCollect(MyCol,{Description:DescriptionInput_5.Text,Units:UnitsInput_4.Text,Amount:TotalAmountInput_4.Text});
+        Set(Group1Visibility,true);
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

@@ -525,6 +525,7 @@ Screen1_2 As screen:
                         Default: =
                         Fill: =RGBA(215, 223, 240, 1)
                         Height: =46
+                        Visible: =Group1Visibility
                         Width: =313
                         X: =14
                         Y: =46
@@ -535,6 +536,7 @@ Screen1_2 As screen:
                         Default: =
                         Fill: =RGBA(215, 223, 240, 1)
                         Height: =44
+                        Visible: =Group1Visibility
                         Width: =121
                         X: =362
                         Y: =48
@@ -545,6 +547,7 @@ Screen1_2 As screen:
                         Default: =
                         Fill: =RGBA(215, 223, 240, 1)
                         Height: =44
+                        Visible: =Group1Visibility
                         Width: =128
                         X: =524
                         Y: =48
@@ -555,6 +558,7 @@ Screen1_2 As screen:
                         Color: =RGBA(0, 18, 107, 1)
                         Height: =39
                         Text: ="Units"
+                        Visible: =Group1Visibility
                         Width: =UnitsInput_4.Width
                         Wrap: =false
                         X: =382
@@ -565,6 +569,7 @@ Screen1_2 As screen:
                         Color: =RGBA(0, 18, 107, 1)
                         Height: =39
                         Text: ="Amount"
+                        Visible: =Group1Visibility
                         Width: =TotalAmountInput_4.Width
                         Wrap: =false
                         X: =539
@@ -575,6 +580,7 @@ Screen1_2 As screen:
                         Color: =RGBA(0, 18, 107, 1)
                         Height: =39
                         Text: ="Description"
+                        Visible: =Group1Visibility
                         Width: =211
                         Wrap: =false
                         X: =16
@@ -895,7 +901,9 @@ Screen1_2 As screen:
     Icon3_1 As icon.DocumentPDF:
         Icon: =Icon.DocumentPDF
         OnSelect: |
-            =Set(MyPDFContent,PDF(Container1_1,{ExpandContainers:true}));
+            =Set(Group1Visibility,false);
+            
+            Set(MyPDFContent,PDF(Container1_1,{ExpandContainers:true}));
             SavePDFtoSP.Run({file:{name:"PDF Genrated from PA",contentBytes:MyPDFContent}});
             ClearCollect(MyCol,{Description:"",Units:"",Amount:""});
         X: =1284
