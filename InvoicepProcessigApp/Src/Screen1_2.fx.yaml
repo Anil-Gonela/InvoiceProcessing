@@ -438,11 +438,11 @@ Screen1_2 As screen:
                     FontWeight: =FontWeight.Normal
                     OnSelect: |-
                         =Collect(
-                            InvoiceRowsCollection,
+                            MyCol,
                             {
-                                ColDescription: DescriptionInput_5.Text,
-                                ColUnits: UnitsInput_4.Text,
-                                ColTotalAmount: TotalAmountInput_4.Text
+                                Description: DescriptionInput_5.Text,
+                                Units: UnitsInput_4.Text,
+                                Amount: TotalAmountInput_4.Text
                             }
                         );
                         Set(RawVar, Substitute( TotalAmountInput_4.Text, "$", "" ));
@@ -885,7 +885,8 @@ Screen1_2 As screen:
                     ZIndex: =4
 
     Button1_5 As button:
-        OnSelect: =NewForm(Form1_2)
+        OnSelect: |-
+            =NewForm(Form1_2);ClearCollect(MyCol,{Description:DescriptionInput_5.Text,Units:UnitsInput_4.Text,Amount:TotalAmountInput_4.Text});
         Text: ="New Form"
         X: =815
         Y: =700
