@@ -745,7 +745,7 @@ InvoiceCapture As screen:
                 Color: =RGBA(221, 79, 14, 1)
                 Font: =Font.'Lato Black'
                 Height: =Parent.Height * 95%
-                Size: =30
+                Size: =20
                 Text: ="Capture Invoice"
                 Width: =Parent.Width * 25%
                 X: =Container19.X + Container19.Width
