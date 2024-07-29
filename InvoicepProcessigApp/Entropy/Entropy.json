@@ -1,26 +1,2555 @@
 {
-  "ComponentIndexes": {},
+  "ComponentIndexes": {
+    "Component1": 8,
+    "SideNavigation_Compact": 9
+  },
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "AddMediaButton1": 323,
+    "AddMediaWithImage1": 326,
+    "Amount": 257,
+    "App": 1,
+    "Balance Due_DataCard1": 137,
+    "Balance Due_DataCard2": 181,
+    "Balance Due_DataCard2_1": 265,
+    "Balance Due_DataCard3": 312,
+    "Balance Due_DataCard3_1": 64,
+    "Bill To_DataCard1": 105,
+    "Bill To_DataCard2": 161,
+    "Bill To_DataCard2_1": 232,
+    "Bill To_DataCard3": 292,
+    "Bill To_DataCard3_1": 44,
+    "Body1": 203,
+    "Button1": 144,
+    "Button1_1": 142,
+    "Button1_2": 214,
+    "Button1_3": 205,
+    "Button1_4": 324,
+    "Button1_5": 282,
+    "Button2": 120,
+    "Button2_2": 254,
+    "Button2_3": 212,
+    "Button3": 325,
+    "Button4": 13,
+    "Button5": 336,
+    "Button5_1": 23,
+    "Button6": 35,
+    "Button6_1": 74,
+    "Button6_2": 89,
+    "Component1": 4,
+    "Container_Component": 25,
+    "Container_Component_1": 76,
+    "Container1": 146,
+    "Container1_1": 217,
+    "Container10": 329,
+    "Container12": 332,
+    "Container12_1": 20,
+    "Container13": 37,
+    "Container14": 22,
+    "Container15": 82,
+    "Container18": 28,
+    "Container19": 30,
+    "Container19_1": 339,
+    "Container2": 6,
+    "Container3": 15,
+    "Container4": 16,
+    "Container5": 10,
+    "Container6": 11,
+    "Container8_1": 78,
+    "Container9": 33,
+    "Container9_1": 79,
+    "ContainerGIF": 328,
+    "ContainerLogo": 331,
+    "ContainerLogo_1": 19,
+    "Customer Address_DataCard1": 166,
+    "Customer Address_DataCard1_1": 237,
+    "DataCard1": 92,
+    "DataCard2": 110,
+    "DataCard3": 113,
+    "DataCard4": 148,
+    "DataCard4_1": 219,
+    "DataCard5": 247,
+    "DataCard6": 196,
+    "DataCardKey1": 102,
+    "DataCardKey10": 158,
+    "DataCardKey10_1": 229,
+    "DataCardKey13": 188,
+    "DataCardKey13_1": 272,
+    "DataCardKey14": 289,
+    "DataCardKey14_1": 41,
+    "DataCardKey15": 294,
+    "DataCardKey15_1": 46,
+    "DataCardKey16": 299,
+    "DataCardKey16_1": 51,
+    "DataCardKey17": 304,
+    "DataCardKey17_1": 56,
+    "DataCardKey18": 309,
+    "DataCardKey18_1": 61,
+    "DataCardKey19": 314,
+    "DataCardKey19_1": 66,
+    "DataCardKey2": 107,
+    "DataCardKey2_1": 111,
+    "DataCardKey2_10": 206,
+    "DataCardKey2_11": 208,
+    "DataCardKey2_12": 207,
+    "DataCardKey2_16": 249,
+    "DataCardKey2_17": 250,
+    "DataCardKey2_18": 248,
+    "DataCardKey2_2": 116,
+    "DataCardKey2_3": 118,
+    "DataCardKey2_4": 117,
+    "DataCardKey20": 319,
+    "DataCardKey20_1": 71,
+    "DataCardKey21": 173,
+    "DataCardKey21_1": 244,
+    "DataCardKey22": 153,
+    "DataCardKey22_1": 224,
+    "DataCardKey23": 168,
+    "DataCardKey23_1": 239,
+    "DataCardKey24": 163,
+    "DataCardKey24_1": 234,
+    "DataCardKey25": 178,
+    "DataCardKey25_1": 262,
+    "DataCardKey3": 97,
+    "DataCardKey4": 129,
+    "DataCardKey5": 134,
+    "DataCardKey6": 139,
+    "DataCardKey7": 183,
+    "DataCardKey7_1": 267,
+    "DataCardKey8": 193,
+    "DataCardKey8_1": 277,
+    "DataCardValue1": 103,
+    "DataCardValue10": 159,
+    "DataCardValue10_1": 230,
+    "DataCardValue13": 189,
+    "DataCardValue13_1": 273,
+    "DataCardValue14": 290,
+    "DataCardValue14_1": 42,
+    "DataCardValue15": 295,
+    "DataCardValue15_1": 47,
+    "DataCardValue16": 300,
+    "DataCardValue16_1": 52,
+    "DataCardValue17": 305,
+    "DataCardValue17_1": 57,
+    "DataCardValue18": 310,
+    "DataCardValue18_1": 62,
+    "DataCardValue19": 315,
+    "DataCardValue19_1": 67,
+    "DataCardValue2": 108,
+    "DataCardValue20": 320,
+    "DataCardValue20_1": 72,
+    "DataCardValue21": 174,
+    "DataCardValue21_1": 245,
+    "DataCardValue22": 154,
+    "DataCardValue22_1": 225,
+    "DataCardValue23": 169,
+    "DataCardValue23_1": 240,
+    "DataCardValue24": 164,
+    "DataCardValue24_1": 235,
+    "DataCardValue25": 179,
+    "DataCardValue25_1": 263,
+    "DataCardValue3": 98,
+    "DataCardValue4": 130,
+    "DataCardValue5": 135,
+    "DataCardValue6": 140,
+    "DataCardValue7": 184,
+    "DataCardValue7_1": 268,
+    "DataCardValue8": 194,
+    "DataCardValue8_1": 278,
+    "DataTable1": 255,
+    "Date_DataCard1": 95,
+    "Date_DataCard3": 297,
+    "Date_DataCard3_1": 49,
+    "Description": 256,
+    "DescriptionInput": 121,
+    "DescriptionInput_3": 211,
+    "DescriptionInput_5": 251,
+    "Due Date_DataCard1": 171,
+    "Due Date_DataCard1_1": 242,
+    "ErrorMessage1": 104,
+    "ErrorMessage10": 306,
+    "ErrorMessage10_1": 58,
+    "ErrorMessage11": 311,
+    "ErrorMessage11_1": 63,
+    "ErrorMessage12": 316,
+    "ErrorMessage12_1": 68,
+    "ErrorMessage13": 321,
+    "ErrorMessage13_1": 73,
+    "ErrorMessage14": 185,
+    "ErrorMessage14_1": 269,
+    "ErrorMessage15": 195,
+    "ErrorMessage15_1": 279,
+    "ErrorMessage17": 160,
+    "ErrorMessage17_1": 231,
+    "ErrorMessage2": 109,
+    "ErrorMessage20": 190,
+    "ErrorMessage20_1": 274,
+    "ErrorMessage21": 175,
+    "ErrorMessage21_1": 246,
+    "ErrorMessage22": 155,
+    "ErrorMessage22_1": 226,
+    "ErrorMessage23": 170,
+    "ErrorMessage23_1": 241,
+    "ErrorMessage24": 165,
+    "ErrorMessage24_1": 236,
+    "ErrorMessage25": 180,
+    "ErrorMessage25_1": 264,
+    "ErrorMessage3": 99,
+    "ErrorMessage4": 131,
+    "ErrorMessage5": 136,
+    "ErrorMessage6": 141,
+    "ErrorMessage7": 291,
+    "ErrorMessage7_1": 43,
+    "ErrorMessage8": 296,
+    "ErrorMessage8_1": 48,
+    "ErrorMessage9": 301,
+    "ErrorMessage9_1": 53,
+    "Form": 36,
+    "Form Processor": 32,
+    "Form1": 91,
+    "Form1_1": 147,
+    "Form1_2": 218,
+    "Form2": 286,
+    "Form2_1": 38,
+    "FormProcessor1": 34,
+    "Gallery1": 123,
+    "Gallery2": 80,
+    "Gallery3": 197,
+    "Gallery4": 8,
+    "galleryTemplate1": 124,
+    "galleryTemplate2": 81,
+    "galleryTemplate3": 198,
+    "galleryTemplate4": 9,
+    "Group1": 259,
+    "GST_DataCard1": 132,
+    "GST_DataCard2": 186,
+    "GST_DataCard2_1": 270,
+    "GST_DataCard3": 307,
+    "GST_DataCard3_1": 59,
+    "Heading": 27,
+    "Host": 3,
+    "Icon1": 114,
+    "Icon1_1": 126,
+    "Icon2": 125,
+    "Icon3": 215,
+    "Icon3_1": 281,
+    "Image1": 93,
+    "Image1_1": 149,
+    "Image1_2": 220,
+    "Image10": 330,
+    "Image2": 83,
+    "Image4": 31,
+    "Image4_1": 340,
+    "Image5": 17,
+    "Image6": 12,
+    "Invoice Date_DataCard1": 156,
+    "Invoice Date_DataCard1_1": 227,
+    "InvoiceCapture": 24,
+    "InvoiceList": 75,
+    "Label1": 94,
+    "Label1_1": 150,
+    "Label1_2": 221,
+    "Label10": 86,
+    "Label11": 88,
+    "Label15": 29,
+    "Label2": 112,
+    "Label3": 115,
+    "Label4": 333,
+    "Label4_1": 334,
+    "Label5": 335,
+    "Label5_1": 21,
+    "Label6": 14,
+    "Label7": 87,
+    "Label8": 84,
+    "Label9": 85,
+    "LblAppName1": 285,
+    "Logo": 7,
+    "NextArrow2": 201,
+    "PdfViewer2": 143,
+    "PdfViewer2_1": 213,
+    "PdfViewer2_2": 280,
+    "Rectangle2": 199,
+    "RectQuickActionBar1": 284,
+    "Sale Amount_DataCard1": 127,
+    "Sale Amount_DataCard3": 302,
+    "Sale Amount_DataCard3_1": 54,
+    "Screen1": 90,
+    "Screen1_1": 145,
+    "Screen1_2": 216,
+    "Screen2": 283,
+    "Separator2": 204,
+    "Shipping Cost_DataCard1": 176,
+    "Shipping Cost_DataCard1_1": 260,
+    "SideNavigation_Compact": 5,
+    "SideNavigation_Compact_1": 26,
+    "SideNavigation_Compact_2": 77,
+    "StarVisible1": 101,
+    "StarVisible10": 303,
+    "StarVisible10_1": 55,
+    "StarVisible11": 308,
+    "StarVisible11_1": 60,
+    "StarVisible12": 313,
+    "StarVisible12_1": 65,
+    "StarVisible13": 318,
+    "StarVisible13_1": 70,
+    "StarVisible14": 182,
+    "StarVisible14_1": 266,
+    "StarVisible15": 192,
+    "StarVisible15_1": 276,
+    "StarVisible17": 157,
+    "StarVisible17_1": 228,
+    "StarVisible2": 106,
+    "StarVisible20": 187,
+    "StarVisible20_1": 271,
+    "StarVisible21": 172,
+    "StarVisible21_1": 243,
+    "StarVisible22": 152,
+    "StarVisible22_1": 223,
+    "StarVisible23": 167,
+    "StarVisible23_1": 238,
+    "StarVisible24": 162,
+    "StarVisible24_1": 233,
+    "StarVisible25": 177,
+    "StarVisible25_1": 261,
+    "StarVisible3": 96,
+    "StarVisible4": 128,
+    "StarVisible5": 133,
+    "StarVisible6": 138,
+    "StarVisible7": 288,
+    "StarVisible7_1": 40,
+    "StarVisible8": 293,
+    "StarVisible8_1": 45,
+    "StarVisible9": 298,
+    "StarVisible9_1": 50,
+    "Subtitle1": 202,
+    "Title_DataCard1": 100,
+    "Title_DataCard2": 151,
+    "Title_DataCard2_1": 222,
+    "Title_DataCard3": 287,
+    "Title_DataCard3_1": 39,
+    "Title2": 200,
+    "Total Amount_DataCard1": 191,
+    "Total Amount_DataCard1_1": 275,
+    "TotalAmountInput": 119,
+    "TotalAmountInput_2": 210,
+    "TotalAmountInput_4": 253,
+    "Units": 258,
+    "UnitsInput": 122,
+    "UnitsInput_2": 209,
+    "UnitsInput_4": 252,
+    "UploadedImage1": 322,
+    "Vendor Details_DataCard2": 317,
+    "Vendor Details_DataCard2_1": 69,
+    "Welcome Screen": 327,
+    "Welcome Screen_1": 18
+  },
+  "DataTableCustomControlTemplateJsons": {
+    "Amount": "{\"name\":\"dataColumn\",\"version\":\"1.1\",\"properties\":[{\"name\":\"AutoWidth\",\"hidden\":false,\"type\":\"boolean\",\"category\":\"data\",\"displayName\":\"Can grow\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"true\"},{\"name\":\"DisplayName\",\"hidden\":false,\"type\":\"string\",\"category\":\"data\",\"displayName\":\"Text\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"\"},{\"name\":\"IsHyperlink\",\"hidden\":false,\"type\":\"boolean\",\"category\":\"data\",\"displayName\":\"Is hyperlink\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"false\"},{\"name\":\"OnSelect\",\"hidden\":false,\"type\":\"boolean\",\"category\":\"behavior\",\"displayName\":\"On select\",\"direction\":\"in\",\"useForProjection\":false,\"defaultValue\":\"false\"},{\"name\":\"Width\",\"hidden\":false},{\"name\":\"Height\",\"hidden\":true},{\"name\":\"X\",\"hidden\":true},{\"name\":\"Y\",\"hidden\":true},{\"name\":\"Type\",\"hidden\":true,\"type\":\"string\",\"category\":\"data\",\"displayName\":\"Type\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"\"},{\"name\":\"FieldName\",\"hidden\":true,\"type\":\"string\",\"category\":\"data\",\"displayName\":\"Field name\",\"direction\":\"inout\",\"useForProjection\":true,\"defaultValue\":\"\"},{\"name\":\"Required\",\"hidden\":true,\"type\":\"boolean\",\"category\":\"data\",\"displayName\":\"Required\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"false\"},{\"name\":\"TitleProperty\",\"hidden\":true,\"type\":\"string\",\"category\":\"data\",\"displayName\":\"Title\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"\"},{\"name\":\"Order\",\"hidden\":true,\"type\":\"number\",\"category\":\"data\",\"displayName\":\"Order\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"-1\"},{\"name\":\"VariantName\",\"hidden\":true,\"type\":\"string\",\"category\":\"data\",\"displayName\":\"Variant name\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"\"}],\"docVersion\":\"1.343\"}",
+    "Description": "{\"name\":\"dataColumn\",\"version\":\"1.1\",\"properties\":[{\"name\":\"AutoWidth\",\"hidden\":false,\"type\":\"boolean\",\"category\":\"data\",\"displayName\":\"Can grow\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"true\"},{\"name\":\"DisplayName\",\"hidden\":false,\"type\":\"string\",\"category\":\"data\",\"displayName\":\"Text\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"\"},{\"name\":\"IsHyperlink\",\"hidden\":false,\"type\":\"boolean\",\"category\":\"data\",\"displayName\":\"Is hyperlink\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"false\"},{\"name\":\"OnSelect\",\"hidden\":false,\"type\":\"boolean\",\"category\":\"behavior\",\"displayName\":\"On select\",\"direction\":\"in\",\"useForProjection\":false,\"defaultValue\":\"false\"},{\"name\":\"Width\",\"hidden\":false},{\"name\":\"Height\",\"hidden\":true},{\"name\":\"X\",\"hidden\":true},{\"name\":\"Y\",\"hidden\":true},{\"name\":\"Type\",\"hidden\":true,\"type\":\"string\",\"category\":\"data\",\"displayName\":\"Type\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"\"},{\"name\":\"FieldName\",\"hidden\":true,\"type\":\"string\",\"category\":\"data\",\"displayName\":\"Field name\",\"direction\":\"inout\",\"useForProjection\":true,\"defaultValue\":\"\"},{\"name\":\"Required\",\"hidden\":true,\"type\":\"boolean\",\"category\":\"data\",\"displayName\":\"Required\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"false\"},{\"name\":\"TitleProperty\",\"hidden\":true,\"type\":\"string\",\"category\":\"data\",\"displayName\":\"Title\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"\"},{\"name\":\"Order\",\"hidden\":true,\"type\":\"number\",\"category\":\"data\",\"displayName\":\"Order\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"-1\"},{\"name\":\"VariantName\",\"hidden\":true,\"type\":\"string\",\"category\":\"data\",\"displayName\":\"Variant name\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"\"}],\"docVersion\":\"1.343\"}",
+    "Units": "{\"name\":\"dataColumn\",\"version\":\"1.1\",\"properties\":[{\"name\":\"AutoWidth\",\"hidden\":false,\"type\":\"boolean\",\"category\":\"data\",\"displayName\":\"Can grow\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"true\"},{\"name\":\"DisplayName\",\"hidden\":false,\"type\":\"string\",\"category\":\"data\",\"displayName\":\"Text\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"\"},{\"name\":\"IsHyperlink\",\"hidden\":false,\"type\":\"boolean\",\"category\":\"data\",\"displayName\":\"Is hyperlink\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"false\"},{\"name\":\"OnSelect\",\"hidden\":false,\"type\":\"boolean\",\"category\":\"behavior\",\"displayName\":\"On select\",\"direction\":\"in\",\"useForProjection\":false,\"defaultValue\":\"false\"},{\"name\":\"Width\",\"hidden\":false},{\"name\":\"Height\",\"hidden\":true},{\"name\":\"X\",\"hidden\":true},{\"name\":\"Y\",\"hidden\":true},{\"name\":\"Type\",\"hidden\":true,\"type\":\"string\",\"category\":\"data\",\"displayName\":\"Type\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"\"},{\"name\":\"FieldName\",\"hidden\":true,\"type\":\"string\",\"category\":\"data\",\"displayName\":\"Field name\",\"direction\":\"inout\",\"useForProjection\":true,\"defaultValue\":\"\"},{\"name\":\"Required\",\"hidden\":true,\"type\":\"boolean\",\"category\":\"data\",\"displayName\":\"Required\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"false\"},{\"name\":\"TitleProperty\",\"hidden\":true,\"type\":\"string\",\"category\":\"data\",\"displayName\":\"Title\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"\"},{\"name\":\"Order\",\"hidden\":true,\"type\":\"number\",\"category\":\"data\",\"displayName\":\"Order\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"-1\"},{\"name\":\"VariantName\",\"hidden\":true,\"type\":\"string\",\"category\":\"data\",\"displayName\":\"Variant name\",\"direction\":\"inout\",\"useForProjection\":false,\"defaultValue\":\"\"}],\"docVersion\":\"1.343\"}"
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "07/29/2024 11:04:40",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "8f9d0675-56d6-47d2-9a20-acd60a53ab76": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/c36bfc85dbde425cac88ba7c2fccad57\"",
+    "9349ca25-d577-4d2f-ab3d-4ebf0b9ed05b": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/2d48d67453964178b428a65245e07b4e-0c3432b11474c537\""
+  },
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
-  "OrderComponentMetadata": {},
-  "OrderComponentTemplate": {},
-  "OrderDataSource": {},
-  "OrderGroupControls": {},
-  "OrderPcfTemplate": {},
+  "LocalResourceFileNames": {
+    "Accounts-Payable-Invoice-Processing": "0001.jpg",
+    "AccountTransfer": "0002.svg",
+    "CaptureInovice": "0003.png",
+    "CreateInvoice": "0004.png",
+    "editedbg": "0006.jpg",
+    "editedbg-removebg-preview": "0005.png",
+    "file": "0007.png",
+    "graphic-4-gif-Copy-unscreen": "0008.gif",
+    "Helpicon": "3702a947-02da-484b-9ae1-d03cbc108912.png",
+    "InovceList": "0009.png",
+    "Invoice3": "0011.png",
+    "invoice-processing": "0010.png",
+    "jane": "0012.jpg",
+    "MainIcon": "0013.png",
+    "MainIcon1": "0014.png",
+    "statement": "0015.svg",
+    "TransferMoney": "0016.svg",
+    "UPI": "0017.svg",
+    "Viewmore": "0018.svg"
+  },
+  "LocalResourceRootPaths": {
+    "Accounts-Payable-Invoice-Processing": "https://docserverpwaprodeas.blob.core.windows.net/776601aa-3227-4edb-b8d2-0c80690a4763-1/resource/Assets0Images00001.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T10%3A34%3A49Z&ske=2024-07-30T10%3A49%3A49Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T10%3A49%3A49Z&sr=b&sp=r&sig=mu9%2FoV9oqDTo0zYayjPIsTk4iY57XuLab5RhKF4Np1c%3D",
+    "AccountTransfer": "https://docserverpwaprodeas.blob.core.windows.net/776601aa-3227-4edb-b8d2-0c80690a4763-1/resource/Assets0Images00002.svg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T10%3A34%3A49Z&ske=2024-07-30T10%3A49%3A49Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T10%3A49%3A49Z&sr=b&sp=r&sig=1lBEwT5bp9bGzf%2BfTT96Hm0gmV49W9yRTjDAn0c%2FQEc%3D",
+    "CaptureInovice": "https://docserverpwaprodeas.blob.core.windows.net/776601aa-3227-4edb-b8d2-0c80690a4763-1/resource/Assets0Images00003.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T10%3A34%3A49Z&ske=2024-07-30T10%3A49%3A49Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T10%3A49%3A49Z&sr=b&sp=r&sig=nztmZf3Iv4YKzDTaJcQvdN%2BM%2FDnIpWmriy9coG68hPw%3D",
+    "CreateInvoice": "https://docserverpwaprodeas.blob.core.windows.net/776601aa-3227-4edb-b8d2-0c80690a4763-1/resource/Assets0Images00004.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T10%3A34%3A49Z&ske=2024-07-30T10%3A49%3A49Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T10%3A49%3A49Z&sr=b&sp=r&sig=ZhlaX8XxzeHGi1QSr3QBJLOmSJY5fpIzGTlJKAkFaAc%3D",
+    "editedbg": "https://docserverpwaprodeas.blob.core.windows.net/776601aa-3227-4edb-b8d2-0c80690a4763-1/resource/Assets0Images00006.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T10%3A34%3A49Z&ske=2024-07-30T10%3A49%3A49Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T10%3A49%3A49Z&sr=b&sp=r&sig=D6XjFKdzqgU16DYcpMB%2Fo1OobFvgJHx2PzW56OA56QQ%3D",
+    "editedbg-removebg-preview": "https://docserverpwaprodeas.blob.core.windows.net/776601aa-3227-4edb-b8d2-0c80690a4763-1/resource/Assets0Images00005.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T10%3A34%3A49Z&ske=2024-07-30T10%3A49%3A49Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T10%3A49%3A49Z&sr=b&sp=r&sig=lZJrsEVObQF%2Fpbvq4nnt3lS18SZcIkwvMfFQkABgiu0%3D",
+    "file": "https://docserverpwaprodeas.blob.core.windows.net/776601aa-3227-4edb-b8d2-0c80690a4763-1/resource/Assets0Images00007.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T10%3A34%3A49Z&ske=2024-07-30T10%3A49%3A49Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T10%3A49%3A49Z&sr=b&sp=r&sig=k65SGj25bMKSu8aYwopuiDKkbsM4B5RVrQDy3rC8Dxg%3D",
+    "graphic-4-gif-Copy-unscreen": "https://docserverpwaprodeas.blob.core.windows.net/776601aa-3227-4edb-b8d2-0c80690a4763-1/resource/Assets0Images00008.gif?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T10%3A34%3A49Z&ske=2024-07-30T10%3A49%3A49Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T10%3A49%3A49Z&sr=b&sp=r&sig=TvrJfEyC3HJ3W7Fvh774NoJc%2FvjRsYEwMoKbQ1iXjiw%3D",
+    "Helpicon": "https://docserverpwaprodeas.blob.core.windows.net/776601aa-3227-4edb-b8d2-0c80690a4763-1/resource/3c8fd760-af0f-4dbb-8657-129775611dd9.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T10%3A42%3A30Z&ske=2024-07-30T10%3A57%3A30Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T10%3A57%3A30Z&sr=b&sp=r&sig=11hg2zApOtiLAfPuGxXAdYyKJU1u%2FRO6FF7kb8DjRnA%3D",
+    "InovceList": "https://docserverpwaprodeas.blob.core.windows.net/776601aa-3227-4edb-b8d2-0c80690a4763-1/resource/Assets0Images00009.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T10%3A34%3A49Z&ske=2024-07-30T10%3A49%3A49Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T10%3A49%3A49Z&sr=b&sp=r&sig=Rb46H%2Fj6P4OnMEdgU5hd9jSgHQc8z0%2FOxuUSQW9PKQY%3D",
+    "Invoice3": "https://docserverpwaprodeas.blob.core.windows.net/776601aa-3227-4edb-b8d2-0c80690a4763-1/resource/Assets0Images00011.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T10%3A34%3A49Z&ske=2024-07-30T10%3A49%3A49Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T10%3A49%3A49Z&sr=b&sp=r&sig=oeEuz7DCWpxBMMSkwUqSAVHC7GUZMrz0mFpLGmQxNEo%3D",
+    "invoice-processing": "https://docserverpwaprodeas.blob.core.windows.net/776601aa-3227-4edb-b8d2-0c80690a4763-1/resource/Assets0Images00010.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T10%3A34%3A49Z&ske=2024-07-30T10%3A49%3A49Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T10%3A49%3A49Z&sr=b&sp=r&sig=dSsJCAVwyqYlbb50Z%2FjkJ4d%2BOGkf05I6%2BcTgSNMQF9Y%3D",
+    "jane": "https://docserverpwaprodeas.blob.core.windows.net/776601aa-3227-4edb-b8d2-0c80690a4763-1/resource/Assets0Images00012.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T10%3A34%3A49Z&ske=2024-07-30T10%3A49%3A49Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T10%3A49%3A49Z&sr=b&sp=r&sig=MPUMXqG6oyQQfxN4TO2eKmfrwiAY%2BMAkRYWq5ONkZow%3D",
+    "MainIcon": "https://docserverpwaprodeas.blob.core.windows.net/776601aa-3227-4edb-b8d2-0c80690a4763-1/resource/Assets0Images00013.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T10%3A34%3A49Z&ske=2024-07-30T10%3A49%3A49Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T10%3A49%3A49Z&sr=b&sp=r&sig=YeHV8ELwN2jJ65%2FCeJbG5tZLZk9dMtU7OqUNlJHwWZI%3D",
+    "MainIcon1": "https://docserverpwaprodeas.blob.core.windows.net/776601aa-3227-4edb-b8d2-0c80690a4763-1/resource/Assets0Images00014.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T10%3A34%3A49Z&ske=2024-07-30T10%3A49%3A49Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T10%3A49%3A49Z&sr=b&sp=r&sig=AS9qEwrWU6fumZ4JjE90Zj6YzbFVm1oWE%2FovT4jUllU%3D",
+    "statement": "https://docserverpwaprodeas.blob.core.windows.net/776601aa-3227-4edb-b8d2-0c80690a4763-1/resource/Assets0Images00015.svg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T10%3A34%3A49Z&ske=2024-07-30T10%3A49%3A49Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T10%3A49%3A49Z&sr=b&sp=r&sig=6kqiQKNC4SsRimHHYB8L3wWs%2F74ST2wRGmjwW8hPmAQ%3D",
+    "TransferMoney": "https://docserverpwaprodeas.blob.core.windows.net/776601aa-3227-4edb-b8d2-0c80690a4763-1/resource/Assets0Images00016.svg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T10%3A34%3A49Z&ske=2024-07-30T10%3A49%3A49Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T10%3A49%3A49Z&sr=b&sp=r&sig=mFJAJohYN36ut%2Fwz8V0FJSXDGiVcTD4mahgVZc4PXmA%3D",
+    "UPI": "https://docserverpwaprodeas.blob.core.windows.net/776601aa-3227-4edb-b8d2-0c80690a4763-1/resource/Assets0Images00017.svg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T10%3A34%3A49Z&ske=2024-07-30T10%3A49%3A49Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T10%3A49%3A49Z&sr=b&sp=r&sig=kGP2n0%2B65UNxfXXNUUPcbqQRgxjPpYlEZoGTBExh9DQ%3D",
+    "Viewmore": "https://docserverpwaprodeas.blob.core.windows.net/776601aa-3227-4edb-b8d2-0c80690a4763-1/resource/Assets0Images00018.svg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-07-29T10%3A34%3A49Z&ske=2024-07-30T10%3A49%3A49Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-07-30T10%3A49%3A49Z&sr=b&sp=r&sig=slU71iPDsBgvFFRS4zBnr6eu%2F2M7dbYomwIxnX%2FJjHM%3D"
+  },
+  "OrderComponentMetadata": {
+    "7269bae7330041a086902a2ddaf6b026": 0,
+    "d4521f6e39724073a64c56d93e35a98f": 1
+  },
+  "OrderComponentTemplate": {
+    "7269bae7330041a086902a2ddaf6b026": 0,
+    "d4521f6e39724073a64c56d93e35a98f": 1
+  },
+  "OrderDataSource": {
+    "43b0dc67-68af-47ae-9a9c-9e69d396ba3e": 6,
+    "ComboBoxSample": 2,
+    "CustomGallerySample": 3,
+    "Invoice Data": 4,
+    "Invoice processing": 1,
+    "Invoice System Demo": 5,
+    "SavePDFtoSP": 0
+  },
+  "OrderGroupControls": {
+    "AddMediaWithImage1": {
+      "AddMediaButton1": 1,
+      "UploadedImage1": 0
+    },
+    "Group1": {
+      "DataCardKey2_16": 3,
+      "DataCardKey2_17": 4,
+      "DataCardKey2_18": 5,
+      "DescriptionInput_5": 0,
+      "TotalAmountInput_4": 2,
+      "UnitsInput_4": 1
+    }
+  },
+  "OrderPcfTemplate": {
+    "FormProcessor": 0
+  },
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "OverridablePropertiesEntry": {},
-  "PCFDynamicSchemaForIRRetrievalEntry": {},
-  "PCFTemplateEntry": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
+  "OrderXMLTemplate": {
+    "addMedia": 12,
+    "button": 2,
+    "dataGrid": 11,
+    "datepicker": 7,
+    "form": 5,
+    "gallery": 4,
+    "groupContainer": 0,
+    "icon": 8,
+    "image": 3,
+    "label": 1,
+    "pdfViewer": 9,
+    "rectangle": 10,
+    "text": 6
+  },
+  "OverridablePropertiesEntry": {
+    "AddMediaButton1": {},
+    "AddMediaWithImage1": {},
+    "Amount": {},
+    "App": {},
+    "Balance Due_DataCard1": {},
+    "Balance Due_DataCard2": {},
+    "Balance Due_DataCard2_1": {},
+    "Balance Due_DataCard3": {},
+    "Balance Due_DataCard3_1": {},
+    "Bill To_DataCard1": {},
+    "Bill To_DataCard2": {},
+    "Bill To_DataCard2_1": {},
+    "Bill To_DataCard3": {},
+    "Bill To_DataCard3_1": {},
+    "Body1": {},
+    "Button1": {},
+    "Button1_1": {},
+    "Button1_2": {},
+    "Button1_3": {},
+    "Button1_4": {},
+    "Button1_5": {},
+    "Button2": {},
+    "Button2_2": {},
+    "Button2_3": {},
+    "Button3": {},
+    "Button4": {},
+    "Button5": {},
+    "Button5_1": {},
+    "Button6": {},
+    "Button6_1": {},
+    "Button6_2": {},
+    "Component1": {},
+    "Container_Component": {},
+    "Container_Component_1": {},
+    "Container1": {},
+    "Container1_1": {},
+    "Container10": {},
+    "Container12": {},
+    "Container12_1": {},
+    "Container13": {},
+    "Container14": {},
+    "Container15": {},
+    "Container18": {},
+    "Container19": {},
+    "Container19_1": {},
+    "Container2": {},
+    "Container3": {},
+    "Container4": {},
+    "Container5": {},
+    "Container6": {},
+    "Container8_1": {},
+    "Container9": {},
+    "Container9_1": {},
+    "ContainerGIF": {},
+    "ContainerLogo": {},
+    "ContainerLogo_1": {},
+    "Customer Address_DataCard1": {},
+    "Customer Address_DataCard1_1": {},
+    "DataCard1": {},
+    "DataCard2": {},
+    "DataCard3": {},
+    "DataCard4": {},
+    "DataCard4_1": {},
+    "DataCard5": {},
+    "DataCard6": {},
+    "DataCardKey1": {},
+    "DataCardKey10": {},
+    "DataCardKey10_1": {},
+    "DataCardKey13": {},
+    "DataCardKey13_1": {},
+    "DataCardKey14": {},
+    "DataCardKey14_1": {},
+    "DataCardKey15": {},
+    "DataCardKey15_1": {},
+    "DataCardKey16": {},
+    "DataCardKey16_1": {},
+    "DataCardKey17": {},
+    "DataCardKey17_1": {},
+    "DataCardKey18": {},
+    "DataCardKey18_1": {},
+    "DataCardKey19": {},
+    "DataCardKey19_1": {},
+    "DataCardKey2": {},
+    "DataCardKey2_1": {},
+    "DataCardKey2_10": {},
+    "DataCardKey2_11": {},
+    "DataCardKey2_12": {},
+    "DataCardKey2_16": {},
+    "DataCardKey2_17": {},
+    "DataCardKey2_18": {},
+    "DataCardKey2_2": {},
+    "DataCardKey2_3": {},
+    "DataCardKey2_4": {},
+    "DataCardKey20": {},
+    "DataCardKey20_1": {},
+    "DataCardKey21": {},
+    "DataCardKey21_1": {},
+    "DataCardKey22": {},
+    "DataCardKey22_1": {},
+    "DataCardKey23": {},
+    "DataCardKey23_1": {},
+    "DataCardKey24": {},
+    "DataCardKey24_1": {},
+    "DataCardKey25": {},
+    "DataCardKey25_1": {},
+    "DataCardKey3": {},
+    "DataCardKey4": {},
+    "DataCardKey5": {},
+    "DataCardKey6": {},
+    "DataCardKey7": {},
+    "DataCardKey7_1": {},
+    "DataCardKey8": {},
+    "DataCardKey8_1": {},
+    "DataCardValue1": {},
+    "DataCardValue10": {},
+    "DataCardValue10_1": {},
+    "DataCardValue13": {},
+    "DataCardValue13_1": {},
+    "DataCardValue14": {},
+    "DataCardValue14_1": {},
+    "DataCardValue15": {},
+    "DataCardValue15_1": {},
+    "DataCardValue16": {},
+    "DataCardValue16_1": {},
+    "DataCardValue17": {},
+    "DataCardValue17_1": {},
+    "DataCardValue18": {},
+    "DataCardValue18_1": {},
+    "DataCardValue19": {},
+    "DataCardValue19_1": {},
+    "DataCardValue2": {},
+    "DataCardValue20": {},
+    "DataCardValue20_1": {},
+    "DataCardValue21": {},
+    "DataCardValue21_1": {},
+    "DataCardValue22": {},
+    "DataCardValue22_1": {},
+    "DataCardValue23": {},
+    "DataCardValue23_1": {},
+    "DataCardValue24": {},
+    "DataCardValue24_1": {},
+    "DataCardValue25": {},
+    "DataCardValue25_1": {},
+    "DataCardValue3": {},
+    "DataCardValue4": {},
+    "DataCardValue5": {},
+    "DataCardValue6": {},
+    "DataCardValue7": {},
+    "DataCardValue7_1": {},
+    "DataCardValue8": {},
+    "DataCardValue8_1": {},
+    "DataTable1": {},
+    "Date_DataCard1": {},
+    "Date_DataCard3": {},
+    "Date_DataCard3_1": {},
+    "Description": {},
+    "DescriptionInput": {},
+    "DescriptionInput_3": {},
+    "DescriptionInput_5": {},
+    "Due Date_DataCard1": {},
+    "Due Date_DataCard1_1": {},
+    "ErrorMessage1": {},
+    "ErrorMessage10": {},
+    "ErrorMessage10_1": {},
+    "ErrorMessage11": {},
+    "ErrorMessage11_1": {},
+    "ErrorMessage12": {},
+    "ErrorMessage12_1": {},
+    "ErrorMessage13": {},
+    "ErrorMessage13_1": {},
+    "ErrorMessage14": {},
+    "ErrorMessage14_1": {},
+    "ErrorMessage15": {},
+    "ErrorMessage15_1": {},
+    "ErrorMessage17": {},
+    "ErrorMessage17_1": {},
+    "ErrorMessage2": {},
+    "ErrorMessage20": {},
+    "ErrorMessage20_1": {},
+    "ErrorMessage21": {},
+    "ErrorMessage21_1": {},
+    "ErrorMessage22": {},
+    "ErrorMessage22_1": {},
+    "ErrorMessage23": {},
+    "ErrorMessage23_1": {},
+    "ErrorMessage24": {},
+    "ErrorMessage24_1": {},
+    "ErrorMessage25": {},
+    "ErrorMessage25_1": {},
+    "ErrorMessage3": {},
+    "ErrorMessage4": {},
+    "ErrorMessage5": {},
+    "ErrorMessage6": {},
+    "ErrorMessage7": {},
+    "ErrorMessage7_1": {},
+    "ErrorMessage8": {},
+    "ErrorMessage8_1": {},
+    "ErrorMessage9": {},
+    "ErrorMessage9_1": {},
+    "Form": {},
+    "Form Processor": {},
+    "Form1": {},
+    "Form1_1": {},
+    "Form1_2": {},
+    "Form2": {},
+    "Form2_1": {},
+    "FormProcessor1": {
+      "CheckboxesAndSignatures": {
+        "Type": {
+          "EnumString": "",
+          "Kind": "Record",
+          "Name": "Root",
+          "Type": []
+        },
+        "Version": "1.343"
+      },
+      "Fields": {
+        "Type": {
+          "EnumString": "",
+          "Kind": "Record",
+          "Name": "Root",
+          "Type": [
+            {
+              "EnumString": "",
+              "Kind": "Number",
+              "Name": "BalanceDue",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Billing_Address",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Customer_address",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "DueDate",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "DateTime",
+              "Name": "Invoice_Date",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Invoice_id",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Shipping",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "Number",
+              "Name": "Subtotal",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "Number",
+              "Name": "Tax",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "Number",
+              "Name": "Total",
+              "Type": []
+            }
+          ]
+        },
+        "Version": "1.343"
+      },
+      "Results": {
+        "Type": {
+          "EnumString": "",
+          "Kind": "Record",
+          "Name": "Root",
+          "Type": [
+            {
+              "EnumString": "",
+              "Kind": "Record",
+              "Name": "BalanceDue",
+              "Type": [
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "BoundingBox",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Height",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Left",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Top",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Width",
+                      "Type": []
+                    }
+                  ]
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "Confidence",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "PageNumber",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "Value",
+                  "Type": []
+                }
+              ]
+            },
+            {
+              "EnumString": "",
+              "Kind": "Record",
+              "Name": "Billing_Address",
+              "Type": [
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "BoundingBox",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Height",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Left",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Top",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Width",
+                      "Type": []
+                    }
+                  ]
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "Confidence",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "PageNumber",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "String",
+                  "Name": "Value",
+                  "Type": []
+                }
+              ]
+            },
+            {
+              "EnumString": "",
+              "Kind": "Record",
+              "Name": "Customer_address",
+              "Type": [
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "BoundingBox",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Height",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Left",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Top",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Width",
+                      "Type": []
+                    }
+                  ]
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "Confidence",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "PageNumber",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "String",
+                  "Name": "Value",
+                  "Type": []
+                }
+              ]
+            },
+            {
+              "EnumString": "",
+              "Kind": "Record",
+              "Name": "DueDate",
+              "Type": [
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "BoundingBox",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Height",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Left",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Top",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Width",
+                      "Type": []
+                    }
+                  ]
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "Confidence",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "PageNumber",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "String",
+                  "Name": "Value",
+                  "Type": []
+                }
+              ]
+            },
+            {
+              "EnumString": "",
+              "Kind": "Record",
+              "Name": "Invoice_Date",
+              "Type": [
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "BoundingBox",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Height",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Left",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Top",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Width",
+                      "Type": []
+                    }
+                  ]
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "Confidence",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "PageNumber",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "String",
+                  "Name": "Value",
+                  "Type": []
+                }
+              ]
+            },
+            {
+              "EnumString": "",
+              "Kind": "Record",
+              "Name": "Invoice_id",
+              "Type": [
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "BoundingBox",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Height",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Left",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Top",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Width",
+                      "Type": []
+                    }
+                  ]
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "Confidence",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "PageNumber",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "String",
+                  "Name": "Value",
+                  "Type": []
+                }
+              ]
+            },
+            {
+              "EnumString": "",
+              "Kind": "Record",
+              "Name": "Shipping",
+              "Type": [
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "BoundingBox",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Height",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Left",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Top",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Width",
+                      "Type": []
+                    }
+                  ]
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "Confidence",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "PageNumber",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "String",
+                  "Name": "Value",
+                  "Type": []
+                }
+              ]
+            },
+            {
+              "EnumString": "",
+              "Kind": "Record",
+              "Name": "Subtotal",
+              "Type": [
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "BoundingBox",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Height",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Left",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Top",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Width",
+                      "Type": []
+                    }
+                  ]
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "Confidence",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "PageNumber",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "Value",
+                  "Type": []
+                }
+              ]
+            },
+            {
+              "EnumString": "",
+              "Kind": "Record",
+              "Name": "Tax",
+              "Type": [
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "BoundingBox",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Height",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Left",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Top",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Width",
+                      "Type": []
+                    }
+                  ]
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "Confidence",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "PageNumber",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "Value",
+                  "Type": []
+                }
+              ]
+            },
+            {
+              "EnumString": "",
+              "Kind": "Record",
+              "Name": "Total",
+              "Type": [
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "BoundingBox",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Height",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Left",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Top",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Width",
+                      "Type": []
+                    }
+                  ]
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "Confidence",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "PageNumber",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "Value",
+                  "Type": []
+                }
+              ]
+            }
+          ]
+        },
+        "Version": "1.343"
+      },
+      "Tables": {
+        "Type": {
+          "EnumString": "",
+          "Kind": "Record",
+          "Name": "Root",
+          "Type": []
+        },
+        "Version": "1.343"
+      }
+    },
+    "Gallery1": {},
+    "Gallery2": {},
+    "Gallery3": {},
+    "Gallery4": {},
+    "galleryTemplate1": {},
+    "galleryTemplate2": {},
+    "galleryTemplate3": {},
+    "galleryTemplate4": {},
+    "Group1": {},
+    "GST_DataCard1": {},
+    "GST_DataCard2": {},
+    "GST_DataCard2_1": {},
+    "GST_DataCard3": {},
+    "GST_DataCard3_1": {},
+    "Heading": {},
+    "Host": {},
+    "Icon1": {},
+    "Icon1_1": {},
+    "Icon2": {},
+    "Icon3": {},
+    "Icon3_1": {},
+    "Image1": {},
+    "Image1_1": {},
+    "Image1_2": {},
+    "Image10": {},
+    "Image2": {},
+    "Image4": {},
+    "Image4_1": {},
+    "Image5": {},
+    "Image6": {},
+    "Invoice Date_DataCard1": {},
+    "Invoice Date_DataCard1_1": {},
+    "InvoiceCapture": {},
+    "InvoiceList": {},
+    "Label1": {},
+    "Label1_1": {},
+    "Label1_2": {},
+    "Label10": {},
+    "Label11": {},
+    "Label15": {},
+    "Label2": {},
+    "Label3": {},
+    "Label4": {},
+    "Label4_1": {},
+    "Label5": {},
+    "Label5_1": {},
+    "Label6": {},
+    "Label7": {},
+    "Label8": {},
+    "Label9": {},
+    "LblAppName1": {},
+    "Logo": {},
+    "NextArrow2": {},
+    "PdfViewer2": {},
+    "PdfViewer2_1": {},
+    "PdfViewer2_2": {},
+    "Rectangle2": {},
+    "RectQuickActionBar1": {},
+    "Sale Amount_DataCard1": {},
+    "Sale Amount_DataCard3": {},
+    "Sale Amount_DataCard3_1": {},
+    "Screen1": {},
+    "Screen1_1": {},
+    "Screen1_2": {},
+    "Screen2": {},
+    "Separator2": {},
+    "Shipping Cost_DataCard1": {},
+    "Shipping Cost_DataCard1_1": {},
+    "SideNavigation_Compact": {},
+    "SideNavigation_Compact_1": {},
+    "SideNavigation_Compact_2": {},
+    "StarVisible1": {},
+    "StarVisible10": {},
+    "StarVisible10_1": {},
+    "StarVisible11": {},
+    "StarVisible11_1": {},
+    "StarVisible12": {},
+    "StarVisible12_1": {},
+    "StarVisible13": {},
+    "StarVisible13_1": {},
+    "StarVisible14": {},
+    "StarVisible14_1": {},
+    "StarVisible15": {},
+    "StarVisible15_1": {},
+    "StarVisible17": {},
+    "StarVisible17_1": {},
+    "StarVisible2": {},
+    "StarVisible20": {},
+    "StarVisible20_1": {},
+    "StarVisible21": {},
+    "StarVisible21_1": {},
+    "StarVisible22": {},
+    "StarVisible22_1": {},
+    "StarVisible23": {},
+    "StarVisible23_1": {},
+    "StarVisible24": {},
+    "StarVisible24_1": {},
+    "StarVisible25": {},
+    "StarVisible25_1": {},
+    "StarVisible3": {},
+    "StarVisible4": {},
+    "StarVisible5": {},
+    "StarVisible6": {},
+    "StarVisible7": {},
+    "StarVisible7_1": {},
+    "StarVisible8": {},
+    "StarVisible8_1": {},
+    "StarVisible9": {},
+    "StarVisible9_1": {},
+    "Subtitle1": {},
+    "Title_DataCard1": {},
+    "Title_DataCard2": {},
+    "Title_DataCard2_1": {},
+    "Title_DataCard3": {},
+    "Title_DataCard3_1": {},
+    "Title2": {},
+    "Total Amount_DataCard1": {},
+    "Total Amount_DataCard1_1": {},
+    "TotalAmountInput": {},
+    "TotalAmountInput_2": {},
+    "TotalAmountInput_4": {},
+    "Units": {},
+    "UnitsInput": {},
+    "UnitsInput_2": {},
+    "UnitsInput_4": {},
+    "UploadedImage1": {},
+    "Vendor Details_DataCard2": {},
+    "Vendor Details_DataCard2_1": {},
+    "Welcome Screen": {},
+    "Welcome Screen_1": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {
+    "FormProcessor1": {
+      "CheckboxesAndSignatures": {
+        "DynamicSchema": "{\"$schema\":\"http://json-schema.org/draft-04/schema#\",\"type\":\"object\",\"properties\":{}}",
+        "PCFSkipValidation": false
+      },
+      "Fields": {
+        "DynamicSchema": "{\"$schema\":\"http://json-schema.org/draft-04/schema#\",\"type\":\"object\",\"properties\":{\"Tax\":{\"type\":\"number\",\"title\":\"value\"},\"Shipping\":{\"type\":\"string\",\"title\":\"value\"},\"Billing_Address\":{\"type\":\"string\",\"title\":\"value\"},\"Customer_address\":{\"type\":\"string\",\"title\":\"value\"},\"Total\":{\"type\":\"number\",\"title\":\"value\"},\"Invoice_id\":{\"type\":\"string\",\"title\":\"value\"},\"DueDate\":{\"type\":\"string\",\"title\":\"value\"},\"Invoice_Date\":{\"type\":\"string\",\"format\":\"date-time\",\"title\":\"value\"},\"BalanceDue\":{\"type\":\"number\",\"title\":\"value\"},\"Subtotal\":{\"type\":\"number\",\"title\":\"value\"}}}",
+        "PCFSkipValidation": false
+      },
+      "Results": {
+        "DynamicSchema": "{\"$schema\":\"http://json-schema.org/draft-04/schema#\",\"type\":\"object\",\"properties\":{\"Tax\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"number\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Shipping\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Billing_Address\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Customer_address\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Total\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"number\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Invoice_id\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"DueDate\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Invoice_Date\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"BalanceDue\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"number\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Subtotal\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"number\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}}}}",
+        "PCFSkipValidation": false
+      },
+      "Tables": {
+        "DynamicSchema": "{\"$schema\":\"http://json-schema.org/draft-04/schema#\",\"type\":\"object\",\"properties\":{}}",
+        "PCFSkipValidation": false
+      }
+    }
+  },
+  "PCFTemplateEntry": {
+    "FormProcessor1": {
+      "CustomGroupControlTemplateName": "",
+      "DynamicControlDefinitionJson": "{\"ControlNamespace\":\"Intelligence.FormProcessorControl\",\"ControlConstructor\":\"FormProcessor\",\"DisplayNameKey\":\"FormProcessor\",\"Resources\":\"[{\\\"Type\\\":0,\\\"Path\\\":\\\"/PCF/prop-types.js\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":1,\\\"IsControlSpecific\\\":false},{\\\"Type\\\":0,\\\"Path\\\":\\\"/PCF/react-fela.js\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":2,\\\"IsControlSpecific\\\":false},{\\\"Type\\\":0,\\\"Path\\\":\\\"/PCF/fela.js\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":3,\\\"IsControlSpecific\\\":false},{\\\"Type\\\":0,\\\"Path\\\":\\\"/PCF/fela-dom.js\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":4,\\\"IsControlSpecific\\\":false},{\\\"Type\\\":0,\\\"Path\\\":\\\"/ctrllib/common/js/container.js\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":5,\\\"IsControlSpecific\\\":false},{\\\"Type\\\":0,\\\"Path\\\":\\\"/ctrllib/PCFControls/js/PCFControlWrapper.js\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":6,\\\"IsControlSpecific\\\":false},{\\\"Type\\\":0,\\\"Path\\\":\\\"/ctrllib/PcfControlProxy/js/PcfControlProxy.js\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":7,\\\"IsControlSpecific\\\":false},{\\\"Type\\\":3,\\\"Path\\\":\\\"{\\\\\\\"Id\\\\\\\":\\\\\\\"ManifestTemplate\\\\\\\",\\\\\\\"Data\\\\\\\":{\\\\\\\"ConstructorName\\\\\\\":\\\\\\\"Intelligence.FormProcessorControl.FormProcessor\\\\\\\",\\\\\\\"CustomControlId\\\\\\\":\\\\\\\"Intelligence.FormProcessorControl.FormProcessor\\\\\\\",\\\\\\\"IsVirtual\\\\\\\":true,\\\\\\\"Properties\\\\\\\":{\\\\\\\"Resources\\\\\\\":[{\\\\\\\"Name\\\\\\\":\\\\\\\"/PCF/prop-types.js\\\\\\\",\\\\\\\"LoadOrder\\\\\\\":1,\\\\\\\"Type\\\\\\\":0,\\\\\\\"LibraryName\\\\\\\":null},{\\\\\\\"Name\\\\\\\":\\\\\\\"/PCF/react-fela.js\\\\\\\",\\\\\\\"LoadOrder\\\\\\\":2,\\\\\\\"Type\\\\\\\":0,\\\\\\\"LibraryName\\\\\\\":null},{\\\\\\\"Name\\\\\\\":\\\\\\\"/PCF/fela.js\\\\\\\",\\\\\\\"LoadOrder\\\\\\\":3,\\\\\\\"Type\\\\\\\":0,\\\\\\\"LibraryName\\\\\\\":null},{\\\\\\\"Name\\\\\\\":\\\\\\\"/PCF/fela-dom.js\\\\\\\",\\\\\\\"LoadOrder\\\\\\\":4,\\\\\\\"Type\\\\\\\":0,\\\\\\\"LibraryName\\\\\\\":null},{\\\\\\\"Name\\\\\\\":\\\\\\\"/ctrllib/common/js/container.js\\\\\\\",\\\\\\\"LoadOrder\\\\\\\":5,\\\\\\\"Type\\\\\\\":0,\\\\\\\"LibraryName\\\\\\\":null},{\\\\\\\"Name\\\\\\\":\\\\\\\"/ctrllib/PCFControls/js/PCFControlWrapper.js\\\\\\\",\\\\\\\"LoadOrder\\\\\\\":6,\\\\\\\"Type\\\\\\\":0,\\\\\\\"LibraryName\\\\\\\":null},{\\\\\\\"Name\\\\\\\":\\\\\\\"/ctrllib/PcfControlProxy/js/PcfControlProxy.js\\\\\\\",\\\\\\\"LoadOrder\\\\\\\":7,\\\\\\\"Type\\\\\\\":0,\\\\\\\"LibraryName\\\\\\\":null}],\\\\\\\"GroupDefinitions\\\\\\\":null,\\\\\\\"DataSetDefinitions\\\\\\\":{},\\\\\\\"Properties\\\\\\\":{\\\\\\\"Text\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"Analyze\\\\\\\"},\\\\\\\"OriginalImage\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":2,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"\\\\\\\"},\\\\\\\"DefaultImage\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"\\\\\\\"},\\\\\\\"ImageDisplayed\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"true\\\\\\\"},\\\\\\\"ShowControls\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"true\\\\\\\"},\\\\\\\"ShowConfidence\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"true\\\\\\\"},\\\\\\\"Tooltip\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"\\\\\\\"},\\\\\\\"ModelId\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"\\\\\\\"},\\\\\\\"Fields\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":2,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"\\\\\\\"},\\\\\\\"CheckboxesAndSignatures\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":2,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"\\\\\\\"},\\\\\\\"Tables\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":2,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"\\\\\\\"},\\\\\\\"Results\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":2,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"\\\\\\\"},\\\\\\\"Width\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"350\\\\\\\"},\\\\\\\"Height\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"500\\\\\\\"},\\\\\\\"ShowBoundingBoxes\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"true\\\\\\\"},\\\\\\\"BorderColor\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"#D2D0CE\\\\\\\"},\\\\\\\"BorderStyle\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"solid\\\\\\\"},\\\\\\\"BorderThickness\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"1\\\\\\\"},\\\\\\\"FontColor\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"#FFF\\\\\\\"},\\\\\\\"FillColor\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"#3D5FAE\\\\\\\"},\\\\\\\"DisabledBorderColor\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"#A6A6A6\\\\\\\"},\\\\\\\"DisabledColor\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"#A6A6A6\\\\\\\"},\\\\\\\"DisabledFill\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"#F4F4F4\\\\\\\"},\\\\\\\"ButtonHeight\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"40\\\\\\\"},\\\\\\\"ShouldReset\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":0,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"true\\\\\\\"},\\\\\\\"CommandBarIconSize\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"16\\\\\\\"},\\\\\\\"CommandBarFontSize\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"14\\\\\\\"},\\\\\\\"FormContent\\\\\\\":{\\\\\\\"Required\\\\\\\":true,\\\\\\\"Usage\\\\\\\":1,\\\\\\\"DefaultValue\\\\\\\":\\\\\\\"\\\\\\\"}},\\\\\\\"FeatureUsage\\\\\\\":null},\\\\\\\"Events\\\\\\\":null,\\\\\\\"CommonEvents\\\\\\\":null,\\\\\\\"DesignMap\\\\\\\":null,\\\\\\\"PropertyDependencies\\\\\\\":[{\\\\\\\"Input\\\\\\\":\\\\\\\"ModelId\\\\\\\",\\\\\\\"Output\\\\\\\":\\\\\\\"Fields\\\\\\\",\\\\\\\"RequiredFor\\\\\\\":\\\\\\\"schema\\\\\\\"},{\\\\\\\"Input\\\\\\\":\\\\\\\"ModelId\\\\\\\",\\\\\\\"Output\\\\\\\":\\\\\\\"CheckboxesAndSignatures\\\\\\\",\\\\\\\"RequiredFor\\\\\\\":\\\\\\\"schema\\\\\\\"},{\\\\\\\"Input\\\\\\\":\\\\\\\"ModelId\\\\\\\",\\\\\\\"Output\\\\\\\":\\\\\\\"Tables\\\\\\\",\\\\\\\"RequiredFor\\\\\\\":\\\\\\\"schema\\\\\\\"},{\\\\\\\"Input\\\\\\\":\\\\\\\"ModelId\\\\\\\",\\\\\\\"Output\\\\\\\":\\\\\\\"Results\\\\\\\",\\\\\\\"RequiredFor\\\\\\\":\\\\\\\"schema\\\\\\\"}],\\\\\\\"Children\\\\\\\":null}}\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":8,\\\"IsControlSpecific\\\":false},{\\\"Type\\\":3,\\\"Path\\\":\\\"{\\\\\\\"Id\\\\\\\":\\\\\\\"ManifestPropertyTypes\\\\\\\",\\\\\\\"Data\\\\\\\":{\\\\\\\"Properties\\\\\\\":[{\\\\\\\"Name\\\\\\\":\\\\\\\"Text\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"SingleLine_Text\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"None\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"OriginalImage\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"Multiple\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"DefaultImage\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"Multiple\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"ImageDisplayed\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"Boolean\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"None\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"ShowControls\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"TwoOptions\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"None\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"ShowConfidence\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"Boolean\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"None\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"Tooltip\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"SingleLine_Text\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"ModelId\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"SingleLine_Text\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"None\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"Fields\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"Object\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"CheckboxesAndSignatures\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"Object\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"Tables\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"Object\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"Results\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"Object\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"Width\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"Number\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"None\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"Height\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"Number\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"None\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"ShowBoundingBoxes\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"Boolean\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"None\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"BorderColor\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"SingleLine_Text\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"Color\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"BorderStyle\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"SingleLine_Text\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"BorderStyle\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"BorderThickness\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"Whole_None\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"None\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"FontColor\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"SingleLine_Text\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"FontColor\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"FillColor\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"SingleLine_Text\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"FillColor\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"DisabledBorderColor\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"SingleLine_Text\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"Color\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"DisabledColor\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"SingleLine_Text\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"FontColor\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"DisabledFill\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"SingleLine_Text\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"FillColor\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"ButtonHeight\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"Number\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"ShouldReset\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"TwoOptions\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"CommandBarIconSize\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"Number\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"CommandBarFontSize\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"Number\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"FormContent\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"Object\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":false},{\\\\\\\"Name\\\\\\\":\\\\\\\"PCFTeamsTheme\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"String\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":true},{\\\\\\\"Name\\\\\\\":\\\\\\\"X\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"Number\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":true},{\\\\\\\"Name\\\\\\\":\\\\\\\"Y\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"Number\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":true},{\\\\\\\"Name\\\\\\\":\\\\\\\"Visible\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"Boolean\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":true},{\\\\\\\"Name\\\\\\\":\\\\\\\"DisplayMode\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"DisplayMode\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":true},{\\\\\\\"Name\\\\\\\":\\\\\\\"TabIndex\\\\\\\",\\\\\\\"Type\\\\\\\":\\\\\\\"Number\\\\\\\",\\\\\\\"ComplexType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"IsPrimary\\\\\\\":false,\\\\\\\"IsIncluded\\\\\\\":true}]}}\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":9,\\\"IsControlSpecific\\\":false},{\\\"Type\\\":3,\\\"Path\\\":\\\"{\\\\\\\"Id\\\\\\\":\\\\\\\"PowerAppsControlInfo\\\\\\\",\\\\\\\"Data\\\\\\\":{\\\\\\\"TemplateVersion\\\\\\\":1,\\\\\\\"Version\\\\\\\":\\\\\\\"1.0.109\\\\\\\",\\\\\\\"IsFirstParty\\\\\\\":true}}\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":10,\\\"IsControlSpecific\\\":false},{\\\"Type\\\":0,\\\"Path\\\":\\\"/PCFControls/FormProcessor/FormProcessor.js\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":16,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":0,\\\"Path\\\":\\\"/PCFControls/FormProcessor/libs/exif.js\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":12,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":0,\\\"Path\\\":\\\"/PCFControls/FormProcessor/libs/PDF/pdf.worker.js\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":13,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":0,\\\"Path\\\":\\\"/PCFControls/FormProcessor/libs/PDF/pdf.js\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":14,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":0,\\\"Path\\\":\\\"/PCFControls/FormProcessor/libs/PDF/react-pdf.js\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":15,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":2,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1033.resx\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":10,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1025.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1026.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1027.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1028.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1029.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1030.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1031.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1032.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1033.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1035.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1036.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1037.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1038.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1040.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1041.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1042.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1043.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1044.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1045.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1046.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1048.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1049.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1050.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1051.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1053.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1054.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1055.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1057.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1058.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1060.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1061.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1062.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1063.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1066.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1069.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1081.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1086.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1087.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.1110.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.2052.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.2070.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.2074.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.3076.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.3082.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":5,\\\"Path\\\":\\\"/PCFControls/FormProcessor/strings/FormProcessorControl.3098.json\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":true},{\\\"Type\\\":3,\\\"Path\\\":\\\"{\\\\\\\"Id\\\\\\\":\\\\\\\"LocalizedStrings\\\\\\\",\\\\\\\"Data\\\\\\\":{\\\\\\\"LocStrings\\\\\\\":{\\\\\\\"ControlName\\\\\\\":\\\\\\\"Form processor\\\\\\\",\\\\\\\"UnboundToProject\\\\\\\":\\\\\\\"This form processor isn’t connected to any AI model yet.\\\\\\\",\\\\\\\"Default_Button_Text\\\\\\\":\\\\\\\"Analyze\\\\\\\",\\\\\\\"First_Scan_Image_Accessibility_Label\\\\\\\":\\\\\\\"No image has been selected yet.\\\\\\\",\\\\\\\"Loading_Accessibility_Label\\\\\\\":\\\\\\\"Processing image.\\\\\\\",\\\\\\\"Loading_Tooltip_Label\\\\\\\":\\\\\\\"Processing image\\\\\\\",\\\\\\\"Button_Accessibility_Label\\\\\\\":\\\\\\\"Choose an image for Form Processor.\\\\\\\",\\\\\\\"Button_Tooltip_Label\\\\\\\":\\\\\\\"Choose image\\\\\\\",\\\\\\\"NoFieldsDetected_Tooltip_Label\\\\\\\":\\\\\\\"Analysis performed, no fields detected. Click or tap to analyze another form\\\\\\\",\\\\\\\"Disabled_NoFieldsDetected_Tooltip_Label\\\\\\\":\\\\\\\"Analysis performed, no fields detected.\\\\\\\",\\\\\\\"ResultsDetected_Tooltip_Label\\\\\\\":\\\\\\\"Analysis performed, {0} detected. \\\\\\\",\\\\\\\"FieldDetected_Tooltip_Label\\\\\\\":\\\\\\\"1 field\\\\\\\",\\\\\\\"FieldsDetected_Tooltip_Label\\\\\\\":\\\\\\\"{0} fields\\\\\\\",\\\\\\\"CheckboxOrSignatureDetected_Tooltip_Label\\\\\\\":\\\\\\\"1 checkbox or signature\\\\\\\",\\\\\\\"CheckboxesAndSignaturesDetected_Tooltip_Label\\\\\\\":\\\\\\\"{0} checkboxes and signatures\\\\\\\",\\\\\\\"TableDetected_Tooltip_Label\\\\\\\":\\\\\\\"1 table\\\\\\\",\\\\\\\"TablesDetected_Tooltip_Label\\\\\\\":\\\\\\\"{0} tables\\\\\\\",\\\\\\\"DetectedField_Tooltip_Label\\\\\\\":\\\\\\\"Field {0}\\\\\\\",\\\\\\\"DetectedCheckboxOrSignature_Tooltip_Label\\\\\\\":\\\\\\\"Checkbox or signature {0}\\\\\\\",\\\\\\\"DetectedTable_Tooltip_Label\\\\\\\":\\\\\\\"Table {0}\\\\\\\",\\\\\\\"DetectedTableNoRowsDetected_Accessibility_Label\\\\\\\":\\\\\\\"Table {0}, no rows detected. \\\\\\\",\\\\\\\"DetectedTableManyRowsDetected_Accessibility_Label\\\\\\\":\\\\\\\"Table {0}, {1} rows detected. \\\\\\\",\\\\\\\"DetectedTableOneRowDetected_Accessibility_Label\\\\\\\":\\\\\\\"Table {0}, 1 row detected. \\\\\\\",\\\\\\\"DetectedField_Accessibility_Label\\\\\\\":\\\\\\\"Field {0}, value {1}.\\\\\\\",\\\\\\\"DetectedFieldNoValue_Accessibility_Label\\\\\\\":\\\\\\\"No value detected for field {0}.\\\\\\\",\\\\\\\"DetectedCheckboxOrSignature_Accessibility_Label\\\\\\\":\\\\\\\"Checkbox or signature {0}, value {1}.\\\\\\\",\\\\\\\"DetectedCheckboxOrSignatureNoValue_Accessibility_Label\\\\\\\":\\\\\\\"No value detected for checkbox or signature {0}.\\\\\\\",\\\\\\\"DetectedTableField_Accessibility_Label\\\\\\\":\\\\\\\"Row {0}, column {1}, value {2}.\\\\\\\",\\\\\\\"DetectedTableNoFieldValue_Accessibility_Label\\\\\\\":\\\\\\\"Row {0}, no value was detected for column {1}.\\\\\\\",\\\\\\\"Accessibility_BoundingBox_Selected\\\\\\\":\\\\\\\"{0}, selected line\\\\\\\",\\\\\\\"Accessibility_BoundingBox_Not_Selected\\\\\\\":\\\\\\\"{0}, line not selected\\\\\\\",\\\\\\\"Accessibility_BoundingBox_Not_Selectable\\\\\\\":\\\\\\\"{0}\\\\\\\",\\\\\\\"Text_Property_Name\\\\\\\":\\\\\\\"Text\\\\\\\",\\\\\\\"Text_Property_Description\\\\\\\":\\\\\\\"Text to display.\\\\\\\",\\\\\\\"Tooltip_Property_Name\\\\\\\":\\\\\\\"Tooltip\\\\\\\",\\\\\\\"Tooltip_Property_Description\\\\\\\":\\\\\\\"Text to display while hovering on a visual.\\\\\\\",\\\\\\\"ModelId_Property_Name\\\\\\\":\\\\\\\"Model Id\\\\\\\",\\\\\\\"ModelId_Property_Description\\\\\\\":\\\\\\\"ID of the Model\\\\\\\",\\\\\\\"AIModel_Property_Name\\\\\\\":\\\\\\\"AI model\\\\\\\",\\\\\\\"AIModels_Property_Name\\\\\\\":\\\\\\\"AI models\\\\\\\",\\\\\\\"Fields_Property_Name\\\\\\\":\\\\\\\"Fields\\\\\\\",\\\\\\\"Fields_Property_Description\\\\\\\":\\\\\\\"Property containing the fields extracted after a form parsing.\\\\\\\",\\\\\\\"CheckboxesAndSignatures_Property_Name\\\\\\\":\\\\\\\"Checkboxes and signatures\\\\\\\",\\\\\\\"CheckboxesAndSignatures_Property_Description\\\\\\\":\\\\\\\"Property containing the checkboxes and signatures extracted after a form parsing.\\\\\\\",\\\\\\\"Tables_Property_Name\\\\\\\":\\\\\\\"Tables\\\\\\\",\\\\\\\"Tables_Property_Description\\\\\\\":\\\\\\\"Property containing the tables extracted after a form parsing.\\\\\\\",\\\\\\\"Results_Property_Name\\\\\\\":\\\\\\\"Results\\\\\\\",\\\\\\\"Results_Property_Description\\\\\\\":\\\\\\\"Property containing fields and tables of content extracted after an image scan.\\\\\\\",\\\\\\\"DefaultImage_Property_Name\\\\\\\":\\\\\\\"Default image\\\\\\\",\\\\\\\"DefaultImage_Property_Description\\\\\\\":\\\\\\\"Image that appears by default\\\\\\\",\\\\\\\"ImageDisplayed_Property_Name\\\\\\\":\\\\\\\"Show image\\\\\\\",\\\\\\\"ImageDisplayed_Property_Description\\\\\\\":\\\\\\\"Show or hide image\\\\\\\",\\\\\\\"ShowControls_Property_Name\\\\\\\":\\\\\\\"Show controls\\\\\\\",\\\\\\\"ShowControls_Property_Description\\\\\\\":\\\\\\\"Show or hide controls for interacting with the visual\\\\\\\",\\\\\\\"Error_Offline\\\\\\\":\\\\\\\"It looks like you're offline. Check your Internet connection and try again.\\\\\\\",\\\\\\\"Error_ServerError\\\\\\\":\\\\\\\"Something happened, and we couldn't process this image. Try again later.\\\\\\\",\\\\\\\"Error_WrongFormat\\\\\\\":\\\\\\\"We can't use this image type. Try again with a JPEG, PNG or BMP.\\\\\\\",\\\\\\\"Error_WrongDocumentFormat\\\\\\\":\\\\\\\"Document type not supported, please use JPEG, PNG, BMP or PDF file.\\\\\\\",\\\\\\\"Error_EmptyFile\\\\\\\":\\\\\\\"It looks like the image is empty. Try another.\\\\\\\",\\\\\\\"Error_WrongFileRequirements\\\\\\\":\\\\\\\"Something about your file (like its size or security setting) is preventing us from using it. Check the file requirements in AI Builder documentation and make any changes, and try again.\\\\\\\",\\\\\\\"Error_AIBuilder_Setup\\\\\\\":\\\\\\\"It looks like AI Builder wasn’t set up correctly. Ask your admin to investigate.\\\\\\\",\\\\\\\"Error_AIBuilder_Disabled\\\\\\\":\\\\\\\"It looks like AI Builder isn't turned on in this environment. Ask your admin to turn it on.\\\\\\\",\\\\\\\"Error_AIBuilder_NotLoaded\\\\\\\":\\\\\\\"It looks like you don’t have access to this model. Ask the owner to share it with you.\\\\\\\",\\\\\\\"Error_No_Security_Role\\\\\\\":\\\\\\\"It looks like you don't have access to this environment. Contact your admin to get the access you need.\\\\\\\",\\\\\\\"Error_Missing_Privilege\\\\\\\":\\\\\\\"It looks like you don't have access to AI Builder in this environment. Contact your admin to get the access you need.\\\\\\\",\\\\\\\"Error_Model_Not_Found\\\\\\\":\\\\\\\"It looks like this model is not available in this environment.\\\\\\\",\\\\\\\"Error_ModelInvalid\\\\\\\":\\\\\\\"It looks like there's a compatibility problem with your model. To fix it, update and republish your model.\\\\\\\",\\\\\\\"Error_AIBuilder_PreviewScenarioNotAvailable\\\\\\\":\\\\\\\"Your admin has turned off access to preview models. Ask your admin to turn it on.\\\\\\\",\\\\\\\"Error_AIBuilder_NoTrialCapacity\\\\\\\":\\\\\\\"It looks like you don't have enough capacity to use AI Builder right now. Contact your admin to upgrade.\\\\\\\",\\\\\\\"Error_AIBuilder_NoLicence\\\\\\\":\\\\\\\"You need an AI Builder licence to use this component. Start or extend a trial, or contact your admin to upgrade.\\\\\\\",\\\\\\\"Error_AIBuilder_WrongDocumentSize\\\\\\\":\\\\\\\"This document is the wrong size. Try again with a document between 50 x 50 and 10000 x 10000 pixels.\\\\\\\",\\\\\\\"Error_AIBuilder_Generic\\\\\\\":\\\\\\\"Something happened. Try again later.\\\\\\\",\\\\\\\"Error_DestroyWhileLoading\\\\\\\":\\\\\\\"Sorry, the image uploading was interrupted, please retry and don’t navigate away before we finish uploading.\\\\\\\",\\\\\\\"Error_NotConfigured\\\\\\\":\\\\\\\"There is no CDS datasource in this environment.\\\\\\\",\\\\\\\"Error_InvalidProvisioningImportingStatus\\\\\\\":\\\\\\\"Your model is still being imported. Wait a few minutes and try again.\\\\\\\",\\\\\\\"Error_InvalidProvisioningErrorStatus\\\\\\\":\\\\\\\"Something happened and this model can't be used. It needs to be reimported.\\\\\\\",\\\\\\\"Error_UnsupportedModelVersion\\\\\\\":\\\\\\\"This model is using preview features that are no longer supported. Please create a new model.\\\\\\\",\\\\\\\"Error_NoCameraPermission\\\\\\\":\\\\\\\"It looks like we couldn't access your camera. Check the app permission for the camera and try again.\\\\\\\",\\\\\\\"Error_FileSizeAboveOrgMaxSize\\\\\\\":\\\\\\\"The captured file size is above the maximum file size defined for your organization. Change your camera setting or contact your admin to increase the file size allowed.\\\\\\\",\\\\\\\"BorderColor_Property_Name\\\\\\\":\\\\\\\"Border color\\\\\\\",\\\\\\\"BorderColor_Property_Description\\\\\\\":\\\\\\\"Color of the control border\\\\\\\",\\\\\\\"BorderStyle_Property_Name\\\\\\\":\\\\\\\"Border style\\\\\\\",\\\\\\\"BorderStyle_Property_Description\\\\\\\":\\\\\\\"Style of the control border\\\\\\\",\\\\\\\"BorderThickness_Property_Name\\\\\\\":\\\\\\\"Border thickness\\\\\\\",\\\\\\\"BorderThickness_Property_Description\\\\\\\":\\\\\\\"Thickness of the control border\\\\\\\",\\\\\\\"Color_Property_Name\\\\\\\":\\\\\\\"Color\\\\\\\",\\\\\\\"Color_Property_Description\\\\\\\":\\\\\\\"Font color\\\\\\\",\\\\\\\"Fill_Property_Name\\\\\\\":\\\\\\\"Fill\\\\\\\",\\\\\\\"Fill_Property_Description\\\\\\\":\\\\\\\"Fill color\\\\\\\",\\\\\\\"FocusedBorderColor_Property_Name\\\\\\\":\\\\\\\"Focused border color\\\\\\\",\\\\\\\"FocusedBorderColor_Property_Description\\\\\\\":\\\\\\\"Color of the control border when focused\\\\\\\",\\\\\\\"FocusedBorderThickness_Property_Name\\\\\\\":\\\\\\\"Focused border thickness\\\\\\\",\\\\\\\"FocusedBorderThickness_Property_Description\\\\\\\":\\\\\\\"Thickness of the control border when focused\\\\\\\",\\\\\\\"DisabledBorderColor_Property_Name\\\\\\\":\\\\\\\"Disabled border color\\\\\\\",\\\\\\\"DisabledBorderColor_Property_Description\\\\\\\":\\\\\\\"Color of the control border when disabled\\\\\\\",\\\\\\\"DisabledColor_Property_Name\\\\\\\":\\\\\\\"Disabled color\\\\\\\",\\\\\\\"DisabledColor_Property_Description\\\\\\\":\\\\\\\"Font color when the control is disabled\\\\\\\",\\\\\\\"DisabledFill_Property_Name\\\\\\\":\\\\\\\"Disabled fill\\\\\\\",\\\\\\\"DisabledFill_Property_Description\\\\\\\":\\\\\\\"Fill color when the control is disabled\\\\\\\",\\\\\\\"OriginalImage_Property_Name\\\\\\\":\\\\\\\"Original image\\\\\\\",\\\\\\\"OriginalImage_Property_Description\\\\\\\":\\\\\\\"Original image of the form processor control\\\\\\\",\\\\\\\"ShowRectangles_Property_Name\\\\\\\":\\\\\\\"Show rectangles\\\\\\\",\\\\\\\"ShowRectangles_Property_Description\\\\\\\":\\\\\\\"Whether the control displays rectangles around each extracted text or not\\\\\\\",\\\\\\\"ShowConfidence_Property_Name\\\\\\\":\\\\\\\"Show confidence\\\\\\\",\\\\\\\"ShowConfidence_Property_Description\\\\\\\":\\\\\\\"Show or hide confidence score\\\\\\\",\\\\\\\"Width_Property_Name\\\\\\\":\\\\\\\"Width\\\\\\\",\\\\\\\"Width_Property_Description\\\\\\\":\\\\\\\"Width of the visual.\\\\\\\",\\\\\\\"Height_Property_Name\\\\\\\":\\\\\\\"Height\\\\\\\",\\\\\\\"Height_Property_Description\\\\\\\":\\\\\\\"Height of the visual.\\\\\\\",\\\\\\\"Alt_Accessibility_Image\\\\\\\":\\\\\\\"Input image for form processing\\\\\\\",\\\\\\\"ShowBoundingBoxes_Property_Name\\\\\\\":\\\\\\\"Show bounding boxes\\\\\\\",\\\\\\\"ShowBoundingBoxes_Property_Description\\\\\\\":\\\\\\\"Choose if the bounding boxes should be displayed or not\\\\\\\",\\\\\\\"ShowConfidenceScore_Property_Name\\\\\\\":\\\\\\\"Show confidence score\\\\\\\",\\\\\\\"ShowConfidenceScore_Property_Description\\\\\\\":\\\\\\\"Whether the control displays the confidence level for each extracted text or not\\\\\\\",\\\\\\\"ShowConfidenceScore_AlwaysVisible_Property_Name\\\\\\\":\\\\\\\"Always visible\\\\\\\",\\\\\\\"ShowConfidenceScore_AlwaysVisible_Property_Description\\\\\\\":\\\\\\\"Always visible\\\\\\\",\\\\\\\"ShowConfidenceScore_Hidden_Property_Name\\\\\\\":\\\\\\\"Hidden\\\\\\\",\\\\\\\"ShowConfidenceScore_Hidden_Property_Description\\\\\\\":\\\\\\\"Hidden\\\\\\\",\\\\\\\"ShowConfidenceScore_VisibleOnClick_Property_Name\\\\\\\":\\\\\\\"Visible on click\\\\\\\",\\\\\\\"ShowConfidenceScore_VisibleOnClick_Property_Description\\\\\\\":\\\\\\\"Visible on click\\\\\\\",\\\\\\\"ShowOverlay_Property_Name\\\\\\\":\\\\\\\"Show overlay\\\\\\\",\\\\\\\"ShowOverlay_Property_Description\\\\\\\":\\\\\\\"Choose if the bounding box overlay should be displayed or not\\\\\\\",\\\\\\\"Box_FontSize\\\\\\\":\\\\\\\"Font size\\\\\\\",\\\\\\\"Box_FontSize_Property_Description\\\\\\\":\\\\\\\"The font size of the text that appear in the bounding boxes\\\\\\\",\\\\\\\"CommandBar_Accessibility_PreviousPage\\\\\\\":\\\\\\\"Previous page\\\\\\\",\\\\\\\"CommandBar_Accessibility_NextPage\\\\\\\":\\\\\\\"Next page\\\\\\\",\\\\\\\"CommandBar_Accessibility_Page\\\\\\\":\\\\\\\"Page\\\\\\\",\\\\\\\"CommandBar_Accessibility_ChooseImage\\\\\\\":\\\\\\\"Choose image\\\\\\\",\\\\\\\"CommandBar_Accessibility_ZoomOut\\\\\\\":\\\\\\\"Zoom out.\\\\\\\",\\\\\\\"CommandBar_Tooltip_ZoomOut\\\\\\\":\\\\\\\"Zoom out\\\\\\\",\\\\\\\"CommandBar_Accessibility_ZoomIn\\\\\\\":\\\\\\\"Zoom in.\\\\\\\",\\\\\\\"CommandBar_Tooltip_ZoomIn\\\\\\\":\\\\\\\"Zoom in\\\\\\\"}}}\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":17,\\\"IsControlSpecific\\\":false},{\\\"Type\\\":0,\\\"Path\\\":\\\"/PCF/fluentui-react.js\\\",\\\"ModifiedPath\\\":\\\"\\\",\\\"LoadingOrder\\\":5,\\\"IsControlSpecific\\\":false}]\",\"Properties\":\"[{\\\"Name\\\":\\\"Text\\\",\\\"DisplayName\\\":\\\"Text\\\",\\\"Description\\\":\\\"Text to display.\\\",\\\"Type\\\":6,\\\"Usage\\\":0,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"Analyze\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":null,\\\"Category\\\":\\\"data\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"Text_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"Text_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"OriginalImage\\\",\\\"DisplayName\\\":\\\"Original image\\\",\\\"Description\\\":\\\"Original image of the form processor control\\\",\\\"Type\\\":12,\\\"Usage\\\":1,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":\\\"\\\",\\\"Category\\\":\\\"data\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"OriginalImage_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"OriginalImage_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"DefaultImage\\\",\\\"DisplayName\\\":\\\"Default image\\\",\\\"Description\\\":\\\"Image that appears by default\\\",\\\"Type\\\":12,\\\"Usage\\\":0,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":\\\"\\\",\\\"Category\\\":\\\"Data\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"DefaultImage_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"DefaultImage_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"ImageDisplayed\\\",\\\"DisplayName\\\":\\\"Show image\\\",\\\"Description\\\":\\\"Show or hide image\\\",\\\"Type\\\":4,\\\"Usage\\\":0,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"true\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":null,\\\"Category\\\":\\\"data\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"ImageDisplayed_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"ImageDisplayed_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"ShowControls\\\",\\\"DisplayName\\\":\\\"Show controls\\\",\\\"Description\\\":\\\"Show or hide controls for interacting with the visual\\\",\\\"Type\\\":20,\\\"Usage\\\":0,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"true\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":null,\\\"Category\\\":\\\"data\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"ShowControls_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"ShowControls_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"ShowConfidence\\\",\\\"DisplayName\\\":\\\"Show confidence\\\",\\\"Description\\\":\\\"Show or hide confidence score\\\",\\\"Type\\\":4,\\\"Usage\\\":0,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"true\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":null,\\\"Category\\\":\\\"data\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"ShowConfidence_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"ShowConfidence_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"Tooltip\\\",\\\"DisplayName\\\":\\\"Tooltip\\\",\\\"Description\\\":\\\"Text to display while hovering on a visual.\\\",\\\"Type\\\":6,\\\"Usage\\\":0,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":\\\"\\\",\\\"Category\\\":\\\"design\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"Tooltip_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"Tooltip_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"ModelId\\\",\\\"DisplayName\\\":\\\"Model Id\\\",\\\"Description\\\":\\\"ID of the Model\\\",\\\"Type\\\":6,\\\"Usage\\\":0,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":null,\\\"Category\\\":\\\"data\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"ModelId_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"ModelId_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"Fields\\\",\\\"DisplayName\\\":\\\"Fields\\\",\\\"Description\\\":\\\"Property containing the fields extracted after a form parsing.\\\",\\\"Type\\\":5,\\\"Usage\\\":1,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":\\\"\\\",\\\"Category\\\":\\\"data\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"Fields_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"Fields_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"CheckboxesAndSignatures\\\",\\\"DisplayName\\\":\\\"Checkboxes and signatures\\\",\\\"Description\\\":\\\"Property containing the checkboxes and signatures extracted after a form parsing.\\\",\\\"Type\\\":5,\\\"Usage\\\":1,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":\\\"\\\",\\\"Category\\\":\\\"data\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"CheckboxesAndSignatures_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"CheckboxesAndSignatures_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"Tables\\\",\\\"DisplayName\\\":\\\"Tables\\\",\\\"Description\\\":\\\"Property containing the tables extracted after a form parsing.\\\",\\\"Type\\\":5,\\\"Usage\\\":1,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":\\\"\\\",\\\"Category\\\":\\\"data\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"Tables_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"Tables_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"Results\\\",\\\"DisplayName\\\":\\\"Results\\\",\\\"Description\\\":\\\"Property containing fields and tables of content extracted after an image scan.\\\",\\\"Type\\\":5,\\\"Usage\\\":1,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":\\\"\\\",\\\"Category\\\":\\\"data\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"Results_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"Results_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"Width\\\",\\\"DisplayName\\\":\\\"Width\\\",\\\"Description\\\":\\\"Width of the visual.\\\",\\\"Type\\\":2,\\\"Usage\\\":0,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"350\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":null,\\\"Category\\\":\\\"Design\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"Width_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"Width_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"Height\\\",\\\"DisplayName\\\":\\\"Height\\\",\\\"Description\\\":\\\"Height of the visual.\\\",\\\"Type\\\":2,\\\"Usage\\\":0,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"500\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":null,\\\"Category\\\":\\\"Design\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"Height_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"Height_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"ShowBoundingBoxes\\\",\\\"DisplayName\\\":\\\"Show bounding boxes\\\",\\\"Description\\\":\\\"Choose if the bounding boxes should be displayed or not\\\",\\\"Type\\\":4,\\\"Usage\\\":0,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"true\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":null,\\\"Category\\\":\\\"data\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"ShowBoundingBoxes_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"ShowBoundingBoxes_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"BorderColor\\\",\\\"DisplayName\\\":\\\"Border color\\\",\\\"Description\\\":\\\"Color of the control border\\\",\\\"Type\\\":6,\\\"Usage\\\":0,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"#D2D0CE\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":null,\\\"Category\\\":\\\"Design\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"BorderColor_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"BorderColor_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"BorderStyle\\\",\\\"DisplayName\\\":\\\"Border style\\\",\\\"Description\\\":\\\"Style of the control border\\\",\\\"Type\\\":6,\\\"Usage\\\":0,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"solid\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":null,\\\"Category\\\":\\\"Design\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"BorderStyle_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"BorderStyle_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"BorderThickness\\\",\\\"DisplayName\\\":\\\"Border thickness\\\",\\\"Description\\\":\\\"Thickness of the control border\\\",\\\"Type\\\":16,\\\"Usage\\\":0,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"1\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":null,\\\"Category\\\":\\\"Design\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"BorderThickness_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"BorderThickness_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"FontColor\\\",\\\"DisplayName\\\":\\\"Color\\\",\\\"Description\\\":\\\"Font color\\\",\\\"Type\\\":6,\\\"Usage\\\":0,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"#FFF\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":null,\\\"Category\\\":\\\"Design\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"Color_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"Color_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"FillColor\\\",\\\"DisplayName\\\":\\\"Fill\\\",\\\"Description\\\":\\\"Fill color\\\",\\\"Type\\\":6,\\\"Usage\\\":0,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"#3D5FAE\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":null,\\\"Category\\\":\\\"Design\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"Fill_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"Fill_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"DisabledBorderColor\\\",\\\"DisplayName\\\":\\\"Disabled border color\\\",\\\"Description\\\":\\\"Color of the control border when disabled\\\",\\\"Type\\\":6,\\\"Usage\\\":0,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"#A6A6A6\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":null,\\\"Category\\\":\\\"Design\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"DisabledBorderColor_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"DisabledBorderColor_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"DisabledColor\\\",\\\"DisplayName\\\":\\\"Disabled color\\\",\\\"Description\\\":\\\"Font color when the control is disabled\\\",\\\"Type\\\":6,\\\"Usage\\\":0,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"#A6A6A6\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":null,\\\"Category\\\":\\\"Design\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"DisabledColor_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"DisabledColor_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"DisabledFill\\\",\\\"DisplayName\\\":\\\"Disabled fill\\\",\\\"Description\\\":\\\"Fill color when the control is disabled\\\",\\\"Type\\\":6,\\\"Usage\\\":0,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"#F4F4F4\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":null,\\\"Category\\\":\\\"Design\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"DisabledFill_Property_Name\\\",\\\"DescriptionResourceString\\\":\\\"DisabledFill_Property_Description\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"ButtonHeight\\\",\\\"DisplayName\\\":\\\"\\\",\\\"Description\\\":\\\"\\\",\\\"Type\\\":2,\\\"Usage\\\":0,\\\"Hidden\\\":true,\\\"DefaultValue\\\":\\\"40\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"70\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":\\\"\\\",\\\"Category\\\":\\\"data\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"\\\",\\\"DescriptionResourceString\\\":\\\"\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"ShouldReset\\\",\\\"DisplayName\\\":\\\"\\\",\\\"Description\\\":\\\"\\\",\\\"Type\\\":20,\\\"Usage\\\":2,\\\"Hidden\\\":true,\\\"DefaultValue\\\":\\\"true\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":\\\"\\\",\\\"Category\\\":\\\"data\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":true,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"\\\",\\\"DescriptionResourceString\\\":\\\"\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"CommandBarIconSize\\\",\\\"DisplayName\\\":\\\"\\\",\\\"Description\\\":\\\"\\\",\\\"Type\\\":2,\\\"Usage\\\":0,\\\"Hidden\\\":true,\\\"DefaultValue\\\":\\\"16\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"24\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":\\\"\\\",\\\"Category\\\":\\\"data\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"\\\",\\\"DescriptionResourceString\\\":\\\"\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"CommandBarFontSize\\\",\\\"DisplayName\\\":\\\"\\\",\\\"Description\\\":\\\"\\\",\\\"Type\\\":2,\\\"Usage\\\":0,\\\"Hidden\\\":true,\\\"DefaultValue\\\":\\\"14\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"20\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":\\\"\\\",\\\"Category\\\":\\\"data\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"\\\",\\\"DescriptionResourceString\\\":\\\"\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"FormContent\\\",\\\"DisplayName\\\":\\\"\\\",\\\"Description\\\":\\\"\\\",\\\"Type\\\":5,\\\"Usage\\\":0,\\\"Hidden\\\":true,\\\"DefaultValue\\\":\\\"\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":null,\\\"HelperUI\\\":\\\"\\\",\\\"Category\\\":\\\"data\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":[],\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"\\\",\\\"DescriptionResourceString\\\":\\\"\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"PCFTeamsTheme\\\",\\\"DisplayName\\\":\\\"PCFTeamsTheme\\\",\\\"Description\\\":\\\"\\\",\\\"Type\\\":3,\\\"Usage\\\":0,\\\"Hidden\\\":true,\\\"DefaultValue\\\":\\\"\\\",\\\"PfxDefaultValue\\\":\\\"\\\",\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":\\\"\\\",\\\"HelperUI\\\":\\\"\\\",\\\"Category\\\":\\\"design\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":null,\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"\\\",\\\"DescriptionResourceString\\\":\\\"\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false}]\",\"IncludedProperties\":\"[{\\\"Name\\\":\\\"X\\\",\\\"DisplayName\\\":\\\"CC_X\\\",\\\"Description\\\":\\\"\\\",\\\"Type\\\":2,\\\"Usage\\\":2,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"\\\",\\\"PfxDefaultValue\\\":null,\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":\\\"\\\",\\\"HelperUI\\\":\\\"\\\",\\\"Category\\\":\\\"design\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":null,\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"CC_X\\\",\\\"DescriptionResourceString\\\":\\\"\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"Y\\\",\\\"DisplayName\\\":\\\"CC_Y\\\",\\\"Description\\\":\\\"\\\",\\\"Type\\\":2,\\\"Usage\\\":2,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"\\\",\\\"PfxDefaultValue\\\":null,\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":\\\"\\\",\\\"HelperUI\\\":\\\"\\\",\\\"Category\\\":\\\"design\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":null,\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"CC_Y\\\",\\\"DescriptionResourceString\\\":\\\"\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"Visible\\\",\\\"DisplayName\\\":\\\"Visible\\\",\\\"Description\\\":\\\"\\\",\\\"Type\\\":4,\\\"Usage\\\":2,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"true\\\",\\\"PfxDefaultValue\\\":null,\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":\\\"\\\",\\\"HelperUI\\\":\\\"\\\",\\\"Category\\\":\\\"design\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":null,\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"Visible\\\",\\\"DescriptionResourceString\\\":\\\"\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"DisplayMode\\\",\\\"DisplayName\\\":\\\"DisplayMode\\\",\\\"Description\\\":\\\"\\\",\\\"Type\\\":27,\\\"Usage\\\":2,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"\\\",\\\"PfxDefaultValue\\\":null,\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":\\\"\\\",\\\"HelperUI\\\":\\\"\\\",\\\"Category\\\":\\\"design\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":null,\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"DisplayMode\\\",\\\"DescriptionResourceString\\\":\\\"\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false},{\\\"Name\\\":\\\"TabIndex\\\",\\\"DisplayName\\\":\\\"TabIndex\\\",\\\"Description\\\":\\\"\\\",\\\"Type\\\":2,\\\"Usage\\\":0,\\\"Hidden\\\":false,\\\"DefaultValue\\\":\\\"0\\\",\\\"PfxDefaultValue\\\":null,\\\"PhoneDefaultValue\\\":\\\"\\\",\\\"WebDefaultValue\\\":\\\"\\\",\\\"NullDefaultValue\\\":\\\"\\\",\\\"HelperUI\\\":\\\"\\\",\\\"Category\\\":\\\"design\\\",\\\"IsPrimaryBehavioral\\\":false,\\\"IsPrimaryInput\\\":false,\\\"IsPrimaryOutput\\\":false,\\\"IsResettable\\\":false,\\\"EnumValues\\\":null,\\\"Required\\\":false,\\\"IsDataSourceProperty\\\":false,\\\"PassThroughProperty\\\":\\\"\\\",\\\"ShouldAutoBind\\\":false,\\\"ParentDataSetName\\\":\\\"\\\",\\\"DisplayNameResourceString\\\":\\\"TabIndex\\\",\\\"DescriptionResourceString\\\":\\\"\\\",\\\"IsResettableToManifestDefault\\\":false,\\\"IsLinkableToParentTheme\\\":false}]\",\"CommonEvents\":\"[{\\\"Name\\\":\\\"OnChange\\\",\\\"DisplayName\\\":\\\"OnChange\\\",\\\"Description\\\":\\\"\\\",\\\"PfxDefaultValue\\\":null,\\\"Hidden\\\":false,\\\"IsPrimaryInput\\\":false}]\",\"PropertyDependencies\":\"[{\\\"Input\\\":\\\"ModelId\\\",\\\"Output\\\":\\\"Fields\\\",\\\"RequiredFor\\\":\\\"schema\\\"},{\\\"Input\\\":\\\"ModelId\\\",\\\"Output\\\":\\\"CheckboxesAndSignatures\\\",\\\"RequiredFor\\\":\\\"schema\\\"},{\\\"Input\\\":\\\"ModelId\\\",\\\"Output\\\":\\\"Tables\\\",\\\"RequiredFor\\\":\\\"schema\\\"},{\\\"Input\\\":\\\"ModelId\\\",\\\"Output\\\":\\\"Results\\\",\\\"RequiredFor\\\":\\\"schema\\\"}]\",\"SubscribedFunctionalities\":\"{\\\"sharedTemplate\\\":\\\"false\\\",\\\"supportResettableProperties\\\":\\\"true\\\"}\",\"AuthConfigProperties\":\"[{\\\"Text\\\":{\\\"SectionIndex\\\":0,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":null,\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"DisplayMode\\\":{\\\"SectionIndex\\\":0,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":null,\\\"Type\\\":27,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"ImageDisplayed\\\":{\\\"SectionIndex\\\":0,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":null,\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"ShowControls\\\":{\\\"SectionIndex\\\":0,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":null,\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"ModelId\\\":{\\\"SectionIndex\\\":0,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":null,\\\"Type\\\":0,\\\"PropertyKind\\\":3,\\\"WizardStep\\\":{\\\"Label\\\":\\\"AI model\\\",\\\"PanelTitle\\\":\\\"AI models\\\",\\\"LinkedLocation\\\":2048,\\\"PropertyInvariantName\\\":\\\"ModelId\\\"},\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"FontColor\\\":{\\\"SectionIndex\\\":0,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"Color\\\",\\\"SectionName\\\":null,\\\"Type\\\":31,\\\"PropertyKind\\\":2,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"FillColor\\\":{\\\"SectionIndex\\\":0,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"Color\\\",\\\"SectionName\\\":null,\\\"Type\\\":32,\\\"PropertyKind\\\":2,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"BorderStyle\\\":{\\\"SectionIndex\\\":0,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"Border\\\",\\\"SectionName\\\":null,\\\"Type\\\":30,\\\"PropertyKind\\\":2,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"BorderThickness\\\":{\\\"SectionIndex\\\":0,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"Border\\\",\\\"SectionName\\\":null,\\\"Type\\\":0,\\\"PropertyKind\\\":2,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"BorderColor\\\":{\\\"SectionIndex\\\":0,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"Border\\\",\\\"SectionName\\\":null,\\\"Type\\\":29,\\\"PropertyKind\\\":2,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"DisabledColor\\\":{\\\"SectionIndex\\\":0,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"DisabledColor\\\",\\\"SectionName\\\":null,\\\"Type\\\":31,\\\"PropertyKind\\\":2,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"DisabledFill\\\":{\\\"SectionIndex\\\":0,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"DisabledColor\\\",\\\"SectionName\\\":null,\\\"Type\\\":32,\\\"PropertyKind\\\":2,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"DisabledBorderColor\\\":{\\\"SectionIndex\\\":0,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"DisabledColor\\\",\\\"SectionName\\\":null,\\\"Type\\\":29,\\\"PropertyKind\\\":2,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"Visible\\\":{\\\"SectionIndex\\\":1,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":null,\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"X\\\":{\\\"SectionIndex\\\":1,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"Position\\\",\\\"SectionName\\\":null,\\\"Type\\\":0,\\\"PropertyKind\\\":2,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"Y\\\":{\\\"SectionIndex\\\":1,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"Position\\\",\\\"SectionName\\\":null,\\\"Type\\\":0,\\\"PropertyKind\\\":2,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"Width\\\":{\\\"SectionIndex\\\":1,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"Size\\\",\\\"SectionName\\\":null,\\\"Type\\\":0,\\\"PropertyKind\\\":2,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"Height\\\":{\\\"SectionIndex\\\":1,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"Size\\\",\\\"SectionName\\\":null,\\\"Type\\\":0,\\\"PropertyKind\\\":2,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"ShowConfidence\\\":{\\\"SectionIndex\\\":2,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":null,\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"ShowBoundingBoxes\\\":{\\\"SectionIndex\\\":2,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":null,\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false}},{\\\"DefaultImage\\\":{\\\"SectionIndex\\\":0,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":\\\"Data\\\",\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"X\\\":{\\\"SectionIndex\\\":1,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":\\\"Design\\\",\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"Y\\\":{\\\"SectionIndex\\\":1,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":\\\"Design\\\",\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"Width\\\":{\\\"SectionIndex\\\":1,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":\\\"Design\\\",\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"Height\\\":{\\\"SectionIndex\\\":1,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":\\\"Design\\\",\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"Visible\\\":{\\\"SectionIndex\\\":1,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":\\\"Design\\\",\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"DisplayMode\\\":{\\\"SectionIndex\\\":1,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":\\\"Design\\\",\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"BorderColor\\\":{\\\"SectionIndex\\\":1,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":\\\"Design\\\",\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"BorderStyle\\\":{\\\"SectionIndex\\\":1,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":\\\"Design\\\",\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"BorderThickness\\\":{\\\"SectionIndex\\\":1,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":\\\"Design\\\",\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"FontColor\\\":{\\\"SectionIndex\\\":1,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":\\\"Design\\\",\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"FillColor\\\":{\\\"SectionIndex\\\":1,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":\\\"Design\\\",\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"DisabledBorderColor\\\":{\\\"SectionIndex\\\":1,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":\\\"Design\\\",\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"DisabledColor\\\":{\\\"SectionIndex\\\":1,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":\\\"Design\\\",\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"DisabledFill\\\":{\\\"SectionIndex\\\":1,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":\\\"Design\\\",\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false},\\\"OnChange\\\":{\\\"SectionIndex\\\":2,\\\"HelperUI\\\":null,\\\"PropertyGroupName\\\":\\\"\\\",\\\"SectionName\\\":\\\"Behavior\\\",\\\"Type\\\":0,\\\"PropertyKind\\\":1,\\\"WizardStep\\\":null,\\\"EnabledForFlyout\\\":false,\\\"Hidden\\\":false,\\\"SectionType\\\":null,\\\"ShowInCanvasInlineActionBar\\\":false}}]\"}",
+      "FirstParty": true,
+      "Id": "http://microsoft.com/appmagic/powercontrol/FormProcessor",
+      "IsComponentDefinition": false,
+      "IsCustomGroupControlTemplate": false,
+      "IsPremiumPcfControl": false,
+      "LastModifiedTimestamp": "0",
+      "Name": "FormProcessor",
+      "OverridableProperties": {
+        "CheckboxesAndSignatures": {
+          "Type": {
+            "EnumString": "",
+            "Kind": "Record",
+            "Name": "Root",
+            "Type": []
+          },
+          "Version": "1.343"
+        },
+        "Fields": {
+          "Type": {
+            "EnumString": "",
+            "Kind": "Record",
+            "Name": "Root",
+            "Type": [
+              {
+                "EnumString": "",
+                "Kind": "Number",
+                "Name": "BalanceDue",
+                "Type": []
+              },
+              {
+                "EnumString": "",
+                "Kind": "String",
+                "Name": "Billing_Address",
+                "Type": []
+              },
+              {
+                "EnumString": "",
+                "Kind": "String",
+                "Name": "Customer_address",
+                "Type": []
+              },
+              {
+                "EnumString": "",
+                "Kind": "String",
+                "Name": "DueDate",
+                "Type": []
+              },
+              {
+                "EnumString": "",
+                "Kind": "DateTime",
+                "Name": "Invoice_Date",
+                "Type": []
+              },
+              {
+                "EnumString": "",
+                "Kind": "String",
+                "Name": "Invoice_id",
+                "Type": []
+              },
+              {
+                "EnumString": "",
+                "Kind": "String",
+                "Name": "Shipping",
+                "Type": []
+              },
+              {
+                "EnumString": "",
+                "Kind": "Number",
+                "Name": "Subtotal",
+                "Type": []
+              },
+              {
+                "EnumString": "",
+                "Kind": "Number",
+                "Name": "Tax",
+                "Type": []
+              },
+              {
+                "EnumString": "",
+                "Kind": "Number",
+                "Name": "Total",
+                "Type": []
+              }
+            ]
+          },
+          "Version": "1.343"
+        },
+        "Results": {
+          "Type": {
+            "EnumString": "",
+            "Kind": "Record",
+            "Name": "Root",
+            "Type": [
+              {
+                "EnumString": "",
+                "Kind": "Record",
+                "Name": "BalanceDue",
+                "Type": [
+                  {
+                    "EnumString": "",
+                    "Kind": "Record",
+                    "Name": "BoundingBox",
+                    "Type": [
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Height",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Left",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Top",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Width",
+                        "Type": []
+                      }
+                    ]
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "Confidence",
+                    "Type": []
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "PageNumber",
+                    "Type": []
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "Value",
+                    "Type": []
+                  }
+                ]
+              },
+              {
+                "EnumString": "",
+                "Kind": "Record",
+                "Name": "Billing_Address",
+                "Type": [
+                  {
+                    "EnumString": "",
+                    "Kind": "Record",
+                    "Name": "BoundingBox",
+                    "Type": [
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Height",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Left",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Top",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Width",
+                        "Type": []
+                      }
+                    ]
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "Confidence",
+                    "Type": []
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "PageNumber",
+                    "Type": []
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "String",
+                    "Name": "Value",
+                    "Type": []
+                  }
+                ]
+              },
+              {
+                "EnumString": "",
+                "Kind": "Record",
+                "Name": "Customer_address",
+                "Type": [
+                  {
+                    "EnumString": "",
+                    "Kind": "Record",
+                    "Name": "BoundingBox",
+                    "Type": [
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Height",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Left",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Top",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Width",
+                        "Type": []
+                      }
+                    ]
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "Confidence",
+                    "Type": []
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "PageNumber",
+                    "Type": []
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "String",
+                    "Name": "Value",
+                    "Type": []
+                  }
+                ]
+              },
+              {
+                "EnumString": "",
+                "Kind": "Record",
+                "Name": "DueDate",
+                "Type": [
+                  {
+                    "EnumString": "",
+                    "Kind": "Record",
+                    "Name": "BoundingBox",
+                    "Type": [
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Height",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Left",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Top",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Width",
+                        "Type": []
+                      }
+                    ]
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "Confidence",
+                    "Type": []
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "PageNumber",
+                    "Type": []
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "String",
+                    "Name": "Value",
+                    "Type": []
+                  }
+                ]
+              },
+              {
+                "EnumString": "",
+                "Kind": "Record",
+                "Name": "Invoice_Date",
+                "Type": [
+                  {
+                    "EnumString": "",
+                    "Kind": "Record",
+                    "Name": "BoundingBox",
+                    "Type": [
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Height",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Left",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Top",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Width",
+                        "Type": []
+                      }
+                    ]
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "Confidence",
+                    "Type": []
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "PageNumber",
+                    "Type": []
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "String",
+                    "Name": "Value",
+                    "Type": []
+                  }
+                ]
+              },
+              {
+                "EnumString": "",
+                "Kind": "Record",
+                "Name": "Invoice_id",
+                "Type": [
+                  {
+                    "EnumString": "",
+                    "Kind": "Record",
+                    "Name": "BoundingBox",
+                    "Type": [
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Height",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Left",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Top",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Width",
+                        "Type": []
+                      }
+                    ]
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "Confidence",
+                    "Type": []
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "PageNumber",
+                    "Type": []
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "String",
+                    "Name": "Value",
+                    "Type": []
+                  }
+                ]
+              },
+              {
+                "EnumString": "",
+                "Kind": "Record",
+                "Name": "Shipping",
+                "Type": [
+                  {
+                    "EnumString": "",
+                    "Kind": "Record",
+                    "Name": "BoundingBox",
+                    "Type": [
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Height",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Left",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Top",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Width",
+                        "Type": []
+                      }
+                    ]
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "Confidence",
+                    "Type": []
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "PageNumber",
+                    "Type": []
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "String",
+                    "Name": "Value",
+                    "Type": []
+                  }
+                ]
+              },
+              {
+                "EnumString": "",
+                "Kind": "Record",
+                "Name": "Subtotal",
+                "Type": [
+                  {
+                    "EnumString": "",
+                    "Kind": "Record",
+                    "Name": "BoundingBox",
+                    "Type": [
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Height",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Left",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Top",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Width",
+                        "Type": []
+                      }
+                    ]
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "Confidence",
+                    "Type": []
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "PageNumber",
+                    "Type": []
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "Value",
+                    "Type": []
+                  }
+                ]
+              },
+              {
+                "EnumString": "",
+                "Kind": "Record",
+                "Name": "Tax",
+                "Type": [
+                  {
+                    "EnumString": "",
+                    "Kind": "Record",
+                    "Name": "BoundingBox",
+                    "Type": [
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Height",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Left",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Top",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Width",
+                        "Type": []
+                      }
+                    ]
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "Confidence",
+                    "Type": []
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "PageNumber",
+                    "Type": []
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "Value",
+                    "Type": []
+                  }
+                ]
+              },
+              {
+                "EnumString": "",
+                "Kind": "Record",
+                "Name": "Total",
+                "Type": [
+                  {
+                    "EnumString": "",
+                    "Kind": "Record",
+                    "Name": "BoundingBox",
+                    "Type": [
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Height",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Left",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Top",
+                        "Type": []
+                      },
+                      {
+                        "EnumString": "",
+                        "Kind": "Number",
+                        "Name": "Width",
+                        "Type": []
+                      }
+                    ]
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "Confidence",
+                    "Type": []
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "PageNumber",
+                    "Type": []
+                  },
+                  {
+                    "EnumString": "",
+                    "Kind": "Number",
+                    "Name": "Value",
+                    "Type": []
+                  }
+                ]
+              }
+            ]
+          },
+          "Version": "1.343"
+        },
+        "Tables": {
+          "Type": {
+            "EnumString": "",
+            "Kind": "Record",
+            "Name": "Root",
+            "Type": []
+          },
+          "Version": "1.343"
+        }
+      },
+      "PCFDynamicSchemaForIRRetrieval": {
+        "CheckboxesAndSignatures": {
+          "DynamicSchema": "{\"$schema\":\"http://json-schema.org/draft-04/schema#\",\"type\":\"object\",\"properties\":{}}",
+          "PCFSkipValidation": false
+        },
+        "Fields": {
+          "DynamicSchema": "{\"$schema\":\"http://json-schema.org/draft-04/schema#\",\"type\":\"object\",\"properties\":{\"Tax\":{\"type\":\"number\",\"title\":\"value\"},\"Shipping\":{\"type\":\"string\",\"title\":\"value\"},\"Billing_Address\":{\"type\":\"string\",\"title\":\"value\"},\"Customer_address\":{\"type\":\"string\",\"title\":\"value\"},\"Total\":{\"type\":\"number\",\"title\":\"value\"},\"Invoice_id\":{\"type\":\"string\",\"title\":\"value\"},\"DueDate\":{\"type\":\"string\",\"title\":\"value\"},\"Invoice_Date\":{\"type\":\"string\",\"format\":\"date-time\",\"title\":\"value\"},\"BalanceDue\":{\"type\":\"number\",\"title\":\"value\"},\"Subtotal\":{\"type\":\"number\",\"title\":\"value\"}}}",
+          "PCFSkipValidation": false
+        },
+        "Results": {
+          "DynamicSchema": "{\"$schema\":\"http://json-schema.org/draft-04/schema#\",\"type\":\"object\",\"properties\":{\"Tax\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"number\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Shipping\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Billing_Address\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Customer_address\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Total\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"number\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Invoice_id\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"DueDate\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Invoice_Date\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"BalanceDue\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"number\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Subtotal\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"number\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}}}}",
+          "PCFSkipValidation": false
+        },
+        "Tables": {
+          "DynamicSchema": "{\"$schema\":\"http://json-schema.org/draft-04/schema#\",\"type\":\"object\",\"properties\":{}}",
+          "PCFSkipValidation": false
+        }
+      },
+      "TemplateDisplayName": "FormProcessor",
+      "Version": "1.0.109"
+    }
+  },
+  "PublishOrderIndices": {
+    "AddMediaButton1": 230,
+    "AddMediaWithImage1": 228,
+    "Amount": 166,
+    "App": 0,
+    "Balance Due_DataCard1": 46,
+    "Balance Due_DataCard2": 89,
+    "Balance Due_DataCard2_1": 172,
+    "Balance Due_DataCard3": 218,
+    "Balance Due_DataCard3_1": 286,
+    "Bill To_DataCard1": 14,
+    "Bill To_DataCard2": 69,
+    "Bill To_DataCard2_1": 139,
+    "Bill To_DataCard3": 198,
+    "Bill To_DataCard3_1": 266,
+    "Body1": 111,
+    "Button1": 53,
+    "Button1_1": 51,
+    "Button1_2": 122,
+    "Button1_3": 113,
+    "Button1_4": 231,
+    "Button1_5": 189,
+    "Button2": 29,
+    "Button2_2": 162,
+    "Button2_3": 120,
+    "Button3": 232,
+    "Button4": 318,
+    "Button5": 241,
+    "Button5_1": 246,
+    "Button6": 257,
+    "Button6_1": 296,
+    "Button6_2": 310,
+    "Component1": 1,
+    "Container_Component": 252,
+    "Container_Component_1": 297,
+    "Container1": 54,
+    "Container1_1": 124,
+    "Container10": 234,
+    "Container12": 237,
+    "Container12_1": 243,
+    "Container13": 259,
+    "Container14": 245,
+    "Container15": 303,
+    "Container18": 248,
+    "Container19": 250,
+    "Container19_1": 250,
+    "Container2": 311,
+    "Container3": 320,
+    "Container4": 321,
+    "Container5": 315,
+    "Container6": 316,
+    "Container8_1": 299,
+    "Container9": 255,
+    "Container9_1": 300,
+    "ContainerGIF": 233,
+    "ContainerLogo": 236,
+    "ContainerLogo_1": 242,
+    "Customer Address_DataCard1": 74,
+    "Customer Address_DataCard1_1": 144,
+    "DataCard1": 1,
+    "DataCard2": 19,
+    "DataCard3": 22,
+    "DataCard4": 56,
+    "DataCard4_1": 126,
+    "DataCard5": 154,
+    "DataCard6": 104,
+    "DataCardKey1": 11,
+    "DataCardKey10": 66,
+    "DataCardKey10_1": 136,
+    "DataCardKey13": 96,
+    "DataCardKey13_1": 179,
+    "DataCardKey14": 195,
+    "DataCardKey14_1": 263,
+    "DataCardKey15": 200,
+    "DataCardKey15_1": 268,
+    "DataCardKey16": 205,
+    "DataCardKey16_1": 273,
+    "DataCardKey17": 210,
+    "DataCardKey17_1": 278,
+    "DataCardKey18": 215,
+    "DataCardKey18_1": 283,
+    "DataCardKey19": 220,
+    "DataCardKey19_1": 288,
+    "DataCardKey2": 16,
+    "DataCardKey2_1": 20,
+    "DataCardKey2_10": 114,
+    "DataCardKey2_11": 116,
+    "DataCardKey2_12": 115,
+    "DataCardKey2_16": 156,
+    "DataCardKey2_17": 157,
+    "DataCardKey2_18": 155,
+    "DataCardKey2_2": 25,
+    "DataCardKey2_3": 27,
+    "DataCardKey2_4": 26,
+    "DataCardKey20": 225,
+    "DataCardKey20_1": 293,
+    "DataCardKey21": 81,
+    "DataCardKey21_1": 151,
+    "DataCardKey22": 61,
+    "DataCardKey22_1": 131,
+    "DataCardKey23": 76,
+    "DataCardKey23_1": 146,
+    "DataCardKey24": 71,
+    "DataCardKey24_1": 141,
+    "DataCardKey25": 86,
+    "DataCardKey25_1": 169,
+    "DataCardKey3": 6,
+    "DataCardKey4": 38,
+    "DataCardKey5": 43,
+    "DataCardKey6": 48,
+    "DataCardKey7": 91,
+    "DataCardKey7_1": 174,
+    "DataCardKey8": 101,
+    "DataCardKey8_1": 184,
+    "DataCardValue1": 12,
+    "DataCardValue10": 67,
+    "DataCardValue10_1": 137,
+    "DataCardValue13": 97,
+    "DataCardValue13_1": 180,
+    "DataCardValue14": 196,
+    "DataCardValue14_1": 264,
+    "DataCardValue15": 201,
+    "DataCardValue15_1": 269,
+    "DataCardValue16": 206,
+    "DataCardValue16_1": 274,
+    "DataCardValue17": 211,
+    "DataCardValue17_1": 279,
+    "DataCardValue18": 216,
+    "DataCardValue18_1": 284,
+    "DataCardValue19": 221,
+    "DataCardValue19_1": 289,
+    "DataCardValue2": 17,
+    "DataCardValue20": 226,
+    "DataCardValue20_1": 294,
+    "DataCardValue21": 82,
+    "DataCardValue21_1": 152,
+    "DataCardValue22": 62,
+    "DataCardValue22_1": 132,
+    "DataCardValue23": 77,
+    "DataCardValue23_1": 147,
+    "DataCardValue24": 72,
+    "DataCardValue24_1": 142,
+    "DataCardValue25": 87,
+    "DataCardValue25_1": 170,
+    "DataCardValue3": 7,
+    "DataCardValue4": 39,
+    "DataCardValue5": 44,
+    "DataCardValue6": 49,
+    "DataCardValue7": 92,
+    "DataCardValue7_1": 175,
+    "DataCardValue8": 102,
+    "DataCardValue8_1": 185,
+    "DataTable1": 163,
+    "Date_DataCard1": 4,
+    "Date_DataCard3": 203,
+    "Date_DataCard3_1": 271,
+    "Description": 164,
+    "DescriptionInput": 30,
+    "DescriptionInput_3": 119,
+    "DescriptionInput_5": 159,
+    "Due Date_DataCard1": 79,
+    "Due Date_DataCard1_1": 149,
+    "ErrorMessage1": 13,
+    "ErrorMessage10": 212,
+    "ErrorMessage10_1": 280,
+    "ErrorMessage11": 217,
+    "ErrorMessage11_1": 285,
+    "ErrorMessage12": 222,
+    "ErrorMessage12_1": 290,
+    "ErrorMessage13": 227,
+    "ErrorMessage13_1": 295,
+    "ErrorMessage14": 93,
+    "ErrorMessage14_1": 176,
+    "ErrorMessage15": 103,
+    "ErrorMessage15_1": 186,
+    "ErrorMessage17": 68,
+    "ErrorMessage17_1": 138,
+    "ErrorMessage2": 18,
+    "ErrorMessage20": 98,
+    "ErrorMessage20_1": 181,
+    "ErrorMessage21": 83,
+    "ErrorMessage21_1": 153,
+    "ErrorMessage22": 63,
+    "ErrorMessage22_1": 133,
+    "ErrorMessage23": 78,
+    "ErrorMessage23_1": 148,
+    "ErrorMessage24": 73,
+    "ErrorMessage24_1": 143,
+    "ErrorMessage25": 88,
+    "ErrorMessage25_1": 171,
+    "ErrorMessage3": 8,
+    "ErrorMessage4": 40,
+    "ErrorMessage5": 45,
+    "ErrorMessage6": 50,
+    "ErrorMessage7": 197,
+    "ErrorMessage7_1": 265,
+    "ErrorMessage8": 202,
+    "ErrorMessage8_1": 270,
+    "ErrorMessage9": 207,
+    "ErrorMessage9_1": 275,
+    "Form": 258,
+    "Form Processor": 254,
+    "Form1": 0,
+    "Form1_1": 55,
+    "Form1_2": 125,
+    "Form2": 192,
+    "Form2_1": 260,
+    "FormProcessor1": 256,
+    "Gallery1": 32,
+    "Gallery2": 301,
+    "Gallery3": 105,
+    "Gallery4": 313,
+    "galleryTemplate1": 33,
+    "galleryTemplate2": 302,
+    "galleryTemplate3": 106,
+    "galleryTemplate4": 314,
+    "Group1": 158,
+    "GST_DataCard1": 41,
+    "GST_DataCard2": 94,
+    "GST_DataCard2_1": 177,
+    "GST_DataCard3": 213,
+    "GST_DataCard3_1": 281,
+    "Heading": 247,
+    "Host": 0,
+    "Icon1": 23,
+    "Icon1_1": 35,
+    "Icon2": 34,
+    "Icon3": 123,
+    "Icon3_1": 188,
+    "Image1": 2,
+    "Image1_1": 57,
+    "Image1_2": 127,
+    "Image10": 235,
+    "Image2": 304,
+    "Image4": 251,
+    "Image4_1": 251,
+    "Image5": 322,
+    "Image6": 317,
+    "Invoice Date_DataCard1": 64,
+    "Invoice Date_DataCard1_1": 134,
+    "InvoiceCapture": 17,
+    "InvoiceList": 68,
+    "Label1": 3,
+    "Label1_1": 58,
+    "Label1_2": 128,
+    "Label10": 307,
+    "Label11": 309,
+    "Label15": 249,
+    "Label2": 21,
+    "Label3": 24,
+    "Label4": 238,
+    "Label4_1": 239,
+    "Label5": 240,
+    "Label5_1": 244,
+    "Label6": 319,
+    "Label7": 308,
+    "Label8": 305,
+    "Label9": 306,
+    "LblAppName1": 191,
+    "Logo": 312,
+    "NextArrow2": 109,
+    "PdfViewer2": 52,
+    "PdfViewer2_1": 121,
+    "PdfViewer2_2": 187,
+    "Rectangle2": 107,
+    "RectQuickActionBar1": 190,
+    "Sale Amount_DataCard1": 36,
+    "Sale Amount_DataCard3": 208,
+    "Sale Amount_DataCard3_1": 276,
+    "Screen1": 83,
+    "Screen1_1": 138,
+    "Screen1_2": 209,
+    "Screen2": 276,
+    "Separator2": 112,
+    "Shipping Cost_DataCard1": 84,
+    "Shipping Cost_DataCard1_1": 167,
+    "SideNavigation_Compact": 2,
+    "SideNavigation_Compact_1": 253,
+    "SideNavigation_Compact_2": 298,
+    "StarVisible1": 10,
+    "StarVisible10": 209,
+    "StarVisible10_1": 277,
+    "StarVisible11": 214,
+    "StarVisible11_1": 282,
+    "StarVisible12": 219,
+    "StarVisible12_1": 287,
+    "StarVisible13": 224,
+    "StarVisible13_1": 292,
+    "StarVisible14": 90,
+    "StarVisible14_1": 173,
+    "StarVisible15": 100,
+    "StarVisible15_1": 183,
+    "StarVisible17": 65,
+    "StarVisible17_1": 135,
+    "StarVisible2": 15,
+    "StarVisible20": 95,
+    "StarVisible20_1": 178,
+    "StarVisible21": 80,
+    "StarVisible21_1": 150,
+    "StarVisible22": 60,
+    "StarVisible22_1": 130,
+    "StarVisible23": 75,
+    "StarVisible23_1": 145,
+    "StarVisible24": 70,
+    "StarVisible24_1": 140,
+    "StarVisible25": 85,
+    "StarVisible25_1": 168,
+    "StarVisible3": 5,
+    "StarVisible4": 37,
+    "StarVisible5": 42,
+    "StarVisible6": 47,
+    "StarVisible7": 194,
+    "StarVisible7_1": 262,
+    "StarVisible8": 199,
+    "StarVisible8_1": 267,
+    "StarVisible9": 204,
+    "StarVisible9_1": 272,
+    "Subtitle1": 110,
+    "Title_DataCard1": 9,
+    "Title_DataCard2": 59,
+    "Title_DataCard2_1": 129,
+    "Title_DataCard3": 193,
+    "Title_DataCard3_1": 261,
+    "Title2": 108,
+    "Total Amount_DataCard1": 99,
+    "Total Amount_DataCard1_1": 182,
+    "TotalAmountInput": 28,
+    "TotalAmountInput_2": 118,
+    "TotalAmountInput_4": 161,
+    "Units": 165,
+    "UnitsInput": 31,
+    "UnitsInput_2": 117,
+    "UnitsInput_4": 160,
+    "UploadedImage1": 229,
+    "Vendor Details_DataCard2": 223,
+    "Vendor Details_DataCard2_1": 291,
+    "Welcome Screen": 320,
+    "Welcome Screen_1": 330
+  },
+  "ResourcesJsonIndices": {
+    "Image-Accounts-Payable-Invoice-Processing": 2,
+    "Image-AccountTransfer": 3,
+    "Image-CaptureInovice": 4,
+    "Image-CreateInvoice": 5,
+    "Image-editedbg": 7,
+    "Image-editedbg-removebg-preview": 6,
+    "Image-file": 8,
+    "Image-graphic-4-gif-Copy-unscreen": 9,
+    "Image-Helpicon": 20,
+    "Image-InovceList": 10,
+    "Image-Invoice3": 12,
+    "Image-invoice-processing": 11,
+    "Image-jane": 13,
+    "Image-MainIcon": 14,
+    "Image-MainIcon1": 15,
+    "Image-SampleImage": 0,
+    "Image-statement": 16,
+    "Image-TransferMoney": 17,
+    "Image-UPI": 18,
+    "Image-Viewmore": 19,
+    "Pdf-SamplePdf": 1
+  },
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 1.3580277,
+    "ControlCount": {
+      "7269bae7330041a086902a2ddaf6b026": 1,
+      "addMedia": 1,
+      "button": 16,
+      "customControl": 3,
+      "d4521f6e39724073a64c56d93e35a98f": 3,
+      "dataGrid": 1,
+      "datepicker": 7,
+      "form": 5,
+      "FormProcessor": 1,
+      "gallery": 4,
+      "galleryTemplate": 4,
+      "group": 2,
+      "groupContainer": 28,
+      "icon": 6,
+      "image": 12,
+      "label": 144,
+      "pdfViewer": 3,
+      "rectangle": 3,
+      "screen": 8,
+      "text": 40,
+      "typedDataCard": 45
+    },
+    "DeserializationLoadTime": 2.6630049
+  },
+  "WasLocalDatabaseReferencesEmpty": false
 }

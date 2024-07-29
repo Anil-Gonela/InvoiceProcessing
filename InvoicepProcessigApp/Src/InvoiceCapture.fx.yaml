@@ -1,6 +1,6 @@
 InvoiceCapture As screen:
     BackgroundImage: =
-    Fill: =RGBA(255, 255, 255, 1)
+    Fill: =RGBA(253, 222, 207, 0.1)
 
     Container_Component As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
@@ -11,13 +11,44 @@ InvoiceCapture As screen:
         RadiusBottomRight: =0
         RadiusTopLeft: =0
         RadiusTopRight: =0
-        Width: =Parent.Width*8%
+        Width: =Parent.Width*18%
         Y: =Parent.Height *10%
         ZIndex: =1
 
         SideNavigation_Compact_1 As SideNavigation_Compact:
             LayoutMinHeight: =640
             LayoutMinWidth: =640
+            MenuContent: |-
+                =Table(
+                    {
+                        MenuIcon: MainIcon,
+                        MenuID: 1, 
+                        MenuName: "Main", 
+                        PageNavigation: 'Welcome Screen_1',
+                        ScreenName: "Overview"
+                        },
+                        {
+                        MenuIcon: CreateInvoice,
+                        MenuID: 2, 
+                        MenuName: "CreateInvoice", 
+                        PageNavigation: Screen2,
+                        ScreenName: "Create Invoice"
+                        },
+                        {
+                        MenuIcon: CaptureInovice,
+                        MenuID: 3, 
+                        MenuName: "CaptureInvoice", 
+                        PageNavigation: InvoiceCapture,
+                        ScreenName: "Capture Invoice"
+                        },
+                        {
+                        MenuIcon: InovceList,
+                        MenuID: 4, 
+                        MenuName: "InvoiceList", 
+                        PageNavigation: InvoiceList,
+                        ScreenName: "Invoice List"
+                        }
+                    )
             Width: =Parent.Width
             ZIndex: =2
 
@@ -30,7 +61,7 @@ InvoiceCapture As screen:
         RadiusBottomRight: =0
         RadiusTopLeft: =0
         RadiusTopRight: =0
-        Width: =Parent.Width * 40%
+        Width: =Parent.Width * 30%
         X: =Container_Component.X + Container_Component.Width
         Y: =Container_Component.Y
         ZIndex: =2
@@ -676,7 +707,7 @@ InvoiceCapture As screen:
 
     Heading As groupContainer.horizontalAutoLayoutContainer:
         DropShadow: =DropShadow.None
-        Fill: =RGBA(253, 222, 207, 0.3)
+        Fill: =RGBA(253, 222, 207, 0.1)
         Height: =Parent.Height *10%
         LayoutMode: =LayoutMode.Auto
         RadiusBottomLeft: =10
@@ -723,4 +754,23 @@ InvoiceCapture As screen:
                 Width: =Parent.Width * 25%
                 X: =Container19.X + Container19.Width
                 ZIndex: =2
+
+            Container19_1 As groupContainer.manualLayoutContainer:
+                BorderColor: =RGBA(221, 79, 14, 1)
+                BorderThickness: =1
+                Height: =Parent.Height * 95%
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Width: =Parent.Height * 95%
+                X: =Parent.X + 5
+                Y: =Parent.Y + 2
+                ZIndex: =3
+
+                Image4_1 As image:
+                    Height: =Parent.Height
+                    Image: =MainIcon1
+                    Width: =Parent.Width
+                    ZIndex: =1
 
