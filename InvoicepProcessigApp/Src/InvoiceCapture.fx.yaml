@@ -769,9 +769,11 @@ InvoiceCapture As screen:
                 ZIndex: =3
 
                 Image4_1 As image:
-                    Height: =Parent.Height
+                    Height: =Parent.Height *90%
                     Image: =SettingsIcon_1
-                    Width: =Parent.Width
+                    Width: =Parent.Width *90%
+                    X: =(Parent.Width - Self.Width) / 2
+                    Y: =(Parent.Height - Self.Height) / 2
                     ZIndex: =1
 
             Notifications As groupContainer.manualLayoutContainer:

@@ -1,0 +1,321 @@
+InvoiceList As screen:
+    BackgroundImage: =
+    Fill: =RGBA(253, 222, 207, 0.1)
+
+    Component_1 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.None
+        Height: =Parent.Height *90%
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Width: =Parent.Width*18%
+        Y: =Parent.Height *10%
+        ZIndex: =1
+
+        SideNavigation_Compact_2 As SideNavigation_Compact:
+            LayoutMinHeight: =640
+            LayoutMinWidth: =640
+            MenuContent: |-
+                =Table(
+                    {
+                        MenuIcon: MainIcon,
+                        MenuID: 1, 
+                        MenuName: "Main", 
+                        PageNavigation: 'Welcome Screen_1',
+                        ScreenName: "Overview"
+                        },
+                        {
+                        MenuIcon: CreateInvoice,
+                        MenuID: 2, 
+                        MenuName: "CreateInvoice", 
+                        PageNavigation: Screen2,
+                        ScreenName: "Create Invoice"
+                        },
+                        {
+                        MenuIcon: CaptureInovice,
+                        MenuID: 3, 
+                        MenuName: "CaptureInvoice", 
+                        PageNavigation: InvoiceList,
+                        ScreenName: "Capture Invoice"
+                        },
+                        {
+                        MenuIcon: InovceList,
+                        MenuID: 4, 
+                        MenuName: "InvoiceList", 
+                        PageNavigation: InvoiceList,
+                        ScreenName: "Invoice List"
+                        }
+                    )
+            Width: =Parent.Width
+            ZIndex: =2
+
+    Heading_1 As groupContainer.horizontalAutoLayoutContainer:
+        DropShadow: =DropShadow.None
+        Fill: =RGBA(253, 222, 207, 0.1)
+        Height: =Parent.Height *10%
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =Parent.Width
+        Y: |
+            =0
+        ZIndex: =4
+
+        Container18_1 As groupContainer.manualLayoutContainer:
+            Height: =Parent.Height
+            LayoutMinHeight: =0
+            LayoutMinWidth: =0
+            Width: =Parent.Width
+            ZIndex: =1
+
+            HeaderIcon_1 As groupContainer.manualLayoutContainer:
+                BorderColor: =RGBA(221, 79, 14, 1)
+                BorderThickness: =1
+                Height: =Parent.Height * 95%
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Width: =Parent.Height * 95%
+                X: =Parent.X + 5
+                Y: =Parent.Y + 2
+                ZIndex: =1
+
+                Image4_4 As image:
+                    Height: =Parent.Height
+                    Image: =MainIcon1
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+            Label15_1 As label:
+                Color: =RGBA(221, 79, 14, 1)
+                Font: =Font.'Lato Black'
+                Height: =Parent.Height * 95%
+                Size: =20
+                Text: ="Invoice List"
+                Width: =Parent.Width * 25%
+                X: =HeaderIcon_1.X + HeaderIcon_1.Width
+                ZIndex: =2
+
+            SettingsIcon_2 As groupContainer.manualLayoutContainer:
+                BorderColor: =RGBA(221, 79, 14, 1)
+                BorderThickness: =1
+                Height: =Parent.Height * 80%
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Width: =Parent.Height * 80%
+                X: =Parent.Width *85%
+                Y: =(Parent.Height - Self.Height) / 2
+                ZIndex: =3
+
+                Image4_5 As image:
+                    Height: =Parent.Height *90%
+                    Image: =SettingsIcon_1
+                    Width: =Parent.Width *90%
+                    X: =(Parent.Width - Self.Width) / 2
+                    Y: =(Parent.Height - Self.Height) / 2
+                    ZIndex: =1
+
+            Notifications_2 As groupContainer.manualLayoutContainer:
+                BorderColor: =RGBA(221, 79, 14, 1)
+                BorderThickness: =1
+                Height: =Parent.Height * 80%
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Width: =Parent.Height * 80%
+                X: =SettingsIcon_2.X + SettingsIcon_2.Width + 5
+                Y: =(Parent.Height - Self.Height) / 2
+                ZIndex: =4
+
+                Image4_6 As image:
+                    Height: =Parent.Height
+                    Image: =Notifications_1
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+            UserIcon_1 As groupContainer.manualLayoutContainer:
+                BorderColor: =RGBA(221, 79, 14, 1)
+                BorderThickness: =1
+                Height: =Parent.Height * 80%
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Width: =Parent.Height * 80%
+                X: =Notifications_2.X + Notifications_2.Width + 5
+                Y: =(Parent.Height - Self.Height) / 2
+                ZIndex: =5
+
+                Image4_7 As image:
+                    Height: =Parent.Height
+                    Image: =User().Image
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+    "'Total Due and Paid' As groupContainer.verticalAutoLayoutContainer":
+        DropShadow: =DropShadow.None
+        Height: =Parent.Height * 85%
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Width: =Parent.Width * 80%
+        X: =Component_1.X + Component_1.Width
+        Y: =Heading_1.Y + Heading_1.Height + 10
+        ZIndex: =5
+
+        Container8 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
+            Fill: =RGBA(253, 222, 207, 0.51)
+            Height: =Parent.Height
+            LayoutMinHeight: =0
+            LayoutMinWidth: =0
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Width: =Parent.Width
+            ZIndex: =1
+
+            Container11 As groupContainer.manualLayoutContainer:
+                Fill: =RGBA(255, 255, 255, 0.3)
+                Height: =Parent.Height * 30%
+                RadiusBottomLeft: =20
+                RadiusBottomRight: =20
+                RadiusTopLeft: =20
+                RadiusTopRight: =20
+                Width: =Parent.Width * 45%
+                X: =(Parent.Width - Self.Width) / 2
+                Y: =Parent.Height * 2%
+                ZIndex: =1
+
+                Pending As groupContainer.manualLayoutContainer:
+                    DropShadow: =DropShadow.None
+                    Height: =Parent.Height * 50%
+                    Width: =Parent.Width*50%
+                    ZIndex: =1
+
+                    Container16 As groupContainer.manualLayoutContainer:
+                        Height: =Self.Width
+                        RadiusBottomLeft: =50
+                        RadiusBottomRight: =50
+                        RadiusTopLeft: =50
+                        RadiusTopRight: =50
+                        Width: =Parent.Width *30%
+                        Y: =(Parent.Height - Self.Height) / 2
+                        ZIndex: =1
+
+                        Image2 As image:
+                            Height: =Parent.Height
+                            Image: =PendingIcon
+                            Width: =Parent.Width
+                            ZIndex: =1
+
+                    Label7 As label:
+                        Color: =RGBA(221, 79, 14, 1)
+                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Semibold
+                        Height: =Parent.Height*50%
+                        Text: ="Pending"
+                        VerticalAlign: =VerticalAlign.Bottom
+                        Width: =Parent.Width * 70%
+                        X: =Container16.X + Container16.Width
+                        ZIndex: =2
+
+                    Label7_1 As label:
+                        Font: =Font.'Lato Black'
+                        FontWeight: =FontWeight.Bold
+                        Height: =Parent.Height*50%
+                        Text: ="$700.000"
+                        VerticalAlign: =VerticalAlign.Top
+                        Width: =Parent.Width * 70%
+                        X: =Container16.X + Container16.Width
+                        Y: =Label7.Height + Label7.Y
+                        ZIndex: =3
+
+                Paid As groupContainer.manualLayoutContainer:
+                    DropShadow: =DropShadow.None
+                    Height: =Parent.Height * 50%
+                    Width: =Parent.Width*50%
+                    X: =Pending.X + Pending.Width
+                    ZIndex: =2
+
+                    Container16_1 As groupContainer.manualLayoutContainer:
+                        Height: =Self.Width
+                        RadiusBottomLeft: =50
+                        RadiusBottomRight: =50
+                        RadiusTopLeft: =50
+                        RadiusTopRight: =50
+                        Width: =Parent.Width *30%
+                        Y: =(Parent.Height - Self.Height) / 2
+                        ZIndex: =1
+
+                        Image2_1 As image:
+                            Height: =Parent.Height
+                            Image: =PaidIcon
+                            Width: =Parent.Width
+                            ZIndex: =1
+
+                    Label7_2 As label:
+                        Color: =RGBA(221, 79, 14, 1)
+                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Semibold
+                        Height: =Parent.Height*50%
+                        Text: ="Paid"
+                        VerticalAlign: =VerticalAlign.Bottom
+                        Width: =Parent.Width * 70%
+                        X: =73.77749999999997
+                        ZIndex: =2
+
+                    Label7_3 As label:
+                        Font: =Font.'Lato Black'
+                        FontWeight: =FontWeight.Bold
+                        Height: =Parent.Height*50%
+                        Text: ="$132.000"
+                        VerticalAlign: =VerticalAlign.Top
+                        Width: =Parent.Width * 70%
+                        X: =73.77749999999997
+                        Y: =Label7_2.Height + Label7_2.Y
+                        ZIndex: =3
+
+                NewInvoice As groupContainer.manualLayoutContainer:
+                    Fill: =RGBA(221, 79, 14, 1)
+                    Height: =Parent.Height*25%
+                    RadiusBottomLeft: =20
+                    RadiusBottomRight: =20
+                    RadiusTopLeft: =20
+                    RadiusTopRight: =20
+                    Width: =Parent.Width * 60%
+                    X: =(Parent.Width - Self.Width) / 2
+                    Y: =Pending.Y + Pending.Height + 20
+                    ZIndex: =3
+
+                    Label8 As label:
+                        Align: =Align.Center
+                        Color: =RGBA(255, 255, 255, 1)
+                        Font: =Font.'Lato Black'
+                        Height: =Parent.Height * 90%
+                        Text: ="New Invoice"
+                        Width: =Parent.Width * 80%
+                        X: =(Parent.Width - Self.Width)/2
+                        Y: =(Parent.Height - Self.Height)/2
+                        ZIndex: =1
+
+                    Button7 As button:
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =Parent.Height
+                        Text: =
+                        Width: =Parent.Width
+                        ZIndex: =2
+
