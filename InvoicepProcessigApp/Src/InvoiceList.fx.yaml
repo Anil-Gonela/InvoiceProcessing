@@ -188,7 +188,7 @@ InvoiceList As screen:
             Width: =Parent.Width
             ZIndex: =1
 
-            Container11 As groupContainer.manualLayoutContainer:
+            Overview As groupContainer.manualLayoutContainer:
                 Fill: =RGBA(255, 255, 255, 0.3)
                 Height: =Parent.Height * 30%
                 RadiusBottomLeft: =20
@@ -318,4 +318,42 @@ InvoiceList As screen:
                         Text: =
                         Width: =Parent.Width
                         ZIndex: =2
+
+            Filters As groupContainer.horizontalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
+                Height: =Parent.Height * 8%
+                LayoutMode: =LayoutMode.Auto
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Width: =Parent.Width *70%
+                X: =(Parent.Width - Self.Width) / 2 
+                Y: =Overview.Y + Overview.Height + 5
+                ZIndex: =2
+
+                Container20 As groupContainer.manualLayoutContainer:
+                    LayoutMinHeight: =0
+                    LayoutMinWidth: =0
+                    ZIndex: =1
+
+                Container20_1 As groupContainer.manualLayoutContainer:
+                    LayoutMinHeight: =0
+                    LayoutMinWidth: =0
+                    ZIndex: =2
+
+                Container20_2 As groupContainer.manualLayoutContainer:
+                    LayoutMinHeight: =0
+                    LayoutMinWidth: =0
+                    ZIndex: =3
+
+                Container20_3 As groupContainer.manualLayoutContainer:
+                    LayoutMinHeight: =0
+                    LayoutMinWidth: =0
+                    ZIndex: =4
+
+                Container20_4 As groupContainer.manualLayoutContainer:
+                    LayoutMinHeight: =0
+                    LayoutMinWidth: =0
+                    ZIndex: =5
 
