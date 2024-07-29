@@ -880,9 +880,10 @@ Screen1_2 As screen:
 
     Icon3_1 As icon.DocumentPDF:
         Icon: =Icon.DocumentPDF
-        OnSelect: |-
+        OnSelect: |
             =Set(MyPDFContent,PDF(Container1_1,{ExpandContainers:true}));
-            SavePDFtoSP.Run({file:{name:"PDF Genrated from PA",contentBytes:MyPDFContent}})
+            SavePDFtoSP.Run({file:{name:"PDF Genrated from PA",contentBytes:MyPDFContent}});
+            ClearCollect(MyCol,{Description:"",Units:"",Amount:""});
         X: =1284
         Y: =688
         ZIndex: =7
