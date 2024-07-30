@@ -266,6 +266,8 @@ InvoiceList As screen:
                             Height: =Parent.Height
                             Image: =PaidIcon
                             Width: =Parent.Width
+                            X: =Parent.X
+                            Y: =(Parent.Height - Self.Height) / 2
                             ZIndex: =1
 
                     Label7_2 As label:
@@ -276,7 +278,7 @@ InvoiceList As screen:
                         Text: ="Paid"
                         VerticalAlign: =VerticalAlign.Bottom
                         Width: =Parent.Width * 70%
-                        X: =73.77749999999997
+                        X: =Container16_1.X + Container16_1.Width
                         ZIndex: =2
 
                     Label7_3 As label:
@@ -286,7 +288,7 @@ InvoiceList As screen:
                         Text: ="$132.000"
                         VerticalAlign: =VerticalAlign.Top
                         Width: =Parent.Width * 70%
-                        X: =73.77749999999997
+                        X: =Container16_1.X + Container16_1.Width
                         Y: =Label7_2.Height + Label7_2.Y
                         ZIndex: =3
 
@@ -384,7 +386,7 @@ InvoiceList As screen:
                                 ZIndex: =1
 
             InvoiceListContainer As groupContainer.manualLayoutContainer:
-                Height: =Parent.Height * 60%
+                Height: =Parent.Height * 62%
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
@@ -401,22 +403,22 @@ InvoiceList As screen:
                     ZIndex: =1
 
                 List As groupContainer.manualLayoutContainer:
+                    BorderThickness: =1
                     DropShadow: =DropShadow.Bold
                     Fill: =RGBA(255, 255, 255, 0.3)
-                    Height: =Parent.Height * 86%
+                    Height: =Parent.Height * 85%
                     RadiusBottomLeft: =20
                     RadiusBottomRight: =20
                     RadiusTopLeft: =20
                     RadiusTopRight: =20
-                    Width: =Parent.Width
-                    X: =Parent.X
+                    Width: =Parent.Width * 98%
+                    X: =Parent.X + 5
                     Y: =ColumnNames.Y +  ColumnNames.Height + 2
                     ZIndex: =2
 
                     Gallery6 As gallery.variableTemplateHeightGallery:
                         DelayItemLoading: =true
-                        Fill: =RGBA(244, 250, 237, 1)
-                        Height: =336.948
+                        Height: =Parent.Height
                         Items: ='Invoice Data'
                         Layout: =Layout.Vertical
                         LoadingSpinner: =LoadingSpinner.Data
@@ -426,8 +428,7 @@ InvoiceList As screen:
                         Width: =Parent.Width
                         ZIndex: =1
 
-                        Container21 As groupContainer.manualLayoutContainer:
-                            DropShadow: =DropShadow.Semibold
+                        Button As groupContainer.manualLayoutContainer:
                             Fill: =RGBA(255, 255, 255, 0.2)
                             Height: =Gallery6.TemplateHeight
                             RadiusBottomLeft: =20
@@ -436,6 +437,18 @@ InvoiceList As screen:
                             RadiusTopRight: =20
                             Width: =Gallery6.TemplateWidth 
                             ZIndex: =1
+
+                            Button10 As button:
+                                Fill: =RGBA(0, 0, 0, 0)
+                                Height: =Parent.Height
+                                HoverFill: =RGBA(0,0,0,0.1) 
+                                RadiusBottomLeft: =20
+                                RadiusBottomRight: =20
+                                RadiusTopLeft: =20
+                                RadiusTopRight: =20
+                                Text: =
+                                Width: =Parent.Width
+                                ZIndex: =1
 
                         Label11 As label:
                             Font: =Font.Lato
