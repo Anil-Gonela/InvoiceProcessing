@@ -728,7 +728,6 @@ InvoiceCapture As screen:
 
             HeaderIcon As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
-                BorderThickness: =1
                 Height: =Parent.Height * 95%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
@@ -741,7 +740,7 @@ InvoiceCapture As screen:
 
                 Image4 As image:
                     Height: =Parent.Height
-                    Image: =MainIcon1
+                    Image: ='invoice-receipt'
                     Width: =Parent.Width
                     ZIndex: =1
 

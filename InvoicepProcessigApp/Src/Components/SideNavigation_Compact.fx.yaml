@@ -78,6 +78,7 @@ SideNavigation_Compact As CanvasComponent:
 
             Container5 As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.Regular
+                Fill: =RGBA(255, 255, 255, 0.2)
                 Height: =Gallery4.TemplateHeight
                 RadiusBottomLeft: =30
                 RadiusBottomRight: =30

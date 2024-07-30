@@ -1618,7 +1618,14 @@
                     "NameMapSourceSchema": "?"
                   },
                   "BorderStyle",
-                  "Fill",
+                  {
+                    "AFDDataSourceName": "",
+                    "AutoRuleBindingEnabled": false,
+                    "AutoRuleBindingString": "RGBA(0, 0, 0, 0)",
+                    "InvariantPropertyName": "Fill",
+                    "IsLockable": false,
+                    "NameMapSourceSchema": "?"
+                  },
                   {
                     "AFDDataSourceName": "",
                     "AutoRuleBindingEnabled": false,
@@ -1740,9 +1747,9 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "RGBA(0, 0, 0, 0)",
+                    "InvariantScript": "RGBA(255, 255, 255, 0.2)",
                     "Property": "Fill",
-                    "RuleProviderType": "Unknown"
+                    "RuleProviderType": "User"
                   },
                   {
                     "Category": "Design",
@@ -3467,7 +3474,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638579404641417202",
+    "LastModifiedTimestamp": "638579434714209170",
     "Name": "SideNavigation_Compact",
     "Rules": [
       {
@@ -3572,7 +3579,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638579404641417202",
+  "LastModifiedTimestamp": "638579434714209170",
   "Name": "d4521f6e39724073a64c56d93e35a98f",
   "OverridableProperties": {},
   "Version": "1.0"
