@@ -415,15 +415,27 @@ InvoiceList As screen:
 
                     Gallery6 As gallery.variableTemplateHeightGallery:
                         DelayItemLoading: =true
+                        Fill: =RGBA(244, 250, 237, 1)
                         Height: =336.948
                         Items: ='Invoice Data'
                         Layout: =Layout.Vertical
                         LoadingSpinner: =LoadingSpinner.Data
                         TemplateFill: =RGBA(255, 255, 255, 0.3)
-                        TemplatePadding: =0
+                        TemplatePadding: =2
                         TemplateSize: =100
                         Width: =Parent.Width
                         ZIndex: =1
+
+                        Container21 As groupContainer.manualLayoutContainer:
+                            DropShadow: =DropShadow.Semibold
+                            Fill: =RGBA(255, 255, 255, 0.2)
+                            Height: =Gallery6.TemplateHeight
+                            RadiusBottomLeft: =20
+                            RadiusBottomRight: =20
+                            RadiusTopLeft: =20
+                            RadiusTopRight: =20
+                            Width: =Gallery6.TemplateWidth 
+                            ZIndex: =1
 
                         Label11 As label:
                             Font: =Font.Lato
@@ -435,7 +447,7 @@ InvoiceList As screen:
                             Width: =Gallery6.TemplateWidth * 15%
                             X: =Container20.Width + Container20.X
                             Y: =Gallery6.Y
-                            ZIndex: =1
+                            ZIndex: =2
 
                         Container20 As groupContainer.manualLayoutContainer:
                             Height: =Gallery6.TemplateHeight * 80%
@@ -446,7 +458,7 @@ InvoiceList As screen:
                             Width: =80
                             X: =Gallery6.X + 40
                             Y: =(Gallery6.TemplateHeight - Self.Height) / 2
-                            ZIndex: =2
+                            ZIndex: =3
 
                             Image7 As image:
                                 Height: =Parent.Height
@@ -463,7 +475,7 @@ InvoiceList As screen:
                             Width: =Gallery6.TemplateWidth * 15%
                             X: =Container20.X + Container20.Width + 5
                             Y: =Label11.Y + Label11.Height
-                            ZIndex: =3
+                            ZIndex: =4
 
                         BillTo As label:
                             Color: =RGBA(172, 62, 11, 1)
@@ -475,7 +487,7 @@ InvoiceList As screen:
                             Width: =Gallery6.TemplateWidth * 15%
                             X: =Label12.X + Label12.Width + 25
                             Y: =(Gallery6.TemplateHeight - Self.Height) / 2
-                            ZIndex: =4
+                            ZIndex: =5
 
                         DueAmount As label:
                             Color: =RGBA(172, 62, 11, 1)
@@ -487,7 +499,7 @@ InvoiceList As screen:
                             Width: =Gallery6.TemplateWidth * 15%
                             X: =BillTo.X + BillTo.Width +  25
                             Y: =(Gallery6.TemplateHeight - Self.Height) / 2
-                            ZIndex: =5
+                            ZIndex: =6
 
                         DueDate As label:
                             Color: =RGBA(172, 62, 11, 1)
@@ -499,7 +511,7 @@ InvoiceList As screen:
                             Width: =Gallery6.TemplateWidth * 15%
                             X: =DueAmount.X + DueAmount.Width +  25
                             Y: =(Gallery6.TemplateHeight - Self.Height) / 2
-                            ZIndex: =6
+                            ZIndex: =7
 
                         InvoiceStatus As label:
                             Color: =RGBA(172, 62, 11, 1)
@@ -511,5 +523,5 @@ InvoiceList As screen:
                             Width: =Gallery6.TemplateWidth * 15%
                             X: =DueDate.X + DueDate.Width +  25
                             Y: =(Gallery6.TemplateHeight - Self.Height) / 2
-                            ZIndex: =7
+                            ZIndex: =8
 
