@@ -1,8 +1,43 @@
 App As appinfo:
     BackEnabled: =true
     OnStart: |
-        =ClearCollect(MyCol,{Description:DescriptionInput_5.Text,Units:UnitsInput_4.Text,Amount:TotalAmountInput_4.Text});
-        Set(Group1Visibility,true);
+        =ClearCollect(
+            MyCol,
+            {
+                Description: DescriptionInput_5.Text,
+                Units: UnitsInput_4.Text,
+                Amount: TotalAmountInput_4.Text
+            }
+        );
+        Set(
+            Group1Visibility,
+            true
+        );
+        
+        
+        ClearCollect(
+            FilterOptions,
+            {
+                Id: 1,
+                Name: "All",
+                Color: "RGBA(172, 62, 11, 1)"
+            },
+            {
+                Id: 2,
+                Name: "Pending",
+                Color: "RGBA(172, 62, 11, 1)"
+            },
+            {
+                Id: 3,
+                Name: "Paid",
+                Color: "RGBA(172, 62, 11, 1)"
+            },
+            {
+                Id: 4,
+                Name: "Cancelled",
+                Color: "RGBA(172, 62, 11, 1)"
+            }
+        );
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

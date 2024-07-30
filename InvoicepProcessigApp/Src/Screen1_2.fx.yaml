@@ -482,22 +482,6 @@ Screen1_2 As screen:
                         Y: =0
                         ZIndex: =1
 
-                    Amount As customControl.dataColumn:
-                        AutoWidth: =true
-                        DisplayName: ="Amount"
-                        FieldName: ="Amount"
-                        Height: =0
-                        IsHyperlink: =false
-                        Order: =2
-                        Required: =false
-                        TitleProperty: =""
-                        Type: ="s"
-                        VariantName: ="textualViewCard"
-                        Width: =264
-                        X: =284
-                        Y: =0
-                        ZIndex: =2
-
                     Units As customControl.dataColumn:
                         AutoWidth: =true
                         DisplayName: ="Units"
@@ -511,6 +495,22 @@ Screen1_2 As screen:
                         VariantName: ="textualViewCard"
                         Width: =264
                         X: =248
+                        Y: =0
+                        ZIndex: =2
+
+                    Amount As customControl.dataColumn:
+                        AutoWidth: =true
+                        DisplayName: ="Amount"
+                        FieldName: ="Amount"
+                        Height: =0
+                        IsHyperlink: =false
+                        Order: =2
+                        Required: =false
+                        TitleProperty: =""
+                        Type: ="s"
+                        VariantName: ="textualViewCard"
+                        Width: =264
+                        X: =284
                         Y: =0
                         ZIndex: =3
 

@@ -176,6 +176,7 @@ InvoiceList As screen:
         ZIndex: =5
 
         Container8 As groupContainer.manualLayoutContainer:
+            BorderColor: =RGBA(247, 247, 247, 1)
             DropShadow: =DropShadow.None
             Fill: =RGBA(253, 222, 207, 0.51)
             Height: =Parent.Height
@@ -290,7 +291,7 @@ InvoiceList As screen:
                         ZIndex: =3
 
                 NewInvoice As groupContainer.manualLayoutContainer:
-                    Fill: =RGBA(221, 79, 14, 1)
+                    Fill: =RGBA(172, 62, 11, 1)
                     Height: =Parent.Height*25%
                     RadiusBottomLeft: =20
                     RadiusBottomRight: =20
@@ -321,7 +322,7 @@ InvoiceList As screen:
 
             Filters As groupContainer.horizontalAutoLayoutContainer:
                 DropShadow: =DropShadow.None
-                Height: =Parent.Height * 8%
+                Height: =Parent.Height * 7%
                 LayoutMode: =LayoutMode.Auto
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
@@ -332,28 +333,51 @@ InvoiceList As screen:
                 Y: =Overview.Y + Overview.Height + 5
                 ZIndex: =2
 
-                Container20 As groupContainer.manualLayoutContainer:
-                    LayoutMinHeight: =0
-                    LayoutMinWidth: =0
-                    ZIndex: =1
-
-                Container20_1 As groupContainer.manualLayoutContainer:
-                    LayoutMinHeight: =0
-                    LayoutMinWidth: =0
-                    ZIndex: =2
-
-                Container20_2 As groupContainer.manualLayoutContainer:
-                    LayoutMinHeight: =0
-                    LayoutMinWidth: =0
-                    ZIndex: =3
-
-                Container20_3 As groupContainer.manualLayoutContainer:
-                    LayoutMinHeight: =0
-                    LayoutMinWidth: =0
-                    ZIndex: =4
-
                 Container20_4 As groupContainer.manualLayoutContainer:
+                    Height: =Filters.Height * 90%
                     LayoutMinHeight: =0
                     LayoutMinWidth: =0
+                    RadiusBottomLeft: =30
+                    RadiusBottomRight: =30
+                    RadiusTopLeft: =30
+                    RadiusTopRight: =30
+                    Width: =Parent.Width
                     ZIndex: =5
+
+                    Gallery2 As gallery.galleryHorizontal:
+                        DelayItemLoading: =true
+                        Height: =Parent.Height
+                        Items: =FilterOptions 
+                        LoadingSpinner: =LoadingSpinner.Data
+                        TemplatePadding: =0
+                        TemplateSize: =Parent.Width *25%
+                        Width: =Parent.Width
+                        ZIndex: =1
+
+                        Container7 As groupContainer.manualLayoutContainer:
+                            BorderColor: =RGBA(172, 62, 11, 1)
+                            Height: =Gallery2.TemplateHeight * 95%
+                            RadiusBottomLeft: =30
+                            RadiusBottomRight: =30
+                            RadiusTopLeft: =30
+                            RadiusTopRight: =30
+                            Width: =Gallery2.TemplateWidth
+                            Y: =(Parent.Height - Self.Height) / 2
+                            ZIndex: =1
+
+                            Button9 As button:
+                                BorderColor: =RGBA(172, 62, 11, 1)
+                                BorderThickness: =0
+                                Color: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(172, 62, 11, 1))
+                                Fill: =If(ThisItem.IsSelected, RGBA(172, 62, 11, 1), RGBA(255, 255, 255, 0.3))
+                                Height: =Parent.Height
+                                PaddingBottom: =0
+                                PaddingLeft: =0
+                                PaddingRight: =0
+                                PaddingTop: =0
+                                Text: =ThisItem.Name
+                                Width: =Parent.Width
+                                X: =Parent.X 
+                                Y: =Parent.Y
+                                ZIndex: =1
 
