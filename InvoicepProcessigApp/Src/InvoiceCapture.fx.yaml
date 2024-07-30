@@ -380,12 +380,12 @@ InvoiceCapture As screen:
                 "'Sale Amount_DataCard3_1' As typedDataCard.textualEditCard":
                     BorderStyle: =BorderStyle.Solid
                     DataField: ="SaleAmount"
-                    Default: =ThisItem.SaleAmount
+                    Default: =ThisItem.'Shipping Cost'
                     DisplayMode: =Parent.DisplayMode
-                    DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,SaleAmount)
+                    DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName, ShippingCost)
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =50
-                    MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, SaleAmount)
+                    MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, ShippingCost)
                     Required: =false
                     Update: =DataCardValue17_1.Text
                     Width: =341
