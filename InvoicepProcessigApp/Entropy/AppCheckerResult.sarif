@@ -3006,19 +3006,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Container8.Filters.Container20_4.Gallery2.AccessibleLabel"
+                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.Filters.Container20_4.Gallery2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Container8.Filters.Container20_4.Gallery2.AccessibleLabel",
+                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.Filters.Container20_4.Gallery2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "InvoiceList",
-                "type": "InvoiceList.'Total Due and Paid'.Container8.Filters.Container20_4.Gallery2"
+                "type": "InvoiceList.'Total Due and Paid'.Body.Filters.Container20_4.Gallery2"
               }
             }
           ],
@@ -3036,19 +3036,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Container8.Filters.Container20_4.Gallery2.TabIndex"
+                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.Filters.Container20_4.Gallery2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Container8.Filters.Container20_4.Gallery2.TabIndex",
+                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.Filters.Container20_4.Gallery2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "InvoiceList",
-                "type": "InvoiceList.'Total Due and Paid'.Container8.Filters.Container20_4.Gallery2"
+                "type": "InvoiceList.'Total Due and Paid'.Body.Filters.Container20_4.Gallery2"
               }
             }
           ],
@@ -3060,6 +3060,66 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.InvoiceListContainer.List.Gallery6.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.InvoiceListContainer.List.Gallery6.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "InvoiceList",
+                "type": "InvoiceList.'Total Due and Paid'.Body.InvoiceListContainer.List.Gallery6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.InvoiceListContainer.List.Gallery6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.InvoiceListContainer.List.Gallery6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "InvoiceList",
+                "type": "InvoiceList.'Total Due and Paid'.Body.InvoiceListContainer.List.Gallery6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
         },
         {
           "locations": [

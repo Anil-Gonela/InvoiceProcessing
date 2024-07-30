@@ -175,7 +175,7 @@ InvoiceList As screen:
         Y: =Heading_1.Y + Heading_1.Height + 10
         ZIndex: =5
 
-        Container8 As groupContainer.manualLayoutContainer:
+        Body As groupContainer.manualLayoutContainer:
             BorderColor: =RGBA(247, 247, 247, 1)
             DropShadow: =DropShadow.None
             Fill: =RGBA(253, 222, 207, 0.51)
@@ -371,13 +371,76 @@ InvoiceList As screen:
                                 Color: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(172, 62, 11, 1))
                                 Fill: =If(ThisItem.IsSelected, RGBA(172, 62, 11, 1), RGBA(255, 255, 255, 0.3))
                                 Height: =Parent.Height
+                                HoverFill: =RGBA(172, 62, 11, 0.5)
                                 PaddingBottom: =0
                                 PaddingLeft: =0
                                 PaddingRight: =0
                                 PaddingTop: =0
+                                PressedFill: =RGBA(255, 255, 255, 0.5)
                                 Text: =ThisItem.Name
                                 Width: =Parent.Width
                                 X: =Parent.X 
                                 Y: =Parent.Y
+                                ZIndex: =1
+
+            InvoiceListContainer As groupContainer.manualLayoutContainer:
+                Height: =Parent.Height * 60%
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Width: =Parent.Width
+                X: =Parent.X
+                Y: =Filters.Y + Filters.Height + 10
+                ZIndex: =3
+
+                ColumnNames As groupContainer.manualLayoutContainer:
+                    Height: =Parent.Height * 10%
+                    Width: =Parent.Width
+                    X: =Parent.X
+                    ZIndex: =1
+
+                List As groupContainer.manualLayoutContainer:
+                    DropShadow: =DropShadow.Regular
+                    Fill: =RGBA(253, 222, 207, 0.5)
+                    Height: =Parent.Height * 86%
+                    Width: =Parent.Width
+                    X: =Parent.X
+                    Y: =ColumnNames.Y +  ColumnNames.Height + 2
+                    ZIndex: =2
+
+                    Gallery6 As gallery.variableTemplateHeightGallery:
+                        DelayItemLoading: =true
+                        Height: =336.948
+                        Items: ='Invoice Data'
+                        Layout: =Layout.Vertical
+                        LoadingSpinner: =LoadingSpinner.Data
+                        TemplateFill: =RGBA(255, 255, 255, 0.3)
+                        TemplatePadding: =0
+                        TemplateSize: =100
+                        Width: =Parent.Width
+                        ZIndex: =1
+
+                        Label11 As label:
+                            OnSelect: =Select(Parent)
+                            Text: =ThisItem.'Invoice ID'
+                            X: =172
+                            Y: =36
+                            ZIndex: =1
+
+                        Container20 As groupContainer.manualLayoutContainer:
+                            Height: =Gallery6.TemplateHeight * 80%
+                            RadiusBottomLeft: =50
+                            RadiusBottomRight: =50
+                            RadiusTopLeft: =50
+                            RadiusTopRight: =50
+                            Width: =80
+                            X: =Gallery6.X + 5
+                            Y: =(Gallery6.TemplateHeight - Self.Height) / 2
+                            ZIndex: =2
+
+                            Image7 As image:
+                                Height: =Parent.Height
+                                Width: =Parent.Width
                                 ZIndex: =1
 
