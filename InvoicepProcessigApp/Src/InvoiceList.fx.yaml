@@ -413,7 +413,6 @@ InvoiceList As screen:
                 List As groupContainer.manualLayoutContainer:
                     BorderThickness: =1
                     DropShadow: =DropShadow.Bold
-                    Fill: =RGBA(255, 255, 255, 0.3)
                     Height: =Parent.Height * 85%
                     RadiusBottomLeft: =20
                     RadiusBottomRight: =20
