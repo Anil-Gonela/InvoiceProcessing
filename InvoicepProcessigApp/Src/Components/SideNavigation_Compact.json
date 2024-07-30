@@ -1382,7 +1382,7 @@
                       },
                       {
                         "Category": "Design",
-                        "InvariantScript": "RGBA(255, 255, 255, 1)",
+                        "InvariantScript": "RGBA(0, 0, 0, 1)",
                         "Property": "Color",
                         "RuleProviderType": "Unknown"
                       },
@@ -1728,7 +1728,7 @@
                 "Rules": [
                   {
                     "Category": "Design",
-                    "InvariantScript": "RGBA(253, 222, 207, 1)",
+                    "InvariantScript": "RGBA(0, 0, 0, 1)",
                     "Property": "BorderColor",
                     "RuleProviderType": "Unknown"
                   },
@@ -1824,7 +1824,7 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "DropShadow.None",
+                    "InvariantScript": "DropShadow.Regular",
                     "Property": "DropShadow",
                     "RuleProviderType": "Unknown"
                   },
@@ -1860,7 +1860,7 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "1",
+                    "InvariantScript": "0",
                     "Property": "BorderThickness",
                     "RuleProviderType": "Unknown"
                   }
@@ -2121,7 +2121,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "RGBA(172, 62, 11, 1)",
+                "InvariantScript": "RGBA(0, 0, 0, 0)",
                 "Property": "Fill",
                 "RuleProviderType": "Unknown"
               },
@@ -3467,12 +3467,12 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638579157987611145",
+    "LastModifiedTimestamp": "638579393550626605",
     "Name": "SideNavigation_Compact",
     "Rules": [
       {
         "Category": "Data",
-        "InvariantScript": "RGBA(172, 62, 11, 1)",
+        "InvariantScript": "RGBA(26, 26, 26, 0.1)",
         "Property": "NavBG",
         "RuleProviderType": "System"
       },
@@ -3520,7 +3520,7 @@
       },
       {
         "Category": "Design",
-        "InvariantScript": "RGBA(172, 62, 11, 1)",
+        "InvariantScript": "RGBA(0, 0, 0, 0.1)",
         "Property": "Fill",
         "RuleProviderType": "System"
       }
@@ -3572,7 +3572,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638579157987611145",
+  "LastModifiedTimestamp": "638579393550626605",
   "Name": "d4521f6e39724073a64c56d93e35a98f",
   "OverridableProperties": {},
   "Version": "1.0"

@@ -1,5 +1,5 @@
 SideNavigation_Compact As CanvasComponent:
-    Fill: =RGBA(172, 62, 11, 1)
+    Fill: =RGBA(0, 0, 0, 0.1)
     First_Logo: =Viewmore
     Height: =691
     MenuContent: |-
@@ -33,7 +33,7 @@ SideNavigation_Compact As CanvasComponent:
                 ScreenName: "Invoice List"
                 }
             )
-    NavBG: =RGBA(172, 62, 11, 1)
+    NavBG: =RGBA(26, 26, 26, 0.1)
     Width: =250
     X: =0
     Y: =0
@@ -66,7 +66,6 @@ SideNavigation_Compact As CanvasComponent:
 
         Gallery4 As gallery.galleryVertical:
             DelayItemLoading: =true
-            Fill: =RGBA(172, 62, 11, 1)
             Height: =Self.AllItemsCount * (Self.TemplateHeight+Self.TemplatePadding)
             Items: =SideNavigation_Compact.MenuContent
             Layout: =Layout.Vertical
@@ -78,9 +77,7 @@ SideNavigation_Compact As CanvasComponent:
             ZIndex: =2
 
             Container5 As groupContainer.manualLayoutContainer:
-                BorderColor: =RGBA(253, 222, 207, 1)
-                BorderThickness: =1
-                DropShadow: =DropShadow.None
+                DropShadow: =DropShadow.Regular
                 Height: =Gallery4.TemplateHeight
                 RadiusBottomLeft: =30
                 RadiusBottomRight: =30
@@ -116,7 +113,6 @@ SideNavigation_Compact As CanvasComponent:
                         ZIndex: =2
 
                 Label6 As label:
-                    Color: =RGBA(255, 255, 255, 1)
                     Font: =Font.'Lato Black'
                     Height: =Gallery4.TemplateHeight *70%
                     Text: =ThisItem.ScreenName

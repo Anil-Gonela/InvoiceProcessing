@@ -1,6 +1,6 @@
 InvoiceList As screen:
     BackgroundImage: =
-    Fill: =RGBA(253, 222, 207, 0.1)
+    Fill: =RGBA(0, 0, 0, 0)
 
     Component_1 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
@@ -54,7 +54,7 @@ InvoiceList As screen:
 
     Heading_1 As groupContainer.horizontalAutoLayoutContainer:
         DropShadow: =DropShadow.None
-        Fill: =RGBA(253, 222, 207, 0.1)
+        Fill: =RGBA(0, 0, 0, 0.1)
         Height: =Parent.Height *10%
         LayoutMode: =LayoutMode.Auto
         RadiusBottomLeft: =10
@@ -93,7 +93,6 @@ InvoiceList As screen:
                     ZIndex: =1
 
             Label15_1 As label:
-                Color: =RGBA(221, 79, 14, 1)
                 Font: =Font.'Lato Black'
                 Height: =Parent.Height * 95%
                 Size: =20
@@ -178,7 +177,7 @@ InvoiceList As screen:
         Body As groupContainer.manualLayoutContainer:
             BorderColor: =RGBA(247, 247, 247, 1)
             DropShadow: =DropShadow.None
-            Fill: =RGBA(253, 222, 207, 0.51)
+            Fill: =RGBA(255, 255, 255, 1)
             Height: =Parent.Height
             LayoutMinHeight: =0
             LayoutMinWidth: =0
@@ -190,7 +189,7 @@ InvoiceList As screen:
             ZIndex: =1
 
             Overview As groupContainer.manualLayoutContainer:
-                Fill: =RGBA(255, 255, 255, 0.3)
+                Fill: =RGBA(112, 148, 105, 0.1)
                 Height: =Parent.Height * 30%
                 RadiusBottomLeft: =20
                 RadiusBottomRight: =20
@@ -293,7 +292,7 @@ InvoiceList As screen:
                         ZIndex: =3
 
                 NewInvoice As groupContainer.manualLayoutContainer:
-                    Fill: =RGBA(172, 62, 11, 1)
+                    Fill: =RGBA(253, 222, 207, 0.1)
                     Height: =Parent.Height*25%
                     RadiusBottomLeft: =20
                     RadiusBottomRight: =20
@@ -306,7 +305,6 @@ InvoiceList As screen:
 
                     Label8 As label:
                         Align: =Align.Center
-                        Color: =RGBA(255, 255, 255, 1)
                         Font: =Font.'Lato Black'
                         Height: =Parent.Height * 90%
                         Text: ="New Invoice"
@@ -316,6 +314,7 @@ InvoiceList As screen:
                         ZIndex: =1
 
                     Button7 As button:
+                        Color: =RGBA(0, 0, 0, 1)
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =Parent.Height
                         Text: =
@@ -358,6 +357,7 @@ InvoiceList As screen:
 
                         Container7 As groupContainer.manualLayoutContainer:
                             BorderColor: =RGBA(172, 62, 11, 1)
+                            DropShadow: =DropShadow.Regular
                             Height: =Gallery2.TemplateHeight * 95%
                             RadiusBottomLeft: =30
                             RadiusBottomRight: =30
@@ -371,7 +371,7 @@ InvoiceList As screen:
                                 BorderColor: =RGBA(172, 62, 11, 1)
                                 BorderThickness: =0
                                 Color: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(172, 62, 11, 1))
-                                Fill: =If(ThisItem.IsSelected, RGBA(172, 62, 11, 1), RGBA(255, 255, 255, 0.3))
+                                Fill: =If(ThisItem.IsSelected, RGBA(0, 0, 0, 0.5), RGBA(255, 255, 255, 0.3))
                                 Height: =Parent.Height
                                 HoverFill: =RGBA(172, 62, 11, 0.5)
                                 PaddingBottom: =0
@@ -422,9 +422,8 @@ InvoiceList As screen:
                         Items: ='Invoice Data'
                         Layout: =Layout.Vertical
                         LoadingSpinner: =LoadingSpinner.Data
-                        TemplateFill: =RGBA(255, 255, 255, 0.3)
-                        TemplatePadding: =2
-                        TemplateSize: =100
+                        TemplateFill: =RGBA(26, 26, 26, 0.1)
+                        TemplateSize: =80
                         Width: =Parent.Width
                         ZIndex: =1
 
