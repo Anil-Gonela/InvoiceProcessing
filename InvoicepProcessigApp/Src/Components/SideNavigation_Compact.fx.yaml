@@ -1,5 +1,5 @@
 SideNavigation_Compact As CanvasComponent:
-    Fill: =RGBA(0, 0, 0, 0.1)
+    Fill: =RGBA(0, 0, 0, 0)
     First_Logo: =Viewmore
     Height: =691
     MenuContent: |-

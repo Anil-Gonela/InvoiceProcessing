@@ -49,12 +49,13 @@ InvoiceList As screen:
                         ScreenName: "Invoice List"
                         }
                     )
+            NavBG: =RGBA(255, 255, 255, 0.1)
             Width: =Parent.Width
             ZIndex: =2
 
     Heading_1 As groupContainer.horizontalAutoLayoutContainer:
         DropShadow: =DropShadow.None
-        Fill: =RGBA(0, 0, 0, 0.1)
+        Fill: =RGBA(255, 255, 255, 0.1)
         Height: =Parent.Height *10%
         LayoutMode: =LayoutMode.Auto
         RadiusBottomLeft: =10
@@ -75,7 +76,7 @@ InvoiceList As screen:
 
             HeaderIcon_1 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
-                BorderThickness: =1
+                DropShadow: =DropShadow.Regular
                 Height: =Parent.Height * 95%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
@@ -88,7 +89,7 @@ InvoiceList As screen:
 
                 Image4_4 As image:
                     Height: =Parent.Height
-                    Image: =MainIcon1
+                    Image: ='invoice-receipt'
                     Width: =Parent.Width
                     ZIndex: =1
 
@@ -189,7 +190,7 @@ InvoiceList As screen:
             ZIndex: =1
 
             Overview As groupContainer.manualLayoutContainer:
-                Fill: =RGBA(112, 148, 105, 0.1)
+                Fill: =RGBA(255, 255, 255, 0.1)
                 Height: =Parent.Height * 30%
                 RadiusBottomLeft: =20
                 RadiusBottomRight: =20
@@ -422,7 +423,7 @@ InvoiceList As screen:
                         Items: ='Invoice Data'
                         Layout: =Layout.Vertical
                         LoadingSpinner: =LoadingSpinner.Data
-                        TemplateFill: =RGBA(26, 26, 26, 0.1)
+                        TemplateFill: =RGBA(255, 255, 255, 0.2)
                         TemplateSize: =80
                         Width: =Parent.Width
                         ZIndex: =1
