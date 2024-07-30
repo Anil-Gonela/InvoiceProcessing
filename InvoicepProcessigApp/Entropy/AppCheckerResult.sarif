@@ -3306,36 +3306,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.jane"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.jane",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "jane",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.statement"
                 }
               ],

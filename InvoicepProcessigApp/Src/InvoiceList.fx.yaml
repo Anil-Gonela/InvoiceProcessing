@@ -444,12 +444,13 @@ InvoiceList As screen:
                             RadiusTopLeft: =50
                             RadiusTopRight: =50
                             Width: =80
-                            X: =Gallery6.X + 5
+                            X: =Gallery6.X + 40
                             Y: =(Gallery6.TemplateHeight - Self.Height) / 2
                             ZIndex: =2
 
                             Image7 As image:
                                 Height: =Parent.Height
+                                Image: =jane
                                 Width: =Parent.Width
                                 ZIndex: =1
 
@@ -464,10 +465,51 @@ InvoiceList As screen:
                             Y: =Label11.Y + Label11.Height
                             ZIndex: =3
 
-                        Label13 As label:
+                        BillTo As label:
+                            Color: =RGBA(172, 62, 11, 1)
+                            Font: =Font.Lato
+                            FontWeight: =FontWeight.Semibold
                             OnSelect: =Select(Parent)
                             Text: =ThisItem.'Bill To'
-                            X: =40
-                            Y: =40
+                            VerticalAlign: =VerticalAlign.Top
+                            Width: =Gallery6.TemplateWidth * 15%
+                            X: =Label12.X + Label12.Width + 25
+                            Y: =(Gallery6.TemplateHeight - Self.Height) / 2
                             ZIndex: =4
+
+                        DueAmount As label:
+                            Color: =RGBA(172, 62, 11, 1)
+                            Font: =Font.Lato
+                            FontWeight: =FontWeight.Semibold
+                            OnSelect: =Select(Parent)
+                            Text: =ThisItem.'Total Amount'
+                            VerticalAlign: =VerticalAlign.Top
+                            Width: =Gallery6.TemplateWidth * 15%
+                            X: =BillTo.X + BillTo.Width +  25
+                            Y: =(Gallery6.TemplateHeight - Self.Height) / 2
+                            ZIndex: =5
+
+                        DueDate As label:
+                            Color: =RGBA(172, 62, 11, 1)
+                            Font: =Font.Lato
+                            FontWeight: =FontWeight.Semibold
+                            OnSelect: =Select(Parent)
+                            Text: =ThisItem.'Invoice Date'
+                            VerticalAlign: =VerticalAlign.Top
+                            Width: =Gallery6.TemplateWidth * 15%
+                            X: =DueAmount.X + DueAmount.Width +  25
+                            Y: =(Gallery6.TemplateHeight - Self.Height) / 2
+                            ZIndex: =6
+
+                        InvoiceStatus As label:
+                            Color: =RGBA(172, 62, 11, 1)
+                            Font: =Font.Lato
+                            FontWeight: =FontWeight.Semibold
+                            OnSelect: =Select(Parent)
+                            Text: =ThisItem.'Invoice Date'
+                            VerticalAlign: =VerticalAlign.Top
+                            Width: =Gallery6.TemplateWidth * 15%
+                            X: =DueDate.X + DueDate.Width +  25
+                            Y: =(Gallery6.TemplateHeight - Self.Height) / 2
+                            ZIndex: =7
 
