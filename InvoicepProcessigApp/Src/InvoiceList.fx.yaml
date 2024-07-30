@@ -401,9 +401,13 @@ InvoiceList As screen:
                     ZIndex: =1
 
                 List As groupContainer.manualLayoutContainer:
-                    DropShadow: =DropShadow.Regular
-                    Fill: =RGBA(253, 222, 207, 0.5)
+                    DropShadow: =DropShadow.Bold
+                    Fill: =RGBA(255, 255, 255, 0.3)
                     Height: =Parent.Height * 86%
+                    RadiusBottomLeft: =20
+                    RadiusBottomRight: =20
+                    RadiusTopLeft: =20
+                    RadiusTopRight: =20
                     Width: =Parent.Width
                     X: =Parent.X
                     Y: =ColumnNames.Y +  ColumnNames.Height + 2
@@ -422,10 +426,15 @@ InvoiceList As screen:
                         ZIndex: =1
 
                         Label11 As label:
+                            Font: =Font.Lato
+                            FontWeight: =FontWeight.Semibold
+                            Height: =Gallery6.TemplateHeight * 50%
                             OnSelect: =Select(Parent)
-                            Text: =ThisItem.'Invoice ID'
-                            X: =172
-                            Y: =36
+                            Text: =ThisItem.'Customer Name'
+                            VerticalAlign: =VerticalAlign.Bottom
+                            Width: =Gallery6.TemplateWidth * 15%
+                            X: =Container20.Width + Container20.X
+                            Y: =Gallery6.Y
                             ZIndex: =1
 
                         Container20 As groupContainer.manualLayoutContainer:
@@ -443,4 +452,22 @@ InvoiceList As screen:
                                 Height: =Parent.Height
                                 Width: =Parent.Width
                                 ZIndex: =1
+
+                        Label12 As label:
+                            Color: =RGBA(172, 62, 11, 1)
+                            Font: =Font.Lato
+                            OnSelect: =Select(Parent)
+                            Text: =ThisItem.'Invoice ID'
+                            VerticalAlign: =VerticalAlign.Top
+                            Width: =Gallery6.TemplateWidth * 15%
+                            X: =Container20.X + Container20.Width + 5
+                            Y: =Label11.Y + Label11.Height
+                            ZIndex: =3
+
+                        Label13 As label:
+                            OnSelect: =Select(Parent)
+                            Text: =ThisItem.'Bill To'
+                            X: =40
+                            Y: =40
+                            ZIndex: =4
 
