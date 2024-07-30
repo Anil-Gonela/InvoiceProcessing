@@ -96,7 +96,7 @@ InvoiceCapture As screen:
                 ZIndex: =1
 
             Button6 As button:
-                Fill: =RGBA(221, 79, 14, 1)
+                Fill: =RGBA(172, 62, 11, 1)
                 Font: =Font.Lato
                 Height: =Parent.Height * 6%
                 RadiusBottomLeft: =20
@@ -691,7 +691,7 @@ InvoiceCapture As screen:
                         ZIndex: =4
 
             Button6_1 As button:
-                Fill: =RGBA(221, 79, 14, 1)
+                Fill: =RGBA(172, 62, 11, 1)
                 Font: =Font.Lato
                 Height: =Parent.Height * 6%
                 RadiusBottomLeft: =20
