@@ -3,14 +3,14 @@ InvoiceList As screen:
     Fill: =RGBA(0, 0, 0, 0)
 
     Component_1 As groupContainer.verticalAutoLayoutContainer:
-        DropShadow: =DropShadow.None
+        DropShadow: =DropShadow.Semilight
         Height: =Parent.Height *90%
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
         Width: =Parent.Width*18%
         Y: =Parent.Height *10%
         ZIndex: =1
@@ -174,19 +174,21 @@ InvoiceList As screen:
 
         Body As groupContainer.manualLayoutContainer:
             BorderColor: =RGBA(247, 247, 247, 1)
-            DropShadow: =DropShadow.None
+            DropShadow: =DropShadow.Semilight
             Fill: =RGBA(255, 255, 255, 1)
             Height: =Parent.Height
             LayoutMinHeight: =0
             LayoutMinWidth: =0
-            RadiusBottomLeft: =10
-            RadiusBottomRight: =10
-            RadiusTopLeft: =10
-            RadiusTopRight: =10
+            RadiusBottomLeft: =20
+            RadiusBottomRight: =20
+            RadiusTopLeft: =20
+            RadiusTopRight: =20
             Width: =Parent.Width
             ZIndex: =1
 
             Overview As groupContainer.manualLayoutContainer:
+                BorderThickness: =1
+                DropShadow: =DropShadow.Semilight
                 Fill: =RGBA(255, 255, 255, 0.1)
                 Height: =Parent.Height * 30%
                 RadiusBottomLeft: =20
