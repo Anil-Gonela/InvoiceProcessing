@@ -1,6 +1,7 @@
 InvoiceList As screen:
     BackgroundImage: =
-    Fill: =RGBA(0, 0, 0, 0)
+    Fill: =RGBA(26, 26, 26, 0.1)
+    ImagePosition: =ImagePosition.Fill
 
     Component_1 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Semilight
@@ -189,7 +190,7 @@ InvoiceList As screen:
             Overview As groupContainer.manualLayoutContainer:
                 BorderThickness: =1
                 DropShadow: =DropShadow.Semilight
-                Fill: =RGBA(255, 255, 255, 0.1)
+                Fill: =RGBA(0, 0, 0, 0.1)
                 Height: =Parent.Height * 30%
                 RadiusBottomLeft: =20
                 RadiusBottomRight: =20
