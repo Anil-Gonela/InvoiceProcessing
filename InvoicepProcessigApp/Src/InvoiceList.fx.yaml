@@ -104,7 +104,6 @@ InvoiceList As screen:
 
             SettingsIcon_2 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
-                BorderThickness: =1
                 Height: =Parent.Height * 80%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
@@ -117,7 +116,7 @@ InvoiceList As screen:
 
                 Image4_5 As image:
                     Height: =Parent.Height *90%
-                    Image: =SettingsIcon_1
+                    Image: =settings
                     Width: =Parent.Width *90%
                     X: =(Parent.Width - Self.Width) / 2
                     Y: =(Parent.Height - Self.Height) / 2
@@ -125,7 +124,6 @@ InvoiceList As screen:
 
             Notifications_2 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
-                BorderThickness: =1
                 Height: =Parent.Height * 80%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
@@ -138,13 +136,12 @@ InvoiceList As screen:
 
                 Image4_6 As image:
                     Height: =Parent.Height
-                    Image: =Notifications_1
+                    Image: =notifications
                     Width: =Parent.Width
                     ZIndex: =1
 
             UserIcon_1 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
-                BorderThickness: =1
                 Height: =Parent.Height * 80%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
@@ -304,22 +301,23 @@ InvoiceList As screen:
                     Y: =Pending.Y + Pending.Height + 20
                     ZIndex: =3
 
+                    Button7 As button:
+                        Color: =RGBA(0, 0, 0, 1)
+                        Fill: =RGBA(255, 255, 255, 0.3)
+                        Height: =Parent.Height
+                        Text: =
+                        Width: =Parent.Width
+                        ZIndex: =1
+
                     Label8 As label:
                         Align: =Align.Center
                         Font: =Font.'Lato Black'
                         Height: =Parent.Height * 90%
+                        Size: =15
                         Text: ="New Invoice"
                         Width: =Parent.Width * 80%
                         X: =(Parent.Width - Self.Width)/2
                         Y: =(Parent.Height - Self.Height)/2
-                        ZIndex: =1
-
-                    Button7 As button:
-                        Color: =RGBA(0, 0, 0, 1)
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =Parent.Height
-                        Text: =
-                        Width: =Parent.Width
                         ZIndex: =2
 
             Filters As groupContainer.horizontalAutoLayoutContainer:
@@ -357,7 +355,7 @@ InvoiceList As screen:
                         ZIndex: =1
 
                         Container7 As groupContainer.manualLayoutContainer:
-                            BorderColor: =RGBA(172, 62, 11, 1)
+                            BorderColor: =RGBA(0, 0, 0, 0)
                             DropShadow: =DropShadow.Regular
                             Height: =Gallery2.TemplateHeight * 95%
                             RadiusBottomLeft: =30
@@ -369,17 +367,17 @@ InvoiceList As screen:
                             ZIndex: =1
 
                             Button9 As button:
-                                BorderColor: =RGBA(172, 62, 11, 1)
+                                BorderColor: =RGBA(0, 0, 0, 0)
                                 BorderThickness: =0
-                                Color: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(172, 62, 11, 1))
+                                Color: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(0, 0, 0, 1))
                                 Fill: =If(ThisItem.IsSelected, RGBA(0, 0, 0, 0.5), RGBA(255, 255, 255, 0.3))
                                 Height: =Parent.Height
-                                HoverFill: =RGBA(172, 62, 11, 0.5)
+                                HoverFill: =RGBA(0, 0, 0, 0.1)
                                 PaddingBottom: =0
                                 PaddingLeft: =0
                                 PaddingRight: =0
                                 PaddingTop: =0
-                                PressedFill: =RGBA(255, 255, 255, 0.5)
+                                PressedFill: =RGBA(0, 0, 0, 0.5)
                                 Text: =ThisItem.Name
                                 Width: =Parent.Width
                                 X: =Parent.X 
@@ -431,10 +429,10 @@ InvoiceList As screen:
                         Button As groupContainer.manualLayoutContainer:
                             Fill: =RGBA(255, 255, 255, 0.2)
                             Height: =Gallery6.TemplateHeight
-                            RadiusBottomLeft: =20
-                            RadiusBottomRight: =20
-                            RadiusTopLeft: =20
-                            RadiusTopRight: =20
+                            RadiusBottomLeft: =30
+                            RadiusBottomRight: =30
+                            RadiusTopLeft: =30
+                            RadiusTopRight: =30
                             Width: =Gallery6.TemplateWidth 
                             ZIndex: =1
 
@@ -463,6 +461,7 @@ InvoiceList As screen:
                             ZIndex: =2
 
                         Container20 As groupContainer.manualLayoutContainer:
+                            DropShadow: =DropShadow.None
                             Height: =Gallery6.TemplateHeight * 80%
                             RadiusBottomLeft: =50
                             RadiusBottomRight: =50
