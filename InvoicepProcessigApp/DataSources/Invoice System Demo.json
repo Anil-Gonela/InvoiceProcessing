@@ -42,11 +42,11 @@
       "Modified": "Modified",
       "OData__ColorTag": "Color Tag",
       "ReferenceNumber": "Reference Number",
-      "SaleAmount": "Total Amount",
       "ShippingCost": "Shipping Cost",
       "SubTotal": "SubTotal",
       "Subtotal0": "Subtotal",
       "Title": "Title",
+      "TotalAmount": "Total Amount",
       "VendorAddress": "Vendor Address",
       "VendorDetails": "Customer Address",
       "VendorName": "Vendor Name"

@@ -140,7 +140,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 338,
+            "PublishOrderIndex": 339,
             "Rules": [
               {
                 "Category": "Data",
@@ -362,7 +362,7 @@
                 "OptimizeForDevices": "Off",
                 "Parent": "Gallery4",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 340,
+                "PublishOrderIndex": 341,
                 "Rules": [
                   {
                     "Category": "Design",
@@ -476,7 +476,7 @@
                         "OptimizeForDevices": "Off",
                         "Parent": "Container6",
                         "PersistMetaDataIDKey": false,
-                        "PublishOrderIndex": 343,
+                        "PublishOrderIndex": 344,
                         "Rules": [
                           {
                             "Category": "Data",
@@ -794,7 +794,7 @@
                         "OptimizeForDevices": "Off",
                         "Parent": "Container6",
                         "PersistMetaDataIDKey": false,
-                        "PublishOrderIndex": 344,
+                        "PublishOrderIndex": 345,
                         "Rules": [
                           {
                             "Category": "Data",
@@ -1096,7 +1096,7 @@
                     "OptimizeForDevices": "Off",
                     "Parent": "Container5",
                     "PersistMetaDataIDKey": false,
-                    "PublishOrderIndex": 342,
+                    "PublishOrderIndex": 343,
                     "Rules": [
                       {
                         "Category": "Design",
@@ -1354,7 +1354,7 @@
                     "OptimizeForDevices": "Off",
                     "Parent": "Container5",
                     "PersistMetaDataIDKey": false,
-                    "PublishOrderIndex": 345,
+                    "PublishOrderIndex": 346,
                     "Rules": [
                       {
                         "Category": "Data",
@@ -1724,7 +1724,7 @@
                 "OptimizeForDevices": "Off",
                 "Parent": "Gallery4",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 341,
+                "PublishOrderIndex": 342,
                 "Rules": [
                   {
                     "Category": "Design",
@@ -2021,7 +2021,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 339,
+            "PublishOrderIndex": 340,
             "Rules": [
               {
                 "Category": "Data",
@@ -2121,7 +2121,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "RGBA(221, 79, 14, 1)",
+                "InvariantScript": "RGBA(172, 62, 11, 1)",
                 "Property": "Fill",
                 "RuleProviderType": "Unknown"
               },
@@ -2279,7 +2279,7 @@
                     "OptimizeForDevices": "Off",
                     "Parent": "Container4",
                     "PersistMetaDataIDKey": false,
-                    "PublishOrderIndex": 348,
+                    "PublishOrderIndex": 349,
                     "Rules": [
                       {
                         "Category": "Data",
@@ -2617,7 +2617,7 @@
                 "OptimizeForDevices": "Off",
                 "Parent": "Container3",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 347,
+                "PublishOrderIndex": 348,
                 "Rules": [
                   {
                     "Category": "Design",
@@ -2926,7 +2926,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 346,
+            "PublishOrderIndex": 347,
             "Rules": [
               {
                 "Category": "Design",
@@ -3232,7 +3232,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "SideNavigation_Compact",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 337,
+        "PublishOrderIndex": 338,
         "Rules": [
           {
             "Category": "Design",
@@ -3467,12 +3467,12 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638578497376404686",
+    "LastModifiedTimestamp": "638579157987611145",
     "Name": "SideNavigation_Compact",
     "Rules": [
       {
         "Category": "Data",
-        "InvariantScript": "RGBA(221, 79, 14, 1)",
+        "InvariantScript": "RGBA(172, 62, 11, 1)",
         "Property": "NavBG",
         "RuleProviderType": "System"
       },
@@ -3520,7 +3520,7 @@
       },
       {
         "Category": "Design",
-        "InvariantScript": "RGBA(238, 204, 204, 1)",
+        "InvariantScript": "RGBA(172, 62, 11, 1)",
         "Property": "Fill",
         "RuleProviderType": "System"
       }
@@ -3572,7 +3572,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638578497376404686",
+  "LastModifiedTimestamp": "638579157987611145",
   "Name": "d4521f6e39724073a64c56d93e35a98f",
   "OverridableProperties": {},
   "Version": "1.0"

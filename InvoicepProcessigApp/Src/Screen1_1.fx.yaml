@@ -666,12 +666,12 @@ Screen1_1 As screen:
             "'Total Amount_DataCard1' As typedDataCard.textualEditCard":
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="SaleAmount"
-                Default: =ThisItem.'Total Amount'
+                Default: =ThisItem.SaleAmount
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Total Amount')
+                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,SaleAmount)
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Total Amount')
+                MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, SaleAmount)
                 Required: =false
                 Update: =DataCardValue8.Text
                 Width: =400

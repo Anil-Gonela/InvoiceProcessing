@@ -79,12 +79,12 @@ InvoiceCapture As screen:
             ZIndex: =1
 
             FormProcessor1 As FormProcessor:
-                BorderColor: =RGBA(221, 79, 14, 1)
+                BorderColor: =RGBA(172, 62, 11, 1)
                 DisabledBorderColor: =RGBA(238, 204, 204, 1)
                 DisabledColor: =RGBA(253, 222, 207, 1)
                 DisabledFill: =RGBA(253, 222, 207, 1)
                 DisplayMode: =DisplayMode.Edit
-                FillColor: =RGBA(221, 79, 14, 1)
+                FillColor: =RGBA(172, 62, 11, 1)
                 FontColor: =RGBA(255, 255, 255, 1)
                 Height: =Parent.Height*70%
                 ModelId: |-
@@ -380,12 +380,12 @@ InvoiceCapture As screen:
                 "'Sale Amount_DataCard3_1' As typedDataCard.textualEditCard":
                     BorderStyle: =BorderStyle.Solid
                     DataField: ="SaleAmount"
-                    Default: =ThisItem.'Total Amount'
+                    Default: =ThisItem.SaleAmount
                     DisplayMode: =Parent.DisplayMode
-                    DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Total Amount')
+                    DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,SaleAmount)
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =50
-                    MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Total Amount')
+                    MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, SaleAmount)
                     Required: =false
                     Update: =DataCardValue17_1.Text
                     Width: =341
