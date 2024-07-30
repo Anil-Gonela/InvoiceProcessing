@@ -227,7 +227,7 @@ InvoiceList As screen:
                             ZIndex: =1
 
                     Label7 As label:
-                        Color: =RGBA(221, 79, 14, 1)
+                        Color: =RGBA(255, 191, 0, 1)
                         Font: =Font.Lato
                         FontWeight: =FontWeight.Semibold
                         Height: =Parent.Height*50%
@@ -275,7 +275,7 @@ InvoiceList As screen:
                             ZIndex: =1
 
                     Label7_2 As label:
-                        Color: =RGBA(221, 79, 14, 1)
+                        Color: =RGBA(255, 191, 0, 1)
                         Font: =Font.Lato
                         FontWeight: =FontWeight.Semibold
                         Height: =Parent.Height*50%
@@ -365,6 +365,7 @@ InvoiceList As screen:
                         Container7 As groupContainer.manualLayoutContainer:
                             BorderColor: =RGBA(0, 0, 0, 0)
                             DropShadow: =DropShadow.Regular
+                            Fill: =RGBA(255, 255, 255, 0.3)
                             Height: =Gallery2.TemplateHeight * 95%
                             RadiusBottomLeft: =30
                             RadiusBottomRight: =30
@@ -488,7 +489,7 @@ InvoiceList As screen:
                                 ZIndex: =1
 
                         Label12 As label:
-                            Color: =RGBA(172, 62, 11, 1)
+                            Color: =RGBA(118, 0, 0, 1)
                             Font: =Font.Lato
                             OnSelect: =Select(Parent)
                             Text: =ThisItem.'Invoice ID'
