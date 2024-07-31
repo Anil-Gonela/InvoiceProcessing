@@ -1,6 +1,6 @@
 InvoiceList As screen:
     BackgroundImage: =
-    Fill: =RGBA(0, 0, 0, 0)
+    Fill: =RGBA(248,237,227,0.3)
     ImagePosition: =ImagePosition.Fill
 
     Component_1 As groupContainer.verticalAutoLayoutContainer:
@@ -71,7 +71,6 @@ InvoiceList As screen:
                     ZIndex: =1
 
             Label15_1 As label:
-                Color: =RGBA(255, 255, 255, 1)
                 Font: =Font.'Lato Black'
                 Height: =Parent.Height * 95%
                 Size: =20
@@ -353,7 +352,7 @@ InvoiceList As screen:
                                 BorderColor: =RGBA(0, 0, 0, 0)
                                 BorderThickness: =0
                                 Color: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(0, 0, 0, 1))
-                                Fill: =If(ThisItem.IsSelected, RGBA(0, 0, 0, 0.5), RGBA(255, 255, 255, 0.3))
+                                Fill: =If(ThisItem.IsSelected, RGBA(141, 73, 58, 1), RGBA(255, 255, 255, 0.3))
                                 Height: =Parent.Height
                                 HoverFill: =RGBA(0, 0, 0, 0.1)
                                 PaddingBottom: =0
