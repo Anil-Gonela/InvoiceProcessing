@@ -180,7 +180,7 @@ InvoiceList_1 As screen:
                     DisabledColor: =RGBA(253, 222, 207, 1)
                     DisabledFill: =RGBA(253, 222, 207, 1)
                     DisplayMode: =DisplayMode.Edit
-                    FillColor: =RGBA(79, 90, 94, 1)
+                    FillColor: =RGBA(132, 40, 38, 1)
                     FontColor: =RGBA(255, 255, 255, 1)
                     Height: =Parent.Height*70%
                     ModelId: |-
@@ -216,7 +216,7 @@ InvoiceList_1 As screen:
                 Form2_2 As form:
                     DataSource: ='Invoice System Demo'
                     DefaultMode: =FormMode.New
-                    Height: =Parent.Height * 70%
+                    Height: =613
                     NumberOfColumns: =2
                     Width: =Parent.Width
                     Y: =Parent.Y+40
@@ -233,7 +233,7 @@ InvoiceList_1 As screen:
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, Title)
                         Required: =false
                         Update: =DataCardValue14_2.Text
-                        Width: =341
+                        Width: =327
                         X: =0
                         Y: =0
                         ZIndex: =7
@@ -311,7 +311,7 @@ InvoiceList_1 As screen:
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Customer Name')
                         Required: =false
                         Update: =DataCardValue15_2.Text
-                        Width: =341
+                        Width: =327
                         X: =1
                         Y: =0
                         ZIndex: =7
@@ -388,7 +388,7 @@ InvoiceList_1 As screen:
                         Height: =50
                         Required: =false
                         Update: =DataCardValue16_2.SelectedDate
-                        Width: =341
+                        Width: =327
                         X: =0
                         Y: =1
                         ZIndex: =7
@@ -467,7 +467,7 @@ InvoiceList_1 As screen:
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, ShippingCost)
                         Required: =false
                         Update: =DataCardValue17_2.Text
-                        Width: =341
+                        Width: =327
                         X: =1
                         Y: =1
                         ZIndex: =7
@@ -546,7 +546,7 @@ InvoiceList_1 As screen:
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, GST)
                         Required: =false
                         Update: =DataCardValue18_2.Text
-                        Width: =341
+                        Width: =327
                         X: =0
                         Y: =2
                         ZIndex: =7
@@ -624,7 +624,7 @@ InvoiceList_1 As screen:
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Balance Due')
                         Required: =false
                         Update: =DataCardValue19_2.Text
-                        Width: =341
+                        Width: =327
                         X: =1
                         Y: =2
                         ZIndex: =7
@@ -702,7 +702,7 @@ InvoiceList_1 As screen:
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Customer Address')
                         Required: =false
                         Update: =DataCardValue20_2.Text
-                        Width: =341
+                        Width: =327
                         X: =0
                         Y: =3
                         ZIndex: =7
