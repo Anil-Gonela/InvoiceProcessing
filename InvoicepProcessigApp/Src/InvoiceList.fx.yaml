@@ -4,14 +4,14 @@ InvoiceList As screen:
     ImagePosition: =ImagePosition.Fill
 
     Component_1 As groupContainer.verticalAutoLayoutContainer:
-        DropShadow: =DropShadow.Semilight
+        DropShadow: =DropShadow.None
         Height: =Parent.Height *80%
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        RadiusBottomLeft: =30
-        RadiusBottomRight: =30
-        RadiusTopLeft: =30
-        RadiusTopRight: =30
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Width: =Parent.Width*18%
         Y: =Parent.Height *12%
         ZIndex: =1
@@ -138,7 +138,7 @@ InvoiceList As screen:
                     ZIndex: =1
 
     "'Total Due and Paid' As groupContainer.verticalAutoLayoutContainer":
-        DropShadow: =DropShadow.None
+        DropShadow: =DropShadow.Regular
         Fill: =RGBA(255, 255, 255, 1)
         Height: =Parent.Height * 85%
         LayoutDirection: =LayoutDirection.Vertical
