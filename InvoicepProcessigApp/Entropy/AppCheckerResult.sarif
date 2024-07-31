@@ -298,46 +298,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "InvoiceList.Component_1.SideNavigation_Compact_2.MenuContent"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "InvoiceList.Component_1.SideNavigation_Compact_2.MenuContent",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 297,
-                  "snippet": {
-                    "text": "Screen2"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MenuContent",
-                "module": "InvoiceList",
-                "type": "InvoiceList.Component_1.SideNavigation_Compact_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Screen2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "InvoiceCapture.Component.SideNavigation_Compact_1.MenuContent"
                 }
               ],

@@ -5,54 +5,26 @@ InvoiceList As screen:
 
     Component_1 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Semilight
-        Height: =Parent.Height *90%
+        Height: =Parent.Height *80%
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        RadiusBottomLeft: =20
-        RadiusBottomRight: =20
-        RadiusTopLeft: =20
-        RadiusTopRight: =20
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
         Width: =Parent.Width*18%
-        Y: =Parent.Height *10%
+        Y: =Parent.Height *12%
         ZIndex: =1
 
-        SideNavigation_Compact_2 As SideNavigation_Compact:
-            LayoutMinHeight: =640
-            LayoutMinWidth: =640
-            MenuContent: |-
-                =Table(
-                    {
-                        MenuIcon: MainIcon,
-                        MenuID: 1, 
-                        MenuName: "Main", 
-                        PageNavigation: 'Welcome Screen_1',
-                        ScreenName: "Overview"
-                        },
-                        {
-                        MenuIcon: CreateInvoice,
-                        MenuID: 2, 
-                        MenuName: "CreateInvoice", 
-                        PageNavigation: Screen2,
-                        ScreenName: "Create Invoice"
-                        },
-                        {
-                        MenuIcon: CaptureInovice,
-                        MenuID: 3, 
-                        MenuName: "CaptureInvoice", 
-                        PageNavigation: InvoiceList,
-                        ScreenName: "Capture Invoice"
-                        },
-                        {
-                        MenuIcon: InovceList,
-                        MenuID: 4, 
-                        MenuName: "InvoiceList", 
-                        PageNavigation: InvoiceList,
-                        ScreenName: "Invoice List"
-                        }
-                    )
-            NavBG: =RGBA(255, 255, 255, 0.1)
+        Container8 As groupContainer.manualLayoutContainer:
+            Height: =Parent.Height
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
             Width: =Parent.Width
-            ZIndex: =2
+            ZIndex: =1
+
+            SideNavigation_Compact_2 As SideNavigation_Compact:
+                Height: =614
 
     Heading_1 As groupContainer.horizontalAutoLayoutContainer:
         DropShadow: =DropShadow.None
@@ -166,13 +138,14 @@ InvoiceList As screen:
 
     "'Total Due and Paid' As groupContainer.verticalAutoLayoutContainer":
         DropShadow: =DropShadow.None
+        Fill: =RGBA(255, 255, 255, 1)
         Height: =Parent.Height * 85%
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
         Width: =Parent.Width * 80%
         X: =Component_1.X + Component_1.Width
         Y: =Heading_1.Y + Heading_1.Height + 10
@@ -194,7 +167,7 @@ InvoiceList As screen:
 
             Overview As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.Semilight
-                Fill: =RGBA(0, 0, 0, 0.1)
+                Fill: =RGBA(255, 255, 255, 1)
                 Height: =Parent.Height * 30%
                 RadiusBottomLeft: =20
                 RadiusBottomRight: =20
@@ -434,7 +407,6 @@ InvoiceList As screen:
                         ZIndex: =1
 
                         Button As groupContainer.manualLayoutContainer:
-                            Fill: =RGBA(0, 0, 0, 0.1)
                             Height: =Gallery6.TemplateHeight
                             RadiusBottomLeft: =30
                             RadiusBottomRight: =30
