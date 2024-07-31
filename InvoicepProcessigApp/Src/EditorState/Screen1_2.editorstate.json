@@ -1581,7 +1581,7 @@
           "RuleProviderType": "Unknown"
         }
       ],
-      "StyleName": "accentLabelStyle",
+      "StyleName": "defaultLabelStyle",
       "Type": "ControlInfo"
     },
     "DataCardKey10_1": {
@@ -2406,7 +2406,7 @@
           "RuleProviderType": "Unknown"
         }
       ],
-      "StyleName": "accentLabelStyle",
+      "StyleName": "defaultLabelStyle",
       "Type": "ControlInfo"
     },
     "DataCardKey2_16": {
@@ -8397,7 +8397,7 @@
           "RuleProviderType": "Unknown"
         }
       ],
-      "StyleName": "criticalErrorLabelStyle",
+      "StyleName": "defaultLabelStyle",
       "Type": "ControlInfo"
     },
     "ErrorMessage17_1": {
@@ -8961,7 +8961,7 @@
           "RuleProviderType": "Unknown"
         }
       ],
-      "StyleName": "criticalErrorLabelStyle",
+      "StyleName": "defaultLabelStyle",
       "Type": "ControlInfo"
     },
     "ErrorMessage20_1": {
@@ -12471,7 +12471,7 @@
           "RuleProviderType": "Unknown"
         }
       ],
-      "StyleName": "accentLabelStyle",
+      "StyleName": "defaultLabelStyle",
       "Type": "ControlInfo"
     },
     "StarVisible17_1": {
@@ -13035,7 +13035,7 @@
           "RuleProviderType": "Unknown"
         }
       ],
-      "StyleName": "accentLabelStyle",
+      "StyleName": "defaultLabelStyle",
       "Type": "ControlInfo"
     },
     "StarVisible20_1": {
