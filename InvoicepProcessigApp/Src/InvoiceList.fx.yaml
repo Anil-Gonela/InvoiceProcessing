@@ -1,5 +1,5 @@
 InvoiceList As screen:
-    BackgroundImage: =bg
+    BackgroundImage: =
     Fill: =RGBA(0, 0, 0, 0)
     ImagePosition: =ImagePosition.Fill
 

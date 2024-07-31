@@ -1,6 +1,7 @@
 InvoiceCapture As screen:
     BackgroundImage: =bg
     Fill: =RGBA(0, 0, 0, 0)
+    ImagePosition: =ImagePosition.Fill
 
     Component As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
@@ -745,14 +746,6 @@ InvoiceCapture As screen:
                 Y: =(Parent.Height - Self.Height) / 2
                 ZIndex: =3
 
-                Image4_1 As image:
-                    Height: =Parent.Height *90%
-                    Image: =SettingsIcon_1
-                    Width: =Parent.Width *90%
-                    X: =(Parent.Width - Self.Width) / 2
-                    Y: =(Parent.Height - Self.Height) / 2
-                    ZIndex: =1
-
                 Image1 As image:
                     Fill: =RGBA(255, 255, 255, 1)
                     Height: =61.6
@@ -772,12 +765,6 @@ InvoiceCapture As screen:
                 X: =SettingsIcon.X + SettingsIcon.Width + 5
                 Y: =(Parent.Height - Self.Height) / 2
                 ZIndex: =4
-
-                Image4_2 As image:
-                    Height: =Parent.Height
-                    Image: =
-                    Width: =Parent.Width
-                    ZIndex: =1
 
                 Image3 As image:
                     Fill: =RGBA(255, 255, 255, 1)

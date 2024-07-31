@@ -33,7 +33,7 @@ SideNavigation_Compact As CanvasComponent:
                 ScreenName: "Invoice List"
                 }
             )
-    NavBG: =RGBA(26, 26, 26, 0.1)
+    NavBG: =RGBA(0, 0, 0, 0)
     Width: =250
     X: =0
     Y: =0
@@ -114,7 +114,6 @@ SideNavigation_Compact As CanvasComponent:
                         ZIndex: =2
 
                 Label6 As label:
-                    Color: =RGBA(255, 255, 255, 1)
                     Font: =Font.'Lato Black'
                     Height: =Gallery4.TemplateHeight *70%
                     Text: =ThisItem.ScreenName

@@ -2006,6 +2006,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "App.SettingsIcon_1"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.SettingsIcon_1",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "SettingsIcon_1",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.855936706_medium"
                 }
               ],
