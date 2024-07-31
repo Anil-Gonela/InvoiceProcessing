@@ -1,692 +1,34 @@
 InvoiceCapture As screen:
-    BackgroundImage: =bg
-    Fill: =RGBA(0, 0, 0, 0)
+    BackgroundImage: =
+    Fill: =RGBA(248,237,227,0.3)
     ImagePosition: =ImagePosition.Fill
 
-    Component As groupContainer.verticalAutoLayoutContainer:
+    Component_2 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
         Height: =Parent.Height *80%
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        RadiusBottomLeft: =20
-        RadiusBottomRight: =20
-        RadiusTopLeft: =20
-        RadiusTopRight: =20
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Width: =Parent.Width*18%
-        Y: =Parent.Height *10%
+        Y: =Parent.Height *12%
         ZIndex: =1
 
-        Container11 As groupContainer.manualLayoutContainer:
+        Container8_1 As groupContainer.manualLayoutContainer:
             Height: =Parent.Height
             LayoutMinHeight: =100
             LayoutMinWidth: =250
-            RadiusBottomLeft: =20
-            RadiusBottomRight: =20
-            RadiusTopLeft: =20
-            RadiusTopRight: =20
-            Width: =Parent.Width * 50%
+            Width: =Parent.Width
             ZIndex: =1
 
-            SideNavigation_Compact_1 As SideNavigation_Compact:
+            SideNavigation_Compact_3 As SideNavigation_Compact:
                 Height: =614
 
-    "'Form Processor' As groupContainer.verticalAutoLayoutContainer":
+    Heading_2 As groupContainer.horizontalAutoLayoutContainer:
         DropShadow: =DropShadow.None
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =Parent.Height *90%
-        LayoutDirection: =LayoutDirection.Vertical
-        LayoutMode: =LayoutMode.Auto
-        RadiusBottomLeft: =20
-        RadiusBottomRight: =20
-        RadiusTopLeft: =20
-        RadiusTopRight: =20
-        Width: =Parent.Width * 30%
-        X: =Component.X + Component.Width
-        Y: =Component.Y
-        ZIndex: =2
-
-        Container9 As groupContainer.manualLayoutContainer:
-            DropShadow: =DropShadow.None
-            Height: =Parent.Height
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
-            Width: =Parent.Width
-            ZIndex: =1
-
-            FormProcessor1 As FormProcessor:
-                BorderColor: =RGBA(53, 61, 63, 1)
-                DisabledBorderColor: =RGBA(238, 204, 204, 1)
-                DisabledColor: =RGBA(253, 222, 207, 1)
-                DisabledFill: =RGBA(253, 222, 207, 1)
-                DisplayMode: =DisplayMode.Edit
-                FillColor: =RGBA(79, 90, 94, 1)
-                FontColor: =RGBA(255, 255, 255, 1)
-                Height: =Parent.Height*70%
-                ModelId: |-
-                    ="Document Processing 23/7/2024, 11:45:07 pm (100d103d-8b67-41ca-a742-66f2574356fb)"
-                Text: ="Upload Invoice"
-                Width: =Parent.Width * 80%
-                X: =(Parent.Width - Self.Width) / 2
-                Y: =Parent.Y + 50
-                ZIndex: =1
-
-            Button6 As button:
-                Fill: =RGBA(79, 90, 94, 1)
-                Font: =Font.Lato
-                Height: =Parent.Height * 6%
-                RadiusBottomLeft: =20
-                RadiusBottomRight: =20
-                RadiusTopLeft: =20
-                RadiusTopRight: =20
-                Size: =13
-                Text: ="Extract Details"
-                Width: =Parent.Width * 40%
-                X: =(Parent.Width - Self.Width) / 2
-                Y: =FormProcessor1.Y + FormProcessor1.Height + 50
-                ZIndex: =2
-
-    Form As groupContainer.verticalAutoLayoutContainer:
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =Parent.Height *90%
-        LayoutDirection: =LayoutDirection.Vertical
-        LayoutMode: =LayoutMode.Auto
-        RadiusBottomLeft: =20
-        RadiusBottomRight: =20
-        RadiusTopLeft: =20
-        RadiusTopRight: =20
-        Width: =Parent.Width * 50%
-        X: ='Form Processor'.X + 'Form Processor'.Width
-        Y: =Component.Y
-        ZIndex: =3
-
-        Container13 As groupContainer.manualLayoutContainer:
-            Height: =Parent.Height
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
-            Width: =Parent.Width
-            X: =Parent.X
-            Y: =Parent.Y
-            ZIndex: =1
-
-            Form2_1 As form:
-                DataSource: ='Invoice System Demo'
-                DefaultMode: =FormMode.New
-                Height: =Parent.Height * 70%
-                NumberOfColumns: =2
-                Width: =Parent.Width
-                X: =Parent.X
-                Y: =Parent.Y+40
-                ZIndex: =1
-
-                Title_DataCard3_1 As typedDataCard.textualEditCard:
-                    BorderStyle: =BorderStyle.Solid
-                    DataField: ="Title"
-                    Default: =ThisItem.Title
-                    DisplayMode: =Parent.DisplayMode
-                    DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,Title)
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =50
-                    MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, Title)
-                    Required: =false
-                    Update: =DataCardValue14_1.Text
-                    Width: =341
-                    X: =0
-                    Y: =0
-                    ZIndex: =7
-
-                    DataCardKey14_1 As label:
-                        AutoHeight: =true
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        Font: =Font.Lato
-                        FontWeight: =FontWeight.Semibold
-                        Height: =34
-                        Text: =Parent.DisplayName
-                        Width: =Parent.Width - 60
-                        Wrap: =false
-                        X: =30
-                        Y: =10
-                        ZIndex: =1
-
-                    DataCardValue14_1 As text:
-                        BorderColor: =RGBA(53, 61, 63, 1)
-                        BorderThickness: =1
-                        Default: =FormProcessor1.Fields.Invoice_id
-                        DelayOutput: =true
-                        DisplayMode: =Parent.DisplayMode
-                        MaxLength: =Parent.MaxLength
-                        PaddingLeft: =5
-                        RadiusBottomLeft: =20
-                        RadiusBottomRight: =20
-                        RadiusTopLeft: =20
-                        RadiusTopRight: =20
-                        Tooltip: =Parent.DisplayName
-                        Width: =Parent.Width - 60
-                        X: =30
-                        Y: =DataCardKey14_1.Y + DataCardKey14_1.Height + 5
-                        ZIndex: =2
-
-                    ErrorMessage7_1 As label:
-                        AutoHeight: =true
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        Color: =RGBA(168, 0, 0, 1)
-                        FontWeight: =FontWeight.Semibold
-                        Height: =10
-                        Live: =Live.Assertive
-                        PaddingBottom: =0
-                        PaddingLeft: =0
-                        PaddingRight: =0
-                        PaddingTop: =0
-                        Size: =14
-                        Text: =Parent.Error
-                        Visible: =Parent.DisplayMode=DisplayMode.Edit
-                        Width: =Parent.Width - 60
-                        X: =30
-                        Y: =DataCardValue14_1.Y + DataCardValue14_1.Height
-                        ZIndex: =3
-
-                    StarVisible7_1 As label:
-                        Align: =Align.Center
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        Color: =RGBA(0, 18, 107, 1)
-                        Height: =DataCardKey14_1.Height
-                        Text: ="*"
-                        Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                        Width: =30
-                        Wrap: =false
-                        Y: =DataCardKey14_1.Y
-                        ZIndex: =4
-
-                "'Bill To_DataCard3_1' As typedDataCard.textualEditCard":
-                    BorderStyle: =BorderStyle.Solid
-                    DataField: ="BillTo"
-                    Default: =ThisItem.'Customer Name'
-                    DisplayMode: =Parent.DisplayMode
-                    DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Customer Name')
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =50
-                    MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Customer Name')
-                    Required: =false
-                    Update: =DataCardValue15_1.Text
-                    Width: =341
-                    X: =1
-                    Y: =0
-                    ZIndex: =7
-
-                    DataCardKey15_1 As label:
-                        AutoHeight: =true
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        Font: =Font.Lato
-                        FontWeight: =FontWeight.Semibold
-                        Height: =34
-                        Text: =Parent.DisplayName
-                        Width: =Parent.Width - 60
-                        Wrap: =false
-                        X: =30
-                        Y: =10
-                        ZIndex: =1
-
-                    DataCardValue15_1 As text:
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        BorderThickness: =1
-                        Default: =FormProcessor1.Fields.Billing_Address
-                        DelayOutput: =true
-                        DisplayMode: =Parent.DisplayMode
-                        MaxLength: =Parent.MaxLength
-                        PaddingLeft: =5
-                        RadiusBottomLeft: =20
-                        RadiusBottomRight: =20
-                        RadiusTopLeft: =20
-                        RadiusTopRight: =20
-                        Tooltip: =Parent.DisplayName
-                        Width: =Parent.Width - 60
-                        X: =30
-                        Y: =DataCardKey15_1.Y + DataCardKey15_1.Height + 5
-                        ZIndex: =2
-
-                    ErrorMessage8_1 As label:
-                        AutoHeight: =true
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        Color: =RGBA(168, 0, 0, 1)
-                        FontWeight: =FontWeight.Semibold
-                        Height: =10
-                        Live: =Live.Assertive
-                        PaddingBottom: =0
-                        PaddingLeft: =0
-                        PaddingRight: =0
-                        PaddingTop: =0
-                        Size: =14
-                        Text: =Parent.Error
-                        Visible: =Parent.DisplayMode=DisplayMode.Edit
-                        Width: =Parent.Width - 60
-                        X: =30
-                        Y: =DataCardValue15_1.Y + DataCardValue15_1.Height
-                        ZIndex: =3
-
-                    StarVisible8_1 As label:
-                        Align: =Align.Center
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        Color: =RGBA(0, 18, 107, 1)
-                        Height: =DataCardKey15_1.Height
-                        Text: ="*"
-                        Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                        Width: =30
-                        Wrap: =false
-                        Y: =DataCardKey15_1.Y
-                        ZIndex: =4
-
-                Date_DataCard3_1 As typedDataCard.dateEditCard:
-                    BorderStyle: =BorderStyle.Solid
-                    DataField: ="Date"
-                    Default: =ThisItem.'Invoice Date'
-                    DisplayMode: =Parent.DisplayMode
-                    DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Invoice Date')
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =50
-                    Required: =false
-                    Update: =DataCardValue16_1.SelectedDate
-                    Width: =341
-                    X: =0
-                    Y: =1
-                    ZIndex: =7
-
-                    DataCardKey16_1 As label:
-                        AutoHeight: =true
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        Font: =Font.Lato
-                        FontWeight: =FontWeight.Semibold
-                        Height: =34
-                        Text: =Parent.DisplayName
-                        Width: =Parent.Width - 60
-                        Wrap: =false
-                        X: =30
-                        Y: =10
-                        ZIndex: =1
-
-                    DataCardValue16_1 As datepicker:
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        BorderThickness: =1
-                        DefaultDate: =FormProcessor1.Fields.Invoice_Date
-                        DisplayMode: =Parent.DisplayMode
-                        EndYear: =Year(Today())+100
-                        Font: =Font.Lato
-                        IconBackground: =RGBA(0, 0, 0, 0)
-                        IconFill: =RGBA(0, 0, 0, 1)
-                        IsEditable: =true
-                        PaddingBottom: =0
-                        PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                        StartYear: =1899
-                        Tooltip: =Parent.DisplayName
-                        Width: =Parent.Width - 60
-                        X: =30
-                        Y: =DataCardKey16_1.Y + DataCardKey16_1.Height + 5
-                        ZIndex: =2
-
-                    ErrorMessage9_1 As label:
-                        AutoHeight: =true
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        Color: =RGBA(168, 0, 0, 1)
-                        FontWeight: =FontWeight.Semibold
-                        Height: =10
-                        Live: =Live.Assertive
-                        PaddingBottom: =0
-                        PaddingLeft: =0
-                        PaddingRight: =0
-                        PaddingTop: =0
-                        Size: =14
-                        Text: =Parent.Error
-                        Visible: =Parent.DisplayMode=DisplayMode.Edit
-                        Width: =Parent.Width - 60
-                        X: =30
-                        Y: =DataCardValue16_1.Y + DataCardValue16_1.Height
-                        ZIndex: =3
-
-                    StarVisible9_1 As label:
-                        Align: =Align.Center
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        Color: =RGBA(0, 18, 107, 1)
-                        Height: =DataCardKey16_1.Height
-                        Text: ="*"
-                        Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                        Width: =30
-                        Wrap: =false
-                        Y: =DataCardKey16_1.Y
-                        ZIndex: =4
-
-                "'Sale Amount_DataCard3_1' As typedDataCard.textualEditCard":
-                    BorderStyle: =BorderStyle.Solid
-                    DataField: ="SaleAmount"
-                    Default: =ThisItem.'Shipping Cost'
-                    DisplayMode: =Parent.DisplayMode
-                    DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName, ShippingCost)
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =50
-                    MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, ShippingCost)
-                    Required: =false
-                    Update: =DataCardValue17_1.Text
-                    Width: =341
-                    X: =1
-                    Y: =1
-                    ZIndex: =7
-
-                    DataCardKey17_1 As label:
-                        AutoHeight: =true
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        FontWeight: =FontWeight.Semibold
-                        Height: =34
-                        Text: =Parent.DisplayName
-                        Width: =Parent.Width - 60
-                        Wrap: =false
-                        X: =30
-                        Y: =10
-                        ZIndex: =1
-
-                    DataCardValue17_1 As text:
-                        BorderColor: =RGBA(53, 61, 63, 1)
-                        BorderThickness: =1
-                        Default: =FormProcessor1.Fields.Total
-                        DelayOutput: =true
-                        DisplayMode: =Parent.DisplayMode
-                        Font: =Font.Lato
-                        FontWeight: =FontWeight.Semibold
-                        MaxLength: =Parent.MaxLength
-                        PaddingLeft: =5
-                        RadiusBottomLeft: =20
-                        RadiusBottomRight: =20
-                        RadiusTopLeft: =20
-                        RadiusTopRight: =20
-                        Tooltip: =Parent.DisplayName
-                        Width: =Parent.Width - 60
-                        X: =30
-                        Y: =DataCardKey17_1.Y + DataCardKey17_1.Height + 5
-                        ZIndex: =2
-
-                    ErrorMessage10_1 As label:
-                        AutoHeight: =true
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        Color: =RGBA(168, 0, 0, 1)
-                        FontWeight: =FontWeight.Semibold
-                        Height: =10
-                        Live: =Live.Assertive
-                        PaddingBottom: =0
-                        PaddingLeft: =0
-                        PaddingRight: =0
-                        PaddingTop: =0
-                        Size: =14
-                        Text: =Parent.Error
-                        Visible: =Parent.DisplayMode=DisplayMode.Edit
-                        Width: =Parent.Width - 60
-                        X: =30
-                        Y: =DataCardValue17_1.Y + DataCardValue17_1.Height
-                        ZIndex: =3
-
-                    StarVisible10_1 As label:
-                        Align: =Align.Center
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        Color: =RGBA(0, 18, 107, 1)
-                        Height: =DataCardKey17_1.Height
-                        Text: ="*"
-                        Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                        Width: =30
-                        Wrap: =false
-                        Y: =DataCardKey17_1.Y
-                        ZIndex: =4
-
-                GST_DataCard3_1 As typedDataCard.textualEditCard:
-                    BorderStyle: =BorderStyle.Solid
-                    DataField: ="GST"
-                    Default: =ThisItem.GST
-                    DisplayMode: =Parent.DisplayMode
-                    DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,GST)
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =50
-                    MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, GST)
-                    Required: =false
-                    Update: =DataCardValue18_1.Text
-                    Width: =341
-                    X: =0
-                    Y: =2
-                    ZIndex: =7
-
-                    DataCardKey18_1 As label:
-                        AutoHeight: =true
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        Font: =Font.Lato
-                        FontWeight: =FontWeight.Semibold
-                        Height: =34
-                        Text: =Parent.DisplayName
-                        Width: =Parent.Width - 60
-                        Wrap: =false
-                        X: =30
-                        Y: =10
-                        ZIndex: =1
-
-                    DataCardValue18_1 As text:
-                        BorderColor: =If(IsBlank(Parent.Error), RGBA(0, 0, 0, 1), Color.Red)
-                        BorderThickness: =1
-                        Default: =FormProcessor1.Fields.Tax
-                        DelayOutput: =true
-                        DisplayMode: =Parent.DisplayMode
-                        MaxLength: =Parent.MaxLength
-                        PaddingLeft: =5
-                        RadiusBottomLeft: =20
-                        RadiusBottomRight: =20
-                        RadiusTopLeft: =20
-                        RadiusTopRight: =20
-                        Tooltip: =Parent.DisplayName
-                        Width: =Parent.Width - 60
-                        X: =30
-                        Y: =DataCardKey18_1.Y + DataCardKey18_1.Height + 5
-                        ZIndex: =2
-
-                    ErrorMessage11_1 As label:
-                        AutoHeight: =true
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        Color: =RGBA(168, 0, 0, 1)
-                        FontWeight: =FontWeight.Semibold
-                        Height: =10
-                        Live: =Live.Assertive
-                        PaddingBottom: =0
-                        PaddingLeft: =0
-                        PaddingRight: =0
-                        PaddingTop: =0
-                        Size: =14
-                        Text: =Parent.Error
-                        Visible: =Parent.DisplayMode=DisplayMode.Edit
-                        Width: =Parent.Width - 60
-                        X: =30
-                        Y: =DataCardValue18_1.Y + DataCardValue18_1.Height
-                        ZIndex: =3
-
-                    StarVisible11_1 As label:
-                        Align: =Align.Center
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        Color: =RGBA(0, 18, 107, 1)
-                        Height: =DataCardKey18_1.Height
-                        Text: ="*"
-                        Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                        Width: =30
-                        Wrap: =false
-                        Y: =DataCardKey18_1.Y
-                        ZIndex: =4
-
-                "'Balance Due_DataCard3_1' As typedDataCard.textualEditCard":
-                    BorderStyle: =BorderStyle.Solid
-                    DataField: ="BalanceDue"
-                    Default: =ThisItem.'Balance Due'
-                    DisplayMode: =Parent.DisplayMode
-                    DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Balance Due')
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =50
-                    MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Balance Due')
-                    Required: =false
-                    Update: =DataCardValue19_1.Text
-                    Width: =341
-                    X: =1
-                    Y: =2
-                    ZIndex: =7
-
-                    DataCardKey19_1 As label:
-                        AutoHeight: =true
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        Font: =Font.Lato
-                        FontWeight: =FontWeight.Semibold
-                        Height: =34
-                        Text: =Parent.DisplayName
-                        Width: =Parent.Width - 60
-                        Wrap: =false
-                        X: =30
-                        Y: =10
-                        ZIndex: =1
-
-                    DataCardValue19_1 As text:
-                        BorderColor: =If(IsBlank(Parent.Error), RGBA(0, 0, 0, 1), Color.Red)
-                        BorderThickness: =1
-                        Default: =FormProcessor1.Fields.BalanceDue
-                        DelayOutput: =true
-                        DisplayMode: =Parent.DisplayMode
-                        MaxLength: =Parent.MaxLength
-                        PaddingLeft: =5
-                        RadiusBottomLeft: =20
-                        RadiusBottomRight: =20
-                        RadiusTopLeft: =20
-                        RadiusTopRight: =20
-                        Tooltip: =Parent.DisplayName
-                        Width: =Parent.Width - 60
-                        X: =30
-                        Y: =DataCardKey19_1.Y + DataCardKey19_1.Height + 5
-                        ZIndex: =2
-
-                    ErrorMessage12_1 As label:
-                        AutoHeight: =true
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        Color: =RGBA(168, 0, 0, 1)
-                        FontWeight: =FontWeight.Semibold
-                        Height: =10
-                        Live: =Live.Assertive
-                        PaddingBottom: =0
-                        PaddingLeft: =0
-                        PaddingRight: =0
-                        PaddingTop: =0
-                        Size: =14
-                        Text: =Parent.Error
-                        Visible: =Parent.DisplayMode=DisplayMode.Edit
-                        Width: =Parent.Width - 60
-                        X: =30
-                        Y: =DataCardValue19_1.Y + DataCardValue19_1.Height
-                        ZIndex: =3
-
-                    StarVisible12_1 As label:
-                        Align: =Align.Center
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        Color: =RGBA(0, 18, 107, 1)
-                        Height: =DataCardKey19_1.Height
-                        Text: ="*"
-                        Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                        Width: =30
-                        Wrap: =false
-                        Y: =DataCardKey19_1.Y
-                        ZIndex: =4
-
-                "'Vendor Details_DataCard2_1' As typedDataCard.textualEditCard":
-                    BorderStyle: =BorderStyle.Solid
-                    DataField: ="VendorDetails"
-                    Default: =ThisItem.'Customer Address'
-                    DisplayMode: =Parent.DisplayMode
-                    DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Customer Address')
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =50
-                    MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Customer Address')
-                    Required: =false
-                    Update: =DataCardValue20_1.Text
-                    Width: =341
-                    X: =0
-                    Y: =3
-                    ZIndex: =7
-
-                    DataCardKey20_1 As label:
-                        AutoHeight: =true
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        Font: =Font.Lato
-                        FontWeight: =FontWeight.Semibold
-                        Height: =34
-                        Text: =Parent.DisplayName
-                        Width: =Parent.Width - 60
-                        Wrap: =false
-                        X: =30
-                        Y: =10
-                        ZIndex: =1
-
-                    DataCardValue20_1 As text:
-                        BorderColor: =If(IsBlank(Parent.Error), RGBA(0, 0, 0, 1), Color.Red)
-                        BorderThickness: =1
-                        Default: =FormProcessor1.Fields.Customer_address
-                        DelayOutput: =true
-                        DisplayMode: =Parent.DisplayMode
-                        MaxLength: =Parent.MaxLength
-                        PaddingLeft: =5
-                        RadiusBottomLeft: =20
-                        RadiusBottomRight: =20
-                        RadiusTopLeft: =20
-                        RadiusTopRight: =20
-                        Tooltip: =Parent.DisplayName
-                        Width: =Parent.Width - 60
-                        X: =30
-                        Y: =DataCardKey20_1.Y + DataCardKey20_1.Height + 5
-                        ZIndex: =2
-
-                    ErrorMessage13_1 As label:
-                        AutoHeight: =true
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        Color: =RGBA(168, 0, 0, 1)
-                        FontWeight: =FontWeight.Semibold
-                        Height: =10
-                        Live: =Live.Assertive
-                        PaddingBottom: =0
-                        PaddingLeft: =0
-                        PaddingRight: =0
-                        PaddingTop: =0
-                        Size: =14
-                        Text: =Parent.Error
-                        Visible: =Parent.DisplayMode=DisplayMode.Edit
-                        Width: =Parent.Width - 60
-                        X: =30
-                        Y: =DataCardValue20_1.Y + DataCardValue20_1.Height
-                        ZIndex: =3
-
-                    StarVisible13_1 As label:
-                        Align: =Align.Center
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        Color: =RGBA(0, 18, 107, 1)
-                        Height: =DataCardKey20_1.Height
-                        Text: ="*"
-                        Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                        Width: =30
-                        Wrap: =false
-                        Y: =DataCardKey20_1.Y
-                        ZIndex: =4
-
-            Button6_1 As button:
-                Fill: =RGBA(79, 90, 94, 1)
-                Font: =Font.Lato
-                Height: =Parent.Height * 6%
-                RadiusBottomLeft: =20
-                RadiusBottomRight: =20
-                RadiusTopLeft: =20
-                RadiusTopRight: =20
-                Size: =13
-                Text: ="Submit"
-                Width: =Parent.Width*30%
-                X: =(Parent.Width - Self.Width)/2
-                Y: =Form2_1.Y + Form2_1.Height + 60
-                ZIndex: =2
-
-    Heading As groupContainer.horizontalAutoLayoutContainer:
-        DropShadow: =DropShadow.None
-        Fill: =RGBA(253, 222, 207, 0.1)
+        Fill: =RGBA(255, 255, 255, 0.1)
         Height: =Parent.Height *10%
         LayoutMode: =LayoutMode.Auto
         RadiusBottomLeft: =10
@@ -698,15 +40,20 @@ InvoiceCapture As screen:
             =0
         ZIndex: =4
 
-        Container18 As groupContainer.manualLayoutContainer:
+        Container18_2 As groupContainer.manualLayoutContainer:
             Height: =Parent.Height
             LayoutMinHeight: =0
             LayoutMinWidth: =0
+            RadiusBottomLeft: =20
+            RadiusBottomRight: =20
+            RadiusTopLeft: =20
+            RadiusTopRight: =20
             Width: =Parent.Width
             ZIndex: =1
 
-            HeaderIcon As groupContainer.manualLayoutContainer:
+            HeaderIcon_2 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
+                DropShadow: =DropShadow.Regular
                 Height: =Parent.Height * 95%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
@@ -717,23 +64,22 @@ InvoiceCapture As screen:
                 Y: =Parent.Y + 2
                 ZIndex: =1
 
-                Image4 As image:
+                Image4_8 As image:
                     Height: =Parent.Height
                     Image: ='invoice-receipt'
                     Width: =Parent.Width
                     ZIndex: =1
 
-            Label15 As label:
-                Color: =RGBA(255, 255, 255, 1)
+            Label15_2 As label:
                 Font: =Font.'Lato Black'
                 Height: =Parent.Height * 95%
                 Size: =20
-                Text: ="Capture Invoice"
+                Text: ="Invoice Capture"
                 Width: =Parent.Width * 25%
-                X: =HeaderIcon.X + HeaderIcon.Width
+                X: =HeaderIcon_2.X + HeaderIcon_2.Width
                 ZIndex: =2
 
-            SettingsIcon As groupContainer.manualLayoutContainer:
+            SettingsIcon_3 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
                 Height: =Parent.Height * 80%
@@ -746,14 +92,15 @@ InvoiceCapture As screen:
                 Y: =(Parent.Height - Self.Height) / 2
                 ZIndex: =3
 
-                Image1 As image:
-                    Fill: =RGBA(255, 255, 255, 1)
-                    Height: =61.6
+                Image4_9 As image:
+                    Height: =Parent.Height *90%
                     Image: =settings
-                    Width: =61.6
-                    ZIndex: =2
+                    Width: =Parent.Width *90%
+                    X: =(Parent.Width - Self.Width) / 2
+                    Y: =(Parent.Height - Self.Height) / 2
+                    ZIndex: =1
 
-            Notifications As groupContainer.manualLayoutContainer:
+            Notifications_3 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
                 Height: =Parent.Height * 80%
@@ -762,18 +109,17 @@ InvoiceCapture As screen:
                 RadiusTopLeft: =50
                 RadiusTopRight: =50
                 Width: =Parent.Height * 80%
-                X: =SettingsIcon.X + SettingsIcon.Width + 5
+                X: =SettingsIcon_3.X + SettingsIcon_3.Width + 5
                 Y: =(Parent.Height - Self.Height) / 2
                 ZIndex: =4
 
-                Image3 As image:
-                    Fill: =RGBA(255, 255, 255, 1)
-                    Height: =61.6
+                Image4_10 As image:
+                    Height: =Parent.Height
                     Image: =notifications
-                    Width: =61.6
-                    ZIndex: =2
+                    Width: =Parent.Width
+                    ZIndex: =1
 
-            UserIcon As groupContainer.manualLayoutContainer:
+            UserIcon_2 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
                 Height: =Parent.Height * 80%
@@ -782,13 +128,660 @@ InvoiceCapture As screen:
                 RadiusTopLeft: =50
                 RadiusTopRight: =50
                 Width: =Parent.Height * 80%
-                X: =Notifications.X + Notifications.Width + 5
+                X: =Notifications_3.X + Notifications_3.Width + 5
                 Y: =(Parent.Height - Self.Height) / 2
                 ZIndex: =5
 
-                Image4_3 As image:
+                Image4_11 As image:
                     Height: =Parent.Height
                     Image: =User().Image
                     Width: =Parent.Width
                     ZIndex: =1
+
+    "'Total Due and Paid_1' As groupContainer.verticalAutoLayoutContainer":
+        DropShadow: =DropShadow.Regular
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =Parent.Height * 85%
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Width: =Parent.Width * 80%
+        X: =Component_2.X + Component_2.Width + 2 
+        Y: =Heading_2.Y + Heading_2.Height + 10
+        ZIndex: =5
+
+        Body_1 As groupContainer.manualLayoutContainer:
+            BorderColor: =RGBA(247, 247, 247, 1)
+            DropShadow: =DropShadow.Semilight
+            Fill: =RGBA(255, 255, 255, 0.9)
+            Height: =Parent.Height
+            LayoutMinHeight: =0
+            LayoutMinWidth: =0
+            RadiusBottomLeft: =20
+            RadiusBottomRight: =20
+            RadiusTopLeft: =20
+            RadiusTopRight: =20
+            Width: =Parent.Width
+            ZIndex: =1
+
+            FormProcessor As groupContainer.manualLayoutContainer:
+                Height: =Parent.Height
+                Width: =Parent.Width * 40%
+                X: =Parent.X
+                Y: =Parent.Y
+                ZIndex: =1
+
+                FormProcessor1_1 As FormProcessor:
+                    BorderColor: =RGBA(53, 61, 63, 1)
+                    DisabledBorderColor: =RGBA(238, 204, 204, 1)
+                    DisabledColor: =RGBA(253, 222, 207, 1)
+                    DisabledFill: =RGBA(253, 222, 207, 1)
+                    DisplayMode: =DisplayMode.Edit
+                    FillColor: =RGBA(132, 40, 38, 1)
+                    FontColor: =RGBA(255, 255, 255, 1)
+                    Height: =Parent.Height*70%
+                    ModelId: |-
+                        ="Document Processing 23/7/2024, 11:45:07 pm (100d103d-8b67-41ca-a742-66f2574356fb)"
+                    Text: ="Upload Invoice"
+                    Width: =Parent.Width * 80%
+                    X: =(Parent.Width - Self.Width) / 2
+                    Y: =Parent.Y + 50
+                    ZIndex: =1
+
+                Button6_2 As button:
+                    Fill: =RGBA(141, 73, 58, 1)
+                    Font: =Font.Lato
+                    Height: =Parent.Height * 6%
+                    RadiusBottomLeft: =20
+                    RadiusBottomRight: =20
+                    RadiusTopLeft: =20
+                    RadiusTopRight: =20
+                    Size: =13
+                    Text: ="Extract Details"
+                    Width: =Parent.Width * 40%
+                    X: =(Parent.Width - Self.Width) / 2
+                    Y: =FormProcessor1_1.Y + FormProcessor1_1.Height + 50
+                    ZIndex: =2
+
+            Container26 As groupContainer.manualLayoutContainer:
+                Height: =Parent.Height
+                Width: =Parent.Width * 60%
+                X: =FormProcessor.X + FormProcessor.Width
+                Y: =Parent.Y
+                ZIndex: =2
+
+                Form2_2 As form:
+                    DataSource: ='Invoice System Demo'
+                    DefaultMode: =FormMode.New
+                    Height: =Parent.Height * 78%
+                    NumberOfColumns: =2
+                    Width: =Parent.Width
+                    Y: =Parent.Y+40
+                    ZIndex: =1
+
+                    Title_DataCard3_2 As typedDataCard.textualEditCard:
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Title"
+                        Default: =ThisItem.Title
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,Title)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =50
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, Title)
+                        Required: =false
+                        Update: =DataCardValue14_2.Text
+                        Width: =327
+                        X: =0
+                        Y: =0
+                        ZIndex: =7
+
+                        DataCardKey14_2 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            Font: =Font.Lato
+                            FontWeight: =FontWeight.Semibold
+                            Height: =34
+                            Text: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            Wrap: =false
+                            X: =30
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue14_2 As text:
+                            BorderColor: =RGBA(141, 73, 58, 1)
+                            BorderThickness: =1
+                            Default: =FormProcessor1_1.Fields.Invoice_id
+                            DelayOutput: =true
+                            DisplayMode: =Parent.DisplayMode
+                            MaxLength: =Parent.MaxLength
+                            PaddingLeft: =5
+                            RadiusBottomLeft: =20
+                            RadiusBottomRight: =20
+                            RadiusTopLeft: =20
+                            RadiusTopRight: =20
+                            Tooltip: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardKey14_2.Y + DataCardKey14_2.Height + 5
+                            ZIndex: =2
+
+                        ErrorMessage7_2 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            Color: =RGBA(168, 0, 0, 1)
+                            FontWeight: =FontWeight.Semibold
+                            Height: =10
+                            Live: =Live.Assertive
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Size: =14
+                            Text: =Parent.Error
+                            Visible: =Parent.DisplayMode=DisplayMode.Edit
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardValue14_2.Y + DataCardValue14_2.Height
+                            ZIndex: =3
+
+                        StarVisible7_2 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            Color: =RGBA(0, 18, 107, 1)
+                            Height: =DataCardKey14_2.Height
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            Wrap: =false
+                            Y: =DataCardKey14_2.Y
+                            ZIndex: =4
+
+                    "'Bill To_DataCard3_2' As typedDataCard.textualEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="BillTo"
+                        Default: =ThisItem.'Customer Name'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Customer Name')
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =50
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Customer Name')
+                        Required: =false
+                        Update: =DataCardValue15_2.Text
+                        Width: =327
+                        X: =1
+                        Y: =0
+                        ZIndex: =7
+
+                        DataCardKey15_2 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            Font: =Font.Lato
+                            FontWeight: =FontWeight.Semibold
+                            Height: =34
+                            Text: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            Wrap: =false
+                            X: =30
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue15_2 As text:
+                            BorderColor: =RGBA(141, 73, 58, 1)
+                            BorderThickness: =1
+                            Default: =FormProcessor1_1.Fields.Billing_Address
+                            DelayOutput: =true
+                            DisplayMode: =Parent.DisplayMode
+                            MaxLength: =Parent.MaxLength
+                            PaddingLeft: =5
+                            RadiusBottomLeft: =20
+                            RadiusBottomRight: =20
+                            RadiusTopLeft: =20
+                            RadiusTopRight: =20
+                            Tooltip: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardKey15_2.Y + DataCardKey15_2.Height + 5
+                            ZIndex: =2
+
+                        ErrorMessage8_2 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            Color: =RGBA(168, 0, 0, 1)
+                            FontWeight: =FontWeight.Semibold
+                            Height: =10
+                            Live: =Live.Assertive
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Size: =14
+                            Text: =Parent.Error
+                            Visible: =Parent.DisplayMode=DisplayMode.Edit
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardValue15_2.Y + DataCardValue15_2.Height
+                            ZIndex: =3
+
+                        StarVisible8_2 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            Color: =RGBA(0, 18, 107, 1)
+                            Height: =DataCardKey15_2.Height
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            Wrap: =false
+                            Y: =DataCardKey15_2.Y
+                            ZIndex: =4
+
+                    Date_DataCard3_2 As typedDataCard.dateEditCard:
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Date"
+                        Default: =ThisItem.'Invoice Date'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Invoice Date')
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =50
+                        Required: =false
+                        Update: =DataCardValue16_2.SelectedDate
+                        Width: =327
+                        X: =0
+                        Y: =1
+                        ZIndex: =7
+
+                        DataCardKey16_2 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            Font: =Font.Lato
+                            FontWeight: =FontWeight.Semibold
+                            Height: =34
+                            Text: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            Wrap: =false
+                            X: =30
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue16_2 As datepicker:
+                            BorderColor: =RGBA(141, 73, 58, 1)
+                            BorderThickness: =1
+                            Color: =RGBA(141, 73, 58, 1)
+                            DefaultDate: =FormProcessor1_1.Fields.Invoice_Date
+                            DisplayMode: =Parent.DisplayMode
+                            EndYear: =Year(Today())+100
+                            Font: =Font.Lato
+                            IconBackground: =RGBA(0, 0, 0, 0)
+                            IconFill: =RGBA(141, 73, 58, 1)
+                            IsEditable: =true
+                            PaddingBottom: =0
+                            PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            StartYear: =1899
+                            Tooltip: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardKey16_2.Y + DataCardKey16_2.Height + 5
+                            ZIndex: =2
+
+                        ErrorMessage9_2 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            Color: =RGBA(168, 0, 0, 1)
+                            FontWeight: =FontWeight.Semibold
+                            Height: =10
+                            Live: =Live.Assertive
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Size: =14
+                            Text: =Parent.Error
+                            Visible: =Parent.DisplayMode=DisplayMode.Edit
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardValue16_2.Y + DataCardValue16_2.Height
+                            ZIndex: =3
+
+                        StarVisible9_2 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            Color: =RGBA(0, 18, 107, 1)
+                            Height: =DataCardKey16_2.Height
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            Wrap: =false
+                            Y: =DataCardKey16_2.Y
+                            ZIndex: =4
+
+                    "'Sale Amount_DataCard3_2' As typedDataCard.textualEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="SaleAmount"
+                        Default: =ThisItem.'Shipping Cost'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName, ShippingCost)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =50
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, ShippingCost)
+                        Required: =false
+                        Update: =DataCardValue17_2.Text
+                        Width: =327
+                        X: =1
+                        Y: =1
+                        ZIndex: =7
+
+                        DataCardKey17_2 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            FontWeight: =FontWeight.Semibold
+                            Height: =34
+                            Text: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            Wrap: =false
+                            X: =30
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue17_2 As text:
+                            BorderColor: =RGBA(141, 73, 58, 1)
+                            BorderThickness: =1
+                            Default: =FormProcessor1_1.Fields.Total
+                            DelayOutput: =true
+                            DisplayMode: =Parent.DisplayMode
+                            Font: =Font.Lato
+                            FontWeight: =FontWeight.Semibold
+                            MaxLength: =Parent.MaxLength
+                            PaddingLeft: =5
+                            RadiusBottomLeft: =20
+                            RadiusBottomRight: =20
+                            RadiusTopLeft: =20
+                            RadiusTopRight: =20
+                            Tooltip: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardKey17_2.Y + DataCardKey17_2.Height + 5
+                            ZIndex: =2
+
+                        ErrorMessage10_2 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            Color: =RGBA(168, 0, 0, 1)
+                            FontWeight: =FontWeight.Semibold
+                            Height: =10
+                            Live: =Live.Assertive
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Size: =14
+                            Text: =Parent.Error
+                            Visible: =Parent.DisplayMode=DisplayMode.Edit
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardValue17_2.Y + DataCardValue17_2.Height
+                            ZIndex: =3
+
+                        StarVisible10_2 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            Color: =RGBA(0, 18, 107, 1)
+                            Height: =DataCardKey17_2.Height
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            Wrap: =false
+                            Y: =DataCardKey17_2.Y
+                            ZIndex: =4
+
+                    GST_DataCard3_2 As typedDataCard.textualEditCard:
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="GST"
+                        Default: =ThisItem.GST
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,GST)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =50
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, GST)
+                        Required: =false
+                        Update: =DataCardValue18_2.Text
+                        Width: =327
+                        X: =0
+                        Y: =2
+                        ZIndex: =7
+
+                        DataCardKey18_2 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            Font: =Font.Lato
+                            FontWeight: =FontWeight.Semibold
+                            Height: =34
+                            Text: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            Wrap: =false
+                            X: =30
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue18_2 As text:
+                            BorderColor: =If(IsBlank(Parent.Error), RGBA(141, 73, 58, 1), Color.Red)
+                            BorderThickness: =1
+                            Default: =FormProcessor1_1.Fields.Tax
+                            DelayOutput: =true
+                            DisplayMode: =Parent.DisplayMode
+                            MaxLength: =Parent.MaxLength
+                            PaddingLeft: =5
+                            RadiusBottomLeft: =20
+                            RadiusBottomRight: =20
+                            RadiusTopLeft: =20
+                            RadiusTopRight: =20
+                            Tooltip: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardKey18_2.Y + DataCardKey18_2.Height + 5
+                            ZIndex: =2
+
+                        ErrorMessage11_2 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            Color: =RGBA(168, 0, 0, 1)
+                            FontWeight: =FontWeight.Semibold
+                            Height: =10
+                            Live: =Live.Assertive
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Size: =14
+                            Text: =Parent.Error
+                            Visible: =Parent.DisplayMode=DisplayMode.Edit
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardValue18_2.Y + DataCardValue18_2.Height
+                            ZIndex: =3
+
+                        StarVisible11_2 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            Color: =RGBA(0, 18, 107, 1)
+                            Height: =DataCardKey18_2.Height
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            Wrap: =false
+                            Y: =DataCardKey18_2.Y
+                            ZIndex: =4
+
+                    "'Balance Due_DataCard3_2' As typedDataCard.textualEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="BalanceDue"
+                        Default: =ThisItem.'Balance Due'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Balance Due')
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =50
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Balance Due')
+                        Required: =false
+                        Update: =DataCardValue19_2.Text
+                        Width: =327
+                        X: =1
+                        Y: =2
+                        ZIndex: =7
+
+                        DataCardKey19_2 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            Font: =Font.Lato
+                            FontWeight: =FontWeight.Semibold
+                            Height: =34
+                            Text: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            Wrap: =false
+                            X: =30
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue19_2 As text:
+                            BorderColor: =If(IsBlank(Parent.Error), RGBA(141, 73, 58, 1), Color.Red)
+                            BorderThickness: =1
+                            Default: =FormProcessor1_1.Fields.BalanceDue
+                            DelayOutput: =true
+                            DisplayMode: =Parent.DisplayMode
+                            MaxLength: =Parent.MaxLength
+                            PaddingLeft: =5
+                            RadiusBottomLeft: =20
+                            RadiusBottomRight: =20
+                            RadiusTopLeft: =20
+                            RadiusTopRight: =20
+                            Tooltip: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardKey19_2.Y + DataCardKey19_2.Height + 5
+                            ZIndex: =2
+
+                        ErrorMessage12_2 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            Color: =RGBA(168, 0, 0, 1)
+                            FontWeight: =FontWeight.Semibold
+                            Height: =10
+                            Live: =Live.Assertive
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Size: =14
+                            Text: =Parent.Error
+                            Visible: =Parent.DisplayMode=DisplayMode.Edit
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardValue19_2.Y + DataCardValue19_2.Height
+                            ZIndex: =3
+
+                        StarVisible12_2 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            Color: =RGBA(0, 18, 107, 1)
+                            Height: =DataCardKey19_2.Height
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            Wrap: =false
+                            Y: =DataCardKey19_2.Y
+                            ZIndex: =4
+
+                    "'Vendor Details_DataCard2_2' As typedDataCard.textualEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="VendorDetails"
+                        Default: =ThisItem.'Customer Address'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Customer Address')
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =50
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Customer Address')
+                        Required: =false
+                        Update: =DataCardValue20_2.Text
+                        Width: =327
+                        X: =0
+                        Y: =3
+                        ZIndex: =7
+
+                        DataCardKey20_2 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            Font: =Font.Lato
+                            FontWeight: =FontWeight.Semibold
+                            Height: =34
+                            Text: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            Wrap: =false
+                            X: =30
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue20_2 As text:
+                            BorderColor: =If(IsBlank(Parent.Error), RGBA(141, 73, 58, 1), Color.Red)
+                            BorderThickness: =1
+                            Default: =FormProcessor1_1.Fields.Customer_address
+                            DelayOutput: =true
+                            DisplayMode: =Parent.DisplayMode
+                            MaxLength: =Parent.MaxLength
+                            PaddingLeft: =5
+                            RadiusBottomLeft: =20
+                            RadiusBottomRight: =20
+                            RadiusTopLeft: =20
+                            RadiusTopRight: =20
+                            Tooltip: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardKey20_2.Y + DataCardKey20_2.Height + 5
+                            ZIndex: =2
+
+                        ErrorMessage13_2 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            Color: =RGBA(168, 0, 0, 1)
+                            FontWeight: =FontWeight.Semibold
+                            Height: =10
+                            Live: =Live.Assertive
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Size: =14
+                            Text: =Parent.Error
+                            Visible: =Parent.DisplayMode=DisplayMode.Edit
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardValue20_2.Y + DataCardValue20_2.Height
+                            ZIndex: =3
+
+                        StarVisible13_2 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 1)
+                            Color: =RGBA(0, 18, 107, 1)
+                            Height: =DataCardKey20_2.Height
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            Wrap: =false
+                            Y: =DataCardKey20_2.Y
+                            ZIndex: =4
+
+                Button6_3 As button:
+                    Fill: =RGBA(141, 73, 58, 1)
+                    Font: =Font.Lato
+                    Height: =Parent.Height * 6%
+                    RadiusBottomLeft: =20
+                    RadiusBottomRight: =20
+                    RadiusTopLeft: =20
+                    RadiusTopRight: =20
+                    Size: =13
+                    Text: ="Submit"
+                    Width: =Parent.Width*30%
+                    X: =(Parent.Width - Self.Width)/2
+                    Y: =Form2_2.Y + Form2_2.Height
+                    ZIndex: =2
 
