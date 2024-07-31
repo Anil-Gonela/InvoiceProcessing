@@ -887,19 +887,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1_2.Container1_1.Form1_2.'Balance Due_DataCard2_1'.DataCardValue7_1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1_2.Container1_1.Form1_2.Subtotal_DataCard1.DataCardValue2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1_2.Container1_1.Form1_2.'Balance Due_DataCard2_1'.DataCardValue7_1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1_2.Container1_1.Form1_2.Subtotal_DataCard1.DataCardValue2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1_2",
-                "type": "Screen1_2.Container1_1.Form1_2.'Balance Due_DataCard2_1'.DataCardValue7_1"
+                "type": "Screen1_2.Container1_1.Form1_2.Subtotal_DataCard1.DataCardValue2"
               }
             }
           ],

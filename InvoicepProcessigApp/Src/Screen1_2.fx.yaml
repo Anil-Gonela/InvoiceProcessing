@@ -17,6 +17,75 @@ Screen1_2 As screen:
             X: =340
             ZIndex: =1
 
+            Subtotal_DataCard1 As typedDataCard.textualEditCard:
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="Subtotal0"
+                Default: =ThisItem.Subtotal
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,Subtotal0)
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =50
+                MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, Subtotal0)
+                Required: =false
+                Update: =DataCardValue2.Text
+                Width: =800
+                WidthFit: =true
+                X: =0
+                Y: =6
+                ZIndex: =1
+
+                DataCardKey2 As label:
+                    AutoHeight: =true
+                    Height: =34
+                    Text: =Parent.DisplayName
+                    Width: =(Parent.Width - 60) * 0.4
+                    Wrap: =false
+                    X: =30
+                    Y: =10 + (DataCardValue2.Height / 2) - (Self.Height / 2)
+                    ZIndex: =1
+
+                DataCardValue2 As text:
+                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    Default: =Parent.Default
+                    DelayOutput: =true
+                    DisplayMode: =Parent.DisplayMode
+                    MaxLength: =Parent.MaxLength
+                    PaddingLeft: =5
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Tooltip: =Parent.DisplayName
+                    Width: =(Parent.Width - 60) * 0.6
+                    X: =DataCardKey2.X + DataCardKey2.Width
+                    Y: =10
+                    ZIndex: =2
+
+                ErrorMessage2 As label:
+                    AutoHeight: =true
+                    Height: =10
+                    Live: =Live.Assertive
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Text: =Parent.Error
+                    Visible: =Parent.DisplayMode=DisplayMode.Edit
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardValue2.Y + DataCardValue2.Height
+                    ZIndex: =3
+
+                StarVisible2 As label:
+                    Align: =Align.Center
+                    Height: =DataCardKey2.Height
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    Wrap: =false
+                    Y: =DataCardKey2.Y
+                    ZIndex: =4
+
             DataCard4_1 As typedDataCard.blankCard:
                 BorderStyle: =BorderStyle.Solid
                 DisplayMode: =DisplayMode.Edit
@@ -651,82 +720,6 @@ Screen1_2 As screen:
                     Width: =30
                     Wrap: =false
                     Y: =DataCardKey25_1.Y
-                    ZIndex: =4
-
-            "'Balance Due_DataCard2_1' As typedDataCard.textualEditCard":
-                BorderStyle: =BorderStyle.Solid
-                DataField: ="BalanceDue"
-                Default: =ThisItem.'Balance Due'
-                DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Balance Due')
-                Fill: =RGBA(0, 0, 0, 0)
-                Height: =50
-                MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Balance Due')
-                Required: =false
-                Update: =DataCardValue7_1.Text
-                Width: =800
-                X: =0
-                Y: =6
-                ZIndex: =1
-
-                DataCardKey7_1 As label:
-                    AutoHeight: =true
-                    BorderColor: =RGBA(0, 0, 0, 1)
-                    Color: =RGBA(0, 18, 107, 1)
-                    Height: =34
-                    Text: =Parent.DisplayName
-                    Width: =(Parent.Width - 60) * 0.4
-                    Wrap: =false
-                    X: =30
-                    Y: =10 + (DataCardValue7_1.Height / 2) - (Self.Height / 2)
-                    ZIndex: =1
-
-                DataCardValue7_1 As text:
-                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    Default: =Parent.Default
-                    DelayOutput: =true
-                    DisplayMode: =Parent.DisplayMode
-                    MaxLength: =Parent.MaxLength
-                    PaddingLeft: =5
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Tooltip: =Parent.DisplayName
-                    Width: =(Parent.Width - 60) * 0.6
-                    X: =DataCardKey7_1.X + DataCardKey7_1.Width
-                    Y: =10
-                    ZIndex: =2
-
-                ErrorMessage14_1 As label:
-                    AutoHeight: =true
-                    BorderColor: =RGBA(0, 0, 0, 1)
-                    Color: =RGBA(168, 0, 0, 1)
-                    FontWeight: =FontWeight.Semibold
-                    Height: =10
-                    Live: =Live.Assertive
-                    PaddingBottom: =0
-                    PaddingLeft: =0
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Size: =14
-                    Text: =Parent.Error
-                    Visible: =Parent.DisplayMode=DisplayMode.Edit
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardValue7_1.Y + DataCardValue7_1.Height
-                    ZIndex: =3
-
-                StarVisible14_1 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(0, 0, 0, 1)
-                    Color: =RGBA(0, 18, 107, 1)
-                    Height: =DataCardKey7_1.Height
-                    Text: ="*"
-                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                    Width: =30
-                    Wrap: =false
-                    Y: =DataCardKey7_1.Y
                     ZIndex: =4
 
             GST_DataCard2_1 As typedDataCard.textualEditCard:
