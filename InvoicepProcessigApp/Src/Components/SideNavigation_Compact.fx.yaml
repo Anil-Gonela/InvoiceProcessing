@@ -78,7 +78,7 @@ SideNavigation_Compact As CanvasComponent:
 
             Container5 As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.Regular
-                Fill: =RGBA(255, 255, 255, 0.2)
+                Fill: =If(ThisItem.IsSelected,RGBA(141, 73, 58, 1), RGBA(255, 255, 255, 0.2))
                 Height: =Gallery4.TemplateHeight
                 RadiusBottomLeft: =30
                 RadiusBottomRight: =30
@@ -114,6 +114,7 @@ SideNavigation_Compact As CanvasComponent:
                         ZIndex: =2
 
                 Label6 As label:
+                    Color: =If(ThisItem.IsSelected, RGBA(255, 255,255, 1), RGBA(0, 0, 0, 1))
                     Font: =Font.'Lato Black'
                     Height: =Gallery4.TemplateHeight *70%
                     Text: =ThisItem.ScreenName
