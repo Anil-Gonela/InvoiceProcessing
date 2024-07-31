@@ -387,13 +387,86 @@ InvoiceList As screen:
                 ZIndex: =3
 
                 ColumnNames As groupContainer.manualLayoutContainer:
+                    DropShadow: =DropShadow.None
                     Height: =Parent.Height * 10%
-                    Width: =Parent.Width
+                    RadiusBottomLeft: =30
+                    RadiusBottomRight: =30
+                    RadiusTopLeft: =30
+                    RadiusTopRight: =30
+                    Width: =Parent.Width * 98%
                     X: =Parent.X
                     ZIndex: =1
 
+                    Container15 As groupContainer.horizontalAutoLayoutContainer:
+                        Height: =Parent.Height
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
+                        X: =Parent.X
+                        Y: =Parent.Y
+                        ZIndex: =1
+
+                        Container17 As groupContainer.manualLayoutContainer:
+                            LayoutMinHeight: =0
+                            LayoutMinWidth: =0
+                            ZIndex: =1
+
+                            Label1 As label:
+                                Align: =Align.Center
+                                Font: =Font.Lato
+                                FontWeight: =FontWeight.Semibold
+                                Height: =Parent.Height
+                                Text: ="Client/Invoice"
+                                Width: =Parent.Width
+                                ZIndex: =1
+
+                        Container19 As groupContainer.manualLayoutContainer:
+                            LayoutMinHeight: =0
+                            LayoutMinWidth: =0
+                            ZIndex: =2
+
+                            Label1_3 As label:
+                                Align: =Align.Center
+                                Font: =Font.Lato
+                                FontWeight: =FontWeight.Semibold
+                                Height: =Parent.Height
+                                Text: ="Client/Invoice"
+                                Width: =Parent.Width
+                                ZIndex: =1
+
+                        Container21 As groupContainer.manualLayoutContainer:
+                            LayoutMinHeight: =0
+                            LayoutMinWidth: =0
+                            ZIndex: =3
+
+                            Label1_4 As label:
+                                Align: =Align.Center
+                                Font: =Font.Lato
+                                FontWeight: =FontWeight.Semibold
+                                Height: =Parent.Height
+                                Text: ="Client/Invoice"
+                                Width: =Parent.Width
+                                ZIndex: =1
+
+                        Container22 As groupContainer.manualLayoutContainer:
+                            LayoutMinHeight: =0
+                            LayoutMinWidth: =0
+                            ZIndex: =4
+
+                            Label1_5 As label:
+                                Align: =Align.Center
+                                Font: =Font.Lato
+                                FontWeight: =FontWeight.Semibold
+                                Height: =Parent.Height
+                                Text: ="Client/Invoice"
+                                Width: =Parent.Width
+                                ZIndex: =1
+
+                        Container23 As groupContainer.manualLayoutContainer:
+                            LayoutMinHeight: =0
+                            LayoutMinWidth: =0
+                            ZIndex: =5
+
                 List As groupContainer.manualLayoutContainer:
-                    BorderThickness: =1
                     DropShadow: =DropShadow.Bold
                     Height: =Parent.Height * 85%
                     RadiusBottomLeft: =20
@@ -523,7 +596,7 @@ InvoiceList As screen:
                             Text: =ThisItem.'Invoice Date'
                             VerticalAlign: =VerticalAlign.Top
                             Width: =Gallery6.TemplateWidth * 15%
-                            X: =DueDate.X + DueDate.Width +  25
+                            X: =DueDate.X + DueDate.Width +  28
                             Y: =(Gallery6.TemplateHeight - Self.Height) / 2
                             ZIndex: =8
 
