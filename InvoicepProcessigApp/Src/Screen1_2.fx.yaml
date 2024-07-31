@@ -17,75 +17,6 @@ Screen1_2 As screen:
             X: =340
             ZIndex: =1
 
-            Subtotal_DataCard1 As typedDataCard.textualEditCard:
-                BorderStyle: =BorderStyle.Solid
-                DataField: ="Subtotal0"
-                Default: =ThisItem.Subtotal
-                DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,Subtotal0)
-                Fill: =RGBA(0, 0, 0, 0)
-                Height: =50
-                MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, Subtotal0)
-                Required: =false
-                Update: =DataCardValue2.Text
-                Width: =800
-                WidthFit: =true
-                X: =0
-                Y: =6
-                ZIndex: =1
-
-                DataCardKey2 As label:
-                    AutoHeight: =true
-                    Height: =34
-                    Text: =Parent.DisplayName
-                    Width: =(Parent.Width - 60) * 0.4
-                    Wrap: =false
-                    X: =30
-                    Y: =10 + (DataCardValue2.Height / 2) - (Self.Height / 2)
-                    ZIndex: =1
-
-                DataCardValue2 As text:
-                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    Default: =Parent.Default
-                    DelayOutput: =true
-                    DisplayMode: =Parent.DisplayMode
-                    MaxLength: =Parent.MaxLength
-                    PaddingLeft: =5
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Tooltip: =Parent.DisplayName
-                    Width: =(Parent.Width - 60) * 0.6
-                    X: =DataCardKey2.X + DataCardKey2.Width
-                    Y: =10
-                    ZIndex: =2
-
-                ErrorMessage2 As label:
-                    AutoHeight: =true
-                    Height: =10
-                    Live: =Live.Assertive
-                    PaddingBottom: =0
-                    PaddingLeft: =0
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Text: =Parent.Error
-                    Visible: =Parent.DisplayMode=DisplayMode.Edit
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardValue2.Y + DataCardValue2.Height
-                    ZIndex: =3
-
-                StarVisible2 As label:
-                    Align: =Align.Center
-                    Height: =DataCardKey2.Height
-                    Text: ="*"
-                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                    Width: =30
-                    Wrap: =false
-                    Y: =DataCardKey2.Y
-                    ZIndex: =4
-
             DataCard4_1 As typedDataCard.blankCard:
                 BorderStyle: =BorderStyle.Solid
                 DisplayMode: =DisplayMode.Edit
@@ -505,7 +436,7 @@ Screen1_2 As screen:
                     Fill: =RGBA(0, 0, 0, 0)
                     Font: =Font.Lato
                     FontWeight: =FontWeight.Normal
-                    OnSelect: |-
+                    OnSelect: |+
                         =If(IsNumeric(UnitsInput_4.Text) && IsNumeric(TotalAmountInput_4.Text),
                         Collect(
                             MyCol,
@@ -514,15 +445,16 @@ Screen1_2 As screen:
                                 Units: UnitsInput_4.Text,
                                 Amount: TotalAmountInput_4.Text
                             }
-                        ),Notify("Please Enter the Numeric Values for Units and Amount",NotificationType.Error));
-                        Set(RawVar, Substitute( TotalAmountInput_4.Text, "$", "" ));
+                        );Set(RawVar, Substitute( TotalAmountInput_4.Text, "$", "" ));
                         Set(RawVar2, Substitute( RawVar, ",", "" ));
                         Set(VarTotalValue, VarTotalValue + Value(RawVar2));
-                        Set(VarGST, VarGST + Value(RawVar2)*.2);
-                        Reset(DescriptionInput_5);
+                        Set(VarGST, VarGST + Value(RawVar2)*.2);Reset(DescriptionInput_5);
                         Reset(UnitsInput_4);
                         Reset(TotalAmountInput_4);
-                        Set(FormattedNum, "");
+                        Set(FormattedNum, "");,Notify("Please Enter the Numeric Values for Units and Amount",NotificationType.Error));
+                        
+                        
+                        
                     Text: ="Add Row"
                     Visible: =Group1Visibility
                     Width: =97
@@ -722,6 +654,75 @@ Screen1_2 As screen:
                     Y: =DataCardKey25_1.Y
                     ZIndex: =4
 
+            Subtotal_DataCard1 As typedDataCard.textualEditCard:
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="Subtotal0"
+                Default: =ThisItem.Subtotal
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,Subtotal0)
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =50
+                MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, Subtotal0)
+                Required: =false
+                Update: =DataCardValue2.Text
+                Width: =800
+                WidthFit: =true
+                X: =0
+                Y: =6
+                ZIndex: =1
+
+                DataCardKey2 As label:
+                    AutoHeight: =true
+                    Height: =34
+                    Text: =Parent.DisplayName
+                    Width: =(Parent.Width - 60) * 0.4
+                    Wrap: =false
+                    X: =30
+                    Y: =10 + (DataCardValue2.Height / 2) - (Self.Height / 2)
+                    ZIndex: =1
+
+                DataCardValue2 As text:
+                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    Default: =VarTotalValue
+                    DelayOutput: =true
+                    DisplayMode: =Parent.DisplayMode
+                    MaxLength: =Parent.MaxLength
+                    PaddingLeft: =5
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Tooltip: =Parent.DisplayName
+                    Width: =(Parent.Width - 60) * 0.6
+                    X: =DataCardKey2.X + DataCardKey2.Width
+                    Y: =10
+                    ZIndex: =2
+
+                ErrorMessage2 As label:
+                    AutoHeight: =true
+                    Height: =10
+                    Live: =Live.Assertive
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Text: =Parent.Error
+                    Visible: =Parent.DisplayMode=DisplayMode.Edit
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardValue2.Y + DataCardValue2.Height
+                    ZIndex: =3
+
+                StarVisible2 As label:
+                    Align: =Align.Center
+                    Height: =DataCardKey2.Height
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    Wrap: =false
+                    Y: =DataCardKey2.Y
+                    ZIndex: =4
+
             GST_DataCard2_1 As typedDataCard.textualEditCard:
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="GST"
@@ -752,7 +753,7 @@ Screen1_2 As screen:
 
                 DataCardValue13_1 As text:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    Default: =Parent.Default
+                    Default: =VarGST
                     DelayOutput: =true
                     DisplayMode: =Parent.DisplayMode
                     MaxLength: =Parent.MaxLength
@@ -825,7 +826,7 @@ Screen1_2 As screen:
 
                 DataCardValue1 As text:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    Default: =Parent.Default
+                    Default: =VarTotalValue+VarGST
                     DelayOutput: =true
                     DisplayMode: =Parent.DisplayMode
                     Format: =TextFormat.Number
@@ -890,6 +891,7 @@ Screen1_2 As screen:
         Fill: =RGBA(0, 0, 0, 0.5)
         Height: =662
         Width: =562
-        X: =800
+        X: =804
+        Y: =106
         ZIndex: =8
 
