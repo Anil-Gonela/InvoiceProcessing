@@ -200,11 +200,11 @@ Screen1_2 As screen:
                 DisplayMode: =Parent.DisplayMode
                 DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Customer Name')
                 Fill: =RGBA(0, 0, 0, 0)
-                Height: =50
+                Height: =101
                 MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Customer Name')
                 Required: =false
                 Update: =DataCardValue24_1.Text
-                Width: =400
+                Width: =800
                 X: =0
                 Y: =2
                 ZIndex: =1
@@ -226,6 +226,7 @@ Screen1_2 As screen:
                     Default: =Parent.Default
                     DelayOutput: =true
                     DisplayMode: =Parent.DisplayMode
+                    Height: =81
                     MaxLength: =Parent.MaxLength
                     PaddingLeft: =5
                     RadiusBottomLeft: =0
@@ -280,9 +281,9 @@ Screen1_2 As screen:
                 MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Customer Address')
                 Required: =false
                 Update: =DataCardValue23_1.Text
-                Width: =400
-                X: =1
-                Y: =2
+                Width: =800
+                X: =0
+                Y: =3
                 ZIndex: =1
 
                 DataCardKey23_1 As label:
@@ -302,6 +303,7 @@ Screen1_2 As screen:
                     Default: =Parent.Default
                     DelayOutput: =true
                     DisplayMode: =Parent.DisplayMode
+                    Height: =88
                     MaxLength: =Parent.MaxLength
                     PaddingLeft: =5
                     RadiusBottomLeft: =0
@@ -352,12 +354,12 @@ Screen1_2 As screen:
                 DisplayMode: =Parent.DisplayMode
                 DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Due Date')
                 Fill: =RGBA(0, 0, 0, 0)
-                Height: =50
+                Height: =90
                 Required: =false
                 Update: =DataCardValue21_1.SelectedDate
-                Width: =400
+                Width: =800
                 X: =0
-                Y: =3
+                Y: =4
                 ZIndex: =1
 
                 DataCardKey21_1 As label:
@@ -377,6 +379,7 @@ Screen1_2 As screen:
                     DefaultDate: =Parent.Default
                     DisplayMode: =Parent.DisplayMode
                     EndYear: =Year(Today())+100
+                    Height: =61
                     IsEditable: =true
                     PaddingBottom: =0
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
@@ -426,7 +429,7 @@ Screen1_2 As screen:
                 Width: =800
                 WidthFit: =true
                 X: =0
-                Y: =4
+                Y: =5
                 ZIndex: =1
 
                 Button2_2 As button:
@@ -591,7 +594,7 @@ Screen1_2 As screen:
                 Width: =800
                 WidthFit: =true
                 X: =0
-                Y: =5
+                Y: =6
                 ZIndex: =1
 
                 DataCardKey25_1 As label:
@@ -668,7 +671,7 @@ Screen1_2 As screen:
                 Width: =800
                 WidthFit: =true
                 X: =0
-                Y: =6
+                Y: =7
                 ZIndex: =1
 
                 DataCardKey2 As label:
@@ -736,7 +739,7 @@ Screen1_2 As screen:
                 Update: =DataCardValue13_1.Text
                 Width: =800
                 X: =0
-                Y: =7
+                Y: =8
                 ZIndex: =1
 
                 DataCardKey13_1 As label:
@@ -811,7 +814,7 @@ Screen1_2 As screen:
                 Update: =Value(DataCardValue1.Text)
                 Width: =800
                 X: =0
-                Y: =8
+                Y: =9
                 ZIndex: =1
 
                 DataCardKey1 As label:
