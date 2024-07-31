@@ -437,14 +437,15 @@ Screen1_2 As screen:
                     Font: =Font.Lato
                     FontWeight: =FontWeight.Normal
                     OnSelect: |-
-                        =Collect(
+                        =If(IsNumeric(UnitsInput_4.Text) && IsNumeric(TotalAmountInput_4.Text),
+                        Collect(
                             MyCol,
                             {
                                 Description: DescriptionInput_5.Text,
                                 Units: UnitsInput_4.Text,
                                 Amount: TotalAmountInput_4.Text
                             }
-                        );
+                        ),Notify("Please Enter the Numeric Values for Units and Amount",NotificationType.Error));
                         Set(RawVar, Substitute( TotalAmountInput_4.Text, "$", "" ));
                         Set(RawVar2, Substitute( RawVar, ",", "" ));
                         Set(VarTotalValue, VarTotalValue + Value(RawVar2));
