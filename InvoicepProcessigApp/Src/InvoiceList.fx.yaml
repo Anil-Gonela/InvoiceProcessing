@@ -429,7 +429,7 @@ InvoiceList As screen:
                                 Font: =Font.Lato
                                 FontWeight: =FontWeight.Semibold
                                 Height: =Parent.Height
-                                Text: ="Client/Invoice"
+                                Text: ="Product Details"
                                 Width: =Parent.Width
                                 ZIndex: =1
 
@@ -443,7 +443,7 @@ InvoiceList As screen:
                                 Font: =Font.Lato
                                 FontWeight: =FontWeight.Semibold
                                 Height: =Parent.Height
-                                Text: ="Client/Invoice"
+                                Text: ="Amount"
                                 Width: =Parent.Width
                                 ZIndex: =1
 
@@ -457,7 +457,7 @@ InvoiceList As screen:
                                 Font: =Font.Lato
                                 FontWeight: =FontWeight.Semibold
                                 Height: =Parent.Height
-                                Text: ="Client/Invoice"
+                                Text: ="Due Date"
                                 Width: =Parent.Width
                                 ZIndex: =1
 
@@ -465,6 +465,14 @@ InvoiceList As screen:
                             LayoutMinHeight: =0
                             LayoutMinWidth: =0
                             ZIndex: =5
+
+                            Label1_6 As label:
+                                Font: =Font.Lato
+                                FontWeight: =FontWeight.Semibold
+                                Height: =Parent.Height
+                                Text: ="Status"
+                                Width: =Parent.Width
+                                ZIndex: =1
 
                 List As groupContainer.manualLayoutContainer:
                     DropShadow: =DropShadow.Bold
