@@ -398,6 +398,7 @@ InvoiceList As screen:
                     ZIndex: =1
 
                     Container15 As groupContainer.horizontalAutoLayoutContainer:
+                        DropShadow: =DropShadow.None
                         Height: =Parent.Height
                         LayoutMode: =LayoutMode.Auto
                         Width: =Parent.Width
