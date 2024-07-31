@@ -770,3 +770,18 @@ InvoiceList_1 As screen:
                             Y: =DataCardKey20_2.Y
                             ZIndex: =4
 
+                Button6_3 As button:
+                    Fill: =RGBA(141, 73, 58, 1)
+                    Font: =Font.Lato
+                    Height: =Parent.Height * 6%
+                    RadiusBottomLeft: =20
+                    RadiusBottomRight: =20
+                    RadiusTopLeft: =20
+                    RadiusTopRight: =20
+                    Size: =13
+                    Text: ="Submit"
+                    Width: =Parent.Width*30%
+                    X: =(Parent.Width - Self.Width)/2
+                    Y: =Form2_1.Y + Form2_1.Height + 60
+                    ZIndex: =2
+
