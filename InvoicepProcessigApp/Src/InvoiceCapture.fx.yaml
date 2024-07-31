@@ -1,6 +1,6 @@
 InvoiceCapture As screen:
     BackgroundImage: =bg
-    Fill: =RGBA(253, 222, 207, 0.1)
+    Fill: =RGBA(0, 0, 0, 0)
 
     Component As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
