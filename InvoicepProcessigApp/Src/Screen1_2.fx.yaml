@@ -5,7 +5,9 @@ Screen1_2 As screen:
         Height: =768
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        Width: =800
+        Width: |-
+            =//800
+            App.Width/1.7
         ZIndex: =5
 
         Form1_2 As form:
@@ -14,6 +16,7 @@ Screen1_2 As screen:
             LayoutMinHeight: =250
             LayoutMinWidth: =400
             NumberOfColumns: =2
+            Width: =Parent.Width
             X: =340
             ZIndex: =1
 

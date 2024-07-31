@@ -101,7 +101,7 @@
       "zeroalltabindexes": true
     },
     "Author": "",
-    "BindingErrorCount": 7,
+    "BindingErrorCount": 0,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -134,7 +134,6 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1_1",
     "Screen1_2",
     "Welcome Screen_1",
     "InvoiceList",
