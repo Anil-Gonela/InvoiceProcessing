@@ -102,6 +102,7 @@ InvoiceList As screen:
 
             Notifications_2 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
+                Fill: =RGBA(141, 73, 58, 1)
                 Height: =Parent.Height * 80%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
@@ -271,7 +272,10 @@ InvoiceList As screen:
                         ZIndex: =3
 
                 NewInvoice As groupContainer.manualLayoutContainer:
-                    Fill: =RGBA(253, 222, 207, 0.1)
+                    BorderStyle: =
+                    BorderThickness: =1
+                    DropShadow: =DropShadow.Semilight
+                    Fill: =RGBA(0,0,0,0)
                     Height: =Parent.Height*25%
                     RadiusBottomLeft: =20
                     RadiusBottomRight: =20
@@ -284,14 +288,19 @@ InvoiceList As screen:
 
                     Button7 As button:
                         Color: =RGBA(0, 0, 0, 1)
-                        Fill: =RGBA(255, 255, 255, 0.3)
+                        Fill: = RGBA(141, 73, 58, 1)
                         Height: =Parent.Height
+                        RadiusBottomLeft: =20
+                        RadiusBottomRight: =20
+                        RadiusTopLeft: =20
+                        RadiusTopRight: =20
                         Text: =
                         Width: =Parent.Width
                         ZIndex: =1
 
                     Label8 As label:
                         Align: =Align.Center
+                        Color: =RGBA(255, 255, 255, 1)
                         Font: =Font.'Lato Black'
                         Height: =Parent.Height * 90%
                         Size: =15
