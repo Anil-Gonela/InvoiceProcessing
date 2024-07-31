@@ -62,7 +62,7 @@ InvoiceCapture As screen:
                 DisabledColor: =RGBA(253, 222, 207, 1)
                 DisabledFill: =RGBA(253, 222, 207, 1)
                 DisplayMode: =DisplayMode.Edit
-                FillColor: =RGBA(139, 154, 159, 1)
+                FillColor: =RGBA(79, 90, 94, 1)
                 FontColor: =RGBA(255, 255, 255, 1)
                 Height: =Parent.Height*70%
                 ModelId: |-
@@ -74,7 +74,7 @@ InvoiceCapture As screen:
                 ZIndex: =1
 
             Button6 As button:
-                Fill: =RGBA(139, 154, 159, 1)
+                Fill: =RGBA(79, 90, 94, 1)
                 Font: =Font.Lato
                 Height: =Parent.Height * 6%
                 RadiusBottomLeft: =20
@@ -669,7 +669,7 @@ InvoiceCapture As screen:
                         ZIndex: =4
 
             Button6_1 As button:
-                Fill: =RGBA(139, 154, 159, 1)
+                Fill: =RGBA(79, 90, 94, 1)
                 Font: =Font.Lato
                 Height: =Parent.Height * 6%
                 RadiusBottomLeft: =20
