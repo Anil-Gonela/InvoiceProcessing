@@ -1642,7 +1642,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "horizontal",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey10_1",
@@ -5010,8 +5010,8 @@
       "ControlPropertyState": [
         {
           "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": true,
-          "AutoRuleBindingString": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "Parent.Default",
           "InvariantPropertyName": "DefaultDate",
           "IsLockable": true,
           "NameMapSourceSchema": "?"
@@ -5096,7 +5096,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "horizontal",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue10_1",
@@ -5107,7 +5107,7 @@
         {
           "Category": "Data",
           "PropertyName": "DefaultDate",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",
@@ -8465,7 +8465,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "horizontal",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage17_1",
@@ -11464,7 +11464,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "horizontal",
       "MetaDataIDKey": "",
       "Name": "Invoice Date_DataCard1_1",
@@ -12539,7 +12539,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "horizontal",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible17_1",

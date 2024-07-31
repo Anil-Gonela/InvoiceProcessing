@@ -149,7 +149,6 @@ Screen1_2 As screen:
 
                 DataCardValue10_1 As datepicker:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    DefaultDate: =Parent.Default
                     DisplayMode: =Parent.DisplayMode
                     EndYear: =Year(Today())+100
                     IsEditable: =true
