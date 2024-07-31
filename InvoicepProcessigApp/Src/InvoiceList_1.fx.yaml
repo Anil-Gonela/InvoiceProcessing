@@ -192,7 +192,7 @@ InvoiceList_1 As screen:
                     ZIndex: =1
 
                 Button6_2 As button:
-                    Fill: =RGBA(79, 90, 94, 1)
+                    Fill: =RGBA(141, 73, 58, 1)
                     Font: =Font.Lato
                     Height: =Parent.Height * 6%
                     RadiusBottomLeft: =20
@@ -252,7 +252,7 @@ InvoiceList_1 As screen:
                             ZIndex: =1
 
                         DataCardValue14_2 As text:
-                            BorderColor: =RGBA(53, 61, 63, 1)
+                            BorderColor: =RGBA(141, 73, 58, 1)
                             BorderThickness: =1
                             Default: =FormProcessor1.Fields.Invoice_id
                             DelayOutput: =true
@@ -330,7 +330,7 @@ InvoiceList_1 As screen:
                             ZIndex: =1
 
                         DataCardValue15_2 As text:
-                            BorderColor: =RGBA(0, 0, 0, 1)
+                            BorderColor: =RGBA(141, 73, 58, 1)
                             BorderThickness: =1
                             Default: =FormProcessor1.Fields.Billing_Address
                             DelayOutput: =true
@@ -407,14 +407,15 @@ InvoiceList_1 As screen:
                             ZIndex: =1
 
                         DataCardValue16_2 As datepicker:
-                            BorderColor: =RGBA(0, 0, 0, 1)
+                            BorderColor: =RGBA(141, 73, 58, 1)
                             BorderThickness: =1
+                            Color: =RGBA(141, 73, 58, 1)
                             DefaultDate: =FormProcessor1.Fields.Invoice_Date
                             DisplayMode: =Parent.DisplayMode
                             EndYear: =Year(Today())+100
                             Font: =Font.Lato
                             IconBackground: =RGBA(0, 0, 0, 0)
-                            IconFill: =RGBA(0, 0, 0, 1)
+                            IconFill: =RGBA(141, 73, 58, 1)
                             IsEditable: =true
                             PaddingBottom: =0
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
@@ -485,7 +486,7 @@ InvoiceList_1 As screen:
                             ZIndex: =1
 
                         DataCardValue17_2 As text:
-                            BorderColor: =RGBA(53, 61, 63, 1)
+                            BorderColor: =RGBA(141, 73, 58, 1)
                             BorderThickness: =1
                             Default: =FormProcessor1.Fields.Total
                             DelayOutput: =true
@@ -565,7 +566,7 @@ InvoiceList_1 As screen:
                             ZIndex: =1
 
                         DataCardValue18_2 As text:
-                            BorderColor: =If(IsBlank(Parent.Error), RGBA(0, 0, 0, 1), Color.Red)
+                            BorderColor: =If(IsBlank(Parent.Error), RGBA(141, 73, 58, 1), Color.Red)
                             BorderThickness: =1
                             Default: =FormProcessor1.Fields.Tax
                             DelayOutput: =true
@@ -643,7 +644,7 @@ InvoiceList_1 As screen:
                             ZIndex: =1
 
                         DataCardValue19_2 As text:
-                            BorderColor: =If(IsBlank(Parent.Error), RGBA(0, 0, 0, 1), Color.Red)
+                            BorderColor: =If(IsBlank(Parent.Error), RGBA(141, 73, 58, 1), Color.Red)
                             BorderThickness: =1
                             Default: =FormProcessor1.Fields.BalanceDue
                             DelayOutput: =true
@@ -721,7 +722,7 @@ InvoiceList_1 As screen:
                             ZIndex: =1
 
                         DataCardValue20_2 As text:
-                            BorderColor: =If(IsBlank(Parent.Error), RGBA(0, 0, 0, 1), Color.Red)
+                            BorderColor: =If(IsBlank(Parent.Error), RGBA(141, 73, 58, 1), Color.Red)
                             BorderThickness: =1
                             Default: =FormProcessor1.Fields.Customer_address
                             DelayOutput: =true
