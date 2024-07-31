@@ -891,7 +891,6 @@ Screen1_2 As screen:
         Fill: =RGBA(0, 0, 0, 0.5)
         Height: =662
         Width: =562
-        X: =804
-        Y: =106
+        X: =800
         ZIndex: =8
 
