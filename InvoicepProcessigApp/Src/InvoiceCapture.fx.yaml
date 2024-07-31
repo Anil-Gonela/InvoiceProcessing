@@ -306,14 +306,14 @@ InvoiceCapture As screen:
                         ZIndex: =1
 
                     DataCardValue16_1 As datepicker:
-                        BorderColor: =RGBA(53, 61, 63, 1)
+                        BorderColor: =RGBA(0, 0, 0, 1)
                         BorderThickness: =1
                         DefaultDate: =FormProcessor1.Fields.Invoice_Date
                         DisplayMode: =Parent.DisplayMode
                         EndYear: =Year(Today())+100
                         Font: =Font.Lato
                         IconBackground: =RGBA(0, 0, 0, 0)
-                        IconFill: =RGBA(221, 79, 14, 1)
+                        IconFill: =RGBA(0, 0, 0, 1)
                         IsEditable: =true
                         PaddingBottom: =0
                         PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
