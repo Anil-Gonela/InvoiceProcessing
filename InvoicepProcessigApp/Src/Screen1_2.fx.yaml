@@ -54,13 +54,13 @@ Screen1_2 As screen:
                 DisplayMode: =Parent.DisplayMode
                 DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,Title)
                 Fill: =RGBA(0, 0, 0, 0)
-                Height: =50
+                Height: =45
                 MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, Title)
                 Required: =false
                 Update: =DataCardValue22_1.Text
-                Width: =400
+                Width: =804
                 X: =0
-                Y: =1
+                Y: =2
                 ZIndex: =1
 
                 DataCardKey22_1 As label:
@@ -68,7 +68,7 @@ Screen1_2 As screen:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     Color: =RGBA(0, 18, 107, 1)
                     Height: =34
-                    Text: =Parent.DisplayName
+                    Text: ="Invoice Number"
                     Width: =(Parent.Width - 60) * 0.4
                     Wrap: =false
                     X: =30
@@ -130,11 +130,11 @@ Screen1_2 As screen:
                 DisplayMode: =Parent.DisplayMode
                 DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Invoice Date')
                 Fill: =RGBA(0, 0, 0, 0)
-                Height: =50
+                Height: =80
                 Required: =false
                 Update: =DataCardValue10_1.SelectedDate
-                Width: =400
-                X: =1
+                Width: =804
+                X: =0
                 Y: =1
                 ZIndex: =1
 
@@ -208,7 +208,7 @@ Screen1_2 As screen:
                 Update: =DataCardValue24_1.Text
                 Width: =800
                 X: =0
-                Y: =2
+                Y: =3
                 ZIndex: =1
 
                 DataCardKey24_1 As label:
@@ -285,7 +285,7 @@ Screen1_2 As screen:
                 Update: =DataCardValue23_1.Text
                 Width: =800
                 X: =0
-                Y: =3
+                Y: =4
                 ZIndex: =1
 
                 DataCardKey23_1 As label:
@@ -361,7 +361,7 @@ Screen1_2 As screen:
                 Update: =DataCardValue21_1.SelectedDate
                 Width: =800
                 X: =0
-                Y: =4
+                Y: =5
                 ZIndex: =1
 
                 DataCardKey21_1 As label:
@@ -431,7 +431,7 @@ Screen1_2 As screen:
                 Width: =800
                 WidthFit: =true
                 X: =0
-                Y: =5
+                Y: =6
                 ZIndex: =1
 
                 Button2_2 As button:
@@ -596,7 +596,7 @@ Screen1_2 As screen:
                 Width: =800
                 WidthFit: =true
                 X: =0
-                Y: =6
+                Y: =7
                 ZIndex: =1
 
                 DataCardKey25_1 As label:
@@ -673,7 +673,7 @@ Screen1_2 As screen:
                 Width: =800
                 WidthFit: =true
                 X: =0
-                Y: =7
+                Y: =8
                 ZIndex: =1
 
                 DataCardKey2 As label:
@@ -749,7 +749,7 @@ Screen1_2 As screen:
                 Update: =DataCardValue13_1.Text
                 Width: =800
                 X: =0
-                Y: =8
+                Y: =9
                 ZIndex: =1
 
                 DataCardKey13_1 As label:
@@ -824,7 +824,7 @@ Screen1_2 As screen:
                 Update: =Value(DataCardValue1.Text)
                 Width: =800
                 X: =0
-                Y: =9
+                Y: =10
                 ZIndex: =1
 
                 DataCardKey1 As label:
