@@ -93,6 +93,7 @@ InvoiceList As screen:
                 ZIndex: =3
 
                 Image4_5 As image:
+                    Fill: =RGBA(255, 255, 255, 1)
                     Height: =Parent.Height *90%
                     Image: =settings
                     Width: =Parent.Width *90%
@@ -113,6 +114,7 @@ InvoiceList As screen:
                 ZIndex: =4
 
                 Image4_6 As image:
+                    Fill: =RGBA(255, 255, 255, 1)
                     Height: =Parent.Height
                     Image: =notifications
                     Width: =Parent.Width
