@@ -66,10 +66,10 @@ Screen1_2 As screen:
                     Color: =RGBA(0, 18, 107, 1)
                     Height: =34
                     Text: =Parent.DisplayName
-                    Width: =Parent.Width - 60
+                    Width: =(Parent.Width - 60) * 0.4
                     Wrap: =false
                     X: =30
-                    Y: =10
+                    Y: =10 + (DataCardValue22_1.Height / 2) - (Self.Height / 2)
                     ZIndex: =1
 
                 DataCardValue22_1 As text:
@@ -84,9 +84,9 @@ Screen1_2 As screen:
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Tooltip: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardKey22_1.Y + DataCardKey22_1.Height + 5
+                    Width: =(Parent.Width - 60) * 0.6
+                    X: =DataCardKey22_1.X + DataCardKey22_1.Width
+                    Y: =10
                     ZIndex: =2
 
                 ErrorMessage22_1 As label:
@@ -141,10 +141,10 @@ Screen1_2 As screen:
                     Color: =RGBA(0, 18, 107, 1)
                     Height: =34
                     Text: =Parent.DisplayName
-                    Width: =Parent.Width - 60
+                    Width: =(Parent.Width - 60) * 0.4
                     Wrap: =false
                     X: =30
-                    Y: =10
+                    Y: =10 + (DataCardValue10_1.Height / 2) - (Self.Height / 2)
                     ZIndex: =1
 
                 DataCardValue10_1 As datepicker:
@@ -157,9 +157,9 @@ Screen1_2 As screen:
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     StartYear: =1899
                     Tooltip: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardKey10_1.Y + DataCardKey10_1.Height + 5
+                    Width: =(Parent.Width - 60) * 0.6
+                    X: =DataCardKey10_1.X + DataCardKey10_1.Width
+                    Y: =10
                     ZIndex: =2
 
                 ErrorMessage17_1 As label:
@@ -215,10 +215,10 @@ Screen1_2 As screen:
                     Color: =RGBA(0, 18, 107, 1)
                     Height: =34
                     Text: =Parent.DisplayName
-                    Width: =Parent.Width - 60
+                    Width: =(Parent.Width - 60) * 0.4
                     Wrap: =false
                     X: =30
-                    Y: =10
+                    Y: =10 + (DataCardValue24_1.Height / 2) - (Self.Height / 2)
                     ZIndex: =1
 
                 DataCardValue24_1 As text:
@@ -233,9 +233,9 @@ Screen1_2 As screen:
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Tooltip: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardKey24_1.Y + DataCardKey24_1.Height + 5
+                    Width: =(Parent.Width - 60) * 0.6
+                    X: =DataCardKey24_1.X + DataCardKey24_1.Width
+                    Y: =10
                     ZIndex: =2
 
                 ErrorMessage24_1 As label:
@@ -291,10 +291,10 @@ Screen1_2 As screen:
                     Color: =RGBA(0, 18, 107, 1)
                     Height: =34
                     Text: =Parent.DisplayName
-                    Width: =Parent.Width - 60
+                    Width: =(Parent.Width - 60) * 0.4
                     Wrap: =false
                     X: =30
-                    Y: =10
+                    Y: =10 + (DataCardValue23_1.Height / 2) - (Self.Height / 2)
                     ZIndex: =1
 
                 DataCardValue23_1 As text:
@@ -309,9 +309,9 @@ Screen1_2 As screen:
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Tooltip: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardKey23_1.Y + DataCardKey23_1.Height + 5
+                    Width: =(Parent.Width - 60) * 0.6
+                    X: =DataCardKey23_1.X + DataCardKey23_1.Width
+                    Y: =10
                     ZIndex: =2
 
                 ErrorMessage23_1 As label:
@@ -366,10 +366,10 @@ Screen1_2 As screen:
                     Color: =RGBA(0, 18, 107, 1)
                     Height: =34
                     Text: =Parent.DisplayName
-                    Width: =Parent.Width - 60
+                    Width: =(Parent.Width - 60) * 0.4
                     Wrap: =false
                     X: =30
-                    Y: =10
+                    Y: =10 + (DataCardValue21_1.Height / 2) - (Self.Height / 2)
                     ZIndex: =1
 
                 DataCardValue21_1 As datepicker:
@@ -382,9 +382,9 @@ Screen1_2 As screen:
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     StartYear: =1899
                     Tooltip: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardKey21_1.Y + DataCardKey21_1.Height + 5
+                    Width: =(Parent.Width - 60) * 0.6
+                    X: =DataCardKey21_1.X + DataCardKey21_1.Width
+                    Y: =10
                     ZIndex: =2
 
                 ErrorMessage21_1 As label:
@@ -422,7 +422,7 @@ Screen1_2 As screen:
                 BorderStyle: =BorderStyle.Solid
                 DisplayMode: =DisplayMode.Edit
                 Fill: =RGBA(0, 0, 0, 0)
-                Height: =200
+                Height: =345
                 Width: =800
                 WidthFit: =true
                 X: =0
@@ -462,108 +462,45 @@ Screen1_2 As screen:
 
                 Table1 As Table.pcfdataset:
                     DisplayMode: =DisplayMode.Edit
-                    Height: =If(Self.Y + 500 > Parent.Height, Parent.Height - Self.Y, 500)
-                    Items: ='Invoice Data'
+                    Height: =233
+                    Items: =MyCol
                     onCellValueChange: =false
                     onFilter: =false
                     onNavigate: =false
                     onRowSelect: =false
                     onSave: =false
                     OnSelect: =false
-                    Width: =If(Self.X + 800 > Parent.Width, Parent.Width - Self.X, 800)
-                    X: =40
-                    Y: =40
+                    Width: =759
+                    X: =16
+                    Y: =112
                     ZIndex: =8
 
-                    "'Customer Address1' As PowerAppsOneGridTemplate_dataField.textualColumn":
-                        FieldDisplayName: ="Customer Address"
-                        FieldName: ="field_6"
-                        FieldType: ="s"
-                        FieldVariantName: ="textualColumn"
-                        Order: =7
-                        Width: =0
-                        ZIndex: =0
-
-                    "'Customer Name1' As PowerAppsOneGridTemplate_dataField.textualColumn":
-                        FieldDisplayName: ="Customer Name"
-                        FieldName: ="field_7"
-                        FieldType: ="s"
-                        FieldVariantName: ="textualColumn"
-                        Order: =8
-                        Width: =0
-                        ZIndex: =0
-
-                    "'Customer Picture1' As PowerAppsOneGridTemplate_dataField.textualColumn":
-                        FieldDisplayName: ="Customer Picture"
-                        FieldName: ="field_8"
-                        FieldType: ="s"
-                        FieldVariantName: ="textualColumn"
-                        Order: =9
-                        Width: =0
-                        ZIndex: =0
-
-                    Attachments1 As PowerAppsOneGridTemplate_dataField.textualColumn:
-                        FieldDisplayName: ="Attachments"
-                        FieldName: ="{Attachments}"
-                        FieldType: ="r*"
-                        FieldVariantName: ="textualColumn"
-                        Order: =10
-                        Width: =0
-                        ZIndex: =0
-
-                    "'Invoice ID1' As PowerAppsOneGridTemplate_dataField.textualColumn":
-                        FieldDisplayName: ="Invoice ID"
-                        FieldName: ="Title"
+                    Description1 As PowerAppsOneGridTemplate_dataField.textualColumn:
+                        FieldDisplayName: ="Description"
+                        FieldName: ="Description"
                         FieldType: ="s"
                         FieldVariantName: ="textualColumn"
                         Order: =1
                         Width: =0
                         ZIndex: =9
 
-                    "'Bill To1' As PowerAppsOneGridTemplate_dataField.textualColumn":
-                        FieldDisplayName: ="Bill To"
-                        FieldName: ="field_1"
+                    Units1 As PowerAppsOneGridTemplate_dataField.textualColumn:
+                        FieldDisplayName: ="Units"
+                        FieldName: ="Units"
                         FieldType: ="s"
                         FieldVariantName: ="textualColumn"
                         Order: =2
                         Width: =0
                         ZIndex: =10
 
-                    "'Invoice Date1' As PowerAppsOneGridTemplate_dataField.textualColumn":
-                        FieldDisplayName: ="Invoice Date"
-                        FieldName: ="field_2"
-                        FieldType: ="n"
+                    Amount1 As PowerAppsOneGridTemplate_dataField.textualColumn:
+                        FieldDisplayName: ="Amount"
+                        FieldName: ="Amount"
+                        FieldType: ="s"
                         FieldVariantName: ="textualColumn"
                         Order: =3
                         Width: =0
                         ZIndex: =11
-
-                    "'Total Amount1' As PowerAppsOneGridTemplate_dataField.textualColumn":
-                        FieldDisplayName: ="Total Amount"
-                        FieldName: ="field_3"
-                        FieldType: ="n"
-                        FieldVariantName: ="textualColumn"
-                        Order: =4
-                        Width: =0
-                        ZIndex: =12
-
-                    Tax1 As PowerAppsOneGridTemplate_dataField.textualColumn:
-                        FieldDisplayName: ="Tax"
-                        FieldName: ="field_4"
-                        FieldType: ="n"
-                        FieldVariantName: ="textualColumn"
-                        Order: =5
-                        Width: =0
-                        ZIndex: =13
-
-                    "'Balance Due1' As PowerAppsOneGridTemplate_dataField.textualColumn":
-                        FieldDisplayName: ="Balance Due"
-                        FieldName: ="field_5"
-                        FieldType: ="n"
-                        FieldVariantName: ="textualColumn"
-                        Order: =6
-                        Width: =0
-                        ZIndex: =14
 
                 Group1 As group:
                     Height: =5
@@ -649,7 +586,8 @@ Screen1_2 As screen:
                 MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Shipping Cost')
                 Required: =false
                 Update: =DataCardValue25_1.Text
-                Width: =400
+                Width: =800
+                WidthFit: =true
                 X: =0
                 Y: =5
                 ZIndex: =1
@@ -660,10 +598,10 @@ Screen1_2 As screen:
                     Color: =RGBA(0, 18, 107, 1)
                     Height: =34
                     Text: =Parent.DisplayName
-                    Width: =Parent.Width - 60
+                    Width: =(Parent.Width - 60) * 0.4
                     Wrap: =false
                     X: =30
-                    Y: =10
+                    Y: =10 + (DataCardValue25_1.Height / 2) - (Self.Height / 2)
                     ZIndex: =1
 
                 DataCardValue25_1 As text:
@@ -678,9 +616,9 @@ Screen1_2 As screen:
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Tooltip: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardKey25_1.Y + DataCardKey25_1.Height + 5
+                    Width: =(Parent.Width - 60) * 0.6
+                    X: =DataCardKey25_1.X + DataCardKey25_1.Width
+                    Y: =10
                     ZIndex: =2
 
                 ErrorMessage25_1 As label:
@@ -725,9 +663,9 @@ Screen1_2 As screen:
                 MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Balance Due')
                 Required: =false
                 Update: =DataCardValue7_1.Text
-                Width: =400
-                X: =1
-                Y: =5
+                Width: =800
+                X: =0
+                Y: =6
                 ZIndex: =1
 
                 DataCardKey7_1 As label:
@@ -736,10 +674,10 @@ Screen1_2 As screen:
                     Color: =RGBA(0, 18, 107, 1)
                     Height: =34
                     Text: =Parent.DisplayName
-                    Width: =Parent.Width - 60
+                    Width: =(Parent.Width - 60) * 0.4
                     Wrap: =false
                     X: =30
-                    Y: =10
+                    Y: =10 + (DataCardValue7_1.Height / 2) - (Self.Height / 2)
                     ZIndex: =1
 
                 DataCardValue7_1 As text:
@@ -754,9 +692,9 @@ Screen1_2 As screen:
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Tooltip: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardKey7_1.Y + DataCardKey7_1.Height + 5
+                    Width: =(Parent.Width - 60) * 0.6
+                    X: =DataCardKey7_1.X + DataCardKey7_1.Width
+                    Y: =10
                     ZIndex: =2
 
                 ErrorMessage14_1 As label:
@@ -801,9 +739,9 @@ Screen1_2 As screen:
                 MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, GST)
                 Required: =false
                 Update: =DataCardValue13_1.Text
-                Width: =400
+                Width: =800
                 X: =0
-                Y: =6
+                Y: =7
                 ZIndex: =1
 
                 DataCardKey13_1 As label:
@@ -812,10 +750,10 @@ Screen1_2 As screen:
                     Color: =RGBA(0, 18, 107, 1)
                     Height: =34
                     Text: =Parent.DisplayName
-                    Width: =Parent.Width - 60
+                    Width: =(Parent.Width - 60) * 0.4
                     Wrap: =false
                     X: =30
-                    Y: =10
+                    Y: =10 + (DataCardValue13_1.Height / 2) - (Self.Height / 2)
                     ZIndex: =1
 
                 DataCardValue13_1 As text:
@@ -830,9 +768,9 @@ Screen1_2 As screen:
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Tooltip: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardKey13_1.Y + DataCardKey13_1.Height + 5
+                    Width: =(Parent.Width - 60) * 0.6
+                    X: =DataCardKey13_1.X + DataCardKey13_1.Width
+                    Y: =10
                     ZIndex: =2
 
                 ErrorMessage20_1 As label:
@@ -866,85 +804,75 @@ Screen1_2 As screen:
                     Y: =DataCardKey13_1.Y
                     ZIndex: =4
 
-            "'Total Amount_DataCard1_1' As typedDataCard.textualEditCard":
+            "'Total Amount_DataCard2' As typedDataCard.numberEditCard":
                 BorderStyle: =BorderStyle.Solid
-                DataField: ="SaleAmount"
-                Default: =ThisItem.SaleAmount
+                DataField: ="TotalAmount"
+                Default: =ThisItem.'Total Amount'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,SaleAmount)
+                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,TotalAmount)
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, SaleAmount)
                 Required: =false
-                Update: =DataCardValue8_1.Text
-                Width: =400
-                X: =1
-                Y: =6
+                Update: =Value(DataCardValue1.Text)
+                Width: =800
+                X: =0
+                Y: =8
                 ZIndex: =1
 
-                DataCardKey8_1 As label:
+                DataCardKey1 As label:
                     AutoHeight: =true
-                    BorderColor: =RGBA(0, 0, 0, 1)
-                    Color: =RGBA(0, 18, 107, 1)
                     Height: =34
                     Text: =Parent.DisplayName
-                    Width: =Parent.Width - 60
+                    Width: =(Parent.Width - 60) * 0.4
                     Wrap: =false
                     X: =30
-                    Y: =10
+                    Y: =10 + (DataCardValue1.Height / 2) - (Self.Height / 2)
                     ZIndex: =1
 
-                DataCardValue8_1 As text:
+                DataCardValue1 As text:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                     Default: =Parent.Default
                     DelayOutput: =true
                     DisplayMode: =Parent.DisplayMode
-                    MaxLength: =Parent.MaxLength
+                    Format: =TextFormat.Number
                     PaddingLeft: =5
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Tooltip: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardKey8_1.Y + DataCardKey8_1.Height + 5
+                    Width: =(Parent.Width - 60) * 0.6
+                    X: =DataCardKey1.X + DataCardKey1.Width
+                    Y: =10
                     ZIndex: =2
 
-                ErrorMessage15_1 As label:
+                ErrorMessage1 As label:
                     AutoHeight: =true
-                    BorderColor: =RGBA(0, 0, 0, 1)
-                    Color: =RGBA(168, 0, 0, 1)
-                    FontWeight: =FontWeight.Semibold
                     Height: =10
                     Live: =Live.Assertive
                     PaddingBottom: =0
                     PaddingLeft: =0
                     PaddingRight: =0
                     PaddingTop: =0
-                    Size: =14
                     Text: =Parent.Error
                     Visible: =Parent.DisplayMode=DisplayMode.Edit
                     Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardValue8_1.Y + DataCardValue8_1.Height
+                    X: =32
+                    Y: =80
                     ZIndex: =3
 
-                StarVisible15_1 As label:
+                StarVisible1 As label:
                     Align: =Align.Center
-                    BorderColor: =RGBA(0, 0, 0, 1)
-                    Color: =RGBA(0, 18, 107, 1)
-                    Height: =DataCardKey8_1.Height
+                    Height: =DataCardKey1.Height
                     Text: ="*"
                     Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                     Width: =30
                     Wrap: =false
-                    Y: =DataCardKey8_1.Y
+                    Y: =DataCardKey1.Y
                     ZIndex: =4
 
     Button1_5 As button:
-        OnSelect: |-
-            =NewForm(Form1_2);ClearCollect(MyCol,{Description:DescriptionInput_5.Text,Units:UnitsInput_4.Text,Amount:TotalAmountInput_4.Text});
+        OnSelect: =NewForm(Form1_2);Clear(MyCol);
         Text: ="New Form"
         X: =815
         Y: =700
