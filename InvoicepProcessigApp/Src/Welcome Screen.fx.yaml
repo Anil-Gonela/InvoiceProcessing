@@ -1,4 +1,4 @@
-"'Welcome Screen_1' As screen":
+"'Welcome Screen' As screen":
     BackgroundImage: ='invoice-processing'
     Fill: =RGBA(189, 204, 180, 1)
     ImagePosition: =ImagePosition.Stretch

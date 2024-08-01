@@ -135,7 +135,7 @@
   },
   "ScreenOrder": [
     "Screen1_2",
-    "Welcome Screen_1",
+    "Welcome Screen",
     "InvoiceList",
     "Create Invoice",
     "Capture Invoice",

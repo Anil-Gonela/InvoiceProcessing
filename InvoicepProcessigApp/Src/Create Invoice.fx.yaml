@@ -1213,6 +1213,7 @@
                     Height: =Parent.Height * 12%
                     NumberOfColumns: =4
                     UseFluentV9Cards: =true
+                    Visible: =visibility
                     Width: =Parent.Width * 98%
                     X: =Mainform.X
                     Y: =TextCanvas1_1.Height + TextCanvas1_1.Y + 2
@@ -1494,7 +1495,17 @@
                     BorderRadiusTopRight: =30
                     DisplayMode: =DisplayMode.Edit
                     Height: =TextCanvas1.Height
-                    OnSelect: =Clear(productstable)
+                    OnSelect: |
+                        =Set(visibility, false);
+                        Set(
+                            varWorkOrderPDF,
+                            PDF(
+                                Body_1,
+                                {ExpandContainers: true}
+                            )
+                        );
+                        Navigate('PDF Viwer');
+                    Visible: =visibility
                     Width: =TextCanvas1.Width * 60%
                     X: =(Parent.Width - Self.Width) / 2 
                     Y: =Container9.Y + Container9.Height + 2
@@ -1513,6 +1524,7 @@
                             {Title: DataCardValue57.Value, Item: DataCardValue58.Value, Qty:DataCardValue59.Value, InvoiceAmount: DataCardValue60.Value}
                         )
                     Text: ="Add Line Item"
+                    Visible: =visibility
                     Width: =TextCanvas1.Width * 40%
                     X: =Parent.Width * 85%
                     Y: =TextCanvas1_1.Y

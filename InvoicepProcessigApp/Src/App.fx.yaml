@@ -40,7 +40,8 @@ App As appinfo:
         
         Collect(
             productstable, Table()
-        )
+        );
+        Set(visibility, true);
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

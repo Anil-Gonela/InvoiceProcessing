@@ -945,13 +945,13 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "Height",
-          "RuleProviderType": "User"
+          "PropertyName": "Width",
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
-          "PropertyName": "Width",
-          "RuleProviderType": "User"
+          "PropertyName": "Height",
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -1341,7 +1341,7 @@
       "StyleName": "defaultLabelStyle",
       "Type": "ControlInfo"
     },
-    "Welcome Screen_1": {
+    "Welcome Screen": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -1390,7 +1390,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Welcome Screen_1",
+      "Name": "Welcome Screen",
       "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
@@ -1432,12 +1432,12 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "Orientation",
+          "PropertyName": "Size",
           "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
-          "PropertyName": "Size",
+          "PropertyName": "Orientation",
           "RuleProviderType": "Unknown"
         }
       ],
@@ -1445,5 +1445,5 @@
       "Type": "ControlInfo"
     }
   },
-  "TopParentName": "Welcome Screen_1"
+  "TopParentName": "Welcome Screen"
 }

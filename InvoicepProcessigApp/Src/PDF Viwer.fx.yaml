@@ -116,7 +116,9 @@
                     ZIndex: =1
 
     PdfViewer7 As pdfViewer:
-        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderColor: =RGBA(160, 64, 8, 1)
+        BorderThickness: =1
+        Document: =varWorkOrderPDF
         Fill: =RGBA(0, 0, 0, 0)
         Height: =App.Height * 60%
         Width: =App.Width * 80%
@@ -125,10 +127,11 @@
         ZIndex: =5
 
     Container10 As groupContainer.horizontalAutoLayoutContainer:
+        DropShadow: =DropShadow.None
         Height: =Parent.Height * 20%
         LayoutMode: =LayoutMode.Auto
-        Width: =PdfViewer7.Width
-        X: =Parent.Width * 12%
+        Width: =PdfViewer7.Width * 98%
+        X: =Parent.Width * 13%
         Y: =PdfViewer7.Y + PdfViewer7.Height + 2
         ZIndex: =6
 
@@ -140,4 +143,37 @@
             X: =Parent.X
             Y: =Parent.Y
             ZIndex: =1
+
+            Button6_6 As button:
+                Fill: =RGBA(141, 73, 58, 1)
+                Font: =Font.Lato
+                Height: =37
+                OnSelect: |-
+                    =Set(varWorkOrderPDF,Blank());
+                    Navigate('Create Invoice');
+                RadiusBottomLeft: =20
+                RadiusBottomRight: =20
+                RadiusTopLeft: =20
+                RadiusTopRight: =20
+                Size: =13
+                Text: ="Back"
+                Width: =181
+                X: =256
+                Y: =52
+                ZIndex: =1
+
+            Button6_7 As button:
+                Fill: =RGBA(141, 73, 58, 1)
+                Font: =Font.Lato
+                Height: =37
+                RadiusBottomLeft: =20
+                RadiusBottomRight: =20
+                RadiusTopLeft: =20
+                RadiusTopRight: =20
+                Size: =13
+                Text: ="Download PDF"
+                Width: =181
+                X: =561
+                Y: =52
+                ZIndex: =2
 
