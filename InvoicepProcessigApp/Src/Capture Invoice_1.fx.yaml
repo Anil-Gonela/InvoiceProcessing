@@ -1,0 +1,126 @@
+"'Capture Invoice_1' As screen":
+    BackgroundImage: =
+    Fill: =RGBA(248,237,227,0.3)
+    ImagePosition: =ImagePosition.Fill
+
+    Heading_4 As groupContainer.horizontalAutoLayoutContainer:
+        DropShadow: =DropShadow.None
+        Fill: =RGBA(255, 255, 255, 0.1)
+        Height: =Parent.Height *10%
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =Parent.Width
+        Y: |
+            =0
+        ZIndex: =4
+
+        Container18_4 As groupContainer.manualLayoutContainer:
+            Height: =Parent.Height
+            LayoutMinHeight: =0
+            LayoutMinWidth: =0
+            RadiusBottomLeft: =20
+            RadiusBottomRight: =20
+            RadiusTopLeft: =20
+            RadiusTopRight: =20
+            Width: =Parent.Width
+            ZIndex: =1
+
+            HeaderIcon_4 As groupContainer.manualLayoutContainer:
+                BorderColor: =RGBA(221, 79, 14, 1)
+                DropShadow: =DropShadow.Regular
+                Height: =Parent.Height * 95%
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Width: =Parent.Height * 95%
+                X: =Parent.X + 5
+                Y: =Parent.Y + 2
+                ZIndex: =1
+
+                Image4_16 As image:
+                    Height: =Parent.Height
+                    Image: ='invoice-receipt'
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+            Label15_4 As label:
+                Font: =Font.'Lato Black'
+                Height: =Parent.Height * 95%
+                Size: =20
+                Text: ="PDF Viwer"
+                Width: =Parent.Width * 25%
+                X: =HeaderIcon_4.X + HeaderIcon_4.Width
+                ZIndex: =2
+
+            SettingsIcon_5 As groupContainer.manualLayoutContainer:
+                BorderColor: =RGBA(221, 79, 14, 1)
+                BorderThickness: =1
+                Height: =Parent.Height * 70%
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Width: =Parent.Height * 70%
+                X: =Parent.Width *85%
+                Y: =(Parent.Height - Self.Height) / 2
+                ZIndex: =3
+
+                Image4_17 As image:
+                    Height: =Parent.Height *90%
+                    Image: =settings
+                    Width: =Parent.Width *90%
+                    X: =(Parent.Width - Self.Width) / 2
+                    Y: =(Parent.Height - Self.Height) / 2
+                    ZIndex: =1
+
+            Notifications_5 As groupContainer.manualLayoutContainer:
+                BorderColor: =RGBA(221, 79, 14, 1)
+                BorderThickness: =1
+                Height: =Parent.Height * 70%
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Width: =Parent.Height * 70%
+                X: =SettingsIcon_5.X + SettingsIcon_5.Width + 5
+                Y: =(Parent.Height - Self.Height) / 2
+                ZIndex: =4
+
+                Image4_18 As image:
+                    Height: =Parent.Height
+                    Image: =notifications
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+            UserIcon_4 As groupContainer.manualLayoutContainer:
+                BorderColor: =RGBA(221, 79, 14, 1)
+                BorderThickness: =1
+                Height: =Parent.Height * 70%
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Width: =Parent.Height * 70%
+                X: =Notifications_5.X + Notifications_5.Width + 5
+                Y: =(Parent.Height - Self.Height) / 2
+                ZIndex: =5
+
+                Image4_19 As image:
+                    Height: =Parent.Height
+                    Image: =User().Image
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+    PdfViewer7 As pdfViewer:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =App.Height * 60%
+        Width: =App.Width * 80%
+        X: =App.Width * 12%
+        Y: =App.Height * 12%
+        ZIndex: =5
+
