@@ -32,7 +32,7 @@
                 Y: =Parent.Y
 
             Label2 As label:
-                Text: =Component_2.Width
+                Text: =Container8_1.Width
                 X: =32
                 Y: =448
                 ZIndex: =2
