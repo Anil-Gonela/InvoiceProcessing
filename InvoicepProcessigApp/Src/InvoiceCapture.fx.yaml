@@ -179,6 +179,7 @@ InvoiceCapture As screen:
 
                 TextCanvas1 As Text:
                     Align: ='TextCanvas.Align'.Start
+                    AutoHeight: =true
                     BorderColor: =RGBA(141, 73, 58, 1)
                     BorderRadiusBottomLeft: =10
                     BorderRadiusBottomRight: =10
@@ -189,21 +190,22 @@ InvoiceCapture As screen:
                     DisplayMode: =DisplayMode.Edit
                     Font: =Font.Lato
                     Height: =32
-                    Size: =20
+                    Size: =18
                     Text: ="Invoice Information"
                     VerticalAlign: ='TextCanvas.VerticalAlign'.Top
                     Weight: ='TextCanvas.Weight'.Semibold
                     Width: =Parent.Width * 50%
                     Wrap: =false
-                    X: =0
+                    X: =Parent.X + 2 
                     Y: =0
                     ZIndex: =1
 
                 Form1 As form.PowerApps_CoreControls_Form:
                     DataSource: ='Invoice System Demo'
-                    NumberOfColumns: =2
+                    Height: =Parent.Height * 70%
                     UseFluentV9Cards: =true
-                    Width: =601.1500000000001
+                    Width: =Parent.Width
+                    X: =Parent.X
                     Y: =40
                     ZIndex: =2
 
@@ -218,7 +220,7 @@ InvoiceCapture As screen:
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, Title)
                         Required: =false
                         Update: =DataCardValue3.Value
-                        Width: =300
+                        Width: =225
                         X: =0
                         Y: =0
                         ZIndex: =3
@@ -281,7 +283,7 @@ InvoiceCapture As screen:
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, BillTo)
                         Required: =false
                         Update: =DataCardValue4.Value
-                        Width: =300
+                        Width: =225
                         X: =1
                         Y: =0
                         ZIndex: =3
@@ -343,9 +345,9 @@ InvoiceCapture As screen:
                         Height: =70
                         Required: =false
                         Update: =DataCardValue5.SelectedDate
-                        Width: =300
-                        X: =0
-                        Y: =1
+                        Width: =225
+                        X: =2
+                        Y: =0
                         ZIndex: =3
 
                         DataCardKey5 As Text:
@@ -406,8 +408,8 @@ InvoiceCapture As screen:
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, GST)
                         Required: =false
                         Update: =DataCardValue6.Value
-                        Width: =300
-                        X: =1
+                        Width: =225
+                        X: =0
                         Y: =1
                         ZIndex: =3
 
@@ -469,9 +471,9 @@ InvoiceCapture As screen:
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, BalanceDue)
                         Required: =false
                         Update: =DataCardValue7.Value
-                        Width: =300
-                        X: =0
-                        Y: =2
+                        Width: =225
+                        X: =1
+                        Y: =1
                         ZIndex: =3
 
                         DataCardKey7 As Text:
@@ -532,9 +534,9 @@ InvoiceCapture As screen:
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, VendorDetails)
                         Required: =false
                         Update: =DataCardValue8.Value
-                        Width: =300
-                        X: =1
-                        Y: =2
+                        Width: =225
+                        X: =2
+                        Y: =1
                         ZIndex: =3
 
                         DataCardKey8 As Text:
@@ -594,9 +596,9 @@ InvoiceCapture As screen:
                         Height: =70
                         Required: =false
                         Update: =DataCardValue9.SelectedDate
-                        Width: =300
+                        Width: =225
                         X: =0
-                        Y: =3
+                        Y: =2
                         ZIndex: =3
 
                         DataCardKey9 As Text:
@@ -657,9 +659,9 @@ InvoiceCapture As screen:
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, ShippingCost)
                         Required: =false
                         Update: =DataCardValue10.Value
-                        Width: =300
+                        Width: =225
                         X: =1
-                        Y: =3
+                        Y: =2
                         ZIndex: =3
 
                         DataCardKey10 As Text:
@@ -719,9 +721,9 @@ InvoiceCapture As screen:
                         Height: =70
                         Required: =false
                         Update: =DataCardValue11.Selected
-                        Width: =300
-                        X: =0
-                        Y: =4
+                        Width: =225
+                        X: =2
+                        Y: =2
                         ZIndex: =3
 
                         DataCardKey11 As Text:
@@ -780,9 +782,9 @@ InvoiceCapture As screen:
                         Height: =70
                         Required: =false
                         Update: =DataCardValue12.Selected
-                        Width: =300
-                        X: =1
-                        Y: =4
+                        Width: =225
+                        X: =0
+                        Y: =3
                         ZIndex: =3
 
                         DataCardKey12 As Text:
@@ -842,9 +844,9 @@ InvoiceCapture As screen:
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, ReferenceNumber)
                         Required: =false
                         Update: =DataCardValue13.Value
-                        Width: =300
-                        X: =0
-                        Y: =5
+                        Width: =225
+                        X: =1
+                        Y: =3
                         ZIndex: =3
 
                         DataCardKey13 As Text:
@@ -905,9 +907,9 @@ InvoiceCapture As screen:
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, VendorName)
                         Required: =false
                         Update: =DataCardValue14.Value
-                        Width: =300
-                        X: =1
-                        Y: =5
+                        Width: =225
+                        X: =2
+                        Y: =3
                         ZIndex: =3
 
                         DataCardKey14 As Text:
@@ -968,9 +970,9 @@ InvoiceCapture As screen:
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, VendorAddress)
                         Required: =false
                         Update: =DataCardValue15.Value
-                        Width: =300
+                        Width: =225
                         X: =0
-                        Y: =6
+                        Y: =4
                         ZIndex: =3
 
                         DataCardKey15 As Text:
@@ -1031,9 +1033,9 @@ InvoiceCapture As screen:
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, SubTotal)
                         Required: =false
                         Update: =DataCardValue16.Value
-                        Width: =300
+                        Width: =225
                         X: =1
-                        Y: =6
+                        Y: =4
                         ZIndex: =3
 
                         DataCardKey16 As Text:
@@ -1094,9 +1096,9 @@ InvoiceCapture As screen:
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, Subtotal0)
                         Required: =false
                         Update: =DataCardValue17.Value
-                        Width: =300
-                        X: =0
-                        Y: =7
+                        Width: =225
+                        X: =2
+                        Y: =4
                         ZIndex: =3
 
                         DataCardKey17 As Text:
@@ -1155,9 +1157,9 @@ InvoiceCapture As screen:
                         Height: =70
                         Required: =false
                         Update: =Value(DataCardValue18.Value)
-                        Width: =300
-                        X: =1
-                        Y: =7
+                        Width: =225
+                        X: =0
+                        Y: =5
                         ZIndex: =3
 
                         DataCardKey18 As Text:
