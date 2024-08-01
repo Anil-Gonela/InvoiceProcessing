@@ -183,7 +183,7 @@
                 ZIndex: =1
 
                 TextCanvas1 As Text:
-                    Align: ='TextCanvas.Align'.Start
+                    Align: ='TextCanvas.Align'.Center
                     AutoHeight: =true
                     BorderColor: =RGBA(141, 73, 58, 1)
                     BorderRadiusBottomLeft: =10
@@ -199,7 +199,7 @@
                     Text: ="Invoice Information"
                     VerticalAlign: ='TextCanvas.VerticalAlign'.Top
                     Weight: ='TextCanvas.Weight'.Semibold
-                    Width: =Parent.Width * 50%
+                    Width: =Parent.Width * 30%
                     Wrap: =false
                     X: =Parent.X + 3
                     Y: =Parent.Y + 3 
@@ -207,6 +207,7 @@
 
                 Mainform As form.PowerApps_CoreControls_Form:
                     DataSource: ='Invoice System Demo'
+                    DefaultMode: =FormMode.New
                     Height: =Parent.Height * 60%
                     UseFluentV9Cards: =true
                     Width: =Parent.Width
@@ -1199,6 +1200,7 @@
 
                 ProductForm As form.PowerApps_CoreControls_Form:
                     DataSource: ='Smart Invoice Product'
+                    DefaultMode: =FormMode.New
                     Height: =Parent.Height * 15%
                     NumberOfColumns: =4
                     UseFluentV9Cards: =true
@@ -1453,7 +1455,7 @@
                             ZIndex: =4
 
                 TextCanvas1_1 As Text:
-                    Align: ='TextCanvas.Align'.Start
+                    Align: ='TextCanvas.Align'.Center
                     AutoHeight: =true
                     BorderColor: =RGBA(141, 73, 58, 1)
                     BorderRadiusBottomLeft: =10
@@ -1469,9 +1471,36 @@
                     Text: ="Product Information"
                     VerticalAlign: ='TextCanvas.VerticalAlign'.Top
                     Weight: ='TextCanvas.Weight'.Semibold
-                    Width: =Parent.Width * 50%
+                    Width: =Parent.Width * 30%
                     Wrap: =false
                     X: =Parent.X + 3
                     Y: =Mainform.Y + Mainform.Height + 3 
                     ZIndex: =8
+
+                submitButton As Button:
+                    BasePaletteColor: =RGBA(141, 73, 58, 1)
+                    BorderRadiusBottomLeft: =30
+                    BorderRadiusBottomRight: =30
+                    BorderRadiusTopLeft: =30
+                    BorderRadiusTopRight: =30
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =TextCanvas1.Height
+                    Width: =TextCanvas1.Width * 30%
+                    X: =43
+                    Y: =561
+                    ZIndex: =9
+
+                submitButton_1 As Button:
+                    BasePaletteColor: =RGBA(141, 73, 58, 1)
+                    BorderRadiusBottomLeft: =30
+                    BorderRadiusBottomRight: =30
+                    BorderRadiusTopLeft: =30
+                    BorderRadiusTopRight: =30
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =TextCanvas1.Height
+                    Text: ="Add Line Item"
+                    Width: =TextCanvas1.Width * 40%
+                    X: =TextCanvas1_1.X + TextCanvas1_1.Width + 30
+                    Y: =TextCanvas1_1.Y 
+                    ZIndex: =10
 
