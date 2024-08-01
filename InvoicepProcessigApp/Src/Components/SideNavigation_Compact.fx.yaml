@@ -73,7 +73,7 @@ SideNavigation_Compact As CanvasComponent:
             LayoutMinWidth: =0
             LoadingSpinner: =LoadingSpinner.Data
             TemplatePadding: =10
-            TemplateSize: =70
+            TemplateSize: =Parent.Width * 28%
             ZIndex: =2
 
             Container5 As groupContainer.manualLayoutContainer:
