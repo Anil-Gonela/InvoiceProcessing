@@ -31,6 +31,12 @@
                 X: =Parent.X
                 Y: =Parent.Y
 
+            Label2 As label:
+                Text: =SideNavigation_Compact_3.Width
+                X: =32
+                Y: =448
+                ZIndex: =2
+
     Heading_2 As groupContainer.horizontalAutoLayoutContainer:
         DropShadow: =DropShadow.None
         Fill: =RGBA(255, 255, 255, 0.1)
