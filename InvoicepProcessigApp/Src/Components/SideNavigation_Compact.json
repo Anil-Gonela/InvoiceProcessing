@@ -3474,7 +3474,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638580422939927710",
+    "LastModifiedTimestamp": "638580860949776004",
     "Name": "SideNavigation_Compact",
     "Rules": [
       {
@@ -3579,7 +3579,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638580422939927710",
+  "LastModifiedTimestamp": "638580860949776004",
   "Name": "d4521f6e39724073a64c56d93e35a98f",
   "OverridableProperties": {},
   "Version": "1.0"

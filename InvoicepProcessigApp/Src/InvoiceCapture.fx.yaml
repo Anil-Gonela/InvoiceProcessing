@@ -257,6 +257,7 @@ InvoiceCapture As screen:
                             Default: =FormProcessor1_1.Fields.Invoice_id
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            Fill: =RGBA(248,237,227,0.3)
                             MaxLength: =Parent.MaxLength
                             PaddingLeft: =5
                             RadiusBottomLeft: =20
@@ -335,6 +336,7 @@ InvoiceCapture As screen:
                             Default: =FormProcessor1_1.Fields.Billing_Address
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            Fill: =RGBA(248,237,227,0.3)
                             MaxLength: =Parent.MaxLength
                             PaddingLeft: =5
                             RadiusBottomLeft: =20
@@ -413,6 +415,7 @@ InvoiceCapture As screen:
                             DefaultDate: =FormProcessor1_1.Fields.Invoice_Date
                             DisplayMode: =Parent.DisplayMode
                             EndYear: =Year(Today())+100
+                            Fill: =RGBA(248,237,227,0.3)
                             Font: =Font.Lato
                             IconBackground: =RGBA(0, 0, 0, 0)
                             IconFill: =RGBA(141, 73, 58, 1)
@@ -491,6 +494,7 @@ InvoiceCapture As screen:
                             Default: =FormProcessor1_1.Fields.Total
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            Fill: =RGBA(248,237,227,0.3)
                             Font: =Font.Lato
                             FontWeight: =FontWeight.Semibold
                             MaxLength: =Parent.MaxLength
@@ -571,6 +575,7 @@ InvoiceCapture As screen:
                             Default: =FormProcessor1_1.Fields.Tax
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            Fill: =RGBA(248,237,227,0.3)
                             MaxLength: =Parent.MaxLength
                             PaddingLeft: =5
                             RadiusBottomLeft: =20
@@ -649,6 +654,7 @@ InvoiceCapture As screen:
                             Default: =FormProcessor1_1.Fields.BalanceDue
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            Fill: =RGBA(248,237,227,0.3)
                             MaxLength: =Parent.MaxLength
                             PaddingLeft: =5
                             RadiusBottomLeft: =20
@@ -727,6 +733,7 @@ InvoiceCapture As screen:
                             Default: =FormProcessor1_1.Fields.Customer_address
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            Fill: =RGBA(248,237,227,0.3)
                             MaxLength: =Parent.MaxLength
                             PaddingLeft: =5
                             RadiusBottomLeft: =20
