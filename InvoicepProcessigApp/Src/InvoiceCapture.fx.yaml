@@ -139,8 +139,7 @@ InvoiceCapture As screen:
                     ZIndex: =1
 
     "'Total Due and Paid_1' As groupContainer.verticalAutoLayoutContainer":
-        DropShadow: =DropShadow.Regular
-        Fill: =RGBA(255, 255, 255, 1)
+        DropShadow: =DropShadow.None
         Height: =Parent.Height * 85%
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
@@ -155,8 +154,7 @@ InvoiceCapture As screen:
 
         Body_1 As groupContainer.manualLayoutContainer:
             BorderColor: =RGBA(247, 247, 247, 1)
-            DropShadow: =DropShadow.Semilight
-            Fill: =RGBA(255, 255, 255, 0.9)
+            DropShadow: =DropShadow.None
             Height: =Parent.Height
             LayoutMinHeight: =0
             LayoutMinWidth: =0
@@ -168,7 +166,8 @@ InvoiceCapture As screen:
             ZIndex: =1
 
             Form As groupContainer.manualLayoutContainer:
-                Height: =Parent.Height
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =Parent.Height * 98%
                 RadiusBottomLeft: =20
                 RadiusBottomRight: =20
                 RadiusTopLeft: =20
@@ -188,18 +187,4 @@ InvoiceCapture As screen:
                 X: =Form.X + Form.Width + 20
                 Y: =Parent.Y + 10
                 ZIndex: =2
-
-                Button6_3 As button:
-                    Fill: =RGBA(141, 73, 58, 1)
-                    Font: =Font.Lato
-                    Height: =Parent.Height * 6%
-                    RadiusBottomLeft: =20
-                    RadiusBottomRight: =20
-                    RadiusTopLeft: =20
-                    RadiusTopRight: =20
-                    Size: =13
-                    Text: ="Submit"
-                    Width: =Parent.Width*30%
-                    X: =(Parent.Width - Self.Width)/2
-                    ZIndex: =2
 
