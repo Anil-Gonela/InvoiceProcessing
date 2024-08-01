@@ -1,4 +1,4 @@
-"'Capture Invoice_1' As screen":
+"'PDF Viwer' As screen":
     BackgroundImage: =
     Fill: =RGBA(248,237,227,0.3)
     ImagePosition: =ImagePosition.Fill
@@ -123,4 +123,21 @@
         X: =App.Width * 12%
         Y: =App.Height * 12%
         ZIndex: =5
+
+    Container10 As groupContainer.horizontalAutoLayoutContainer:
+        Height: =Parent.Height * 20%
+        LayoutMode: =LayoutMode.Auto
+        Width: =PdfViewer7.Width
+        X: =Parent.Width * 12%
+        Y: =PdfViewer7.Y + PdfViewer7.Height + 2
+        ZIndex: =6
+
+        Container11 As groupContainer.manualLayoutContainer:
+            Height: =Parent.Height
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            Width: =Parent.Width
+            X: =Parent.X
+            Y: =Parent.Y
+            ZIndex: =1
 
