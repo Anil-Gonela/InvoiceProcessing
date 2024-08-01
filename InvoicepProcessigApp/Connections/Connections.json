@@ -17,6 +17,9 @@
         "dataSources": {
           "Invoice System Demo": {
             "tableName": "1830d4bd-e6c4-427b-b749-188d9c672cbf"
+          },
+          "Smart Invoice Product": {
+            "tableName": "1b146cb4-28fd-4ce5-b8cb-3495a5137bdb"
           }
         }
       },
@@ -30,7 +33,8 @@
     },
     "dataSources": [
       "Invoice System Demo",
-      "Invoice Data"
+      "Invoice Data",
+      "Smart Invoice Product"
     ],
     "dependencies": {},
     "dependents": [
