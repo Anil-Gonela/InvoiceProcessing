@@ -1,4 +1,44 @@
 {
+  "4fc24ae7-3b4a-410d-9d1a-bd85c5956708": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "8f9d0675-56d6-47d2-9a20-acd60a53ab76": {
+          "value": "shared_sharepointonline"
+        },
+        "workflowDisplayName": {
+          "value": "Invoice Save PDF Power Apps"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "fbf3bded-9e0d-4688-aecf-4b5ee52b74f1"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_sharepointonline": {
+          "value": "8f9d0675-56d6-47d2-9a20-acd60a53ab76"
+        },
+        "workflowDisplayName": {
+          "value": "Invoice Save PDF Power Apps"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "fbf3bded-9e0d-4688-aecf-4b5ee52b74f1"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "InvoiceSavePDFPowerApps"
+    ],
+    "dependencies": {
+      "shared_sharepointonline": "8f9d0675-56d6-47d2-9a20-acd60a53ab76"
+    },
+    "dependents": [],
+    "id": "4fc24ae7-3b4a-410d-9d1a-bd85c5956708"
+  },
   "8f9d0675-56d6-47d2-9a20-acd60a53ab76": {
     "appActions": [
       "providers/PowerPlatform.Governance/Operations/Read",
@@ -38,7 +78,8 @@
     ],
     "dependencies": {},
     "dependents": [
-      "9349ca25-d577-4d2f-ab3d-4ebf0b9ed05b"
+      "9349ca25-d577-4d2f-ab3d-4ebf0b9ed05b",
+      "4fc24ae7-3b4a-410d-9d1a-bd85c5956708"
     ],
     "id": "8f9d0675-56d6-47d2-9a20-acd60a53ab76"
   },
