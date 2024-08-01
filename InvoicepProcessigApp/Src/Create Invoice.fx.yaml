@@ -18,9 +18,9 @@
 
         Container8_1 As groupContainer.manualLayoutContainer:
             Height: =Parent.Height
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
-            Width: =Parent.Width
+            LayoutMinHeight: =0
+            LayoutMinWidth: =0
+            Width: =Component_2.Width
             X: =Parent.X
             Y: =Parent.Y
             ZIndex: =1
@@ -30,12 +30,6 @@
                 Width: =Parent.Width
                 X: =Parent.X
                 Y: =Parent.Y
-
-            Label2 As label:
-                Text: =Container8_1.Width
-                X: =32
-                Y: =448
-                ZIndex: =2
 
     Heading_2 As groupContainer.horizontalAutoLayoutContainer:
         DropShadow: =DropShadow.None
