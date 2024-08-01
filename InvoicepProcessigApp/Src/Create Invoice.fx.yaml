@@ -32,7 +32,7 @@
                 Y: =Parent.Y
 
             Label2 As label:
-                Text: =SideNavigation_Compact_3.Width
+                Text: =Component_2.Width
                 X: =32
                 Y: =448
                 ZIndex: =2

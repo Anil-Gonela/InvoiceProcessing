@@ -63,6 +63,7 @@ SideNavigation_Compact As CanvasComponent:
             Height: =50
             Image: =SideNavigation_Compact.First_Logo
             LayoutMinWidth: =0
+            Width: =Parent.Width
             ZIndex: =1
 
         Gallery4 As gallery.galleryVertical:
