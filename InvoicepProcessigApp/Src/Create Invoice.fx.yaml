@@ -1494,6 +1494,7 @@
                     BorderRadiusTopRight: =30
                     DisplayMode: =DisplayMode.Edit
                     Height: =TextCanvas1.Height
+                    OnSelect: =Clear(productstable)
                     Width: =TextCanvas1.Width * 60%
                     X: =(Parent.Width - Self.Width) / 2 
                     Y: =ProductForm.Y + ProductForm.Height + 20
@@ -1509,8 +1510,7 @@
                     Height: =TextCanvas1.Height
                     OnSelect: |-
                         =Collect(productstable, 
-                            {Title: 1, Item: "Office chair", Qty:2, InvoiceAmount: 16000},
-                            {Title: 2, Item: "Mouse", Qty:1, InvoiceAmount: 500}
+                            {Title: DataCardValue57.Value, Item: DataCardValue58.Value, Qty:DataCardValue59.Value, InvoiceAmount: DataCardValue60.Value}
                         )
                     Text: ="Add Line Item"
                     Width: =TextCanvas1.Width * 40%
@@ -1519,14 +1519,17 @@
                     ZIndex: =10
 
             Container9 As groupContainer.manualLayoutContainer:
-                X: =328
-                Y: =84
+                Height: =270
+                Width: =716
+                X: =120
+                Y: =10
                 ZIndex: =2
 
                 Table2 As Table.pcfdataset:
                     BasePaletteColor: =
                     DisplayMode: =DisplayMode.Edit
-                    Height: =182
+                    HeaderFont: =Font.'Lato Black'
+                    Height: =262
                     Items: =productstable
                     onCellValueChange: =false
                     onFilter: =false
@@ -1534,8 +1537,45 @@
                     onRowSelect: =false
                     onSave: =false
                     OnSelect: =false
+                    ReflowBehavior: ='PowerAppsOneGrid.ReflowBehavior'.GridOnly
                     Width: =500
-                    X: =0
-                    Y: =11
+                    X: =124
+                    Y: =8
                     ZIndex: =1
+
+                    InvoiceAmount1 As PowerAppsOneGridTemplate_dataField.textualColumn:
+                        FieldDisplayName: ="InvoiceAmount"
+                        FieldName: ="InvoiceAmount"
+                        FieldType: ="n"
+                        FieldVariantName: ="textualColumn"
+                        Order: =1
+                        Width: =0
+                        ZIndex: =11
+
+                    Item1 As PowerAppsOneGridTemplate_dataField.textualColumn:
+                        FieldDisplayName: ="Item"
+                        FieldName: ="Item"
+                        FieldType: ="s"
+                        FieldVariantName: ="textualColumn"
+                        Order: =2
+                        Width: =0
+                        ZIndex: =12
+
+                    Qty1 As PowerAppsOneGridTemplate_dataField.textualColumn:
+                        FieldDisplayName: ="Qty"
+                        FieldName: ="Qty"
+                        FieldType: ="n"
+                        FieldVariantName: ="textualColumn"
+                        Order: =3
+                        Width: =0
+                        ZIndex: =13
+
+                    Title1 As PowerAppsOneGridTemplate_dataField.textualColumn:
+                        FieldDisplayName: ="Title"
+                        FieldName: ="Title"
+                        FieldType: ="n"
+                        FieldVariantName: ="textualColumn"
+                        Order: =4
+                        Width: =0
+                        ZIndex: =14
 
