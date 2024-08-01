@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |
+    OnStart: |-
         =ClearCollect(
             MyCol,
             {
@@ -13,8 +13,6 @@ App As appinfo:
             Group1Visibility,
             true
         );
-        
-        
         ClearCollect(
             FilterOptions,
             {
@@ -38,6 +36,11 @@ App As appinfo:
                 Color: "RGBA(172, 62, 11, 1)"
             }
         );
+        
+        
+        Collect(
+            productstable, Table()
+        )
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
