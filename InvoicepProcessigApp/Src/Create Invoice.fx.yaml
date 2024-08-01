@@ -28,6 +28,8 @@
             SideNavigation_Compact_3 As SideNavigation_Compact:
                 Height: =Parent.Height
                 Width: =Parent.Width
+                X: =Parent.X
+                Y: =Parent.Y
 
     Heading_2 As groupContainer.horizontalAutoLayoutContainer:
         DropShadow: =DropShadow.None
