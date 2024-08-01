@@ -202,6 +202,7 @@ InvoiceCapture As screen:
 
                 Form1 As form.PowerApps_CoreControls_Form:
                     DataSource: ='Invoice System Demo'
+                    DefaultMode: =FormMode.New
                     Height: =Parent.Height * 70%
                     UseFluentV9Cards: =true
                     Width: =Parent.Width
