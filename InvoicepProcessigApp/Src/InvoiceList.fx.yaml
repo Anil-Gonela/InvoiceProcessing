@@ -82,12 +82,12 @@ InvoiceList As screen:
             SettingsIcon_2 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
-                Height: =Parent.Height * 80%
+                Height: =Parent.Height * 70%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
                 RadiusTopLeft: =50
                 RadiusTopRight: =50
-                Width: =Parent.Height * 80%
+                Width: =Parent.Height * 70%
                 X: =Parent.Width *85%
                 Y: =(Parent.Height - Self.Height) / 2
                 ZIndex: =3
@@ -103,12 +103,12 @@ InvoiceList As screen:
             Notifications_2 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
-                Height: =Parent.Height * 80%
+                Height: =Parent.Height * 70%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
                 RadiusTopLeft: =50
                 RadiusTopRight: =50
-                Width: =Parent.Height * 80%
+                Width: =Parent.Height * 70%
                 X: =SettingsIcon_2.X + SettingsIcon_2.Width + 5
                 Y: =(Parent.Height - Self.Height) / 2
                 ZIndex: =4
@@ -122,12 +122,12 @@ InvoiceList As screen:
             UserIcon_1 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
-                Height: =Parent.Height * 80%
+                Height: =Parent.Height * 70%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
                 RadiusTopLeft: =50
                 RadiusTopRight: =50
-                Width: =Parent.Height * 80%
+                Width: =Parent.Height * 70%
                 X: =Notifications_2.X + Notifications_2.Width + 5
                 Y: =(Parent.Height - Self.Height) / 2
                 ZIndex: =5
