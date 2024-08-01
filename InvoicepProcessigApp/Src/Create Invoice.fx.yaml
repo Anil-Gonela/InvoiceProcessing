@@ -1551,18 +1551,18 @@
                     onRowSelect: =false
                     onSave: =false
                     OnSelect: =false
-                    ReflowBehavior: ='PowerAppsOneGrid.ReflowBehavior'.Reflow
+                    ReflowBehavior: ='PowerAppsOneGrid.ReflowBehavior'.GridOnly
                     Width: =Parent.Width
                     X: =Parent.X
                     Y: =0
                     ZIndex: =1
 
-                    InvoiceAmount1 As PowerAppsOneGridTemplate_dataField.textualColumn:
-                        FieldDisplayName: ="InvoiceAmount"
-                        FieldName: ="InvoiceAmount"
-                        FieldType: ="n"
+                    Title1 As PowerAppsOneGridTemplate_dataField.textualColumn:
+                        FieldDisplayName: ="Title"
+                        FieldName: ="Title"
+                        FieldType: ="s"
                         FieldVariantName: ="textualColumn"
-                        Order: =4
+                        Order: =1
                         Width: =0
                         ZIndex: =11
 
@@ -1578,18 +1578,18 @@
                     Qty1 As PowerAppsOneGridTemplate_dataField.textualColumn:
                         FieldDisplayName: ="Qty"
                         FieldName: ="Qty"
-                        FieldType: ="n"
+                        FieldType: ="s"
                         FieldVariantName: ="textualColumn"
                         Order: =3
                         Width: =0
                         ZIndex: =13
 
-                    Title1 As PowerAppsOneGridTemplate_dataField.textualColumn:
-                        FieldDisplayName: ="Title"
-                        FieldName: ="Title"
-                        FieldType: ="n"
+                    InvoiceAmount1 As PowerAppsOneGridTemplate_dataField.textualColumn:
+                        FieldDisplayName: ="InvoiceAmount"
+                        FieldName: ="InvoiceAmount"
+                        FieldType: ="s"
                         FieldVariantName: ="textualColumn"
-                        Order: =1
+                        Order: =4
                         Width: =0
                         ZIndex: =14
 

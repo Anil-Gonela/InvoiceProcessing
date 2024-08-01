@@ -151,6 +151,7 @@
                 OnSelect: |-
                     =Set(varWorkOrderPDF,Blank());
                     Navigate('Create Invoice');
+                    Set(visibility, true);
                 RadiusBottomLeft: =20
                 RadiusBottomRight: =20
                 RadiusTopLeft: =20
