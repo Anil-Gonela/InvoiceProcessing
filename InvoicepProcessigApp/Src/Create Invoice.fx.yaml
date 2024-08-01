@@ -1485,13 +1485,13 @@
                     BorderRadiusTopRight: =30
                     DisplayMode: =DisplayMode.Edit
                     Height: =TextCanvas1.Height
-                    Width: =TextCanvas1.Width * 30%
-                    X: =43
-                    Y: =561
+                    Width: =TextCanvas1.Width * 60%
+                    X: =(Parent.Width - Self.Width) / 2 
+                    Y: =ProductForm.Y + ProductForm.Height + 20
                     ZIndex: =9
 
                 submitButton_1 As Button:
-                    BasePaletteColor: =RGBA(141, 73, 58, 1)
+                    BasePaletteColor: =RGBA(141, 73, 58, 0.5)
                     BorderRadiusBottomLeft: =30
                     BorderRadiusBottomRight: =30
                     BorderRadiusTopLeft: =30
