@@ -21,10 +21,13 @@
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             Width: =Parent.Width
+            X: =Parent.X
+            Y: =Parent.Y
             ZIndex: =1
 
             SideNavigation_Compact_3 As SideNavigation_Compact:
-                Height: =614
+                Height: =Parent.Height
+                Width: =Parent.Width
 
     Heading_2 As groupContainer.horizontalAutoLayoutContainer:
         DropShadow: =DropShadow.None
@@ -196,8 +199,8 @@
                     Weight: ='TextCanvas.Weight'.Semibold
                     Width: =Parent.Width * 50%
                     Wrap: =false
-                    X: =Parent.X + 2 
-                    Y: =0
+                    X: =Parent.X + 3
+                    Y: =Parent.Y + 3 
                     ZIndex: =1
 
                 Form1 As form.PowerApps_CoreControls_Form:
@@ -1228,12 +1231,13 @@
                     Width: =Parent.Width * 50%
                     Wrap: =false
                     X: =Parent.X + 2 
-                    Y: =Form1.Y + Form1.Height
+                    Y: =Form1.Y + Form1.Height + 5 
                     ZIndex: =3
 
                 Form2 As form.PowerApps_CoreControls_Form:
                     BorderColor: =RGBA(92, 37, 4, 1)
                     DataSource: ='Smart Invoice Product'
+                    DefaultMode: =FormMode.New
                     Height: =Parent.Height * 25%
                     UseFluentV9Cards: =true
                     Width: =Parent.Width
@@ -1489,6 +1493,14 @@
                             X: =0
                             Y: =DataCardKey22.Y
                             ZIndex: =4
+
+                ButtonCanvas2 As Button:
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =32
+                    Width: =96
+                    X: =476
+                    Y: =584
+                    ZIndex: =5
 
             PDFViwer As groupContainer.manualLayoutContainer:
                 Fill: =RGBA(255, 255, 255, 1)
