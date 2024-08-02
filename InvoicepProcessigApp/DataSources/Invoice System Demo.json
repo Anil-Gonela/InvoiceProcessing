@@ -29,6 +29,7 @@
       "BillTo": "Customer Name",
       "ComplianceAssetId": "Compliance Asset Id",
       "Created": "Created",
+      "Customer_Image": "Customer_Image",
       "Date": "Invoice Date",
       "DueDate": "Due Date",
       "Editor": "Modified By",

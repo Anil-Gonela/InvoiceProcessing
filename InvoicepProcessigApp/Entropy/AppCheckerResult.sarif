@@ -114,126 +114,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.Filters.Container20_4.Gallery2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.Filters.Container20_4.Gallery2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "InvoiceList",
-                "type": "InvoiceList.'Total Due and Paid'.Body.Filters.Container20_4.Gallery2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.Filters.Container20_4.Gallery2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.Filters.Container20_4.Gallery2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "InvoiceList",
-                "type": "InvoiceList.'Total Due and Paid'.Body.Filters.Container20_4.Gallery2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.InvoiceListContainer.List.Gallery6.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.InvoiceListContainer.List.Gallery6.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "InvoiceList",
-                "type": "InvoiceList.'Total Due and Paid'.Body.InvoiceListContainer.List.Gallery6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.InvoiceListContainer.List.Gallery6.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.InvoiceListContainer.List.Gallery6.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "InvoiceList",
-                "type": "InvoiceList.'Total Due and Paid'.Body.InvoiceListContainer.List.Gallery6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Screen1_2"
                 }
               ],
@@ -803,6 +683,126 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.Filters.Container20_4.Gallery2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.Filters.Container20_4.Gallery2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "InvoiceList",
+                "type": "InvoiceList.'Total Due and Paid'.Body.Filters.Container20_4.Gallery2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.Filters.Container20_4.Gallery2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.Filters.Container20_4.Gallery2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "InvoiceList",
+                "type": "InvoiceList.'Total Due and Paid'.Body.Filters.Container20_4.Gallery2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.InvoiceListContainer.List.Gallery6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.InvoiceListContainer.List.Gallery6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "InvoiceList",
+                "type": "InvoiceList.'Total Due and Paid'.Body.InvoiceListContainer.List.Gallery6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.InvoiceListContainer.List.Gallery6.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "InvoiceList.'Total Due and Paid'.Body.InvoiceListContainer.List.Gallery6.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "InvoiceList",
+                "type": "InvoiceList.'Total Due and Paid'.Body.InvoiceListContainer.List.Gallery6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.FormattedNum"
                 }
               ],
@@ -1247,246 +1247,6 @@
           },
           "ruleId": "app-UnusedMediaResources",
           "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Capture Invoice'.'Total Due and Paid_2'.Body_2.Container26_1.Form1.'Due Date_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Capture Invoice'.'Total Due and Paid_2'.Body_2.Container26_1.Form1.'Due Date_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Capture Invoice",
-                "type": "'Capture Invoice'.'Total Due and Paid_2'.Body_2.Container26_1.Form1.'Due Date_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Capture Invoice'.'Total Due and Paid_2'.Body_2.Container26_1.Form1.'Customer Name_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Capture Invoice'.'Total Due and Paid_2'.Body_2.Container26_1.Form1.'Customer Name_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Capture Invoice",
-                "type": "'Capture Invoice'.'Total Due and Paid_2'.Body_2.Container26_1.Form1.'Customer Name_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Capture Invoice'.'Total Due and Paid_2'.Body_2.Container26_1.Form1.'Customer Name_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Capture Invoice'.'Total Due and Paid_2'.Body_2.Container26_1.Form1.'Customer Name_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "Capture Invoice",
-                "type": "'Capture Invoice'.'Total Due and Paid_2'.Body_2.Container26_1.Form1.'Customer Name_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.Mainform.'Customer Name_DataCard3'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.Mainform.'Customer Name_DataCard3'.DisplayName",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Create Invoice",
-                "type": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.Mainform.'Customer Name_DataCard3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.Mainform.'Customer Name_DataCard3'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.Mainform.'Customer Name_DataCard3'.MaxLength",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "Create Invoice",
-                "type": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.Mainform.'Customer Name_DataCard3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.Mainform.'Due Date_DataCard3'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.Mainform.'Due Date_DataCard3'.DisplayName",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Create Invoice",
-                "type": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.Mainform.'Due Date_DataCard3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.Mainform.'Invoice Status_DataCard3'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.Mainform.'Invoice Status_DataCard3'.DisplayName",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Create Invoice",
-                "type": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.Mainform.'Invoice Status_DataCard3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Capture Invoice'.'Total Due and Paid_2'.Body_2.Container26_1.Form1.'Invoice Status_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Capture Invoice'.'Total Due and Paid_2'.Body_2.Container26_1.Form1.'Invoice Status_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Capture Invoice",
-                "type": "'Capture Invoice'.'Total Due and Paid_2'.Body_2.Container26_1.Form1.'Invoice Status_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 6
         }
       ],
       "tool": {
@@ -1591,23 +1351,6 @@
                 "level": "Medium",
                 "primaryCategory": "performance",
                 "whyFix": "This media file is not referenced by any control formulas so it is not needed. Removing it will improve performance."
-              }
-            },
-            {
-              "id": "app-InefficientDelayLoading",
-              "messageStrings": {
-                "issue": {
-                  "text": "Inefficient delay loading"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Use variables, collections, and navigation context to share state across screens instead."
-                ],
-                "level": "Medium",
-                "primaryCategory": "performance",
-                "whyFix": "Controls that reference controls on other screens can slow down app loading and navigation. Doing this may force the app to load the other screens immediately, rather than waiting until the user navigates to that screen."
               }
             }
           ],

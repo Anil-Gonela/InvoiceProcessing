@@ -271,7 +271,7 @@
                             Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                             Required: =Parent.Required
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                            Value: =Parent.Default
+                            Value: =FormProcessor1_2.Fields.Invoice_id
                             Width: =Parent.Width - 48
                             X: =24
                             Y: =DataCardKey3.Y + DataCardKey3.Height + 4
@@ -304,10 +304,10 @@
                         DataField: ="BillTo"
                         Default: =ThisItem.'Customer Name'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,BillTo)
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Customer Name')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =70
-                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, BillTo)
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Customer Name')
                         Required: =false
                         Update: =DataCardValue4.Value
                         Width: =218
@@ -333,7 +333,7 @@
                             Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                             Required: =Parent.Required
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                            Value: =Parent.Default
+                            Value: =FormProcessor1_2.Fields.'Customer Name'
                             Width: =Parent.Width - 48
                             X: =24
                             Y: =DataCardKey4.Y + DataCardKey4.Height + 4
@@ -366,7 +366,7 @@
                         DataField: ="Date"
                         Default: =ThisItem.'Invoice Date'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,Date)
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Invoice Date')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =70
                         Required: =false
@@ -392,7 +392,7 @@
                             DisplayMode: =Parent.DisplayMode
                             EndDate: =Date(Year(Today())+100, 12, 31)
                             Height: =32
-                            SelectedDate: =Parent.Default
+                            SelectedDate: =FormProcessor1_2.Fields.Invoice_Date
                             StartDate: =Date(1900, 1, 1)
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                             Width: =Parent.Width - 48
@@ -456,7 +456,7 @@
                             Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                             Required: =Parent.Required
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                            Value: =Parent.Default
+                            Value: =FormProcessor1_2.Fields.Tax
                             Width: =Parent.Width - 48
                             X: =24
                             Y: =DataCardKey6.Y + DataCardKey6.Height + 4
@@ -489,10 +489,10 @@
                         DataField: ="BalanceDue"
                         Default: =ThisItem.'Balance Due'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,BalanceDue)
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Balance Due')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =70
-                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, BalanceDue)
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Balance Due')
                         Required: =false
                         Update: =DataCardValue7.Value
                         Width: =218
@@ -518,7 +518,7 @@
                             Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                             Required: =Parent.Required
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                            Value: =Parent.Default
+                            Value: =FormProcessor1_2.Fields.BalanceDue
                             Width: =Parent.Width - 48
                             X: =24
                             Y: =DataCardKey7.Y + DataCardKey7.Height + 4
@@ -551,10 +551,10 @@
                         DataField: ="VendorDetails"
                         Default: =ThisItem.'Customer Address'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,VendorDetails)
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Customer Address')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =70
-                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, VendorDetails)
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Customer Address')
                         Required: =false
                         Update: =DataCardValue8.Value
                         Width: =218
@@ -580,7 +580,7 @@
                             Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                             Required: =Parent.Required
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                            Value: =Parent.Default
+                            Value: =FormProcessor1_2.Fields.Customer_address
                             Width: =Parent.Width - 48
                             X: =24
                             Y: =DataCardKey8.Y + DataCardKey8.Height + 4
@@ -613,7 +613,7 @@
                         DataField: ="DueDate"
                         Default: =ThisItem.'Due Date'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,DueDate)
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Due Date')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =70
                         Required: =false
@@ -639,7 +639,7 @@
                             DisplayMode: =Parent.DisplayMode
                             EndDate: =Date(Year(Today())+100, 12, 31)
                             Height: =32
-                            SelectedDate: =Parent.Default
+                            SelectedDate: =FormProcessor1_2.Fields.DueDate
                             StartDate: =Date(1900, 1, 1)
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                             Width: =Parent.Width - 48
@@ -674,10 +674,10 @@
                         DataField: ="ShippingCost"
                         Default: =ThisItem.'Shipping Cost'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,ShippingCost)
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Shipping Cost')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =70
-                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, ShippingCost)
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Shipping Cost')
                         Required: =false
                         Update: =DataCardValue10.Value
                         Width: =218
@@ -703,7 +703,7 @@
                             Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                             Required: =Parent.Required
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                            Value: =Parent.Default
+                            Value: =FormProcessor1_2.Fields.Shipping
                             Width: =Parent.Width - 48
                             X: =24
                             Y: =DataCardKey10.Y + DataCardKey10.Height + 4
@@ -736,7 +736,7 @@
                         DataField: ="InvoiceStatus"
                         Default: =ThisItem.'Invoice Status'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,InvoiceStatus)
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Invoice Status')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =70
                         Required: =false
@@ -762,7 +762,7 @@
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayMode: =Parent.DisplayMode
                             Height: =32
-                            Items: =Choices([@'Invoice System Demo'].InvoiceStatus)
+                            Items: =Choices([@'Invoice System Demo'].'Invoice Status')
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                             Width: =Parent.Width - 48
                             X: =24
@@ -796,7 +796,7 @@
                         DataField: ="InvoiceType"
                         Default: =ThisItem.'Invoice Type'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,InvoiceType)
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Invoice Type')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =70
                         Required: =false
@@ -822,7 +822,7 @@
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayMode: =Parent.DisplayMode
                             Height: =32
-                            Items: =Choices([@'Invoice System Demo'].InvoiceType)
+                            Items: =Choices([@'Invoice System Demo'].'Invoice Type')
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                             Width: =Parent.Width - 48
                             X: =24
@@ -856,10 +856,10 @@
                         DataField: ="ReferenceNumber"
                         Default: =ThisItem.'Reference Number'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,ReferenceNumber)
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Reference Number')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =70
-                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, ReferenceNumber)
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Reference Number')
                         Required: =false
                         Update: =DataCardValue13.Value
                         Width: =218
@@ -918,10 +918,10 @@
                         DataField: ="VendorName"
                         Default: =ThisItem.'Vendor Name'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,VendorName)
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Vendor Name')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =70
-                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, VendorName)
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Vendor Name')
                         Required: =false
                         Update: =DataCardValue14.Value
                         Width: =218
@@ -947,7 +947,7 @@
                             Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                             Required: =Parent.Required
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                            Value: =Parent.Default
+                            Value: =FormProcessor1_2.Fields.'Vendor Name'
                             Width: =Parent.Width - 48
                             X: =24
                             Y: =DataCardKey14.Y + DataCardKey14.Height + 4
@@ -980,10 +980,10 @@
                         DataField: ="VendorAddress"
                         Default: =ThisItem.'Vendor Address'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,VendorAddress)
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Vendor Address')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =70
-                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, VendorAddress)
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Vendor Address')
                         Required: =false
                         Update: =DataCardValue15.Value
                         Width: =218
@@ -1009,7 +1009,7 @@
                             Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                             Required: =Parent.Required
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                            Value: =Parent.Default
+                            Value: =FormProcessor1_2.Fields.Billing_Address
                             Width: =Parent.Width - 48
                             X: =24
                             Y: =DataCardKey15.Y + DataCardKey15.Height + 4
@@ -1037,81 +1037,19 @@
                             Y: =DataCardKey15.Y
                             ZIndex: =4
 
-                    SubTotal_DataCard1 As typedDataCard.fluentV9TextualEditCard:
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="SubTotal"
-                        Default: =ThisItem.SubTotal
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,SubTotal)
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =70
-                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, SubTotal)
-                        Required: =false
-                        Update: =DataCardValue16.Value
-                        Width: =218
-                        X: =1
-                        Y: =4
-                        ZIndex: =4
-
-                        DataCardKey16 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =22
-                            Text: =Parent.DisplayName
-                            Weight: ='TextCanvas.Weight'.Semibold
-                            Width: =Parent.Width - 48
-                            Wrap: =false
-                            X: =24
-                            Y: =10
-                            ZIndex: =1
-
-                        "DataCardValue16 As 'Text input'":
-                            AccessibleLabel: =Parent.DisplayName
-                            DisplayMode: =Parent.DisplayMode
-                            Height: =32
-                            Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
-                            Required: =Parent.Required
-                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                            Value: =Parent.Default
-                            Width: =Parent.Width - 48
-                            X: =24
-                            Y: =DataCardKey16.Y + DataCardKey16.Height + 4
-                            ZIndex: =2
-
-                        ErrorMessage16 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =30
-                            Text: =Parent.Error
-                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =Parent.Width - 48
-                            Wrap: =true
-                            X: =24
-                            Y: =DataCardValue16.Y + DataCardValue16.Height
-                            ZIndex: =3
-
-                        StarVisible16 As Text:
-                            Align: ='TextCanvas.Align'.Center
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =30
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            X: =0
-                            Y: =DataCardKey16.Y
-                            ZIndex: =4
-
                     Subtotal_DataCard2 As typedDataCard.fluentV9TextualEditCard:
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="Subtotal0"
                         Default: =ThisItem.Subtotal
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,Subtotal0)
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,Subtotal)
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =70
-                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, Subtotal0)
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, Subtotal)
                         Required: =false
                         Update: =DataCardValue17.Value
                         Width: =218
-                        X: =2
+                        X: =1
                         Y: =4
                         ZIndex: =4
 
@@ -1166,14 +1104,14 @@
                         DataField: ="TotalAmount"
                         Default: =ThisItem.'Total Amount'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,TotalAmount)
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Total Amount')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =70
                         Required: =false
                         Update: =Value(DataCardValue18.Value)
                         Width: =218
-                        X: =0
-                        Y: =5
+                        X: =2
+                        Y: =4
                         ZIndex: =4
 
                         DataCardKey18 As Text:
@@ -1192,7 +1130,7 @@
                             DisplayMode: =Parent.DisplayMode
                             Height: =32
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                            Value: =Parent.Default
+                            Value: =FormProcessor1_2.Fields.Total
                             Width: =Parent.Width - 48
                             X: =24
                             Y: =DataCardKey18.Y + DataCardKey18.Height + 4

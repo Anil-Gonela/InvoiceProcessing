@@ -667,10 +667,10 @@ Screen1_2 As screen:
                 DataField: ="Subtotal0"
                 Default: =ThisItem.Subtotal
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,Subtotal0)
+                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,Subtotal)
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, Subtotal0)
+                MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, Subtotal)
                 Required: =false
                 Update: =DataCardValue2.Text
                 Width: =800
@@ -820,7 +820,7 @@ Screen1_2 As screen:
                 DataField: ="TotalAmount"
                 Default: =ThisItem.'Total Amount'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,TotalAmount)
+                DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Total Amount')
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 Required: =false
