@@ -175,9 +175,7 @@
                                 contentBytes: varWorkOrderPDF
                             }
                         }
-                    ));
-                    
-                    
+                    ).path);
                     
                     
                     
@@ -198,7 +196,7 @@
             TextCanvas2 As Text:
                 DisplayMode: =DisplayMode.Edit
                 Height: =99
-                Text: =
+                Text: =url.path
                 Width: =203
                 X: =40
                 Y: =40
