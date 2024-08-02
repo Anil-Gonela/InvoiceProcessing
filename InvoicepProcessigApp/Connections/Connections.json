@@ -5,6 +5,9 @@
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
       "parameterHints": {
+        "8f9d0675-56d6-47d2-9a20-acd60a53ab76": {
+          "value": "shared_sharepointonline"
+        },
         "workflowDisplayName": {
           "value": "Invoice Save PDF Power Apps"
         },
@@ -14,6 +17,9 @@
         }
       },
       "parameterHintsV2": {
+        "shared_sharepointonline": {
+          "value": "8f9d0675-56d6-47d2-9a20-acd60a53ab76"
+        },
         "workflowDisplayName": {
           "value": "Invoice Save PDF Power Apps"
         },
