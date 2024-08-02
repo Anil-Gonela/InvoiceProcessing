@@ -3482,7 +3482,7 @@
       },
       "component_width"
     ],
-    "LastModifiedTimestamp": "638581893715483753",
+    "LastModifiedTimestamp": "638581952099942934",
     "Name": "SideNavigation_Compact",
     "Rules": [
       {
@@ -3602,7 +3602,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638581893715483753",
+  "LastModifiedTimestamp": "638581952099942934",
   "Name": "d4521f6e39724073a64c56d93e35a98f",
   "OverridableProperties": {},
   "Version": "1.0"
