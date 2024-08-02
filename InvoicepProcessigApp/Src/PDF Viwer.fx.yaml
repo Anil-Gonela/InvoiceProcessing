@@ -168,7 +168,7 @@
                 Font: =Font.Lato
                 Height: =37
                 OnSelect: |+
-                    =Set(path, InvoiceSavePDFPowerApps.Run(
+                    =Set(url, InvoiceSavePDFPowerApps.Run(
                         {
                             file: {
                                 name: "sample.pdf",
@@ -177,7 +177,12 @@
                         }
                     ));
                     
-                    Download("https://eyindia.sharepoint.com/:b:/r/sites/AutomationTeamSmartInvoiceProcessing/Smart%20Invoice%20Creation/Contoso%201.pdf?csf=1&web=1&e=ZV6Ht2")
+                    
+                    
+                    
+                    
+                    
+                    
                     
                 RadiusBottomLeft: =20
                 RadiusBottomRight: =20
@@ -189,4 +194,13 @@
                 X: =561
                 Y: =52
                 ZIndex: =2
+
+            TextCanvas2 As Text:
+                DisplayMode: =DisplayMode.Edit
+                Height: =99
+                Text: =
+                Width: =203
+                X: =40
+                Y: =40
+                ZIndex: =3
 
