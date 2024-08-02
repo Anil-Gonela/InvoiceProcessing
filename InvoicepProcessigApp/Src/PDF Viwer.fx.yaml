@@ -136,9 +136,10 @@
         ZIndex: =6
 
         Container11 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
             Height: =Parent.Height
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
+            LayoutMinHeight: =0
+            LayoutMinWidth: =0
             Width: =Parent.Width
             X: =Parent.X
             Y: =Parent.Y
@@ -147,7 +148,7 @@
             Button6_6 As button:
                 Fill: =RGBA(141, 73, 58, 1)
                 Font: =Font.Lato
-                Height: =37
+                Height: =Parent.Height * 20%
                 OnSelect: |-
                     =Set(varWorkOrderPDF,Blank());
                     Navigate('Create Invoice');
@@ -158,15 +159,15 @@
                 RadiusTopRight: =20
                 Size: =13
                 Text: ="Back"
-                Width: =181
-                X: =256
-                Y: =52
+                Width: =Parent.Width * 20%
+                X: =Parent.Width * 25%
+                Y: =(Container11.Height - Self.Height) / 2 
                 ZIndex: =1
 
             Button6_7 As button:
                 Fill: =RGBA(141, 73, 58, 1)
                 Font: =Font.Lato
-                Height: =37
+                Height: =Parent.Height * 20%
                 OnSelect: |+
                     =Set(url, InvoiceSavePDFPowerApps.Run(
                         {
@@ -188,9 +189,9 @@
                 RadiusTopRight: =20
                 Size: =13
                 Text: ="Download PDF"
-                Width: =181
-                X: =561
-                Y: =52
+                Width: =Parent.Width * 20%
+                X: =Parent.Width * 50%
+                Y: =(Parent.Height - Self.Height) / 2 
                 ZIndex: =2
 
             TextCanvas2 As Text:
