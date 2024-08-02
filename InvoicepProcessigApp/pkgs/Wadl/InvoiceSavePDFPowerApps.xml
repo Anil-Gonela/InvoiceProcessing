@@ -8,10 +8,8 @@
         <property name="name" type="string" />
         <property name="contentBytes" typeRef="ManualTriggerInput_file_def_contentBytes_def" />
       </object>
-      <string name="ManualTriggerInput_text_def" />
       <object name="ManualTriggerInput">
         <property name="file" typeRef="ManualTriggerInput_file_def" />
-        <property name="text" type="string" />
       </object>
       <string name="ResponseActionOutput_path_def" />
       <object name="ResponseActionOutput">
@@ -32,9 +30,6 @@
           <representation mediaType="application/json">
             <param style="plain" name="file" path="/file" type="service:ManualTriggerInput_file_def">
               <doc title="PDF File" />
-            </param>
-            <param style="plain" name="text" path="/text" type="xs:string" required="true">
-              <doc title="filename" />
             </param>
           </representation>
         </request>
