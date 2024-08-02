@@ -213,570 +213,6 @@
                 Y: =Parent.Y
                 ZIndex: =2
 
-                Form2_3 As form:
-                    DataSource: ='Invoice System Demo'
-                    DefaultMode: =FormMode.New
-                    Height: =Parent.Height * 78%
-                    NumberOfColumns: =2
-                    Width: =Parent.Width
-                    Y: =Parent.Y+40
-                    ZIndex: =1
-
-                    Title_DataCard3_3 As typedDataCard.textualEditCard:
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="Title"
-                        Default: =ThisItem.Title
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,Title)
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
-                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, Title)
-                        Required: =false
-                        Update: =DataCardValue14_3.Text
-                        Width: =327
-                        X: =0
-                        Y: =0
-                        ZIndex: =7
-
-                        DataCardKey14_3 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =34
-                            Text: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            Wrap: =false
-                            X: =30
-                            Y: =10
-                            ZIndex: =1
-
-                        DataCardValue14_3 As text:
-                            BorderColor: =RGBA(141, 73, 58, 1)
-                            BorderThickness: =1
-                            Default: =FormProcessor1_2.Fields.Invoice_id
-                            DelayOutput: =true
-                            DisplayMode: =Parent.DisplayMode
-                            Fill: =RGBA(248,237,227,0.3)
-                            MaxLength: =Parent.MaxLength
-                            PaddingLeft: =5
-                            RadiusBottomLeft: =20
-                            RadiusBottomRight: =20
-                            RadiusTopLeft: =20
-                            RadiusTopRight: =20
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey14_3.Y + DataCardKey14_3.Height + 5
-                            ZIndex: =2
-
-                        ErrorMessage7_3 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            Color: =RGBA(168, 0, 0, 1)
-                            FontWeight: =FontWeight.Semibold
-                            Height: =10
-                            Live: =Live.Assertive
-                            PaddingBottom: =0
-                            PaddingLeft: =0
-                            PaddingRight: =0
-                            PaddingTop: =0
-                            Size: =14
-                            Text: =Parent.Error
-                            Visible: =Parent.DisplayMode=DisplayMode.Edit
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardValue14_3.Y + DataCardValue14_3.Height
-                            ZIndex: =3
-
-                        StarVisible7_3 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            Color: =RGBA(0, 18, 107, 1)
-                            Height: =DataCardKey14_3.Height
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            Wrap: =false
-                            Y: =DataCardKey14_3.Y
-                            ZIndex: =4
-
-                    "'Bill To_DataCard3_3' As typedDataCard.textualEditCard":
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="BillTo"
-                        Default: =ThisItem.'Customer Name'
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Customer Name')
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
-                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Customer Name')
-                        Required: =false
-                        Update: =DataCardValue15_3.Text
-                        Width: =327
-                        X: =1
-                        Y: =0
-                        ZIndex: =7
-
-                        DataCardKey15_3 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =34
-                            Text: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            Wrap: =false
-                            X: =30
-                            Y: =10
-                            ZIndex: =1
-
-                        DataCardValue15_3 As text:
-                            BorderColor: =RGBA(141, 73, 58, 1)
-                            BorderThickness: =1
-                            Default: =FormProcessor1_2.Fields.Billing_Address
-                            DelayOutput: =true
-                            DisplayMode: =Parent.DisplayMode
-                            Fill: =RGBA(248,237,227,0.3)
-                            MaxLength: =Parent.MaxLength
-                            PaddingLeft: =5
-                            RadiusBottomLeft: =20
-                            RadiusBottomRight: =20
-                            RadiusTopLeft: =20
-                            RadiusTopRight: =20
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey15_3.Y + DataCardKey15_3.Height + 5
-                            ZIndex: =2
-
-                        ErrorMessage8_3 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            Color: =RGBA(168, 0, 0, 1)
-                            FontWeight: =FontWeight.Semibold
-                            Height: =10
-                            Live: =Live.Assertive
-                            PaddingBottom: =0
-                            PaddingLeft: =0
-                            PaddingRight: =0
-                            PaddingTop: =0
-                            Size: =14
-                            Text: =Parent.Error
-                            Visible: =Parent.DisplayMode=DisplayMode.Edit
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardValue15_3.Y + DataCardValue15_3.Height
-                            ZIndex: =3
-
-                        StarVisible8_3 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            Color: =RGBA(0, 18, 107, 1)
-                            Height: =DataCardKey15_3.Height
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            Wrap: =false
-                            Y: =DataCardKey15_3.Y
-                            ZIndex: =4
-
-                    Date_DataCard3_3 As typedDataCard.dateEditCard:
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="Date"
-                        Default: =ThisItem.'Invoice Date'
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Invoice Date')
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
-                        Required: =false
-                        Update: =DataCardValue16_3.SelectedDate
-                        Width: =327
-                        X: =0
-                        Y: =1
-                        ZIndex: =7
-
-                        DataCardKey16_3 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =34
-                            Text: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            Wrap: =false
-                            X: =30
-                            Y: =10
-                            ZIndex: =1
-
-                        DataCardValue16_3 As datepicker:
-                            BorderColor: =RGBA(141, 73, 58, 1)
-                            BorderThickness: =1
-                            Color: =RGBA(141, 73, 58, 1)
-                            DefaultDate: =FormProcessor1_2.Fields.Invoice_Date
-                            DisplayMode: =Parent.DisplayMode
-                            EndYear: =Year(Today())+100
-                            Fill: =RGBA(248,237,227,0.3)
-                            Font: =Font.Lato
-                            IconBackground: =RGBA(0, 0, 0, 0)
-                            IconFill: =RGBA(141, 73, 58, 1)
-                            IsEditable: =true
-                            PaddingBottom: =0
-                            PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                            StartYear: =1899
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey16_3.Y + DataCardKey16_3.Height + 5
-                            ZIndex: =2
-
-                        ErrorMessage9_3 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            Color: =RGBA(168, 0, 0, 1)
-                            FontWeight: =FontWeight.Semibold
-                            Height: =10
-                            Live: =Live.Assertive
-                            PaddingBottom: =0
-                            PaddingLeft: =0
-                            PaddingRight: =0
-                            PaddingTop: =0
-                            Size: =14
-                            Text: =Parent.Error
-                            Visible: =Parent.DisplayMode=DisplayMode.Edit
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardValue16_3.Y + DataCardValue16_3.Height
-                            ZIndex: =3
-
-                        StarVisible9_3 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            Color: =RGBA(0, 18, 107, 1)
-                            Height: =DataCardKey16_3.Height
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            Wrap: =false
-                            Y: =DataCardKey16_3.Y
-                            ZIndex: =4
-
-                    "'Sale Amount_DataCard3_3' As typedDataCard.textualEditCard":
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="SaleAmount"
-                        Default: =ThisItem.'Shipping Cost'
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName, ShippingCost)
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
-                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, ShippingCost)
-                        Required: =false
-                        Update: =DataCardValue17_3.Text
-                        Width: =327
-                        X: =1
-                        Y: =1
-                        ZIndex: =7
-
-                        DataCardKey17_3 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            FontWeight: =FontWeight.Semibold
-                            Height: =34
-                            Text: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            Wrap: =false
-                            X: =30
-                            Y: =10
-                            ZIndex: =1
-
-                        DataCardValue17_3 As text:
-                            BorderColor: =RGBA(141, 73, 58, 1)
-                            BorderThickness: =1
-                            Default: =FormProcessor1_2.Fields.Total
-                            DelayOutput: =true
-                            DisplayMode: =Parent.DisplayMode
-                            Fill: =RGBA(248,237,227,0.3)
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            MaxLength: =Parent.MaxLength
-                            PaddingLeft: =5
-                            RadiusBottomLeft: =20
-                            RadiusBottomRight: =20
-                            RadiusTopLeft: =20
-                            RadiusTopRight: =20
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey17_3.Y + DataCardKey17_3.Height + 5
-                            ZIndex: =2
-
-                        ErrorMessage10_3 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            Color: =RGBA(168, 0, 0, 1)
-                            FontWeight: =FontWeight.Semibold
-                            Height: =10
-                            Live: =Live.Assertive
-                            PaddingBottom: =0
-                            PaddingLeft: =0
-                            PaddingRight: =0
-                            PaddingTop: =0
-                            Size: =14
-                            Text: =Parent.Error
-                            Visible: =Parent.DisplayMode=DisplayMode.Edit
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardValue17_3.Y + DataCardValue17_3.Height
-                            ZIndex: =3
-
-                        StarVisible10_3 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            Color: =RGBA(0, 18, 107, 1)
-                            Height: =DataCardKey17_3.Height
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            Wrap: =false
-                            Y: =DataCardKey17_3.Y
-                            ZIndex: =4
-
-                    GST_DataCard3_3 As typedDataCard.textualEditCard:
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="GST"
-                        Default: =ThisItem.GST
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,GST)
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
-                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, GST)
-                        Required: =false
-                        Update: =DataCardValue18_3.Text
-                        Width: =327
-                        X: =0
-                        Y: =2
-                        ZIndex: =7
-
-                        DataCardKey18_3 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =34
-                            Text: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            Wrap: =false
-                            X: =30
-                            Y: =10
-                            ZIndex: =1
-
-                        DataCardValue18_3 As text:
-                            BorderColor: =If(IsBlank(Parent.Error), RGBA(141, 73, 58, 1), Color.Red)
-                            BorderThickness: =1
-                            Default: =FormProcessor1_2.Fields.Tax
-                            DelayOutput: =true
-                            DisplayMode: =Parent.DisplayMode
-                            Fill: =RGBA(248,237,227,0.3)
-                            MaxLength: =Parent.MaxLength
-                            PaddingLeft: =5
-                            RadiusBottomLeft: =20
-                            RadiusBottomRight: =20
-                            RadiusTopLeft: =20
-                            RadiusTopRight: =20
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey18_3.Y + DataCardKey18_3.Height + 5
-                            ZIndex: =2
-
-                        ErrorMessage11_3 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            Color: =RGBA(168, 0, 0, 1)
-                            FontWeight: =FontWeight.Semibold
-                            Height: =10
-                            Live: =Live.Assertive
-                            PaddingBottom: =0
-                            PaddingLeft: =0
-                            PaddingRight: =0
-                            PaddingTop: =0
-                            Size: =14
-                            Text: =Parent.Error
-                            Visible: =Parent.DisplayMode=DisplayMode.Edit
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardValue18_3.Y + DataCardValue18_3.Height
-                            ZIndex: =3
-
-                        StarVisible11_3 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            Color: =RGBA(0, 18, 107, 1)
-                            Height: =DataCardKey18_3.Height
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            Wrap: =false
-                            Y: =DataCardKey18_3.Y
-                            ZIndex: =4
-
-                    "'Balance Due_DataCard3_3' As typedDataCard.textualEditCard":
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="BalanceDue"
-                        Default: =ThisItem.'Balance Due'
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Balance Due')
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
-                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Balance Due')
-                        Required: =false
-                        Update: =DataCardValue19_3.Text
-                        Width: =327
-                        X: =1
-                        Y: =2
-                        ZIndex: =7
-
-                        DataCardKey19_3 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =34
-                            Text: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            Wrap: =false
-                            X: =30
-                            Y: =10
-                            ZIndex: =1
-
-                        DataCardValue19_3 As text:
-                            BorderColor: =If(IsBlank(Parent.Error), RGBA(141, 73, 58, 1), Color.Red)
-                            BorderThickness: =1
-                            Default: =FormProcessor1_2.Fields.BalanceDue
-                            DelayOutput: =true
-                            DisplayMode: =Parent.DisplayMode
-                            Fill: =RGBA(248,237,227,0.3)
-                            MaxLength: =Parent.MaxLength
-                            PaddingLeft: =5
-                            RadiusBottomLeft: =20
-                            RadiusBottomRight: =20
-                            RadiusTopLeft: =20
-                            RadiusTopRight: =20
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey19_3.Y + DataCardKey19_3.Height + 5
-                            ZIndex: =2
-
-                        ErrorMessage12_3 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            Color: =RGBA(168, 0, 0, 1)
-                            FontWeight: =FontWeight.Semibold
-                            Height: =10
-                            Live: =Live.Assertive
-                            PaddingBottom: =0
-                            PaddingLeft: =0
-                            PaddingRight: =0
-                            PaddingTop: =0
-                            Size: =14
-                            Text: =Parent.Error
-                            Visible: =Parent.DisplayMode=DisplayMode.Edit
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardValue19_3.Y + DataCardValue19_3.Height
-                            ZIndex: =3
-
-                        StarVisible12_3 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            Color: =RGBA(0, 18, 107, 1)
-                            Height: =DataCardKey19_3.Height
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            Wrap: =false
-                            Y: =DataCardKey19_3.Y
-                            ZIndex: =4
-
-                    "'Vendor Details_DataCard2_3' As typedDataCard.textualEditCard":
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="VendorDetails"
-                        Default: =ThisItem.'Customer Address'
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Customer Address')
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
-                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Customer Address')
-                        Required: =false
-                        Update: =DataCardValue20_3.Text
-                        Width: =327
-                        X: =0
-                        Y: =3
-                        ZIndex: =7
-
-                        DataCardKey20_3 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =34
-                            Text: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            Wrap: =false
-                            X: =30
-                            Y: =10
-                            ZIndex: =1
-
-                        DataCardValue20_3 As text:
-                            BorderColor: =If(IsBlank(Parent.Error), RGBA(141, 73, 58, 1), Color.Red)
-                            BorderThickness: =1
-                            Default: =FormProcessor1_2.Fields.Customer_address
-                            DelayOutput: =true
-                            DisplayMode: =Parent.DisplayMode
-                            Fill: =RGBA(248,237,227,0.3)
-                            MaxLength: =Parent.MaxLength
-                            PaddingLeft: =5
-                            RadiusBottomLeft: =20
-                            RadiusBottomRight: =20
-                            RadiusTopLeft: =20
-                            RadiusTopRight: =20
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey20_3.Y + DataCardKey20_3.Height + 5
-                            ZIndex: =2
-
-                        ErrorMessage13_3 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            Color: =RGBA(168, 0, 0, 1)
-                            FontWeight: =FontWeight.Semibold
-                            Height: =10
-                            Live: =Live.Assertive
-                            PaddingBottom: =0
-                            PaddingLeft: =0
-                            PaddingRight: =0
-                            PaddingTop: =0
-                            Size: =14
-                            Text: =Parent.Error
-                            Visible: =Parent.DisplayMode=DisplayMode.Edit
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardValue20_3.Y + DataCardValue20_3.Height
-                            ZIndex: =3
-
-                        StarVisible13_3 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            Color: =RGBA(0, 18, 107, 1)
-                            Height: =DataCardKey20_3.Height
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            Wrap: =false
-                            Y: =DataCardKey20_3.Y
-                            ZIndex: =4
-
                 Button6_5 As button:
                     Fill: =RGBA(141, 73, 58, 1)
                     Font: =Font.Lato
@@ -788,7 +224,999 @@
                     Size: =13
                     Text: ="Submit"
                     Width: =Parent.Width*30%
-                    X: =(Parent.Width - Self.Width)/2
-                    Y: =Form2_3.Y + Form2_3.Height
+                    X: =232
+                    Y: =560
                     ZIndex: =2
+
+                Form1 As form.PowerApps_CoreControls_Form:
+                    DataSource: ='Invoice System Demo'
+                    DefaultMode: =FormMode.New
+                    Height: =Parent.Height * 80%
+                    UseFluentV9Cards: =true
+                    Width: =Parent.Width
+                    Y: =Parent.Y
+                    ZIndex: =3
+
+                    Title_DataCard1 As typedDataCard.fluentV9TextualEditCard:
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Title"
+                        Default: =ThisItem.Title
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,Title)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, Title)
+                        Required: =false
+                        Update: =DataCardValue3.Value
+                        Width: =218
+                        X: =0
+                        Y: =0
+                        ZIndex: =4
+
+                        DataCardKey3 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue3 As 'Text input'":
+                            AccessibleLabel: =Parent.DisplayName
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                            Required: =Parent.Required
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Value: =Parent.Default
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey3.Y + DataCardKey3.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage3 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue3.Y + DataCardValue3.Height
+                            ZIndex: =3
+
+                        StarVisible3 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey3.Y
+                            ZIndex: =4
+
+                    "'Customer Name_DataCard1' As typedDataCard.fluentV9TextualEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="BillTo"
+                        Default: =ThisItem.'Customer Name'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,BillTo)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, BillTo)
+                        Required: =false
+                        Update: =DataCardValue4.Value
+                        Width: =218
+                        X: =1
+                        Y: =0
+                        ZIndex: =4
+
+                        DataCardKey4 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue4 As 'Text input'":
+                            AccessibleLabel: =Parent.DisplayName
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                            Required: =Parent.Required
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Value: =Parent.Default
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey4.Y + DataCardKey4.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage4 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue4.Y + DataCardValue4.Height
+                            ZIndex: =3
+
+                        StarVisible4 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey4.Y
+                            ZIndex: =4
+
+                    "'Invoice Date_DataCard1' As typedDataCard.fluentV9DateEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Date"
+                        Default: =ThisItem.'Invoice Date'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,Date)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        Required: =false
+                        Update: =DataCardValue5.SelectedDate
+                        Width: =218
+                        X: =2
+                        Y: =0
+                        ZIndex: =4
+
+                        DataCardKey5 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue5 As 'Date picker'":
+                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            DisplayMode: =Parent.DisplayMode
+                            EndDate: =Date(Year(Today())+100, 12, 31)
+                            Height: =32
+                            SelectedDate: =Parent.Default
+                            StartDate: =Date(1900, 1, 1)
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey5.Y + DataCardKey5.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage5 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue5.Y + DataCardValue5.Height
+                            ZIndex: =3
+
+                        StarVisible5 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey5.Y
+                            ZIndex: =4
+
+                    GST_DataCard1 As typedDataCard.fluentV9TextualEditCard:
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="GST"
+                        Default: =ThisItem.GST
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,GST)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, GST)
+                        Required: =false
+                        Update: =DataCardValue6.Value
+                        Width: =218
+                        X: =0
+                        Y: =1
+                        ZIndex: =4
+
+                        DataCardKey6 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue6 As 'Text input'":
+                            AccessibleLabel: =Parent.DisplayName
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                            Required: =Parent.Required
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Value: =Parent.Default
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey6.Y + DataCardKey6.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage6 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue6.Y + DataCardValue6.Height
+                            ZIndex: =3
+
+                        StarVisible6 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey6.Y
+                            ZIndex: =4
+
+                    "'Balance Due_DataCard1' As typedDataCard.fluentV9TextualEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="BalanceDue"
+                        Default: =ThisItem.'Balance Due'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,BalanceDue)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, BalanceDue)
+                        Required: =false
+                        Update: =DataCardValue7.Value
+                        Width: =218
+                        X: =1
+                        Y: =1
+                        ZIndex: =4
+
+                        DataCardKey7 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue7 As 'Text input'":
+                            AccessibleLabel: =Parent.DisplayName
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                            Required: =Parent.Required
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Value: =Parent.Default
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey7.Y + DataCardKey7.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage7 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue7.Y + DataCardValue7.Height
+                            ZIndex: =3
+
+                        StarVisible7 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey7.Y
+                            ZIndex: =4
+
+                    "'Customer Address_DataCard1' As typedDataCard.fluentV9TextualEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="VendorDetails"
+                        Default: =ThisItem.'Customer Address'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,VendorDetails)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, VendorDetails)
+                        Required: =false
+                        Update: =DataCardValue8.Value
+                        Width: =218
+                        X: =2
+                        Y: =1
+                        ZIndex: =4
+
+                        DataCardKey8 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue8 As 'Text input'":
+                            AccessibleLabel: =Parent.DisplayName
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                            Required: =Parent.Required
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Value: =Parent.Default
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey8.Y + DataCardKey8.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage8 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue8.Y + DataCardValue8.Height
+                            ZIndex: =3
+
+                        StarVisible8 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey8.Y
+                            ZIndex: =4
+
+                    "'Due Date_DataCard1' As typedDataCard.fluentV9DateEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="DueDate"
+                        Default: =ThisItem.'Due Date'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,DueDate)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        Required: =false
+                        Update: =DataCardValue9.SelectedDate
+                        Width: =218
+                        X: =0
+                        Y: =2
+                        ZIndex: =4
+
+                        DataCardKey9 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue9 As 'Date picker'":
+                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            DisplayMode: =Parent.DisplayMode
+                            EndDate: =Date(Year(Today())+100, 12, 31)
+                            Height: =32
+                            SelectedDate: =Parent.Default
+                            StartDate: =Date(1900, 1, 1)
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey9.Y + DataCardKey9.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage9 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue9.Y + DataCardValue9.Height
+                            ZIndex: =3
+
+                        StarVisible9 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey9.Y
+                            ZIndex: =4
+
+                    "'Shipping Cost_DataCard1' As typedDataCard.fluentV9TextualEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="ShippingCost"
+                        Default: =ThisItem.'Shipping Cost'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,ShippingCost)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, ShippingCost)
+                        Required: =false
+                        Update: =DataCardValue10.Value
+                        Width: =218
+                        X: =1
+                        Y: =2
+                        ZIndex: =4
+
+                        DataCardKey10 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue10 As 'Text input'":
+                            AccessibleLabel: =Parent.DisplayName
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                            Required: =Parent.Required
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Value: =Parent.Default
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey10.Y + DataCardKey10.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage10 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue10.Y + DataCardValue10.Height
+                            ZIndex: =3
+
+                        StarVisible10 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey10.Y
+                            ZIndex: =4
+
+                    "'Invoice Status_DataCard1' As typedDataCard.fluentV9ComboBoxEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="InvoiceStatus"
+                        Default: =ThisItem.'Invoice Status'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,InvoiceStatus)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        Required: =false
+                        Update: =DataCardValue11.Selected
+                        Width: =218
+                        X: =2
+                        Y: =2
+                        ZIndex: =4
+
+                        DataCardKey11 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue11 As Combobox.pcfdataset:
+                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            DefaultSelectedItems: =[Parent.Default]
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Items: =Choices([@'Invoice System Demo'].InvoiceStatus)
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey11.Y + DataCardKey11.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage11 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue11.Y + DataCardValue11.Height
+                            ZIndex: =3
+
+                        StarVisible11 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =20
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey11.Y
+                            ZIndex: =4
+
+                    "'Invoice Type_DataCard1' As typedDataCard.fluentV9ComboBoxEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="InvoiceType"
+                        Default: =ThisItem.'Invoice Type'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,InvoiceType)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        Required: =false
+                        Update: =DataCardValue12.Selected
+                        Width: =218
+                        X: =0
+                        Y: =3
+                        ZIndex: =4
+
+                        DataCardKey12 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue12 As Combobox.pcfdataset:
+                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            DefaultSelectedItems: =[Parent.Default]
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Items: =Choices([@'Invoice System Demo'].InvoiceType)
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey12.Y + DataCardKey12.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage12 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue12.Y + DataCardValue12.Height
+                            ZIndex: =3
+
+                        StarVisible12 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =20
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey12.Y
+                            ZIndex: =4
+
+                    "'Reference Number_DataCard1' As typedDataCard.fluentV9TextualEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="ReferenceNumber"
+                        Default: =ThisItem.'Reference Number'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,ReferenceNumber)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, ReferenceNumber)
+                        Required: =false
+                        Update: =DataCardValue13.Value
+                        Width: =218
+                        X: =1
+                        Y: =3
+                        ZIndex: =4
+
+                        DataCardKey13 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue13 As 'Text input'":
+                            AccessibleLabel: =Parent.DisplayName
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                            Required: =Parent.Required
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Value: =Parent.Default
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey13.Y + DataCardKey13.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage13 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue13.Y + DataCardValue13.Height
+                            ZIndex: =3
+
+                        StarVisible13 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey13.Y
+                            ZIndex: =4
+
+                    "'Vendor Name_DataCard1' As typedDataCard.fluentV9TextualEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="VendorName"
+                        Default: =ThisItem.'Vendor Name'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,VendorName)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, VendorName)
+                        Required: =false
+                        Update: =DataCardValue14.Value
+                        Width: =218
+                        X: =2
+                        Y: =3
+                        ZIndex: =4
+
+                        DataCardKey14 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue14 As 'Text input'":
+                            AccessibleLabel: =Parent.DisplayName
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                            Required: =Parent.Required
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Value: =Parent.Default
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey14.Y + DataCardKey14.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage14 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue14.Y + DataCardValue14.Height
+                            ZIndex: =3
+
+                        StarVisible14 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey14.Y
+                            ZIndex: =4
+
+                    "'Vendor Address_DataCard1' As typedDataCard.fluentV9TextualEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="VendorAddress"
+                        Default: =ThisItem.'Vendor Address'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,VendorAddress)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, VendorAddress)
+                        Required: =false
+                        Update: =DataCardValue15.Value
+                        Width: =218
+                        X: =0
+                        Y: =4
+                        ZIndex: =4
+
+                        DataCardKey15 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue15 As 'Text input'":
+                            AccessibleLabel: =Parent.DisplayName
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                            Required: =Parent.Required
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Value: =Parent.Default
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey15.Y + DataCardKey15.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage15 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue15.Y + DataCardValue15.Height
+                            ZIndex: =3
+
+                        StarVisible15 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey15.Y
+                            ZIndex: =4
+
+                    SubTotal_DataCard1 As typedDataCard.fluentV9TextualEditCard:
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="SubTotal"
+                        Default: =ThisItem.SubTotal
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,SubTotal)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, SubTotal)
+                        Required: =false
+                        Update: =DataCardValue16.Value
+                        Width: =218
+                        X: =1
+                        Y: =4
+                        ZIndex: =4
+
+                        DataCardKey16 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue16 As 'Text input'":
+                            AccessibleLabel: =Parent.DisplayName
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                            Required: =Parent.Required
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Value: =Parent.Default
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey16.Y + DataCardKey16.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage16 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue16.Y + DataCardValue16.Height
+                            ZIndex: =3
+
+                        StarVisible16 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey16.Y
+                            ZIndex: =4
+
+                    Subtotal_DataCard2 As typedDataCard.fluentV9TextualEditCard:
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Subtotal0"
+                        Default: =ThisItem.Subtotal
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,Subtotal0)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, Subtotal0)
+                        Required: =false
+                        Update: =DataCardValue17.Value
+                        Width: =218
+                        X: =2
+                        Y: =4
+                        ZIndex: =4
+
+                        DataCardKey17 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue17 As 'Text input'":
+                            AccessibleLabel: =Parent.DisplayName
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                            Required: =Parent.Required
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Value: =Parent.Default
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey17.Y + DataCardKey17.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage17 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue17.Y + DataCardValue17.Height
+                            ZIndex: =3
+
+                        StarVisible17 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey17.Y
+                            ZIndex: =4
+
+                    "'Total Amount_DataCard1' As typedDataCard.fluentV9NumberEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="TotalAmount"
+                        Default: =ThisItem.'Total Amount'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,TotalAmount)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        Required: =false
+                        Update: =Value(DataCardValue18.Value)
+                        Width: =218
+                        X: =0
+                        Y: =5
+                        ZIndex: =4
+
+                        DataCardKey18 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue18 As 'Text input'":
+                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Value: =Parent.Default
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey18.Y + DataCardKey18.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage18 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue18.Y + DataCardValue18.Height
+                            ZIndex: =3
+
+                        StarVisible18 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey18.Y
+                            ZIndex: =4
 
