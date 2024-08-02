@@ -167,15 +167,18 @@
                 Fill: =RGBA(141, 73, 58, 1)
                 Font: =Font.Lato
                 Height: =37
-                OnSelect: |-
-                    =InvoiceSavePDFPowerApps.Run(
+                OnSelect: |+
+                    =Set(path, InvoiceSavePDFPowerApps.Run(
                         {
                             file: {
                                 name: "sample.pdf",
                                 contentBytes: varWorkOrderPDF
                             }
                         }
-                    )
+                    ));
+                    
+                    Download("https://eyindia.sharepoint.com/:b:/r/sites/AutomationTeamSmartInvoiceProcessing/Smart%20Invoice%20Creation/Contoso%201.pdf?csf=1&web=1&e=ZV6Ht2")
+                    
                 RadiusBottomLeft: =20
                 RadiusBottomRight: =20
                 RadiusTopLeft: =20
