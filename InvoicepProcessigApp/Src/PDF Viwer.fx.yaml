@@ -168,17 +168,7 @@
                 Font: =Font.Lato
                 Height: =37
                 OnSelect: |-
-                    =Download(
-                        InvoiceSavePDFPowerApps.Run(
-                            {
-                                name: $"WorkOrder_{Text(
-                                    Now(),
-                                    "yyyymmddhhmmss"
-                                )}.pdf",
-                                contentBytes: varWorkOrderPDF
-                            }
-                        ).path
-                    );
+                    =InvoiceSavePDFPowerApps.Run({filename: "sample.pdf", contentBytes: varWorkOrderPDF});
                 RadiusBottomLeft: =20
                 RadiusBottomRight: =20
                 RadiusTopLeft: =20
