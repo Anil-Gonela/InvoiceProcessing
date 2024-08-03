@@ -86,7 +86,7 @@
                 DisplayMode: =DisplayMode.Edit
                 Font: =Font.'Lato Black'
                 Height: =Parent.Height * 20%
-                Size: =60
+                Size: =Parent.Width * 10%
                 Text: ="INVOICE PROCESSING"
                 Weight: ='TextCanvas.Weight'.Bold
                 Width: =Parent.Width * 80%

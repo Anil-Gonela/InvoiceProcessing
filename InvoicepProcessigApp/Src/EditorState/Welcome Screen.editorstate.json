@@ -2353,7 +2353,7 @@
         {
           "Category": "Data",
           "PropertyName": "Size",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",
