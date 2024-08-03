@@ -2665,9 +2665,9 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "65",
+                    "InvariantScript": "Parent.Width * 20%",
                     "Property": "Width",
-                    "RuleProviderType": "Unknown"
+                    "RuleProviderType": "User"
                   },
                   {
                     "Category": "Design",
@@ -2802,7 +2802,14 @@
                 "IsLockable": false,
                 "NameMapSourceSchema": "?"
               },
-              "Width",
+              {
+                "AFDDataSourceName": "",
+                "AutoRuleBindingEnabled": false,
+                "AutoRuleBindingString": "500",
+                "InvariantPropertyName": "Width",
+                "IsLockable": false,
+                "NameMapSourceSchema": "?"
+              },
               {
                 "AFDDataSourceName": "",
                 "AutoRuleBindingEnabled": false,
@@ -2925,7 +2932,7 @@
                 "PropertyName": "LayoutMinWidth",
                 "Rule": {
                   "Category": "Design",
-                  "InvariantScript": "Parent.Width * 40%",
+                  "InvariantScript": "0",
                   "Property": "LayoutMinWidth",
                   "RuleProviderType": "User"
                 }
@@ -2988,13 +2995,13 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "500",
+                "InvariantScript": "Parent.Width",
                 "Property": "Width",
-                "RuleProviderType": "Unknown"
+                "RuleProviderType": "User"
               },
               {
                 "Category": "Design",
-                "InvariantScript": "Parent.Width * 30%",
+                "InvariantScript": "Parent.Width * 50%",
                 "Property": "Height",
                 "RuleProviderType": "User"
               },
@@ -3496,7 +3503,7 @@
       },
       "component_width"
     ],
-    "LastModifiedTimestamp": "638583004949702871",
+    "LastModifiedTimestamp": "638583038475765970",
     "Name": "SideNavigation_Compact",
     "Rules": [
       {
@@ -3549,9 +3556,9 @@
       },
       {
         "Category": "Design",
-        "InvariantScript": "691",
+        "InvariantScript": "App.DesignHeight * 80%",
         "Property": "Height",
-        "RuleProviderType": "Unknown"
+        "RuleProviderType": "System"
       },
       {
         "Category": "Design",
@@ -3616,7 +3623,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638583004949702871",
+  "LastModifiedTimestamp": "638583038475765970",
   "Name": "d4521f6e39724073a64c56d93e35a98f",
   "OverridableProperties": {},
   "Version": "1.0"

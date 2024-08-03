@@ -2,7 +2,7 @@ SideNavigation_Compact As CanvasComponent:
     component_width: =100
     Fill: =RGBA(0, 0, 0, 0)
     First_Logo: =Viewmore
-    Height: =691
+    Height: =App.DesignHeight * 80%
     MenuContent: |-
         =Table(
             {
@@ -123,12 +123,13 @@ SideNavigation_Compact As CanvasComponent:
         Container3 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
-            Height: =Parent.Width * 30%
+            Height: =Parent.Width * 50%
             LayoutAlignItems: =LayoutAlignItems.Center
             LayoutJustifyContent: =LayoutJustifyContent.Center
             LayoutMinHeight: =100
-            LayoutMinWidth: =Parent.Width * 40%
+            LayoutMinWidth: =0
             LayoutMode: =LayoutMode.Auto
+            Width: =Parent.Width
             Y: =Parent.Y 
             ZIndex: =3
 
@@ -143,7 +144,7 @@ SideNavigation_Compact As CanvasComponent:
                 RadiusBottomRight: =35
                 RadiusTopLeft: =35
                 RadiusTopRight: =35
-                Width: =65
+                Width: =Parent.Width * 20%
                 ZIndex: =1
 
                 Image5 As image:

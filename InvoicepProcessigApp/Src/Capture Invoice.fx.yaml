@@ -21,7 +21,7 @@
             ZIndex: =1
 
             SideNavigation_Compact_4 As SideNavigation_Compact:
-                Height: =614
+                Height: =Parent.Height *90%
 
     Heading_3 As groupContainer.horizontalAutoLayoutContainer:
         Fill: =RGBA(255, 255, 255, 0.1)
