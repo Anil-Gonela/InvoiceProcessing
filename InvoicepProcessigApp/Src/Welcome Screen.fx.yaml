@@ -3,16 +3,12 @@
     Fill: =RGBA(248,237,227,0.3)
     ImagePosition: =ImagePosition.Stretch
     LoadingSpinner: =LoadingSpinner.Data
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
 
     ContainerLogo_1 As groupContainer.verticalAutoLayoutContainer:
-        DropShadow: =DropShadow.None
         Height: =Parent.Height * 99%
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
         Width: =Parent.Width * 45%
         X: =Parent.Width * 55%
         ZIndex: =3
@@ -22,6 +18,10 @@
             Height: =Parent.Height
             LayoutMinHeight: =100
             LayoutMinWidth: =250
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
             Width: =Parent.Width
             ZIndex: =1
 
@@ -39,10 +39,20 @@
                 ZIndex: =8
 
                 Button5_1 As button:
+                    BorderColor: =App.Theme.Colors.Primary
+                    DisabledBorderColor: =RGBA(244, 244, 244, 1)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Fill: =RGBA(141, 73, 58, 1)
                     Font: =Font.Lato
                     FontWeight: =FontWeight.Bold
                     Height: =Parent.Height
+                    HoverBorderColor: =App.Theme.Colors.Darker10
+                    HoverColor: =RGBA(255, 255, 255, 1)
+                    HoverFill: =App.Theme.Colors.Darker10
+                    PressedBorderColor: =App.Theme.Colors.Darker40
+                    PressedColor: =Self.Color
+                    PressedFill: =App.Theme.Colors.Darker40
                     RadiusBottomLeft: =30
                     RadiusBottomRight: =30
                     RadiusTopLeft: =30
@@ -55,6 +65,9 @@
             Label5_1 As label:
                 Align: =Align.Center
                 AutoHeight: =true
+                BorderColor: =App.Theme.Colors.Darker40
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Font: =Font.'Dancing Script'
                 FontWeight: =FontWeight.Bold
                 Height: =90
