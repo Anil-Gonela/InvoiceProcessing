@@ -2,24 +2,25 @@
     BackgroundImage: =
     Fill: =RGBA(248,237,227,0.3)
     ImagePosition: =ImagePosition.Fill
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
 
     Component_3 As groupContainer.verticalAutoLayoutContainer:
-        DropShadow: =DropShadow.None
         Height: =Parent.Height *80%
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
         Width: =Parent.Width*18%
         Y: =Parent.Height *12%
         ZIndex: =1
 
         Container8_2 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
             Height: =Parent.Height
             LayoutMinHeight: =100
             LayoutMinWidth: =250
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
             Width: =Parent.Width
             ZIndex: =1
 
@@ -27,7 +28,6 @@
                 Height: =614
 
     Heading_3 As groupContainer.horizontalAutoLayoutContainer:
-        DropShadow: =DropShadow.None
         Fill: =RGBA(255, 255, 255, 0.1)
         Height: =Parent.Height *10%
         LayoutMode: =LayoutMode.Auto
@@ -41,6 +41,7 @@
         ZIndex: =4
 
         Container18_3 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
             Height: =Parent.Height
             LayoutMinHeight: =0
             LayoutMinWidth: =0
@@ -65,12 +66,18 @@
                 ZIndex: =1
 
                 Image4_12 As image:
+                    BorderColor: =App.Theme.Colors.Darker40
+                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Height: =Parent.Height
                     Image: ='invoice-receipt'
                     Width: =Parent.Width
                     ZIndex: =1
 
             Label15_3 As label:
+                BorderColor: =App.Theme.Colors.Darker40
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Font: =Font.'Lato Black'
                 Height: =Parent.Height * 95%
                 Size: =20
@@ -82,6 +89,7 @@
             SettingsIcon_4 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
+                DropShadow: =DropShadow.Light
                 Height: =Parent.Height * 70%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
@@ -93,6 +101,9 @@
                 ZIndex: =3
 
                 Image4_13 As image:
+                    BorderColor: =App.Theme.Colors.Darker40
+                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Height: =Parent.Height *90%
                     Image: =settings
                     Width: =Parent.Width *90%
@@ -103,6 +114,7 @@
             Notifications_4 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
+                DropShadow: =DropShadow.Light
                 Height: =Parent.Height * 70%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
@@ -114,6 +126,9 @@
                 ZIndex: =4
 
                 Image4_14 As image:
+                    BorderColor: =App.Theme.Colors.Darker40
+                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Height: =Parent.Height
                     Image: =notifications
                     Width: =Parent.Width
@@ -122,6 +137,7 @@
             UserIcon_3 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
+                DropShadow: =DropShadow.Light
                 Height: =Parent.Height * 70%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
@@ -133,6 +149,9 @@
                 ZIndex: =5
 
                 Image4_15 As image:
+                    BorderColor: =App.Theme.Colors.Darker40
+                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Height: =Parent.Height
                     Image: =User().Image
                     Width: =Parent.Width
@@ -168,7 +187,12 @@
             ZIndex: =1
 
             FormProcessor_1 As groupContainer.manualLayoutContainer:
+                DropShadow: =DropShadow.Light
                 Height: =Parent.Height
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
                 Width: =Parent.Width * 40%
                 X: =Parent.X
                 Y: =Parent.Y
@@ -192,14 +216,24 @@
                     ZIndex: =1
 
                 Button6_4 As button:
+                    BorderColor: =App.Theme.Colors.Primary
+                    DisabledBorderColor: =RGBA(244, 244, 244, 1)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Fill: =RGBA(141, 73, 58, 1)
                     Font: =Font.Lato
+                    FontWeight: =FontWeight.Semibold
                     Height: =Parent.Height * 5%
+                    HoverBorderColor: =App.Theme.Colors.Darker10
+                    HoverColor: =RGBA(255, 255, 255, 1)
+                    HoverFill: =App.Theme.Colors.Darker10
+                    PressedBorderColor: =App.Theme.Colors.Darker40
+                    PressedColor: =Self.Color
+                    PressedFill: =App.Theme.Colors.Darker40
                     RadiusBottomLeft: =20
                     RadiusBottomRight: =20
                     RadiusTopLeft: =20
                     RadiusTopRight: =20
-                    Size: =13
                     Text: ="Extract Details"
                     Width: =Parent.Width * 40%
                     X: =(Parent.Width - Self.Width) / 2
@@ -207,21 +241,36 @@
                     ZIndex: =2
 
             Container26_1 As groupContainer.manualLayoutContainer:
+                DropShadow: =DropShadow.Light
                 Height: =Parent.Height
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
                 Width: =Parent.Width * 60%
                 X: =FormProcessor_1.X + FormProcessor_1.Width
                 Y: =Parent.Y
                 ZIndex: =2
 
                 Button6_5 As button:
+                    BorderColor: =App.Theme.Colors.Primary
+                    DisabledBorderColor: =RGBA(244, 244, 244, 1)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Fill: =RGBA(141, 73, 58, 1)
                     Font: =Font.Lato
+                    FontWeight: =FontWeight.Semibold
                     Height: =Parent.Height * 5%
+                    HoverBorderColor: =App.Theme.Colors.Darker10
+                    HoverColor: =RGBA(255, 255, 255, 1)
+                    HoverFill: =App.Theme.Colors.Darker10
+                    PressedBorderColor: =App.Theme.Colors.Darker40
+                    PressedColor: =Self.Color
+                    PressedFill: =App.Theme.Colors.Darker40
                     RadiusBottomLeft: =20
                     RadiusBottomRight: =20
                     RadiusTopLeft: =20
                     RadiusTopRight: =20
-                    Size: =13
                     Text: ="Submit"
                     Width: =Parent.Width*30%
                     X: =(Parent.Width - Self.Width) / 2 
@@ -229,6 +278,7 @@
                     ZIndex: =2
 
                 Form1 As form.PowerApps_CoreControls_Form:
+                    BorderColor: =App.Theme.Colors.Darker40
                     DataSource: ='Invoice System Demo'
                     DefaultMode: =FormMode.New
                     Height: =Parent.Height * 85%
@@ -239,6 +289,7 @@
                     ZIndex: =3
 
                     Title_DataCard1 As typedDataCard.fluentV9TextualEditCard:
+                        BorderColor: =App.Theme.Colors.Darker40
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="Title"
                         Default: =ThisItem.Title
@@ -301,6 +352,7 @@
                             ZIndex: =4
 
                     "'Customer Name_DataCard1' As typedDataCard.fluentV9TextualEditCard":
+                        BorderColor: =App.Theme.Colors.Darker40
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="BillTo"
                         Default: =ThisItem.'Customer Name'
@@ -363,6 +415,7 @@
                             ZIndex: =4
 
                     GST_DataCard1 As typedDataCard.fluentV9TextualEditCard:
+                        BorderColor: =App.Theme.Colors.Darker40
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="GST"
                         Default: =ThisItem.GST
@@ -425,6 +478,7 @@
                             ZIndex: =4
 
                     "'Invoice Date_DataCard1' As typedDataCard.fluentV9DateEditCard":
+                        BorderColor: =App.Theme.Colors.Darker40
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="Date"
                         Default: =ThisItem.'Invoice Date'
@@ -486,6 +540,7 @@
                             ZIndex: =4
 
                     "'Balance Due_DataCard1' As typedDataCard.fluentV9TextualEditCard":
+                        BorderColor: =App.Theme.Colors.Darker40
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="BalanceDue"
                         Default: =ThisItem.'Balance Due'
@@ -548,6 +603,7 @@
                             ZIndex: =4
 
                     "'Customer Address_DataCard1' As typedDataCard.fluentV9TextualEditCard":
+                        BorderColor: =App.Theme.Colors.Darker40
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="VendorDetails"
                         Default: =ThisItem.'Customer Address'
@@ -610,6 +666,7 @@
                             ZIndex: =4
 
                     "'Due Date_DataCard1' As typedDataCard.fluentV9DateEditCard":
+                        BorderColor: =App.Theme.Colors.Darker40
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="DueDate"
                         Default: =ThisItem.'Due Date'
@@ -671,6 +728,7 @@
                             ZIndex: =4
 
                     "'Shipping Cost_DataCard1' As typedDataCard.fluentV9TextualEditCard":
+                        BorderColor: =App.Theme.Colors.Darker40
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ShippingCost"
                         Default: =ThisItem.'Shipping Cost'
@@ -733,6 +791,7 @@
                             ZIndex: =4
 
                     "'Invoice Status_DataCard1' As typedDataCard.fluentV9ComboBoxEditCard":
+                        BorderColor: =App.Theme.Colors.Darker40
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="InvoiceStatus"
                         Default: =ThisItem.'Invoice Status'
@@ -793,6 +852,7 @@
                             ZIndex: =4
 
                     "'Invoice Type_DataCard1' As typedDataCard.fluentV9ComboBoxEditCard":
+                        BorderColor: =App.Theme.Colors.Darker40
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="InvoiceType"
                         Default: =ThisItem.'Invoice Type'
@@ -853,6 +913,7 @@
                             ZIndex: =4
 
                     "'Reference Number_DataCard1' As typedDataCard.fluentV9TextualEditCard":
+                        BorderColor: =App.Theme.Colors.Darker40
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ReferenceNumber"
                         Default: =ThisItem.'Reference Number'
@@ -915,6 +976,7 @@
                             ZIndex: =4
 
                     "'Vendor Name_DataCard1' As typedDataCard.fluentV9TextualEditCard":
+                        BorderColor: =App.Theme.Colors.Darker40
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="VendorName"
                         Default: =ThisItem.'Vendor Name'
@@ -977,6 +1039,7 @@
                             ZIndex: =4
 
                     "'Vendor Address_DataCard1' As typedDataCard.fluentV9TextualEditCard":
+                        BorderColor: =App.Theme.Colors.Darker40
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="VendorAddress"
                         Default: =ThisItem.'Vendor Address'
@@ -1039,6 +1102,7 @@
                             ZIndex: =4
 
                     Subtotal_DataCard2 As typedDataCard.fluentV9TextualEditCard:
+                        BorderColor: =App.Theme.Colors.Darker40
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="Subtotal0"
                         Default: =ThisItem.Subtotal
@@ -1101,6 +1165,7 @@
                             ZIndex: =4
 
                     "'Total Amount_DataCard1' As typedDataCard.fluentV9NumberEditCard":
+                        BorderColor: =App.Theme.Colors.Darker40
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="TotalAmount"
                         Default: =ThisItem.'Total Amount'
