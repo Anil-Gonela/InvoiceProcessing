@@ -6,15 +6,20 @@
     LoadingSpinnerColor: =App.Theme.Colors.Primary
 
     ContainerLogo_1 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.None
         Height: =Parent.Height * 99%
+        LayoutAlignItems: =LayoutAlignItems.Center
         LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
         Width: =Parent.Width * 45%
         X: =Parent.Width * 55%
         ZIndex: =3
 
         Container12_1 As groupContainer.manualLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
+            FillPortions: =0
             Height: =Parent.Height
             LayoutMinHeight: =100
             LayoutMinWidth: =250
@@ -30,7 +35,7 @@
                 RadiusTopLeft: =30
                 RadiusTopRight: =30
                 Width: =Parent.Width * 35%
-                X: =(Parent.Width - Self.Width)/2 + 25
+                X: =(Parent.Width - Self.Width)/2
                 Y: =Container12_1.Height *83%
                 ZIndex: =8
 
@@ -50,7 +55,7 @@
                     RadiusBottomRight: =30
                     RadiusTopLeft: =30
                     RadiusTopRight: =30
-                    Size: =12
+                    Size: =Parent.Height * 40%
                     Text: ="Get Started"
                     Width: =Parent.Width
                     ZIndex: =1
@@ -61,20 +66,21 @@
                 BorderColor: =App.Theme.Colors.Darker40
                 Font: =Font.'Dancing Script'
                 FontWeight: =FontWeight.Bold
-                Height: =90
-                Size: =20
+                Height: =Parent.Height * 10%
+                Size: =Parent.Width * 3%
                 Text: ="Where smart invoicing meets seamless solutions."
-                Width: =Parent.Width * 75%
-                X: =112
-                Y: =496
+                Width: =Parent.Width * 85%
+                X: =TextCanvas3.X
+                Y: =TextCanvas3.Height + TextCanvas3.Y
                 ZIndex: =9
 
             Image4 As image:
                 Height: =Parent.Height * 35%
                 Image: =file
+                Transparency: =0.2
                 Width: =Parent.Width * 70%
                 X: =(Parent.Width - Self.Width) / 2 
-                Y: =Parent.Y + 20
+                Y: =Parent.Height * 12%
                 ZIndex: =10
 
             TextCanvas3 As Text:
@@ -86,7 +92,7 @@
                 DisplayMode: =DisplayMode.Edit
                 Font: =Font.'Lato Black'
                 Height: =Parent.Height * 20%
-                Size: =Parent.Width * 10%
+                Size: =Parent.Width * 8%
                 Text: ="INVOICE PROCESSING"
                 Weight: ='TextCanvas.Weight'.Bold
                 Width: =Parent.Width * 80%
@@ -104,16 +110,21 @@
         ZIndex: =4
 
         Container12 As groupContainer.manualLayoutContainer:
+            AlignInContainer: =AlignInContainer.Center
+            DropShadow: =DropShadow.None
+            FillPortions: =0
             Height: =Parent.Height * 90%
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
+            LayoutMinHeight: =0
+            LayoutMinWidth: =0
             Width: =Parent.Width * 90%
             X: =(Container1.Width - Self.Width) / 2 
             ZIndex: =1
 
             Image1 As image:
+                AutoDisableOnSelect: =false
                 Height: =Parent.Height
                 Image: ='graphic-4-gif'
+                Transparency: =0.2
                 Width: =Parent.Width
                 ZIndex: =1
 
