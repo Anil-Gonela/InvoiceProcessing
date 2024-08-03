@@ -114,6 +114,7 @@ SideNavigation_Compact As CanvasComponent:
                     Color: =If(ThisItem.IsSelected, RGBA(255, 255,255, 1), RGBA(0, 0, 0, 1))
                     Font: =Font.'Lato Black'
                     Height: =Gallery4.TemplateHeight *70%
+                    Size: =Parent.Width * 6%
                     Text: =ThisItem.ScreenName
                     Width: =Gallery4.TemplateWidth * 70%
                     X: =Container6.X + Container6.Width

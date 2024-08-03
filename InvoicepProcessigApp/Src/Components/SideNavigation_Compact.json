@@ -1338,7 +1338,14 @@
                       "LineHeight",
                       "BorderThickness",
                       "FocusedBorderThickness",
-                      "Size",
+                      {
+                        "AFDDataSourceName": "",
+                        "AutoRuleBindingEnabled": false,
+                        "AutoRuleBindingString": "13",
+                        "InvariantPropertyName": "Size",
+                        "IsLockable": false,
+                        "NameMapSourceSchema": "?"
+                      },
                       "Italic",
                       "Underline",
                       "Strikethrough",
@@ -1551,9 +1558,9 @@
                       },
                       {
                         "Category": "Design",
-                        "InvariantScript": "13",
+                        "InvariantScript": "Parent.Width * 6%",
                         "Property": "Size",
-                        "RuleProviderType": "Unknown"
+                        "RuleProviderType": "User"
                       },
                       {
                         "Category": "Design",
@@ -3503,7 +3510,7 @@
       },
       "component_width"
     ],
-    "LastModifiedTimestamp": "638583038475765970",
+    "LastModifiedTimestamp": "638583051594376970",
     "Name": "SideNavigation_Compact",
     "Rules": [
       {
@@ -3623,7 +3630,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638583038475765970",
+  "LastModifiedTimestamp": "638583051594376970",
   "Name": "d4521f6e39724073a64c56d93e35a98f",
   "OverridableProperties": {},
   "Version": "1.0"

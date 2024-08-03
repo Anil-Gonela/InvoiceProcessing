@@ -193,11 +193,11 @@
                     DisplayMode: =DisplayMode.Edit
                     Font: =Font.Lato
                     Height: =32
-                    Size: =18
+                    Size: =Parent.Width * 1.5%
                     Text: ="Invoice Information"
                     VerticalAlign: ='TextCanvas.VerticalAlign'.Top
                     Weight: ='TextCanvas.Weight'.Semibold
-                    Width: =Parent.Width * 30%
+                    Width: =Parent.Width * 25%
                     Wrap: =false
                     X: =Parent.X + 3
                     Y: =Parent.Y + 3 
@@ -1495,11 +1495,11 @@
                     DisplayMode: =DisplayMode.Edit
                     Font: =Font.Lato
                     Height: =32
-                    Size: =18
+                    Size: =Parent.Width * 1.5%
                     Text: ="Product Information"
                     VerticalAlign: ='TextCanvas.VerticalAlign'.Top
                     Weight: ='TextCanvas.Weight'.Semibold
-                    Width: =Parent.Width * 30%
+                    Width: =Parent.Width * 25%
                     Wrap: =false
                     X: =Parent.X + 3
                     Y: =Mainform.Y + Mainform.Height + 10 
@@ -1536,6 +1536,7 @@
                     BorderRadiusTopLeft: =30
                     BorderRadiusTopRight: =30
                     DisplayMode: =DisplayMode.Edit
+                    FontSize: =TextCanvas1_1.Size
                     Height: =TextCanvas1.Height
                     OnSelect: |-
                         =Collect(productstable, 
@@ -1543,7 +1544,7 @@
                         )
                     Text: ="Add Line Item"
                     Visible: =visibility
-                    Width: =TextCanvas1.Width * 40%
+                    Width: =TextCanvas1.Width * 50%
                     X: =Parent.Width * 85%
                     Y: =TextCanvas1_1.Y
                     ZIndex: =10
