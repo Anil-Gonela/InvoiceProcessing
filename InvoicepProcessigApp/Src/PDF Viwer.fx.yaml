@@ -18,7 +18,6 @@
         ZIndex: =4
 
         Container18_4 As groupContainer.manualLayoutContainer:
-            DropShadow: =DropShadow.Light
             Height: =Parent.Height
             LayoutMinHeight: =0
             LayoutMinWidth: =0
@@ -44,8 +43,6 @@
 
                 Image4_16 As image:
                     BorderColor: =App.Theme.Colors.Darker40
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Height: =Parent.Height
                     Image: ='invoice-receipt'
                     Width: =Parent.Width
@@ -53,8 +50,6 @@
 
             Label15_4 As label:
                 BorderColor: =App.Theme.Colors.Darker40
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 Font: =Font.'Lato Black'
                 Height: =Parent.Height * 95%
                 Size: =20
@@ -66,7 +61,6 @@
             SettingsIcon_5 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
-                DropShadow: =DropShadow.Light
                 Height: =Parent.Height * 70%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
@@ -79,8 +73,6 @@
 
                 Image4_17 As image:
                     BorderColor: =App.Theme.Colors.Darker40
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Height: =Parent.Height *90%
                     Image: =settings
                     Width: =Parent.Width *90%
@@ -91,7 +83,6 @@
             Notifications_5 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
-                DropShadow: =DropShadow.Light
                 Height: =Parent.Height * 70%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
@@ -104,8 +95,6 @@
 
                 Image4_18 As image:
                     BorderColor: =App.Theme.Colors.Darker40
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Height: =Parent.Height
                     Image: =notifications
                     Width: =Parent.Width
@@ -114,7 +103,6 @@
             UserIcon_4 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
-                DropShadow: =DropShadow.Light
                 Height: =Parent.Height * 70%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
@@ -127,8 +115,6 @@
 
                 Image4_19 As image:
                     BorderColor: =App.Theme.Colors.Darker40
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Height: =Parent.Height
                     Image: =User().Image
                     Width: =Parent.Width
@@ -148,10 +134,6 @@
     Container10 As groupContainer.horizontalAutoLayoutContainer:
         Height: =Parent.Height * 20%
         LayoutMode: =LayoutMode.Auto
-        RadiusBottomLeft: =4
-        RadiusBottomRight: =4
-        RadiusTopLeft: =4
-        RadiusTopRight: =4
         Width: =PdfViewer7.Width * 98%
         X: =Parent.Width * 13%
         Y: =PdfViewer7.Y + PdfViewer7.Height + 2
@@ -161,10 +143,6 @@
             Height: =Parent.Height
             LayoutMinHeight: =0
             LayoutMinWidth: =0
-            RadiusBottomLeft: =4
-            RadiusBottomRight: =4
-            RadiusTopLeft: =4
-            RadiusTopRight: =4
             Width: =Parent.Width
             X: =Parent.X
             Y: =Parent.Y
@@ -173,14 +151,10 @@
             Button6_6 As button:
                 BorderColor: =App.Theme.Colors.Primary
                 DisabledBorderColor: =RGBA(244, 244, 244, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
                 Fill: =RGBA(141, 73, 58, 1)
                 Font: =Font.Lato
-                FontWeight: =FontWeight.Semibold
                 Height: =Parent.Height * 20%
                 HoverBorderColor: =App.Theme.Colors.Darker10
-                HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =App.Theme.Colors.Darker10
                 OnSelect: |-
                     =Set(varWorkOrderPDF,Blank());
@@ -202,14 +176,10 @@
             Button6_7 As button:
                 BorderColor: =App.Theme.Colors.Primary
                 DisabledBorderColor: =RGBA(244, 244, 244, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
                 Fill: =RGBA(141, 73, 58, 1)
                 Font: =Font.Lato
-                FontWeight: =FontWeight.Semibold
                 Height: =Parent.Height * 20%
                 HoverBorderColor: =App.Theme.Colors.Darker10
-                HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =App.Theme.Colors.Darker10
                 OnSelect: |+
                     =Set(url, InvoiceSavePDFPowerApps.Run(

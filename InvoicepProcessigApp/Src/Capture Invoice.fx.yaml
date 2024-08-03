@@ -13,14 +13,9 @@
         ZIndex: =1
 
         Container8_2 As groupContainer.manualLayoutContainer:
-            DropShadow: =DropShadow.Light
             Height: =Parent.Height
             LayoutMinHeight: =100
             LayoutMinWidth: =250
-            RadiusBottomLeft: =4
-            RadiusBottomRight: =4
-            RadiusTopLeft: =4
-            RadiusTopRight: =4
             Width: =Parent.Width
             ZIndex: =1
 
@@ -41,7 +36,6 @@
         ZIndex: =4
 
         Container18_3 As groupContainer.manualLayoutContainer:
-            DropShadow: =DropShadow.Light
             Height: =Parent.Height
             LayoutMinHeight: =0
             LayoutMinWidth: =0
@@ -67,8 +61,6 @@
 
                 Image4_12 As image:
                     BorderColor: =App.Theme.Colors.Darker40
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Height: =Parent.Height
                     Image: ='invoice-receipt'
                     Width: =Parent.Width
@@ -76,8 +68,6 @@
 
             Label15_3 As label:
                 BorderColor: =App.Theme.Colors.Darker40
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 Font: =Font.'Lato Black'
                 Height: =Parent.Height * 95%
                 Size: =20
@@ -89,7 +79,6 @@
             SettingsIcon_4 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
-                DropShadow: =DropShadow.Light
                 Height: =Parent.Height * 70%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
@@ -102,8 +91,6 @@
 
                 Image4_13 As image:
                     BorderColor: =App.Theme.Colors.Darker40
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Height: =Parent.Height *90%
                     Image: =settings
                     Width: =Parent.Width *90%
@@ -114,7 +101,6 @@
             Notifications_4 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
-                DropShadow: =DropShadow.Light
                 Height: =Parent.Height * 70%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
@@ -127,8 +113,6 @@
 
                 Image4_14 As image:
                     BorderColor: =App.Theme.Colors.Darker40
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Height: =Parent.Height
                     Image: =notifications
                     Width: =Parent.Width
@@ -137,7 +121,6 @@
             UserIcon_3 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
-                DropShadow: =DropShadow.Light
                 Height: =Parent.Height * 70%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
@@ -150,8 +133,6 @@
 
                 Image4_15 As image:
                     BorderColor: =App.Theme.Colors.Darker40
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Height: =Parent.Height
                     Image: =User().Image
                     Width: =Parent.Width
@@ -187,12 +168,7 @@
             ZIndex: =1
 
             FormProcessor_1 As groupContainer.manualLayoutContainer:
-                DropShadow: =DropShadow.Light
                 Height: =Parent.Height
-                RadiusBottomLeft: =4
-                RadiusBottomRight: =4
-                RadiusTopLeft: =4
-                RadiusTopRight: =4
                 Width: =Parent.Width * 40%
                 X: =Parent.X
                 Y: =Parent.Y
@@ -218,14 +194,10 @@
                 Button6_4 As button:
                     BorderColor: =App.Theme.Colors.Primary
                     DisabledBorderColor: =RGBA(244, 244, 244, 1)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Fill: =RGBA(141, 73, 58, 1)
                     Font: =Font.Lato
-                    FontWeight: =FontWeight.Semibold
                     Height: =Parent.Height * 5%
                     HoverBorderColor: =App.Theme.Colors.Darker10
-                    HoverColor: =RGBA(255, 255, 255, 1)
                     HoverFill: =App.Theme.Colors.Darker10
                     PressedBorderColor: =App.Theme.Colors.Darker40
                     PressedColor: =Self.Color
@@ -241,12 +213,7 @@
                     ZIndex: =2
 
             Container26_1 As groupContainer.manualLayoutContainer:
-                DropShadow: =DropShadow.Light
                 Height: =Parent.Height
-                RadiusBottomLeft: =4
-                RadiusBottomRight: =4
-                RadiusTopLeft: =4
-                RadiusTopRight: =4
                 Width: =Parent.Width * 60%
                 X: =FormProcessor_1.X + FormProcessor_1.Width
                 Y: =Parent.Y
@@ -255,14 +222,10 @@
                 Button6_5 As button:
                     BorderColor: =App.Theme.Colors.Primary
                     DisabledBorderColor: =RGBA(244, 244, 244, 1)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Fill: =RGBA(141, 73, 58, 1)
                     Font: =Font.Lato
-                    FontWeight: =FontWeight.Semibold
                     Height: =Parent.Height * 5%
                     HoverBorderColor: =App.Theme.Colors.Darker10
-                    HoverColor: =RGBA(255, 255, 255, 1)
                     HoverFill: =App.Theme.Colors.Darker10
                     PressedBorderColor: =App.Theme.Colors.Darker40
                     PressedColor: =Self.Color

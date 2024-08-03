@@ -55,9 +55,6 @@ SideNavigation_Compact As CanvasComponent:
 
         Logo As image:
             AlignInContainer: =AlignInContainer.Stretch
-            BorderColor: =RGBA(0, 18, 107, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =50
             Image: =SideNavigation_Compact.First_Logo
             LayoutMinWidth: =0
@@ -65,7 +62,6 @@ SideNavigation_Compact As CanvasComponent:
             ZIndex: =1
 
         Gallery4 As gallery.galleryVertical:
-            BorderColor: =RGBA(0, 18, 107, 1)
             DelayItemLoading: =true
             Height: =Self.AllItemsCount * (Self.TemplateHeight+Self.TemplatePadding)
             Items: =SideNavigation_Compact.MenuContent
@@ -89,12 +85,7 @@ SideNavigation_Compact As CanvasComponent:
                 ZIndex: =1
 
                 Container6 As groupContainer.manualLayoutContainer:
-                    DropShadow: =DropShadow.Light
                     Height: =Parent.Height *70%
-                    RadiusBottomLeft: =4
-                    RadiusBottomRight: =4
-                    RadiusTopLeft: =4
-                    RadiusTopRight: =4
                     Width: =Self.Height
                     X: |-
                         =
@@ -103,9 +94,6 @@ SideNavigation_Compact As CanvasComponent:
                     ZIndex: =1
 
                     Image6 As image:
-                        BorderColor: =RGBA(0, 18, 107, 1)
-                        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                        DisabledFill: =RGBA(244, 244, 244, 1)
                         Height: =Parent.Height
                         Image: =ThisItem.MenuIcon
                         Width: =Parent.Width
@@ -113,28 +101,19 @@ SideNavigation_Compact As CanvasComponent:
 
                     Button4 As button:
                         BorderThickness: =0
-                        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                        DisabledColor: =RGBA(166, 166, 166, 1)
-                        DisabledFill: =RGBA(244, 244, 244, 1)
                         Fill: =RGBA(0, 0, 0, 0)
-                        FontWeight: =FontWeight.Semibold
                         Height: =Parent.Height
-                        HoverColor: =RGBA(255, 255, 255, 1)
                         HoverFill: =RGBA(0,0,0,0.1)
                         OnSelect: =Navigate(ThisItem.PageNavigation)
                         PressedFill: =RGBA(0,0,0,0.2)
-                        Size: =15
                         Text: =
                         Width: =Parent.Width
                         ZIndex: =2
 
                 Label6 As label:
-                    BorderColor: =RGBA(0, 18, 107, 1)
                     Color: =If(ThisItem.IsSelected, RGBA(255, 255,255, 1), RGBA(0, 0, 0, 1))
-                    DisabledColor: =RGBA(166, 166, 166, 1)
                     Font: =Font.'Lato Black'
                     Height: =Gallery4.TemplateHeight *70%
-                    Size: =13
                     Text: =ThisItem.ScreenName
                     Width: =Gallery4.TemplateWidth * 70%
                     X: =Container6.X + Container6.Width
@@ -154,7 +133,6 @@ SideNavigation_Compact As CanvasComponent:
             Container4 As groupContainer.manualLayoutContainer:
                 AlignInContainer: =AlignInContainer.Center
                 BorderThickness: =2
-                DropShadow: =DropShadow.Light
                 FillPortions: =0
                 Height: =Self.Width
                 LayoutMinHeight: =100
@@ -167,9 +145,6 @@ SideNavigation_Compact As CanvasComponent:
                 ZIndex: =1
 
                 Image5 As image:
-                    BorderColor: =RGBA(0, 18, 107, 1)
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Height: =Parent.Height
                     Image: =Helpicon
                     Width: =Parent.Width

@@ -13,14 +13,9 @@ InvoiceList As screen:
         ZIndex: =1
 
         Container8 As groupContainer.manualLayoutContainer:
-            DropShadow: =DropShadow.Light
             Height: =Parent.Height
             LayoutMinHeight: =100
             LayoutMinWidth: =250
-            RadiusBottomLeft: =4
-            RadiusBottomRight: =4
-            RadiusTopLeft: =4
-            RadiusTopRight: =4
             Width: =Parent.Width
             ZIndex: =1
 
@@ -41,7 +36,6 @@ InvoiceList As screen:
         ZIndex: =4
 
         Container18_1 As groupContainer.manualLayoutContainer:
-            DropShadow: =DropShadow.Light
             Height: =Parent.Height
             LayoutMinHeight: =0
             LayoutMinWidth: =0
@@ -67,8 +61,6 @@ InvoiceList As screen:
 
                 Image4_4 As image:
                     BorderColor: =App.Theme.Colors.Darker40
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Height: =Parent.Height
                     Image: ='invoice-receipt'
                     Width: =Parent.Width
@@ -76,8 +68,6 @@ InvoiceList As screen:
 
             Label15_1 As label:
                 BorderColor: =App.Theme.Colors.Darker40
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 Font: =Font.'Lato Black'
                 Height: =Parent.Height * 95%
                 Size: =20
@@ -89,7 +79,6 @@ InvoiceList As screen:
             SettingsIcon_2 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
-                DropShadow: =DropShadow.Light
                 Height: =Parent.Height * 70%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
@@ -102,8 +91,6 @@ InvoiceList As screen:
 
                 Image4_5 As image:
                     BorderColor: =App.Theme.Colors.Darker40
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Height: =Parent.Height *90%
                     Image: =settings
                     Width: =Parent.Width *90%
@@ -114,7 +101,6 @@ InvoiceList As screen:
             Notifications_2 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
-                DropShadow: =DropShadow.Light
                 Height: =Parent.Height * 70%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
@@ -127,8 +113,6 @@ InvoiceList As screen:
 
                 Image4_6 As image:
                     BorderColor: =App.Theme.Colors.Darker40
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Height: =Parent.Height
                     Image: =notifications
                     Width: =Parent.Width
@@ -137,7 +121,6 @@ InvoiceList As screen:
             UserIcon_1 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
-                DropShadow: =DropShadow.Light
                 Height: =Parent.Height * 70%
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
@@ -150,8 +133,6 @@ InvoiceList As screen:
 
                 Image4_7 As image:
                     BorderColor: =App.Theme.Colors.Darker40
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledFill: =RGBA(244, 244, 244, 1)
                     Height: =Parent.Height
                     Image: =User().Image
                     Width: =Parent.Width
@@ -201,15 +182,10 @@ InvoiceList As screen:
 
                 Pending As groupContainer.manualLayoutContainer:
                     Height: =Parent.Height * 50%
-                    RadiusBottomLeft: =4
-                    RadiusBottomRight: =4
-                    RadiusTopLeft: =4
-                    RadiusTopRight: =4
                     Width: =Parent.Width*50%
                     ZIndex: =1
 
                     Container16 As groupContainer.manualLayoutContainer:
-                        DropShadow: =DropShadow.Light
                         Height: =Self.Width
                         RadiusBottomLeft: =50
                         RadiusBottomRight: =50
@@ -221,8 +197,6 @@ InvoiceList As screen:
 
                         Image2 As image:
                             BorderColor: =App.Theme.Colors.Darker40
-                            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                            DisabledFill: =RGBA(244, 244, 244, 1)
                             Height: =Parent.Height
                             Image: =PendingIcon
                             Width: =Parent.Width
@@ -231,11 +205,9 @@ InvoiceList As screen:
                     Label7 As label:
                         BorderColor: =App.Theme.Colors.Darker40
                         Color: =RGBA(255, 191, 0, 1)
-                        DisabledColor: =RGBA(166, 166, 166, 1)
                         Font: =Font.Lato
                         FontWeight: =FontWeight.Semibold
                         Height: =Parent.Height*50%
-                        Size: =13
                         Text: ="Pending"
                         VerticalAlign: =VerticalAlign.Bottom
                         Width: =Parent.Width * 70%
@@ -244,12 +216,9 @@ InvoiceList As screen:
 
                     Label7_1 As label:
                         BorderColor: =App.Theme.Colors.Darker40
-                        Color: =RGBA(0, 0, 0, 1)
-                        DisabledColor: =RGBA(166, 166, 166, 1)
                         Font: =Font.'Lato Black'
                         FontWeight: =FontWeight.Bold
                         Height: =Parent.Height*50%
-                        Size: =13
                         Text: ="$700.000"
                         VerticalAlign: =VerticalAlign.Top
                         Width: =Parent.Width * 70%
@@ -259,16 +228,11 @@ InvoiceList As screen:
 
                 Paid As groupContainer.manualLayoutContainer:
                     Height: =Parent.Height * 50%
-                    RadiusBottomLeft: =4
-                    RadiusBottomRight: =4
-                    RadiusTopLeft: =4
-                    RadiusTopRight: =4
                     Width: =Parent.Width*50%
                     X: =Pending.X + Pending.Width
                     ZIndex: =2
 
                     Container16_1 As groupContainer.manualLayoutContainer:
-                        DropShadow: =DropShadow.Light
                         Height: =Self.Width
                         RadiusBottomLeft: =50
                         RadiusBottomRight: =50
@@ -280,8 +244,6 @@ InvoiceList As screen:
 
                         Image2_1 As image:
                             BorderColor: =App.Theme.Colors.Darker40
-                            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                            DisabledFill: =RGBA(244, 244, 244, 1)
                             Height: =Parent.Height
                             Image: =PaidIcon
                             Width: =Parent.Width
@@ -292,11 +254,9 @@ InvoiceList As screen:
                     Label7_2 As label:
                         BorderColor: =App.Theme.Colors.Darker40
                         Color: =RGBA(255, 191, 0, 1)
-                        DisabledColor: =RGBA(166, 166, 166, 1)
                         Font: =Font.Lato
                         FontWeight: =FontWeight.Semibold
                         Height: =Parent.Height*50%
-                        Size: =13
                         Text: ="Paid"
                         VerticalAlign: =VerticalAlign.Bottom
                         Width: =Parent.Width * 70%
@@ -305,12 +265,9 @@ InvoiceList As screen:
 
                     Label7_3 As label:
                         BorderColor: =App.Theme.Colors.Darker40
-                        Color: =RGBA(0, 0, 0, 1)
-                        DisabledColor: =RGBA(166, 166, 166, 1)
                         Font: =Font.'Lato Black'
                         FontWeight: =FontWeight.Bold
                         Height: =Parent.Height*50%
-                        Size: =13
                         Text: ="$132.000"
                         VerticalAlign: =VerticalAlign.Top
                         Width: =Parent.Width * 70%
@@ -337,14 +294,10 @@ InvoiceList As screen:
                         BorderColor: =App.Theme.Colors.Primary
                         Color: =RGBA(0, 0, 0, 1)
                         DisabledBorderColor: =RGBA(244, 244, 244, 1)
-                        DisabledColor: =RGBA(166, 166, 166, 1)
-                        DisabledFill: =RGBA(244, 244, 244, 1)
                         Fill: = RGBA(141, 73, 58, 1)
                         Font: =App.Theme.Font
-                        FontWeight: =FontWeight.Semibold
                         Height: =Parent.Height
                         HoverBorderColor: =App.Theme.Colors.Darker10
-                        HoverColor: =RGBA(255, 255, 255, 1)
                         HoverFill: =App.Theme.Colors.Darker10
                         PressedBorderColor: =App.Theme.Colors.Darker40
                         PressedColor: =Self.Color
@@ -353,7 +306,6 @@ InvoiceList As screen:
                         RadiusBottomRight: =20
                         RadiusTopLeft: =20
                         RadiusTopRight: =20
-                        Size: =15
                         Text: =
                         Width: =Parent.Width
                         ZIndex: =1
@@ -362,7 +314,6 @@ InvoiceList As screen:
                         Align: =Align.Center
                         BorderColor: =App.Theme.Colors.Darker40
                         Color: =RGBA(255, 255, 255, 1)
-                        DisabledColor: =RGBA(166, 166, 166, 1)
                         Font: =Font.'Lato Black'
                         Height: =Parent.Height * 90%
                         Size: =15
@@ -381,7 +332,6 @@ InvoiceList As screen:
                 ZIndex: =2
 
                 Container20_4 As groupContainer.manualLayoutContainer:
-                    DropShadow: =DropShadow.Light
                     Height: =Filters.Height * 90%
                     LayoutMinHeight: =0
                     LayoutMinWidth: =0
@@ -421,14 +371,10 @@ InvoiceList As screen:
                                 BorderThickness: =0
                                 Color: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(0, 0, 0, 1))
                                 DisabledBorderColor: =RGBA(244, 244, 244, 1)
-                                DisabledColor: =RGBA(166, 166, 166, 1)
-                                DisabledFill: =RGBA(244, 244, 244, 1)
                                 Fill: =If(ThisItem.IsSelected, RGBA(141, 73, 58, 1), RGBA(255, 255, 255, 0.3))
                                 Font: =App.Theme.Font
-                                FontWeight: =FontWeight.Semibold
                                 Height: =Parent.Height
                                 HoverBorderColor: =App.Theme.Colors.Darker10
-                                HoverColor: =RGBA(255, 255, 255, 1)
                                 HoverFill: =RGBA(0, 0, 0, 0.1)
                                 PaddingBottom: =0
                                 PaddingLeft: =0
@@ -437,7 +383,6 @@ InvoiceList As screen:
                                 PressedBorderColor: =App.Theme.Colors.Darker40
                                 PressedColor: =Self.Color
                                 PressedFill: =RGBA(0, 0, 0, 0.5)
-                                Size: =15
                                 Text: =ThisItem.Name
                                 Width: =Parent.Width
                                 X: =Parent.X 
@@ -445,7 +390,6 @@ InvoiceList As screen:
                                 ZIndex: =1
 
             InvoiceListContainer As groupContainer.manualLayoutContainer:
-                DropShadow: =DropShadow.Light
                 Height: =Parent.Height * 62%
                 Width: =Parent.Width
                 X: =Parent.X
@@ -465,125 +409,81 @@ InvoiceList As screen:
                     Container15 As groupContainer.horizontalAutoLayoutContainer:
                         Height: =Parent.Height
                         LayoutMode: =LayoutMode.Auto
-                        RadiusBottomLeft: =4
-                        RadiusBottomRight: =4
-                        RadiusTopLeft: =4
-                        RadiusTopRight: =4
                         Width: =Parent.Width
                         X: =Parent.X
                         Y: =Parent.Y
                         ZIndex: =1
 
                         Container17 As groupContainer.manualLayoutContainer:
-                            DropShadow: =DropShadow.Light
                             LayoutMinHeight: =0
                             LayoutMinWidth: =0
-                            RadiusBottomLeft: =4
-                            RadiusBottomRight: =4
-                            RadiusTopLeft: =4
-                            RadiusTopRight: =4
                             ZIndex: =1
 
                             Label1 As label:
                                 Align: =Align.Center
                                 BorderColor: =App.Theme.Colors.Darker40
-                                Color: =RGBA(0, 0, 0, 1)
-                                DisabledColor: =RGBA(166, 166, 166, 1)
                                 Font: =Font.Lato
                                 FontWeight: =FontWeight.Semibold
                                 Height: =Parent.Height
-                                Size: =13
                                 Text: ="Client/Invoice"
                                 Width: =Parent.Width
                                 ZIndex: =1
 
                         Container19 As groupContainer.manualLayoutContainer:
-                            DropShadow: =DropShadow.Light
                             LayoutMinHeight: =0
                             LayoutMinWidth: =0
-                            RadiusBottomLeft: =4
-                            RadiusBottomRight: =4
-                            RadiusTopLeft: =4
-                            RadiusTopRight: =4
                             ZIndex: =2
 
                             Label1_3 As label:
                                 Align: =Align.Center
                                 BorderColor: =App.Theme.Colors.Darker40
-                                Color: =RGBA(0, 0, 0, 1)
-                                DisabledColor: =RGBA(166, 166, 166, 1)
                                 Font: =Font.Lato
                                 FontWeight: =FontWeight.Semibold
                                 Height: =Parent.Height
-                                Size: =13
                                 Text: ="Product Details"
                                 Width: =Parent.Width
                                 ZIndex: =1
 
                         Container21 As groupContainer.manualLayoutContainer:
-                            DropShadow: =DropShadow.Light
                             LayoutMinHeight: =0
                             LayoutMinWidth: =0
-                            RadiusBottomLeft: =4
-                            RadiusBottomRight: =4
-                            RadiusTopLeft: =4
-                            RadiusTopRight: =4
                             ZIndex: =3
 
                             Label1_4 As label:
                                 Align: =Align.Center
                                 BorderColor: =App.Theme.Colors.Darker40
-                                Color: =RGBA(0, 0, 0, 1)
-                                DisabledColor: =RGBA(166, 166, 166, 1)
                                 Font: =Font.Lato
                                 FontWeight: =FontWeight.Semibold
                                 Height: =Parent.Height
-                                Size: =13
                                 Text: ="Amount"
                                 Width: =Parent.Width
                                 ZIndex: =1
 
                         Container22 As groupContainer.manualLayoutContainer:
-                            DropShadow: =DropShadow.Light
                             LayoutMinHeight: =0
                             LayoutMinWidth: =0
-                            RadiusBottomLeft: =4
-                            RadiusBottomRight: =4
-                            RadiusTopLeft: =4
-                            RadiusTopRight: =4
                             ZIndex: =4
 
                             Label1_5 As label:
                                 Align: =Align.Center
                                 BorderColor: =App.Theme.Colors.Darker40
-                                Color: =RGBA(0, 0, 0, 1)
-                                DisabledColor: =RGBA(166, 166, 166, 1)
                                 Font: =Font.Lato
                                 FontWeight: =FontWeight.Semibold
                                 Height: =Parent.Height
-                                Size: =13
                                 Text: ="Due Date"
                                 Width: =Parent.Width
                                 ZIndex: =1
 
                         Container23 As groupContainer.manualLayoutContainer:
-                            DropShadow: =DropShadow.Light
                             LayoutMinHeight: =0
                             LayoutMinWidth: =0
-                            RadiusBottomLeft: =4
-                            RadiusBottomRight: =4
-                            RadiusTopLeft: =4
-                            RadiusTopRight: =4
                             ZIndex: =5
 
                             Label1_6 As label:
                                 BorderColor: =App.Theme.Colors.Darker40
-                                Color: =RGBA(0, 0, 0, 1)
-                                DisabledColor: =RGBA(166, 166, 166, 1)
                                 Font: =Font.Lato
                                 FontWeight: =FontWeight.Semibold
                                 Height: =Parent.Height
-                                Size: =13
                                 Text: ="Status"
                                 Width: =Parent.Width
                                 ZIndex: =1
@@ -613,7 +513,6 @@ InvoiceList As screen:
                         ZIndex: =1
 
                         Button As groupContainer.manualLayoutContainer:
-                            DropShadow: =DropShadow.Light
                             Height: =Gallery6.TemplateHeight
                             RadiusBottomLeft: =30
                             RadiusBottomRight: =30
@@ -625,14 +524,10 @@ InvoiceList As screen:
                             Button10 As button:
                                 BorderColor: =App.Theme.Colors.Primary
                                 DisabledBorderColor: =RGBA(244, 244, 244, 1)
-                                DisabledColor: =RGBA(166, 166, 166, 1)
-                                DisabledFill: =RGBA(244, 244, 244, 1)
                                 Fill: =RGBA(0, 0, 0, 0)
                                 Font: =App.Theme.Font
-                                FontWeight: =FontWeight.Semibold
                                 Height: =Parent.Height
                                 HoverBorderColor: =App.Theme.Colors.Darker10
-                                HoverColor: =RGBA(255, 255, 255, 1)
                                 HoverFill: =RGBA(0,0,0,0.1) 
                                 PressedBorderColor: =App.Theme.Colors.Darker40
                                 PressedColor: =Self.Color
@@ -641,7 +536,6 @@ InvoiceList As screen:
                                 RadiusBottomRight: =20
                                 RadiusTopLeft: =20
                                 RadiusTopRight: =20
-                                Size: =15
                                 Text: =
                                 Width: =Parent.Width
                                 ZIndex: =1
@@ -649,12 +543,10 @@ InvoiceList As screen:
                         Label11 As label:
                             BorderColor: =App.Theme.Colors.Darker40
                             Color: =RGBA(0, 13, 75, 1)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
                             Font: =Font.Lato
                             FontWeight: =FontWeight.Semibold
                             Height: =Gallery6.TemplateHeight * 50%
                             OnSelect: =Select(Parent)
-                            Size: =13
                             Text: =ThisItem.'Customer Name'
                             VerticalAlign: =VerticalAlign.Bottom
                             Width: =Gallery6.TemplateWidth * 15%
@@ -675,8 +567,6 @@ InvoiceList As screen:
 
                             Image7 As image:
                                 BorderColor: =App.Theme.Colors.Darker40
-                                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                                DisabledFill: =RGBA(244, 244, 244, 1)
                                 Height: =Parent.Height
                                 Image: =jane
                                 Width: =Parent.Width
@@ -685,10 +575,8 @@ InvoiceList As screen:
                         Label12 As label:
                             BorderColor: =App.Theme.Colors.Darker40
                             Color: =RGBA(118, 0, 0, 1)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
                             Font: =Font.Lato
                             OnSelect: =Select(Parent)
-                            Size: =13
                             Text: =ThisItem.'Invoice ID'
                             VerticalAlign: =VerticalAlign.Top
                             Width: =Gallery6.TemplateWidth * 15%
@@ -699,11 +587,9 @@ InvoiceList As screen:
                         BillTo As label:
                             BorderColor: =App.Theme.Colors.Darker40
                             Color: =RGBA(0, 13, 75, 1)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
                             Font: =Font.Lato
                             FontWeight: =FontWeight.Semibold
                             OnSelect: =Select(Parent)
-                            Size: =13
                             Text: =ThisItem.'Bill To'
                             VerticalAlign: =VerticalAlign.Top
                             Width: =Gallery6.TemplateWidth * 15%
@@ -714,11 +600,9 @@ InvoiceList As screen:
                         DueAmount As label:
                             BorderColor: =App.Theme.Colors.Darker40
                             Color: =RGBA(172, 62, 11, 1)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
                             Font: =Font.Lato
                             FontWeight: =FontWeight.Semibold
                             OnSelect: =Select(Parent)
-                            Size: =13
                             Text: =ThisItem.'Total Amount'
                             VerticalAlign: =VerticalAlign.Top
                             Width: =Gallery6.TemplateWidth * 15%
@@ -729,11 +613,9 @@ InvoiceList As screen:
                         DueDate As label:
                             BorderColor: =App.Theme.Colors.Darker40
                             Color: =RGBA(172, 62, 11, 1)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
                             Font: =Font.Lato
                             FontWeight: =FontWeight.Semibold
                             OnSelect: =Select(Parent)
-                            Size: =13
                             Text: =ThisItem.'Invoice Date'
                             VerticalAlign: =VerticalAlign.Top
                             Width: =Gallery6.TemplateWidth * 15%
@@ -744,11 +626,9 @@ InvoiceList As screen:
                         InvoiceStatus As label:
                             BorderColor: =App.Theme.Colors.Darker40
                             Color: =RGBA(172, 62, 11, 1)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
                             Font: =Font.Lato
                             FontWeight: =FontWeight.Semibold
                             OnSelect: =Select(Parent)
-                            Size: =13
                             Text: =ThisItem.'Invoice Date'
                             VerticalAlign: =VerticalAlign.Top
                             Width: =Gallery6.TemplateWidth * 15%
