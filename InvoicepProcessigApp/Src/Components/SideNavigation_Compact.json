@@ -147,7 +147,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 384,
+            "PublishOrderIndex": 382,
             "Rules": [
               {
                 "Category": "Data",
@@ -369,7 +369,7 @@
                 "OptimizeForDevices": "Off",
                 "Parent": "Gallery4",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 386,
+                "PublishOrderIndex": 384,
                 "Rules": [
                   {
                     "Category": "Design",
@@ -483,7 +483,7 @@
                         "OptimizeForDevices": "Off",
                         "Parent": "Container6",
                         "PersistMetaDataIDKey": false,
-                        "PublishOrderIndex": 389,
+                        "PublishOrderIndex": 387,
                         "Rules": [
                           {
                             "Category": "Data",
@@ -801,7 +801,7 @@
                         "OptimizeForDevices": "Off",
                         "Parent": "Container6",
                         "PersistMetaDataIDKey": false,
-                        "PublishOrderIndex": 390,
+                        "PublishOrderIndex": 388,
                         "Rules": [
                           {
                             "Category": "Data",
@@ -1103,7 +1103,7 @@
                     "OptimizeForDevices": "Off",
                     "Parent": "Container5",
                     "PersistMetaDataIDKey": false,
-                    "PublishOrderIndex": 388,
+                    "PublishOrderIndex": 386,
                     "Rules": [
                       {
                         "Category": "Design",
@@ -1361,7 +1361,7 @@
                     "OptimizeForDevices": "Off",
                     "Parent": "Container5",
                     "PersistMetaDataIDKey": false,
-                    "PublishOrderIndex": 391,
+                    "PublishOrderIndex": 389,
                     "Rules": [
                       {
                         "Category": "Data",
@@ -1738,7 +1738,7 @@
                 "OptimizeForDevices": "Off",
                 "Parent": "Gallery4",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 387,
+                "PublishOrderIndex": 385,
                 "Rules": [
                   {
                     "Category": "Design",
@@ -2035,7 +2035,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 385,
+            "PublishOrderIndex": 383,
             "Rules": [
               {
                 "Category": "Data",
@@ -2293,7 +2293,7 @@
                     "OptimizeForDevices": "Off",
                     "Parent": "Container4",
                     "PersistMetaDataIDKey": false,
-                    "PublishOrderIndex": 394,
+                    "PublishOrderIndex": 392,
                     "Rules": [
                       {
                         "Category": "Data",
@@ -2631,7 +2631,7 @@
                 "OptimizeForDevices": "Off",
                 "Parent": "Container3",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 393,
+                "PublishOrderIndex": 391,
                 "Rules": [
                   {
                     "Category": "Design",
@@ -2794,7 +2794,14 @@
               "BorderStyle",
               "Fill",
               "X",
-              "Y",
+              {
+                "AFDDataSourceName": "",
+                "AutoRuleBindingEnabled": false,
+                "AutoRuleBindingString": "0",
+                "InvariantPropertyName": "Y",
+                "IsLockable": false,
+                "NameMapSourceSchema": "?"
+              },
               "Width",
               {
                 "AFDDataSourceName": "",
@@ -2890,7 +2897,14 @@
                 }
               },
               {
-                "ControlPropertyState": "AlignInContainer",
+                "ControlPropertyState": {
+                  "AFDDataSourceName": "",
+                  "AutoRuleBindingEnabled": false,
+                  "AutoRuleBindingString": "",
+                  "InvariantPropertyName": "AlignInContainer",
+                  "IsLockable": false,
+                  "NameMapSourceSchema": "?"
+                },
                 "PropertyName": "AlignInContainer",
                 "Rule": {
                   "Category": "Design",
@@ -2911,9 +2925,9 @@
                 "PropertyName": "LayoutMinWidth",
                 "Rule": {
                   "Category": "Design",
-                  "InvariantScript": "70",
+                  "InvariantScript": "Parent.Width * 40%",
                   "Property": "LayoutMinWidth",
-                  "RuleProviderType": "Unknown"
+                  "RuleProviderType": "User"
                 }
               },
               {
@@ -2940,7 +2954,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 392,
+            "PublishOrderIndex": 390,
             "Rules": [
               {
                 "Category": "Design",
@@ -2968,9 +2982,9 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "0",
+                "InvariantScript": "Parent.Y ",
                 "Property": "Y",
-                "RuleProviderType": "Unknown"
+                "RuleProviderType": "User"
               },
               {
                 "Category": "Design",
@@ -2980,9 +2994,9 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "70",
+                "InvariantScript": "Parent.Width * 30%",
                 "Property": "Height",
-                "RuleProviderType": "Unknown"
+                "RuleProviderType": "User"
               },
               {
                 "Category": "Design",
@@ -3046,7 +3060,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "DropShadow.Light",
+                "InvariantScript": "DropShadow.None",
                 "Property": "DropShadow",
                 "RuleProviderType": "Unknown"
               },
@@ -3246,7 +3260,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "SideNavigation_Compact",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 383,
+        "PublishOrderIndex": 381,
         "Rules": [
           {
             "Category": "Design",
@@ -3482,7 +3496,7 @@
       },
       "component_width"
     ],
-    "LastModifiedTimestamp": "638582989094018618",
+    "LastModifiedTimestamp": "638583004949702871",
     "Name": "SideNavigation_Compact",
     "Rules": [
       {
@@ -3602,7 +3616,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638582989094018618",
+  "LastModifiedTimestamp": "638583004949702871",
   "Name": "d4521f6e39724073a64c56d93e35a98f",
   "OverridableProperties": {},
   "Version": "1.0"

@@ -13,9 +13,10 @@
         ZIndex: =1
 
         Container8_2 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
             Height: =Parent.Height
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
+            LayoutMinHeight: =0
+            LayoutMinWidth: =0
             Width: =Parent.Width
             ZIndex: =1
 
@@ -36,6 +37,7 @@
         ZIndex: =4
 
         Container18_3 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
             Height: =Parent.Height
             LayoutMinHeight: =0
             LayoutMinWidth: =0
@@ -70,7 +72,7 @@
                 BorderColor: =App.Theme.Colors.Darker40
                 Font: =Font.'Lato Black'
                 Height: =Parent.Height * 95%
-                Size: =20
+                Size: =Parent.Width * 1.5%
                 Text: ="Invoice Capture"
                 Width: =Parent.Width * 25%
                 X: =HeaderIcon_3.X + HeaderIcon_3.Width

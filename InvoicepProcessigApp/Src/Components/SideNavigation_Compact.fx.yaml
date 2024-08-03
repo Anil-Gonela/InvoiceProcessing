@@ -121,13 +121,15 @@ SideNavigation_Compact As CanvasComponent:
                     ZIndex: =2
 
         Container3 As groupContainer.horizontalAutoLayoutContainer:
+            DropShadow: =DropShadow.None
             FillPortions: =0
-            Height: =70
+            Height: =Parent.Width * 30%
             LayoutAlignItems: =LayoutAlignItems.Center
             LayoutJustifyContent: =LayoutJustifyContent.Center
             LayoutMinHeight: =100
-            LayoutMinWidth: =70
+            LayoutMinWidth: =Parent.Width * 40%
             LayoutMode: =LayoutMode.Auto
+            Y: =Parent.Y 
             ZIndex: =3
 
             Container4 As groupContainer.manualLayoutContainer:
