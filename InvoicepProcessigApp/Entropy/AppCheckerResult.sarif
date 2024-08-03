@@ -953,17 +953,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.file"
+                  "fullyQualifiedName": "App.graphic-4-gif-Copy-unscreen"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.file",
+                  "fullyQualifiedName": "App.graphic-4-gif-Copy-unscreen",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "file",
+                "member": "graphic-4-gif-Copy-unscreen",
                 "module": "App",
                 "type": "App"
               }
@@ -983,17 +983,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.graphic-4-gif-Copy-unscreen"
+                  "fullyQualifiedName": "App.invoice-processing"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.graphic-4-gif-Copy-unscreen",
+                  "fullyQualifiedName": "App.invoice-processing",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "graphic-4-gif-Copy-unscreen",
+                "member": "invoice-processing",
                 "module": "App",
                 "type": "App"
               }

@@ -362,6 +362,67 @@
                             Y: =DataCardKey4.Y
                             ZIndex: =4
 
+                    "'Invoice Date_DataCard1' As typedDataCard.fluentV9DateEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Date"
+                        Default: =ThisItem.'Invoice Date'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Invoice Date')
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        Required: =false
+                        Update: =DataCardValue5.SelectedDate
+                        Width: =327
+                        X: =0
+                        Y: =1
+                        ZIndex: =4
+
+                        DataCardKey5 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue5 As 'Date picker'":
+                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            DisplayMode: =Parent.DisplayMode
+                            EndDate: =Date(Year(Today())+100, 12, 31)
+                            Height: =32
+                            SelectedDate: =FormProcessor1_2.Fields.Invoice_Date
+                            StartDate: =Date(1900, 1, 1)
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey5.Y + DataCardKey5.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage5 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue5.Y + DataCardValue5.Height
+                            ZIndex: =3
+
+                        StarVisible5 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey5.Y
+                            ZIndex: =4
+
                     GST_DataCard1 As typedDataCard.fluentV9TextualEditCard:
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="GST"
@@ -422,67 +483,6 @@
                             Width: =30
                             X: =0
                             Y: =DataCardKey6.Y
-                            ZIndex: =4
-
-                    "'Invoice Date_DataCard1' As typedDataCard.fluentV9DateEditCard":
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="Date"
-                        Default: =ThisItem.'Invoice Date'
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Invoice System Demo'],DataSourceInfo.DisplayName,'Invoice Date')
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =70
-                        Required: =false
-                        Update: =DataCardValue5.SelectedDate
-                        Width: =327
-                        X: =0
-                        Y: =1
-                        ZIndex: =4
-
-                        DataCardKey5 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =22
-                            Text: =Parent.DisplayName
-                            Weight: ='TextCanvas.Weight'.Semibold
-                            Width: =Parent.Width - 48
-                            Wrap: =false
-                            X: =24
-                            Y: =10
-                            ZIndex: =1
-
-                        "DataCardValue5 As 'Date picker'":
-                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
-                            DisplayMode: =Parent.DisplayMode
-                            EndDate: =Date(Year(Today())+100, 12, 31)
-                            Height: =32
-                            SelectedDate: =FormProcessor1_2.Fields.Invoice_Date
-                            StartDate: =Date(1900, 1, 1)
-                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                            Width: =Parent.Width - 48
-                            X: =24
-                            Y: =DataCardKey5.Y + DataCardKey5.Height + 4
-                            ZIndex: =2
-
-                        ErrorMessage5 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =30
-                            Text: =Parent.Error
-                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =Parent.Width - 48
-                            Wrap: =true
-                            X: =24
-                            Y: =DataCardValue5.Y + DataCardValue5.Height
-                            ZIndex: =3
-
-                        StarVisible5 As Text:
-                            Align: ='TextCanvas.Align'.Center
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =30
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            X: =0
-                            Y: =DataCardKey5.Y
                             ZIndex: =4
 
                     "'Balance Due_DataCard1' As typedDataCard.fluentV9TextualEditCard":

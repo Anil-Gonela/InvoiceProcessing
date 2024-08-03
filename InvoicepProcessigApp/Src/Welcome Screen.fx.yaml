@@ -1,6 +1,6 @@
 "'Welcome Screen' As screen":
-    BackgroundImage: ='invoice-processing'
-    Fill: =RGBA(189, 204, 180, 1)
+    BackgroundImage: =
+    Fill: =RGBA(248,237,227,0.3)
     ImagePosition: =ImagePosition.Stretch
     LoadingSpinner: =LoadingSpinner.Data
 
@@ -13,11 +13,12 @@
         RadiusBottomRight: =0
         RadiusTopLeft: =0
         RadiusTopRight: =0
-        Width: =Parent.Width * 50%
-        X: =Self.Width
+        Width: =Parent.Width * 45%
+        X: =Parent.Width * 55%
         ZIndex: =3
 
         Container12_1 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
             Height: =Parent.Height
             LayoutMinHeight: =100
             LayoutMinWidth: =250
@@ -27,26 +28,26 @@
             Container14 As groupContainer.manualLayoutContainer:
                 BorderThickness: =2
                 DropShadow: =DropShadow.Regular
-                Height: =Parent.Height * 7%
+                Height: =Parent.Height * 4%
                 RadiusBottomLeft: =30
                 RadiusBottomRight: =30
                 RadiusTopLeft: =30
                 RadiusTopRight: =30
-                Width: =Parent.Width * 50%
+                Width: =Parent.Width * 35%
                 X: =(Parent.Width - Self.Width)/2 + 25
                 Y: =Container12_1.Height *83%
                 ZIndex: =8
 
                 Button5_1 As button:
-                    Fill: =RGBA(50, 51, 59, 1)
-                    Font: =Font.Arial
-                    FontWeight: =FontWeight.Normal
+                    Fill: =RGBA(141, 73, 58, 1)
+                    Font: =Font.Lato
+                    FontWeight: =FontWeight.Bold
                     Height: =Parent.Height
                     RadiusBottomLeft: =30
                     RadiusBottomRight: =30
                     RadiusTopLeft: =30
                     RadiusTopRight: =30
-                    Size: =20
+                    Size: =12
                     Text: ="Get Started"
                     Width: =Parent.Width
                     ZIndex: =1
@@ -54,13 +55,59 @@
             Label5_1 As label:
                 Align: =Align.Center
                 AutoHeight: =true
-                Font: =Font.Lato
+                Font: =Font.'Dancing Script'
                 FontWeight: =FontWeight.Bold
                 Height: =90
                 Size: =20
                 Text: ="Where smart invoicing meets seamless solutions."
                 Width: =Parent.Width * 75%
-                X: =Container14.X - 70
-                Y: =Container14.Y - 170
+                X: =112
+                Y: =496
                 ZIndex: =9
+
+            Image4 As image:
+                Height: =Parent.Height * 35%
+                Image: =file
+                Width: =Parent.Width * 70%
+                X: =(Parent.Width - Self.Width) / 2 
+                Y: =Parent.Y + 20
+                ZIndex: =10
+
+            TextCanvas3 As Text:
+                Align: ='TextCanvas.Align'.Center
+                AutoHeight: =true
+                BorderColor: =RGBA(92, 37, 4, 1)
+                BorderStyle: =BorderStyle.Solid
+                BorderThickness: =1
+                DisplayMode: =DisplayMode.Edit
+                Font: =Font.'Lato Black'
+                Height: =Parent.Height * 20%
+                Size: =60
+                Text: ="INVOICE PROCESSING"
+                Weight: ='TextCanvas.Weight'.Bold
+                Width: =Parent.Width * 80%
+                X: =(Parent.Width - Self.Width) / 2 
+                Y: =Image4.Y + Image4.Height
+                ZIndex: =11
+
+    Container1 As groupContainer.horizontalAutoLayoutContainer:
+        DropShadow: =DropShadow.None
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Center
+        LayoutJustifyContent: =LayoutJustifyContent.Center
+        LayoutMode: =LayoutMode.Auto
+        Width: =Parent.Width * 55%
+        ZIndex: =4
+
+        Container12 As groupContainer.manualLayoutContainer:
+            Height: =Parent.Height * 90%
+            Width: =Parent.Width * 90%
+            X: =(Container1.Width - Self.Width) / 2 
+            ZIndex: =1
+
+            Image1 As image:
+                Height: =Parent.Height
+                Image: ='graphic-4-gif'
+                Width: =Parent.Width
+                ZIndex: =1
 
