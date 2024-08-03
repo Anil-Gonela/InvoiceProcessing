@@ -942,7 +942,7 @@ Screen1_2 As screen:
         Font: =App.Theme.Font
         HoverBorderColor: =App.Theme.Colors.Darker10
         HoverFill: =App.Theme.Colors.Darker10
-        OnSelect: =NewForm(Form1_2);Clear(MyCol);
+        OnSelect: =NewForm(Form1_2);
         PressedBorderColor: =App.Theme.Colors.Darker40
         PressedColor: =Self.Color
         PressedFill: =App.Theme.Colors.Darker40
