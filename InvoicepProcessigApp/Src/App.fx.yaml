@@ -38,7 +38,7 @@ App As appinfo:
         );
         
         
-        Collect(
+        ClearCollect(
             productstable, Table()
         );
         Set(visibility, true);

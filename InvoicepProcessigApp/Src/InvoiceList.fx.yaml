@@ -35,7 +35,8 @@ InvoiceList As screen:
             =0
         ZIndex: =4
 
-        Container18_1 As groupContainer.manualLayoutContainer:
+        Container18_6 As groupContainer.manualLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             Height: =Parent.Height
             LayoutMinHeight: =0
             LayoutMinWidth: =0
@@ -46,7 +47,7 @@ InvoiceList As screen:
             Width: =Parent.Width
             ZIndex: =1
 
-            HeaderIcon_1 As groupContainer.manualLayoutContainer:
+            HeaderIcon_6 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 DropShadow: =DropShadow.Regular
                 Height: =Parent.Height * 95%
@@ -59,37 +60,37 @@ InvoiceList As screen:
                 Y: =Parent.Y + 2
                 ZIndex: =1
 
-                Image4_4 As image:
+                Image4_24 As image:
                     BorderColor: =App.Theme.Colors.Darker40
                     Height: =Parent.Height
                     Image: ='invoice-receipt'
                     Width: =Parent.Width
                     ZIndex: =1
 
-            Label15_1 As label:
+            Label15_6 As label:
                 BorderColor: =App.Theme.Colors.Darker40
                 Font: =Font.'Lato Black'
                 Height: =Parent.Height * 95%
-                Size: =20
-                Text: ="Invoice List"
-                Width: =Parent.Width * 25%
-                X: =HeaderIcon_1.X + HeaderIcon_1.Width
+                Size: =Parent.Width * 1.5%
+                Text: ="Invoice Capture"
+                Width: =Parent.Width * 16%
+                X: =HeaderIcon_6.X + HeaderIcon_6.Width
                 ZIndex: =2
 
-            SettingsIcon_2 As groupContainer.manualLayoutContainer:
+            SettingsIcon_7 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
-                Height: =Parent.Height * 70%
+                Height: =Self.Width
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
                 RadiusTopLeft: =50
                 RadiusTopRight: =50
-                Width: =Parent.Height * 70%
-                X: =Parent.Width *85%
+                Width: =Parent.Width * 4%
+                X: =Parent.Width * 85%
                 Y: =(Parent.Height - Self.Height) / 2
                 ZIndex: =3
 
-                Image4_5 As image:
+                Image4_25 As image:
                     BorderColor: =App.Theme.Colors.Darker40
                     Height: =Parent.Height *90%
                     Image: =settings
@@ -98,40 +99,40 @@ InvoiceList As screen:
                     Y: =(Parent.Height - Self.Height) / 2
                     ZIndex: =1
 
-            Notifications_2 As groupContainer.manualLayoutContainer:
+            Notifications_7 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
-                Height: =Parent.Height * 70%
+                Height: =Self.Width
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
                 RadiusTopLeft: =50
                 RadiusTopRight: =50
-                Width: =Parent.Height * 70%
-                X: =SettingsIcon_2.X + SettingsIcon_2.Width + 5
+                Width: =Parent.Width * 4%
+                X: =Parent.Width * 90%
                 Y: =(Parent.Height - Self.Height) / 2
                 ZIndex: =4
 
-                Image4_6 As image:
+                Image4_26 As image:
                     BorderColor: =App.Theme.Colors.Darker40
                     Height: =Parent.Height
                     Image: =notifications
                     Width: =Parent.Width
                     ZIndex: =1
 
-            UserIcon_1 As groupContainer.manualLayoutContainer:
+            UserIcon_6 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
-                Height: =Parent.Height * 70%
+                Height: =Self.Width
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
                 RadiusTopLeft: =50
                 RadiusTopRight: =50
-                Width: =Parent.Height * 70%
-                X: =Notifications_2.X + Notifications_2.Width + 5
+                Width: =Parent.Width * 4%
+                X: =Parent.Width * 95%
                 Y: =(Parent.Height - Self.Height) / 2
                 ZIndex: =5
 
-                Image4_7 As image:
+                Image4_27 As image:
                     BorderColor: =App.Theme.Colors.Darker40
                     Height: =Parent.Height
                     Image: =User().Image
@@ -208,6 +209,7 @@ InvoiceList As screen:
                         Font: =Font.Lato
                         FontWeight: =FontWeight.Semibold
                         Height: =Parent.Height*50%
+                        Size: =Parent.Width * 6%
                         Text: ="Pending"
                         VerticalAlign: =VerticalAlign.Bottom
                         Width: =Parent.Width * 70%
@@ -219,6 +221,7 @@ InvoiceList As screen:
                         Font: =Font.'Lato Black'
                         FontWeight: =FontWeight.Bold
                         Height: =Parent.Height*50%
+                        Size: =Parent.Width * 6%
                         Text: ="$700.000"
                         VerticalAlign: =VerticalAlign.Top
                         Width: =Parent.Width * 70%
@@ -257,6 +260,7 @@ InvoiceList As screen:
                         Font: =Font.Lato
                         FontWeight: =FontWeight.Semibold
                         Height: =Parent.Height*50%
+                        Size: =Parent.Width * 6%
                         Text: ="Paid"
                         VerticalAlign: =VerticalAlign.Bottom
                         Width: =Parent.Width * 70%
@@ -268,6 +272,7 @@ InvoiceList As screen:
                         Font: =Font.'Lato Black'
                         FontWeight: =FontWeight.Bold
                         Height: =Parent.Height*50%
+                        Size: =Parent.Width * 6%
                         Text: ="$132.000"
                         VerticalAlign: =VerticalAlign.Top
                         Width: =Parent.Width * 70%
@@ -316,7 +321,7 @@ InvoiceList As screen:
                         Color: =RGBA(255, 255, 255, 1)
                         Font: =Font.'Lato Black'
                         Height: =Parent.Height * 90%
-                        Size: =15
+                        Size: =Parent.Width * 5%
                         Text: ="New Invoice"
                         Width: =Parent.Width * 80%
                         X: =(Parent.Width - Self.Width)/2
@@ -383,6 +388,7 @@ InvoiceList As screen:
                                 PressedBorderColor: =App.Theme.Colors.Darker40
                                 PressedColor: =Self.Color
                                 PressedFill: =RGBA(0, 0, 0, 0.5)
+                                Size: =Parent.Width * 7%
                                 Text: =ThisItem.Name
                                 Width: =Parent.Width
                                 X: =Parent.X 
@@ -425,6 +431,7 @@ InvoiceList As screen:
                                 Font: =Font.Lato
                                 FontWeight: =FontWeight.Semibold
                                 Height: =Parent.Height
+                                Size: =Parent.Width * 6%
                                 Text: ="Client/Invoice"
                                 Width: =Parent.Width
                                 ZIndex: =1
@@ -440,6 +447,7 @@ InvoiceList As screen:
                                 Font: =Font.Lato
                                 FontWeight: =FontWeight.Semibold
                                 Height: =Parent.Height
+                                Size: =Parent.Width * 6%
                                 Text: ="Product Details"
                                 Width: =Parent.Width
                                 ZIndex: =1
@@ -455,6 +463,7 @@ InvoiceList As screen:
                                 Font: =Font.Lato
                                 FontWeight: =FontWeight.Semibold
                                 Height: =Parent.Height
+                                Size: =Parent.Width * 6%
                                 Text: ="Amount"
                                 Width: =Parent.Width
                                 ZIndex: =1
@@ -470,6 +479,7 @@ InvoiceList As screen:
                                 Font: =Font.Lato
                                 FontWeight: =FontWeight.Semibold
                                 Height: =Parent.Height
+                                Size: =Parent.Width * 6%
                                 Text: ="Due Date"
                                 Width: =Parent.Width
                                 ZIndex: =1
@@ -484,6 +494,7 @@ InvoiceList As screen:
                                 Font: =Font.Lato
                                 FontWeight: =FontWeight.Semibold
                                 Height: =Parent.Height
+                                Size: =Parent.Width * 6%
                                 Text: ="Status"
                                 Width: =Parent.Width
                                 ZIndex: =1
