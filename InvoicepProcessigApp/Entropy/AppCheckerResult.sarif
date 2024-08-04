@@ -853,36 +853,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Capture Invoice_1",
-                "type": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3.TabIndex"
                 }
               ],
@@ -907,6 +877,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Capture Invoice_1",
+                "type": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1357,6 +1357,96 @@
           },
           "ruleId": "app-UnusedMediaResources",
           "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.ProductForm.Item_DataCard1.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.ProductForm.Item_DataCard1.DisplayName",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "Create Invoice",
+                "type": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.ProductForm.Item_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.ProductForm.Item_DataCard1.MaxLength"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.ProductForm.Item_DataCard1.MaxLength",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "MaxLength",
+                "module": "Create Invoice",
+                "type": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.ProductForm.Item_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.ProductForm.Qty_DataCard1.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.ProductForm.Qty_DataCard1.DisplayName",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "Create Invoice",
+                "type": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.ProductForm.Qty_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 5
         }
       ],
       "tool": {
@@ -1447,6 +1537,23 @@
                 "level": "Medium",
                 "primaryCategory": "performance",
                 "whyFix": "This media file is not referenced by any control formulas so it is not needed. Removing it will improve performance."
+              }
+            },
+            {
+              "id": "app-InefficientDelayLoading",
+              "messageStrings": {
+                "issue": {
+                  "text": "Inefficient delay loading"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Use variables, collections, and navigation context to share state across screens instead."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "Controls that reference controls on other screens can slow down app loading and navigation. Doing this may force the app to load the other screens immediately, rather than waiting until the user navigates to that screen."
               }
             }
           ],

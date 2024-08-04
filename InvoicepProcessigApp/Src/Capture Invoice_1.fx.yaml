@@ -230,67 +230,22 @@
                     Layout: =Layout.Vertical
                     LoadingSpinner: =LoadingSpinner.Data
                     TemplatePadding: =0
-                    TemplateSize: =104
+                    TemplateSize: =Parent.Width * 20%
                     X: =15.799999999999955
                     ZIndex: =1
 
-                    Image9 As image:
-                        Height: =72
-                        OnSelect: =Select(Parent)
-                        RadiusBottomLeft: =8
-                        RadiusBottomRight: =8
-                        RadiusTopLeft: =8
-                        RadiusTopRight: =8
-                        Width: =72
-                        X: =16
-                        Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-                        ZIndex: =1
-
-                    Title3 As label:
+                    Invoice As label:
                         FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                        Height: =Self.Size * 1.8
+                        Height: =Gallery3.TemplateHeight * 90%
                         OnSelect: =Select(Parent)
                         PaddingBottom: =0
                         PaddingLeft: =0
                         PaddingRight: =0
                         PaddingTop: =0
                         Text: =ThisItem.Title
-                        VerticalAlign: =VerticalAlign.Top
-                        Width: =Parent.TemplateWidth - 173
-                        X: =103
-                        Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle2.Size * 1.8)) / 2
+                        Width: =Gallery3.TemplateWidth * 18%
+                        Y: =(Parent.Height - Self.Height) / 2 
                         ZIndex: =2
-
-                    Subtitle2 As label:
-                        FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                        Height: =Self.Size * 1.8
-                        OnSelect: =Select(Parent)
-                        PaddingBottom: =0
-                        PaddingLeft: =0
-                        PaddingRight: =0
-                        PaddingTop: =0
-                        Text: =ThisItem.Item
-                        VerticalAlign: =VerticalAlign.Top
-                        Width: =Title3.Width
-                        X: =Title3.X
-                        Y: =Title3.Y + Title3.Height
-                        ZIndex: =3
-
-                    NextArrow2 As icon.ChevronRight:
-                        AccessibleLabel: =Self.Tooltip
-                        Color: =RGBA(166, 166, 166, 1)
-                        Height: =50
-                        Icon: =Icon.ChevronRight
-                        OnSelect: =Select(Parent)
-                        PaddingBottom: =16
-                        PaddingLeft: =16
-                        PaddingRight: =16
-                        PaddingTop: =16
-                        Tooltip: ="View item details"
-                        Width: =50
-                        X: =Parent.TemplateWidth - Self.Width - 12
-                        Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-                        ZIndex: =4
 
                     Separator2 As rectangle:
                         Height: =8
@@ -299,12 +254,39 @@
                         Y: =Parent.TemplateHeight - Self.Height
                         ZIndex: =5
 
-                    Rectangle2 As rectangle:
-                        Height: =Parent.TemplateHeight - Separator2.Height
+                    Item As label:
+                        BorderColor: =RGBA(0, 0, 0, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                        Height: =Gallery3.TemplateHeight * 90%
                         OnSelect: =Select(Parent)
-                        Visible: =ThisItem.IsSelected
-                        Width: =4
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Size: =14
+                        Text: =ThisItem.Title
+                        Width: =Gallery3.TemplateWidth * 35%
+                        X: =Invoice.X + Invoice.Width
+                        Y: =(Parent.Height - Self.Height) / 2 
                         ZIndex: =6
+
+                    Qty As label:
+                        BorderColor: =RGBA(0, 0, 0, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                        Height: =Gallery3.TemplateHeight * 90%
+                        OnSelect: =Select(Parent)
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Size: =14
+                        Text: =ThisItem.Title
+                        Width: =Gallery3.TemplateWidth * 35%
+                        X: =Item.X + Item.Width
+                        Y: =(Parent.Height - Self.Height) / 2 
+                        ZIndex: =7
 
             "'Amount Details' As groupContainer.manualLayoutContainer":
                 BorderColor: =RGBA(141, 73, 58, 1)
