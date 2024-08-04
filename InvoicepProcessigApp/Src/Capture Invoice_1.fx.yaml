@@ -211,37 +211,15 @@
                     ZIndex: =2
 
             "'Product Details' As groupContainer.manualLayoutContainer":
-                Height: =191
-                Width: =417
-                X: =320
+                Height: =146
+                RadiusBottomLeft: =20
+                RadiusBottomRight: =20
+                RadiusTopLeft: =20
+                RadiusTopRight: =20
+                Width: =Parent.Width * 60%
+                X: =Parent.Width * 20%
                 Y: ='Amount Details'.Y + 'Amount Details'.Height + 5 
                 ZIndex: =2
-
-                "'Invoice ID' As Text":
-                    DisplayMode: =DisplayMode.Edit
-                    Font: =Font.Lato
-                    Height: =Parent.Height * 14%
-                    Size: =Parent.Width * 4%
-                    Text: |-
-                        ="Invoice ID: "
-                    Weight: ='TextCanvas.Weight'.Bold
-                    Width: =Parent.Width * 90%
-                    X: =5
-                    Y: =5
-                    ZIndex: =1
-
-                "'Invoice ID_1' As Text":
-                    DisplayMode: =DisplayMode.Edit
-                    Font: =Font.Lato
-                    Height: =Parent.Height * 14%
-                    Size: =Parent.Width * 4%
-                    Text: |-
-                        ="Bill To: "
-                    Weight: ='TextCanvas.Weight'.Bold
-                    Width: =Parent.Width * 90%
-                    X: ='Invoice ID'.X
-                    Y: ='Invoice ID'.Height + 'Invoice ID'.Y + 2 
-                    ZIndex: =2
 
             "'Amount Details' As groupContainer.manualLayoutContainer":
                 Fill: =RGBA(248,237,227,0.1)
@@ -303,9 +281,15 @@
                     ZIndex: =3
 
             "'Vendor Details' As groupContainer.manualLayoutContainer":
-                Height: =145
-                Width: =547
-                X: =255
-                Y: =464
+                Height: =240
+                Width: =Parent.Width * 80%
+                X: =156
+                Y: =401
                 ZIndex: =4
+
+                Container26 As groupContainer.manualLayoutContainer:
+                    Width: =318
+                    X: =32
+                    Y: =24
+                    ZIndex: =1
 
