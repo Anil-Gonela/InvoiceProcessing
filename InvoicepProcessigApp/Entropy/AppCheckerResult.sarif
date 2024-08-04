@@ -793,19 +793,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Bill To Customer'.ButtonCanvas1.AccessibleLabel"
+                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Amount Details'.ButtonCanvas1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Bill To Customer'.ButtonCanvas1.AccessibleLabel",
+                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Amount Details'.ButtonCanvas1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Capture Invoice_1",
-                "type": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Bill To Customer'.ButtonCanvas1"
+                "type": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Amount Details'.ButtonCanvas1"
               }
             }
           ],
@@ -823,19 +823,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Bill To Customer'.ButtonCanvas1_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Amount Details'.ButtonCanvas1_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Bill To Customer'.ButtonCanvas1_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Amount Details'.ButtonCanvas1_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Capture Invoice_1",
-                "type": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Bill To Customer'.ButtonCanvas1_1"
+                "type": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Amount Details'.ButtonCanvas1_1"
               }
             }
           ],
