@@ -168,6 +168,7 @@
                 RadiusBottomRight: =20
                 RadiusTopLeft: =20
                 RadiusTopRight: =20
+                Size: =Parent.Width * 1.2%
                 Text: ="Back"
                 Width: =Parent.Width * 20%
                 X: =Parent.Width * 25%
@@ -203,6 +204,7 @@
                 RadiusBottomRight: =20
                 RadiusTopLeft: =20
                 RadiusTopRight: =20
+                Size: =Parent.Width * 1.2%
                 Text: ="Download PDF"
                 Width: =Parent.Width * 20%
                 X: =Parent.Width * 50%
