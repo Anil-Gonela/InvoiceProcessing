@@ -1,0 +1,216 @@
+"'Capture Invoice_1' As screen":
+    BackgroundImage: =
+    Fill: =RGBA(248,237,227,0.3)
+    ImagePosition: =ImagePosition.Fill
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+
+    Component_4 As groupContainer.verticalAutoLayoutContainer:
+        Height: =Parent.Height *80%
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =Parent.Width*18%
+        Y: =Parent.Height *12%
+        ZIndex: =1
+
+        Container8_3 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =Parent.Height
+            LayoutMinHeight: =0
+            LayoutMinWidth: =0
+            Width: =Parent.Width
+            ZIndex: =1
+
+            SideNavigation_Compact_5 As SideNavigation_Compact:
+                Height: =Parent.Height *90%
+
+    Heading_5 As groupContainer.horizontalAutoLayoutContainer:
+        Fill: =RGBA(255, 255, 255, 0.1)
+        Height: =Parent.Height *10%
+        LayoutAlignItems: =LayoutAlignItems.Center
+        LayoutJustifyContent: =LayoutJustifyContent.Center
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =Parent.Width
+        Y: |
+            =0
+        ZIndex: =4
+
+        Container18_7 As groupContainer.manualLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            Height: =Parent.Height
+            LayoutMinHeight: =0
+            LayoutMinWidth: =0
+            RadiusBottomLeft: =20
+            RadiusBottomRight: =20
+            RadiusTopLeft: =20
+            RadiusTopRight: =20
+            Width: =Parent.Width
+            ZIndex: =1
+
+            HeaderIcon_7 As groupContainer.manualLayoutContainer:
+                BorderColor: =RGBA(221, 79, 14, 1)
+                DropShadow: =DropShadow.Regular
+                Height: =Self.Width
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Width: =Parent.Width * 5%
+                X: =Parent.X + 5
+                Y: =(Parent.Height - Self.Height) / 2 
+                ZIndex: =1
+
+                Image4_28 As image:
+                    BorderColor: =App.Theme.Colors.Darker40
+                    Height: =Parent.Height
+                    Image: ='invoice-receipt'
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+            Label15_7 As label:
+                BorderColor: =App.Theme.Colors.Darker40
+                Font: =Font.'Lato Black'
+                Height: =Parent.Height * 95%
+                Size: =Parent.Width * 1.5%
+                Text: ="Invoice Capture"
+                Width: =Parent.Width * 16%
+                X: =HeaderIcon_7.X + HeaderIcon_7.Width
+                ZIndex: =2
+
+            SettingsIcon_8 As groupContainer.manualLayoutContainer:
+                BorderColor: =RGBA(221, 79, 14, 1)
+                BorderThickness: =1
+                Height: =Self.Width
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Width: =Parent.Width * 4%
+                X: =Parent.Width * 85%
+                Y: =(Parent.Height - Self.Height) / 2
+                ZIndex: =3
+
+                Image4_29 As image:
+                    BorderColor: =App.Theme.Colors.Darker40
+                    Height: =Parent.Height *90%
+                    Image: =settings
+                    Width: =Parent.Width *90%
+                    X: =(Parent.Width - Self.Width) / 2
+                    Y: =(Parent.Height - Self.Height) / 2
+                    ZIndex: =1
+
+            Notifications_8 As groupContainer.manualLayoutContainer:
+                BorderColor: =RGBA(221, 79, 14, 1)
+                BorderThickness: =1
+                Height: =Self.Width
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Width: =Parent.Width * 4%
+                X: =Parent.Width * 90%
+                Y: =(Parent.Height - Self.Height) / 2
+                ZIndex: =4
+
+                Image4_30 As image:
+                    BorderColor: =App.Theme.Colors.Darker40
+                    Height: =Parent.Height
+                    Image: =notifications
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+            UserIcon_7 As groupContainer.manualLayoutContainer:
+                BorderColor: =RGBA(221, 79, 14, 1)
+                BorderThickness: =1
+                Height: =Self.Width
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Width: =Parent.Width * 4%
+                X: =Parent.Width * 95%
+                Y: =(Parent.Height - Self.Height) / 2
+                ZIndex: =5
+
+                Image4_31 As image:
+                    BorderColor: =App.Theme.Colors.Darker40
+                    Height: =Parent.Height
+                    Image: =User().Image
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+    "'Total Due and Paid_3' As groupContainer.verticalAutoLayoutContainer":
+        DropShadow: =DropShadow.Regular
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =Parent.Height * 85%
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Width: =Parent.Width * 80%
+        X: =Component_4.X + Component_4.Width + 2 
+        Y: =Heading_5.Y + Heading_5.Height + 10
+        ZIndex: =5
+
+        Body_3 As groupContainer.manualLayoutContainer:
+            BorderColor: =RGBA(247, 247, 247, 1)
+            DropShadow: =DropShadow.Semilight
+            Fill: =RGBA(255, 255, 255, 0.9)
+            Height: =Parent.Height
+            LayoutMinHeight: =0
+            LayoutMinWidth: =0
+            RadiusBottomLeft: =20
+            RadiusBottomRight: =20
+            RadiusTopLeft: =20
+            RadiusTopRight: =20
+            Width: =Parent.Width
+            ZIndex: =1
+
+            Container13 As groupContainer.manualLayoutContainer:
+                Height: =Parent.Height * 30%
+                Width: =Parent.Width * 50%
+                X: =(Parent.Width - Self.Width) / 2
+                ZIndex: =1
+
+                Image As groupContainer.manualLayoutContainer:
+                    Height: =Parent.Height * 50%
+                    Width: =Parent.Width * 30%
+                    X: =(Parent.Width - Self.Width) / 2 
+                    ZIndex: =1
+
+                    Image3 As image:
+                        Height: =Parent.Height
+                        Image: =folderimage
+                        Width: =Parent.Width
+                        ZIndex: =1
+
+                "'Customer Details' As groupContainer.manualLayoutContainer":
+                    Height: =Parent.Height * 50%
+                    Width: =459
+                    X: =51
+                    Y: =98
+                    ZIndex: =2
+
+                    TextCanvas2 As Text:
+                        DisplayMode: =DisplayMode.Edit
+                        Height: =19
+                        Text: ="Customer Name"
+                        Width: =161
+                        X: =28
+                        Y: =16
+                        ZIndex: =1
+
+                    TextCanvas2_1 As Text:
+                        DisplayMode: =DisplayMode.Edit
+                        Height: =19
+                        Text: ="Customer Name"
+                        Width: =161
+                        X: =40
+                        Y: =40
+                        ZIndex: =2
+
