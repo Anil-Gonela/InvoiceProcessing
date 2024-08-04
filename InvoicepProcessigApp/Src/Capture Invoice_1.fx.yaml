@@ -218,34 +218,23 @@
                 RadiusBottomRight: =20
                 RadiusTopLeft: =20
                 RadiusTopRight: =20
-                Width: =Parent.Width * 60%
-                X: =Parent.Width * 20%
+                Width: =Parent.Width * 50%
+                X: =Parent.Width * 24%
                 Y: ='Amount Details'.Y + 'Amount Details'.Height + 5 
                 ZIndex: =2
 
                 "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
                     DelayItemLoading: =true
-                    Height: =130.6
+                    Height: =Parent.Height * 75%
                     Items: ='Smart Invoice Product'
                     Layout: =Layout.Vertical
                     LoadingSpinner: =LoadingSpinner.Data
                     TemplatePadding: =0
                     TemplateSize: =Parent.Width * 20%
-                    X: =15.799999999999955
+                    Width: =Parent.Width * 95%
+                    X: =Parent.Width * 2%
+                    Y: =TextCanvas4_1.Height + TextCanvas4_1.Y
                     ZIndex: =1
-
-                    Invoice As label:
-                        FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                        Height: =Gallery3.TemplateHeight * 90%
-                        OnSelect: =Select(Parent)
-                        PaddingBottom: =0
-                        PaddingLeft: =0
-                        PaddingRight: =0
-                        PaddingTop: =0
-                        Text: =ThisItem.Title
-                        Width: =Gallery3.TemplateWidth * 18%
-                        Y: =(Parent.Height - Self.Height) / 2 
-                        ZIndex: =2
 
                     Separator2 As rectangle:
                         Height: =8
@@ -265,13 +254,14 @@
                         PaddingRight: =0
                         PaddingTop: =0
                         Size: =14
-                        Text: =ThisItem.Title
-                        Width: =Gallery3.TemplateWidth * 35%
-                        X: =Invoice.X + Invoice.Width
+                        Text: =ThisItem.Item
+                        Width: =Gallery3.TemplateWidth * 50%
+                        X: =Parent.X + 20
                         Y: =(Parent.Height - Self.Height) / 2 
                         ZIndex: =6
 
                     Qty As label:
+                        Align: =Align.Center
                         BorderColor: =RGBA(0, 0, 0, 1)
                         Color: =RGBA(50, 49, 48, 1)
                         FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
@@ -282,11 +272,49 @@
                         PaddingRight: =0
                         PaddingTop: =0
                         Size: =14
-                        Text: =ThisItem.Title
-                        Width: =Gallery3.TemplateWidth * 35%
+                        Text: =ThisItem.Qty & "(Qty)" 
+                        Width: =Gallery3.TemplateWidth * 15%
                         X: =Item.X + Item.Width
                         Y: =(Parent.Height - Self.Height) / 2 
                         ZIndex: =7
+
+                    amount As label:
+                        BorderColor: =RGBA(0, 0, 0, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                        Height: =Gallery3.TemplateHeight * 90%
+                        OnSelect: =Select(Parent)
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Size: =14
+                        Text: =ThisItem.InvoiceAmount
+                        Width: =Gallery3.TemplateWidth * 25%
+                        X: =Qty.X + Qty.Width + 2
+                        Y: =(Parent.Height - Self.Height) / 2 
+                        ZIndex: =8
+
+                TextCanvas4_1 As Text:
+                    Align: ='TextCanvas.Align'.Start
+                    BorderColor: =RGBA(141, 73, 58, 1)
+                    BorderRadiusBottomLeft: =30
+                    BorderRadiusBottomRight: =30
+                    BorderRadiusTopLeft: =30
+                    BorderRadiusTopRight: =30
+                    BorderStyle: =BorderStyle.Solid
+                    BorderThickness: =0
+                    DisplayMode: =DisplayMode.Edit
+                    Font: =Font.Lato
+                    FontColor: =RGBA(141, 73, 58, 1)
+                    Height: =Parent.Height * 18%
+                    Size: =Parent.Width * 2.5%
+                    Text: ="Product Details"
+                    Weight: ='TextCanvas.Weight'.Bold
+                    Width: =Parent.Width * 40%
+                    X: =5
+                    Y: =5
+                    ZIndex: =2
 
             "'Amount Details' As groupContainer.manualLayoutContainer":
                 BorderColor: =RGBA(141, 73, 58, 1)
