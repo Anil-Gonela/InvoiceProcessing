@@ -211,7 +211,9 @@
                     ZIndex: =2
 
             "'Product Details' As groupContainer.manualLayoutContainer":
-                Height: =146
+                BorderColor: =RGBA(141, 73, 58, 1)
+                BorderThickness: =1
+                Height: =Parent.Height * 20%
                 RadiusBottomLeft: =20
                 RadiusBottomRight: =20
                 RadiusTopLeft: =20
@@ -221,7 +223,92 @@
                 Y: ='Amount Details'.Y + 'Amount Details'.Height + 5 
                 ZIndex: =2
 
+                "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+                    DelayItemLoading: =true
+                    Height: =130.6
+                    Items: ='Smart Invoice Product'
+                    Layout: =Layout.Vertical
+                    LoadingSpinner: =LoadingSpinner.Data
+                    TemplatePadding: =0
+                    TemplateSize: =104
+                    X: =15.799999999999955
+                    ZIndex: =1
+
+                    Image9 As image:
+                        Height: =72
+                        OnSelect: =Select(Parent)
+                        RadiusBottomLeft: =8
+                        RadiusBottomRight: =8
+                        RadiusTopLeft: =8
+                        RadiusTopRight: =8
+                        Width: =72
+                        X: =16
+                        Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+                        ZIndex: =1
+
+                    Title3 As label:
+                        FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                        Height: =Self.Size * 1.8
+                        OnSelect: =Select(Parent)
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Text: =ThisItem.Title
+                        VerticalAlign: =VerticalAlign.Top
+                        Width: =Parent.TemplateWidth - 173
+                        X: =103
+                        Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle2.Size * 1.8)) / 2
+                        ZIndex: =2
+
+                    Subtitle2 As label:
+                        FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                        Height: =Self.Size * 1.8
+                        OnSelect: =Select(Parent)
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Text: =ThisItem.Item
+                        VerticalAlign: =VerticalAlign.Top
+                        Width: =Title3.Width
+                        X: =Title3.X
+                        Y: =Title3.Y + Title3.Height
+                        ZIndex: =3
+
+                    NextArrow2 As icon.ChevronRight:
+                        AccessibleLabel: =Self.Tooltip
+                        Color: =RGBA(166, 166, 166, 1)
+                        Height: =50
+                        Icon: =Icon.ChevronRight
+                        OnSelect: =Select(Parent)
+                        PaddingBottom: =16
+                        PaddingLeft: =16
+                        PaddingRight: =16
+                        PaddingTop: =16
+                        Tooltip: ="View item details"
+                        Width: =50
+                        X: =Parent.TemplateWidth - Self.Width - 12
+                        Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+                        ZIndex: =4
+
+                    Separator2 As rectangle:
+                        Height: =8
+                        OnSelect: =Select(Parent)
+                        Width: =Parent.TemplateWidth
+                        Y: =Parent.TemplateHeight - Self.Height
+                        ZIndex: =5
+
+                    Rectangle2 As rectangle:
+                        Height: =Parent.TemplateHeight - Separator2.Height
+                        OnSelect: =Select(Parent)
+                        Visible: =ThisItem.IsSelected
+                        Width: =4
+                        ZIndex: =6
+
             "'Amount Details' As groupContainer.manualLayoutContainer":
+                BorderColor: =RGBA(141, 73, 58, 1)
+                BorderThickness: =1
                 Fill: =RGBA(248,237,227,0.1)
                 Height: =110
                 RadiusBottomLeft: =30
@@ -281,15 +368,36 @@
                     ZIndex: =3
 
             "'Vendor Details' As groupContainer.manualLayoutContainer":
-                Height: =240
+                DropShadow: =DropShadow.None
+                Height: =Parent.Height * 37%
                 Width: =Parent.Width * 80%
-                X: =156
-                Y: =401
+                X: =Parent.Width * 10%
+                Y: ='Product Details'.Y + 'Product Details'.Height + 10
                 ZIndex: =4
 
                 Container26 As groupContainer.manualLayoutContainer:
-                    Width: =318
-                    X: =32
-                    Y: =24
+                    BorderColor: =RGBA(141, 73, 58, 1)
+                    BorderThickness: =1
+                    Height: =Parent.Height * 90%
+                    RadiusBottomLeft: =20
+                    RadiusBottomRight: =20
+                    RadiusTopLeft: =20
+                    RadiusTopRight: =20
+                    Width: =Parent.Width * 40%
+                    X: =Parent.Width * 5%
+                    Y: =(Parent.Height - Self.Height) / 2 
                     ZIndex: =1
+
+                Container26_2 As groupContainer.manualLayoutContainer:
+                    BorderColor: =RGBA(141, 73, 58, 1)
+                    BorderThickness: =1
+                    Height: =Parent.Height * 90%
+                    RadiusBottomLeft: =20
+                    RadiusBottomRight: =20
+                    RadiusTopLeft: =20
+                    RadiusTopRight: =20
+                    Width: =Parent.Width * 40%
+                    X: =Parent.Width * 50%
+                    Y: =(Parent.Height - Self.Height) / 2 
+                    ZIndex: =2
 
