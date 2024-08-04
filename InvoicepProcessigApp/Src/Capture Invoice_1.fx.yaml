@@ -399,7 +399,7 @@
                     ZIndex: =1
 
                     Heading1 As Text:
-                        Align: ='TextCanvas.Align'.Start
+                        Align: ='TextCanvas.Align'.Center
                         BorderColor: =RGBA(141, 73, 58, 1)
                         BorderRadiusBottomLeft: =30
                         BorderRadiusBottomRight: =30
@@ -431,7 +431,7 @@
                         BorderThickness: =0
                         DisplayMode: =DisplayMode.Edit
                         Font: =Font.Lato
-                        FontColor: =RGBA(141, 73, 58, 1)
+                        FontColor: =RGBA(0, 0, 0, 1)
                         Height: =Parent.Height * 20%
                         Size: =Parent.Width * 5%
                         Text: |-
@@ -453,11 +453,12 @@
                         BorderThickness: =0
                         DisplayMode: =DisplayMode.Edit
                         Font: =Font.Lato
-                        FontColor: =RGBA(141, 73, 58, 1)
+                        FontColor: =RGBA(0, 0, 0, 1)
                         Height: =Parent.Height * 50%
                         Size: =Parent.Width * 5%
                         Text: |-
-                            ="Bill To:"
+                            ="   Bill To:"
+                        VerticalAlign: ='TextCanvas.VerticalAlign'.Top
                         Weight: ='TextCanvas.Weight'.Bold
                         Width: =Parent.Width * 90%
                         X: =Parent.Width * 3%
@@ -476,4 +477,71 @@
                     X: =Parent.Width * 50%
                     Y: =(Parent.Height - Self.Height) / 2 
                     ZIndex: =2
+
+                    Heading1_3 As Text:
+                        Align: ='TextCanvas.Align'.Center
+                        BorderColor: =RGBA(141, 73, 58, 1)
+                        BorderRadiusBottomLeft: =30
+                        BorderRadiusBottomRight: =30
+                        BorderRadiusTopLeft: =30
+                        BorderRadiusTopRight: =30
+                        BorderStyle: =BorderStyle.Solid
+                        BorderThickness: =0
+                        DisplayMode: =DisplayMode.Edit
+                        Font: =Font.Lato
+                        FontColor: =RGBA(141, 73, 58, 1)
+                        Height: =Parent.Height * 20%
+                        Size: =Parent.Width * 5%
+                        Text: |-
+                            ="Vendor Details:"
+                        Weight: ='TextCanvas.Weight'.Bold
+                        Width: =Parent.Width * 60%
+                        X: =(Parent.Width - Self.Width) / 2 
+                        Y: =0
+                        ZIndex: =1
+
+                    Heading1_4 As Text:
+                        Align: ='TextCanvas.Align'.Start
+                        BorderColor: =RGBA(141, 73, 58, 1)
+                        BorderRadiusBottomLeft: =30
+                        BorderRadiusBottomRight: =30
+                        BorderRadiusTopLeft: =30
+                        BorderRadiusTopRight: =30
+                        BorderStyle: =BorderStyle.Solid
+                        BorderThickness: =0
+                        DisplayMode: =DisplayMode.Edit
+                        Font: =Font.Lato
+                        FontColor: =RGBA(0, 0, 0, 1)
+                        Height: =Parent.Height * 20%
+                        Size: =Parent.Width * 5%
+                        Text: |-
+                            ="Bill To:"
+                        Weight: ='TextCanvas.Weight'.Bold
+                        Width: =Parent.Width * 60%
+                        X: =Parent.Width * 10%
+                        Y: =Heading1.Y + Heading1.Height
+                        ZIndex: =2
+
+                    Heading1_5 As Text:
+                        Align: ='TextCanvas.Align'.Start
+                        BorderColor: =RGBA(141, 73, 58, 1)
+                        BorderRadiusBottomLeft: =30
+                        BorderRadiusBottomRight: =30
+                        BorderRadiusTopLeft: =30
+                        BorderRadiusTopRight: =30
+                        BorderStyle: =BorderStyle.Solid
+                        BorderThickness: =0
+                        DisplayMode: =DisplayMode.Edit
+                        Font: =Font.Lato
+                        FontColor: =RGBA(0, 0, 0, 1)
+                        Height: =Parent.Height * 50%
+                        Size: =Parent.Width * 5%
+                        Text: |-
+                            ="   Bill To:"
+                        VerticalAlign: ='TextCanvas.VerticalAlign'.Top
+                        Weight: ='TextCanvas.Weight'.Bold
+                        Width: =Parent.Width * 90%
+                        X: =Parent.Width * 3%
+                        Y: =Heading1_1.Y + Heading1_1.Height
+                        ZIndex: =3
 
