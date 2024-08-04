@@ -14,13 +14,13 @@ InvoiceList As screen:
 
         Container8 As groupContainer.manualLayoutContainer:
             Height: =Parent.Height
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
+            LayoutMinHeight: =0
+            LayoutMinWidth: =0
             Width: =Parent.Width
             ZIndex: =1
 
             SideNavigation_Compact_2 As SideNavigation_Compact:
-                Height: =614
+                Height: =Parent.Height
 
     Heading_1 As groupContainer.horizontalAutoLayoutContainer:
         Fill: =RGBA(255, 255, 255, 0.1)
@@ -72,7 +72,7 @@ InvoiceList As screen:
                 Font: =Font.'Lato Black'
                 Height: =Parent.Height * 95%
                 Size: =Parent.Width * 1.5%
-                Text: ="Invoice Capture"
+                Text: ="Invoice List"
                 Width: =Parent.Width * 16%
                 X: =HeaderIcon_6.X + HeaderIcon_6.Width
                 ZIndex: =2
@@ -222,7 +222,7 @@ InvoiceList As screen:
                         FontWeight: =FontWeight.Bold
                         Height: =Parent.Height*50%
                         Size: =Parent.Width * 6%
-                        Text: ="$700.000"
+                        Text: =
                         VerticalAlign: =VerticalAlign.Top
                         Width: =Parent.Width * 70%
                         X: =Container16.X + Container16.Width
@@ -448,7 +448,7 @@ InvoiceList As screen:
                                 FontWeight: =FontWeight.Semibold
                                 Height: =Parent.Height
                                 Size: =Parent.Width * 6%
-                                Text: ="Product Details"
+                                Text: ="Vendor Details"
                                 Width: =Parent.Width
                                 ZIndex: =1
 
@@ -534,6 +534,7 @@ InvoiceList As screen:
 
                             Button10 As button:
                                 BorderColor: =App.Theme.Colors.Primary
+                                BorderThickness: =0
                                 DisabledBorderColor: =RGBA(244, 244, 244, 1)
                                 Fill: =RGBA(0, 0, 0, 0)
                                 Font: =App.Theme.Font
@@ -604,10 +605,10 @@ InvoiceList As screen:
                             FontWeight: =FontWeight.Semibold
                             OnSelect: =Select(Parent)
                             Size: =Parent.Width * 1.2%
-                            Text: =ThisItem.GST
+                            Text: =ThisItem.'Vendor Name'
                             VerticalAlign: =VerticalAlign.Top
                             Width: =Gallery6.TemplateWidth * 15%
-                            X: =Label12.X + Label12.Width + 25
+                            X: =Label12.X + Label12.Width 
                             Y: =(Gallery6.TemplateHeight - Self.Height) / 2
                             ZIndex: =5
 
