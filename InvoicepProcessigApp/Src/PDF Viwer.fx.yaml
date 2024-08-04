@@ -183,15 +183,14 @@
                 HoverBorderColor: =App.Theme.Colors.Darker10
                 HoverFill: =App.Theme.Colors.Darker10
                 OnSelect: |+
-                    =Set(url, InvoiceSavePDFPowerApps.Run(
+                    =Download(InvoiceSavePDFPowerApps.Run(
                         {
                             file: {
-                                name: "sample.pdf",
+                                name: "sample3.pdf",
                                 contentBytes: varWorkOrderPDF
                             }
                         }
                     ).path);
-                    
                     
                     
                     
@@ -212,9 +211,9 @@
 
             TextCanvas2 As Text:
                 DisplayMode: =DisplayMode.Edit
-                Height: =99
-                Text: =url.path
-                Width: =203
+                Height: =85
+                Text: =url
+                Width: =227
                 X: =40
                 Y: =40
                 ZIndex: =3

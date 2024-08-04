@@ -1,13 +1,24 @@
 {
-  "1588328b-3213-4443-a55a-da4de6053880": {
+  "06ea6dba-0f67-469f-843d-4efae290872d": {
+    "connectionRef": {
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1686/1.0.1686.3695/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "3c0f6e90-eca1-47bd-ba76-6341cc975a43"
+    ],
+    "id": "06ea6dba-0f67-469f-843d-4efae290872d"
+  },
+  "3c0f6e90-eca1-47bd-ba76-6341cc975a43": {
     "connectionRef": {
       "displayName": "Logic flows",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
       "parameterHints": {
-        "8f9d0675-56d6-47d2-9a20-acd60a53ab76": {
-          "value": "shared_sharepointonline"
-        },
         "workflowDisplayName": {
           "value": "Invoice Save PDF Power Apps"
         },
@@ -17,9 +28,6 @@
         }
       },
       "parameterHintsV2": {
-        "shared_sharepointonline": {
-          "value": "8f9d0675-56d6-47d2-9a20-acd60a53ab76"
-        },
         "workflowDisplayName": {
           "value": "Invoice Save PDF Power Apps"
         },
@@ -34,10 +42,11 @@
       "InvoiceSavePDFPowerApps"
     ],
     "dependencies": {
+      "shared_office365": "06ea6dba-0f67-469f-843d-4efae290872d",
       "shared_sharepointonline": "8f9d0675-56d6-47d2-9a20-acd60a53ab76"
     },
     "dependents": [],
-    "id": "1588328b-3213-4443-a55a-da4de6053880"
+    "id": "3c0f6e90-eca1-47bd-ba76-6341cc975a43"
   },
   "8f9d0675-56d6-47d2-9a20-acd60a53ab76": {
     "appActions": [
@@ -79,7 +88,7 @@
     "dependencies": {},
     "dependents": [
       "9349ca25-d577-4d2f-ab3d-4ebf0b9ed05b",
-      "1588328b-3213-4443-a55a-da4de6053880"
+      "3c0f6e90-eca1-47bd-ba76-6341cc975a43"
     ],
     "id": "8f9d0675-56d6-47d2-9a20-acd60a53ab76"
   },
