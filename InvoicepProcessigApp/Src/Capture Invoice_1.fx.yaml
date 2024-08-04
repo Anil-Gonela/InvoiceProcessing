@@ -172,14 +172,14 @@
             ZIndex: =1
 
             Container13 As groupContainer.manualLayoutContainer:
-                Height: =Parent.Height * 30%
-                Width: =Parent.Width * 50%
-                X: =(Parent.Width - Self.Width) / 2
+                Height: =Parent.Height * 20%
+                Width: =360
+                X: =320
                 ZIndex: =1
 
                 Image As groupContainer.manualLayoutContainer:
-                    Height: =Parent.Height * 50%
-                    Width: =Parent.Width * 30%
+                    Height: =Parent.Height * 60%
+                    Width: =Self.Height
                     X: =(Parent.Width - Self.Width) / 2 
                     ZIndex: =1
 
@@ -189,28 +189,38 @@
                         Width: =Parent.Width
                         ZIndex: =1
 
-                "'Customer Details' As groupContainer.manualLayoutContainer":
-                    Height: =Parent.Height * 50%
-                    Width: =459
-                    X: =51
-                    Y: =98
+                TextCanvas4 As Text:
+                    Align: ='TextCanvas.Align'.Center
+                    DisplayMode: =DisplayMode.Edit
+                    Font: =Font.Lato
+                    FontColor: =RGBA(141, 73, 58, 1)
+                    Height: =Parent.Height * 37%
+                    Size: =Parent.Width * 8%
+                    Text: ="Pending"
+                    Weight: ='TextCanvas.Weight'.Bold
+                    Width: =Parent.Width * 60%
+                    X: =(Parent.Width - Self.Width) / 2 
+                    Y: =Image.Y + Image.Height
                     ZIndex: =2
 
-                    TextCanvas2 As Text:
-                        DisplayMode: =DisplayMode.Edit
-                        Height: =19
-                        Text: ="Customer Name"
-                        Width: =161
-                        X: =28
-                        Y: =16
-                        ZIndex: =1
+            "'Product Details' As groupContainer.manualLayoutContainer":
+                Height: =191
+                Width: =417
+                X: =320
+                Y: =273
+                ZIndex: =2
 
-                    TextCanvas2_1 As Text:
-                        DisplayMode: =DisplayMode.Edit
-                        Height: =19
-                        Text: ="Customer Name"
-                        Width: =161
-                        X: =40
-                        Y: =40
-                        ZIndex: =2
+            "'Bill To Customer' As groupContainer.manualLayoutContainer":
+                Height: =110
+                Width: =560
+                X: =255
+                Y: =163
+                ZIndex: =3
+
+            "'Vendor Details' As groupContainer.manualLayoutContainer":
+                Height: =145
+                Width: =547
+                X: =255
+                Y: =464
+                ZIndex: =4
 
