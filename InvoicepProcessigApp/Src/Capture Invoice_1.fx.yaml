@@ -308,7 +308,7 @@
                     Font: =Font.Lato
                     FontColor: =RGBA(141, 73, 58, 1)
                     Height: =Parent.Height * 18%
-                    Size: =Parent.Width * 2.5%
+                    Size: =Parent.Width * 2.8%
                     Text: ="Product Details"
                     Weight: ='TextCanvas.Weight'.Bold
                     Width: =Parent.Width * 40%
