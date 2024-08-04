@@ -209,12 +209,3 @@
                 Y: =(Parent.Height - Self.Height) / 2 
                 ZIndex: =2
 
-            TextCanvas2 As Text:
-                DisplayMode: =DisplayMode.Edit
-                Height: =85
-                Text: =url
-                Width: =227
-                X: =40
-                Y: =40
-                ZIndex: =3
-
