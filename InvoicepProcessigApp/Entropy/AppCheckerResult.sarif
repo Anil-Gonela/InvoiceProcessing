@@ -803,6 +803,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.'View as PDF'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.'View as PDF'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Create Invoice",
+                "type": "'Create Invoice'.'Total Due and Paid_1'.Body_1.Form.'View as PDF'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.FormattedNum"
                 }
               ],

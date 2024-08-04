@@ -1514,16 +1514,23 @@
                     BorderRadiusTopRight: =30
                     DisplayMode: =DisplayMode.Edit
                     Height: =TextCanvas1.Height
-                    OnSelect: |
-                        =Set(visibility, false);
-                        Set(
-                            varWorkOrderPDF,
-                            PDF(
-                                Body_1,
-                                {ExpandContainers: true}
-                            )
-                        );
-                        Navigate('PDF Viwer');
+                    OnSelect: |-
+                        =
+                        //update data to the share point list
+                        ForAll(productstable,
+                            Patch(
+                                 'Smart Invoice Product', 
+                                Defaults('Smart Invoice Product'), // Creates a new item
+                                {
+                                    Title: ThisRecord.Title, // Map columns from your collection to SharePoint list
+                                    Item: ThisRecord.Item,
+                                    Qty: Value(ThisRecord.Qty),
+                                    InvoiceAmount: ThisRecord.InvoiceAmount
+                                }
+                            ));
+                        
+                        SubmitForm(Mainform);
+                        ResetForm(Mainform);
                     Visible: =visibility
                     Width: =TextCanvas1.Width * 60%
                     X: =(Parent.Width - Self.Width) / 2 
@@ -1545,10 +1552,37 @@
                         )
                     Text: ="Add Line Item"
                     Visible: =visibility
-                    Width: =TextCanvas1.Width * 50%
-                    X: =Parent.Width * 85%
+                    Width: =TextCanvas1.Width
+                    X: =Parent.Width * 70%
                     Y: =TextCanvas1_1.Y
                     ZIndex: =10
+
+                "'View as PDF' As Button":
+                    BasePaletteColor: =RGBA(226, 245, 223, 1)
+                    BorderRadiusBottomLeft: =30
+                    BorderRadiusBottomRight: =30
+                    BorderRadiusTopLeft: =30
+                    BorderRadiusTopRight: =30
+                    DisplayMode: =DisplayMode.Edit
+                    FontSize: =TextCanvas1_1.Size
+                    Height: =TextCanvas1.Height
+                    OnSelect: |+
+                        =Set(visibility, false);
+                        Set(
+                            varWorkOrderPDF,
+                            PDF(
+                                Body_1,
+                                {ExpandContainers: true}
+                            )
+                        );
+                        Navigate('PDF Viwer');
+                        
+                    Text: ="View as PDF"
+                    Visible: =visibility
+                    Width: =TextCanvas1.Width
+                    X: =Parent.Width * 70%
+                    Y: =TextCanvas1.Y
+                    ZIndex: =11
 
             Container9 As groupContainer.manualLayoutContainer:
                 Height: =Parent.Height * 28%
