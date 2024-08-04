@@ -293,7 +293,7 @@ InvoiceList As screen:
                     BorderStyle: =
                     BorderThickness: =1
                     DropShadow: =DropShadow.Semilight
-                    Fill: =RGBA(0,0,0,0)
+                    Fill: =RGBA(141, 73, 58, 1)
                     Height: =Parent.Height*25%
                     RadiusBottomLeft: =20
                     RadiusBottomRight: =20
@@ -303,26 +303,6 @@ InvoiceList As screen:
                     X: =(Parent.Width - Self.Width) / 2
                     Y: =Pending.Y + Pending.Height + 20
                     ZIndex: =3
-
-                    Button7 As button:
-                        BorderColor: =App.Theme.Colors.Primary
-                        Color: =RGBA(0, 0, 0, 1)
-                        DisabledBorderColor: =RGBA(244, 244, 244, 1)
-                        Fill: = RGBA(141, 73, 58, 1)
-                        Font: =App.Theme.Font
-                        Height: =Parent.Height
-                        HoverBorderColor: =App.Theme.Colors.Darker10
-                        HoverFill: =App.Theme.Colors.Darker10
-                        PressedBorderColor: =App.Theme.Colors.Darker40
-                        PressedColor: =Self.Color
-                        PressedFill: =App.Theme.Colors.Darker40
-                        RadiusBottomLeft: =20
-                        RadiusBottomRight: =20
-                        RadiusTopLeft: =20
-                        RadiusTopRight: =20
-                        Text: =
-                        Width: =Parent.Width
-                        ZIndex: =1
 
                     Label8 As label:
                         Align: =Align.Center
@@ -335,6 +315,27 @@ InvoiceList As screen:
                         Width: =Parent.Width * 80%
                         X: =(Parent.Width - Self.Width)/2
                         Y: =(Parent.Height - Self.Height)/2
+                        ZIndex: =1
+
+                    Button7 As button:
+                        BorderColor: =App.Theme.Colors.Primary
+                        Color: =RGBA(0, 0, 0, 1)
+                        DisabledBorderColor: =RGBA(244, 244, 244, 1)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Font: =App.Theme.Font
+                        Height: =Parent.Height
+                        HoverBorderColor: =App.Theme.Colors.Darker10
+                        HoverFill: =RGBA(0,0,0,0.1)
+                        OnSelect: =Navigate('Create Invoice')
+                        PressedBorderColor: =App.Theme.Colors.Darker40
+                        PressedColor: =Self.Color
+                        PressedFill: =RGBA(0,0,0,0.1)
+                        RadiusBottomLeft: =20
+                        RadiusBottomRight: =20
+                        RadiusTopLeft: =20
+                        RadiusTopRight: =20
+                        Text: =
+                        Width: =Parent.Width
                         ZIndex: =2
 
             Filters As groupContainer.horizontalAutoLayoutContainer:
