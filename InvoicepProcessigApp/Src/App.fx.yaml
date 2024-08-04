@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |-
+    OnStart: |
         =ClearCollect(
             MyCol,
             {
@@ -42,6 +42,16 @@ App As appinfo:
             productstable, Table()
         );
         Set(visibility, true);
+        
+        ClearCollect(
+            PendingItems,
+            Filter('Invoice System Demo', InvoiceStatus.Value = "Pending"));
+        
+        
+        
+        ClearCollect(
+            PaidItems,
+            Filter('Invoice System Demo', InvoiceStatus.Value = "P"));
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

@@ -222,7 +222,11 @@ InvoiceList As screen:
                         FontWeight: =FontWeight.Bold
                         Height: =Parent.Height*50%
                         Size: =Parent.Width * 6%
-                        Text: =
+                        Text: |
+                            ="$" & Sum(
+                                PendingItems,
+                                'Total Amount'
+                            )
                         VerticalAlign: =VerticalAlign.Top
                         Width: =Parent.Width * 70%
                         X: =Container16.X + Container16.Width
@@ -273,7 +277,11 @@ InvoiceList As screen:
                         FontWeight: =FontWeight.Bold
                         Height: =Parent.Height*50%
                         Size: =Parent.Width * 6%
-                        Text: ="$132.000"
+                        Text: |
+                            ="$" & Sum(
+                                PaidItems,
+                                'Total Amount'
+                            )
                         VerticalAlign: =VerticalAlign.Top
                         Width: =Parent.Width * 70%
                         X: =Container16_1.X + Container16_1.Width
