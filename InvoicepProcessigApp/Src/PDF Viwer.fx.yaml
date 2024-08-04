@@ -18,6 +18,7 @@
         ZIndex: =4
 
         Container18_4 As groupContainer.manualLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             Height: =Parent.Height
             LayoutMinHeight: =0
             LayoutMinWidth: =0
@@ -31,14 +32,14 @@
             HeaderIcon_4 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 DropShadow: =DropShadow.Regular
-                Height: =Parent.Height * 95%
+                Height: =Self.Width
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
                 RadiusTopLeft: =50
                 RadiusTopRight: =50
-                Width: =Parent.Height * 95%
+                Width: =Parent.Width * 5%
                 X: =Parent.X + 5
-                Y: =Parent.Y + 2
+                Y: =(Parent.Height - Self.Height) / 2 
                 ZIndex: =1
 
                 Image4_16 As image:
@@ -52,22 +53,22 @@
                 BorderColor: =App.Theme.Colors.Darker40
                 Font: =Font.'Lato Black'
                 Height: =Parent.Height * 95%
-                Size: =20
-                Text: ="PDF Viwer"
-                Width: =Parent.Width * 25%
+                Size: =Parent.Width * 1.5%
+                Text: ="Invoice Capture"
+                Width: =Parent.Width * 16%
                 X: =HeaderIcon_4.X + HeaderIcon_4.Width
                 ZIndex: =2
 
             SettingsIcon_5 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
-                Height: =Parent.Height * 70%
+                Height: =Self.Width
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
                 RadiusTopLeft: =50
                 RadiusTopRight: =50
-                Width: =Parent.Height * 70%
-                X: =Parent.Width *85%
+                Width: =Parent.Width * 4%
+                X: =Parent.Width * 85%
                 Y: =(Parent.Height - Self.Height) / 2
                 ZIndex: =3
 
@@ -83,13 +84,13 @@
             Notifications_5 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
-                Height: =Parent.Height * 70%
+                Height: =Self.Width
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
                 RadiusTopLeft: =50
                 RadiusTopRight: =50
-                Width: =Parent.Height * 70%
-                X: =SettingsIcon_5.X + SettingsIcon_5.Width + 5
+                Width: =Parent.Width * 4%
+                X: =Parent.Width * 90%
                 Y: =(Parent.Height - Self.Height) / 2
                 ZIndex: =4
 
@@ -103,13 +104,13 @@
             UserIcon_4 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 BorderThickness: =1
-                Height: =Parent.Height * 70%
+                Height: =Self.Width
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
                 RadiusTopLeft: =50
                 RadiusTopRight: =50
-                Width: =Parent.Height * 70%
-                X: =Notifications_5.X + Notifications_5.Width + 5
+                Width: =Parent.Width * 4%
+                X: =Parent.Width * 95%
                 Y: =(Parent.Height - Self.Height) / 2
                 ZIndex: =5
 

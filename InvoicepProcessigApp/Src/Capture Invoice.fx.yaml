@@ -53,14 +53,14 @@
             HeaderIcon_3 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(221, 79, 14, 1)
                 DropShadow: =DropShadow.Regular
-                Height: =Parent.Height * 95%
+                Height: =Self.Width
                 RadiusBottomLeft: =50
                 RadiusBottomRight: =50
                 RadiusTopLeft: =50
                 RadiusTopRight: =50
-                Width: =Parent.Height * 95%
+                Width: =Parent.Width * 5%
                 X: =Parent.X + 5
-                Y: =Parent.Y + 2
+                Y: =(Parent.Height - Self.Height) / 2 
                 ZIndex: =1
 
                 Image4_12 As image:
