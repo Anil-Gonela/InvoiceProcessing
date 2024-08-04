@@ -515,7 +515,7 @@ InvoiceList As screen:
                         BorderColor: =App.Theme.Colors.Darker40
                         DelayItemLoading: =true
                         Height: =Parent.Height
-                        Items: ='Invoice Data'
+                        Items: ='Invoice System Demo'
                         Layout: =Layout.Vertical
                         LoadingSpinner: =LoadingSpinner.Data
                         TemplateFill: =RGBA(255, 255, 255, 0.2)
@@ -558,6 +558,7 @@ InvoiceList As screen:
                             FontWeight: =FontWeight.Semibold
                             Height: =Gallery6.TemplateHeight * 50%
                             OnSelect: =Select(Parent)
+                            Size: =Parent.Width * 1.2%
                             Text: =ThisItem.'Customer Name'
                             VerticalAlign: =VerticalAlign.Bottom
                             Width: =Gallery6.TemplateWidth * 15%
@@ -572,7 +573,7 @@ InvoiceList As screen:
                             RadiusTopLeft: =50
                             RadiusTopRight: =50
                             Width: =80
-                            X: =Gallery6.X + 40
+                            X: =Gallery6.X + 10
                             Y: =(Gallery6.TemplateHeight - Self.Height) / 2
                             ZIndex: =3
 
@@ -588,7 +589,8 @@ InvoiceList As screen:
                             Color: =RGBA(118, 0, 0, 1)
                             Font: =Font.Lato
                             OnSelect: =Select(Parent)
-                            Text: =ThisItem.'Invoice ID'
+                            Size: =Parent.Width * 1.2%
+                            Text: =ThisItem.Title
                             VerticalAlign: =VerticalAlign.Top
                             Width: =Gallery6.TemplateWidth * 15%
                             X: =Container20.X + Container20.Width + 5
@@ -601,7 +603,8 @@ InvoiceList As screen:
                             Font: =Font.Lato
                             FontWeight: =FontWeight.Semibold
                             OnSelect: =Select(Parent)
-                            Text: =ThisItem.'Bill To'
+                            Size: =Parent.Width * 1.2%
+                            Text: =ThisItem.GST
                             VerticalAlign: =VerticalAlign.Top
                             Width: =Gallery6.TemplateWidth * 15%
                             X: =Label12.X + Label12.Width + 25
@@ -614,10 +617,11 @@ InvoiceList As screen:
                             Font: =Font.Lato
                             FontWeight: =FontWeight.Semibold
                             OnSelect: =Select(Parent)
+                            Size: =Parent.Width * 1.2%
                             Text: =ThisItem.'Total Amount'
                             VerticalAlign: =VerticalAlign.Top
                             Width: =Gallery6.TemplateWidth * 15%
-                            X: =BillTo.X + BillTo.Width +  25
+                            X: =BillTo.X + BillTo.Width +  45
                             Y: =(Gallery6.TemplateHeight - Self.Height) / 2
                             ZIndex: =6
 
@@ -627,10 +631,11 @@ InvoiceList As screen:
                             Font: =Font.Lato
                             FontWeight: =FontWeight.Semibold
                             OnSelect: =Select(Parent)
+                            Size: =Parent.Width * 1.2%
                             Text: =ThisItem.'Invoice Date'
                             VerticalAlign: =VerticalAlign.Top
                             Width: =Gallery6.TemplateWidth * 15%
-                            X: =DueAmount.X + DueAmount.Width +  25
+                            X: =DueAmount.X + DueAmount.Width +  45
                             Y: =(Gallery6.TemplateHeight - Self.Height) / 2
                             ZIndex: =7
 
@@ -640,10 +645,11 @@ InvoiceList As screen:
                             Font: =Font.Lato
                             FontWeight: =FontWeight.Semibold
                             OnSelect: =Select(Parent)
+                            Size: =Parent.Width * 1.2%
                             Text: =ThisItem.'Invoice Date'
                             VerticalAlign: =VerticalAlign.Top
                             Width: =Gallery6.TemplateWidth * 15%
-                            X: =DueDate.X + DueDate.Width +  28
+                            X: =DueDate.X + DueDate.Width 
                             Y: =(Gallery6.TemplateHeight - Self.Height) / 2
                             ZIndex: =8
 
