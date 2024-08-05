@@ -1631,7 +1631,14 @@
                     "IsLockable": false,
                     "NameMapSourceSchema": "?"
                   },
-                  "BorderStyle",
+                  {
+                    "AFDDataSourceName": "",
+                    "AutoRuleBindingEnabled": false,
+                    "AutoRuleBindingString": "BorderStyle.Solid",
+                    "InvariantPropertyName": "BorderStyle",
+                    "IsLockable": false,
+                    "NameMapSourceSchema": "?"
+                  },
                   {
                     "AFDDataSourceName": "",
                     "AutoRuleBindingEnabled": false,
@@ -1749,15 +1756,15 @@
                 "Rules": [
                   {
                     "Category": "Design",
-                    "InvariantScript": "RGBA(0, 0, 0, 1)",
+                    "InvariantScript": "RGBA(141, 73, 58, 1)",
                     "Property": "BorderColor",
-                    "RuleProviderType": "Unknown"
+                    "RuleProviderType": "User"
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "BorderStyle.Solid",
+                    "InvariantScript": "If(ThisItem.IsSelected, BorderStyle.Solid, BorderStyle.None)",
                     "Property": "BorderStyle",
-                    "RuleProviderType": "Unknown"
+                    "RuleProviderType": "User"
                   },
                   {
                     "Category": "Design",
@@ -1881,7 +1888,7 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "0",
+                    "InvariantScript": "1",
                     "Property": "BorderThickness",
                     "RuleProviderType": "Unknown"
                   }
@@ -3510,7 +3517,7 @@
       },
       "component_width"
     ],
-    "LastModifiedTimestamp": "638584367215503813",
+    "LastModifiedTimestamp": "638584408045432737",
     "Name": "SideNavigation_Compact",
     "Rules": [
       {
@@ -3630,7 +3637,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638584367215503813",
+  "LastModifiedTimestamp": "638584408045432737",
   "Name": "d4521f6e39724073a64c56d93e35a98f",
   "OverridableProperties": {},
   "Version": "1.0"
