@@ -22,6 +22,37 @@
 
             SideNavigation_Compact_5 As SideNavigation_Compact:
                 Height: =Parent.Height *90%
+                MenuContent: |
+                    =Table(
+                        {
+                            MenuIcon: MainIcon,
+                            MenuID: 1, 
+                            MenuName: "Main", 
+                            PageNavigation: 'Power BI Report',
+                            ScreenName: "Overview"
+                            },
+                            {
+                            MenuIcon: CreateInvoice,
+                            MenuID: 2, 
+                            MenuName: "CreateInvoice", 
+                            PageNavigation: 'Create Invoice',
+                            ScreenName: "Create Invoice"
+                            },
+                            {
+                            MenuIcon: CaptureInovice,
+                            MenuID: 3, 
+                            MenuName: "CaptureInvoice", 
+                            PageNavigation: 'Capture Invoice',
+                            ScreenName: "Capture Invoice"
+                            },
+                            {
+                            MenuIcon: InovceList,
+                            MenuID: 4, 
+                            MenuName: "InvoiceList", 
+                            PageNavigation: InvoiceList,
+                            ScreenName: "Invoice List"
+                            }
+                        )
 
     Heading_5 As groupContainer.horizontalAutoLayoutContainer:
         Fill: =RGBA(255, 255, 255, 0.1)

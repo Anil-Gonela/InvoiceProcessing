@@ -646,15 +646,15 @@
                       },
                       {
                         "Category": "Design",
-                        "InvariantScript": "40",
+                        "InvariantScript": "0",
                         "Property": "X",
-                        "RuleProviderType": "Unknown"
+                        "RuleProviderType": "User"
                       },
                       {
                         "Category": "Design",
-                        "InvariantScript": "40",
+                        "InvariantScript": "0",
                         "Property": "Y",
-                        "RuleProviderType": "Unknown"
+                        "RuleProviderType": "User"
                       },
                       {
                         "Category": "Design",
@@ -3510,7 +3510,7 @@
       },
       "component_width"
     ],
-    "LastModifiedTimestamp": "638584303933197257",
+    "LastModifiedTimestamp": "638584309911251525",
     "Name": "SideNavigation_Compact",
     "Rules": [
       {
@@ -3630,7 +3630,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638584303933197257",
+  "LastModifiedTimestamp": "638584309911251525",
   "Name": "d4521f6e39724073a64c56d93e35a98f",
   "OverridableProperties": {},
   "Version": "1.0"

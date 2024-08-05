@@ -3423,7 +3423,7 @@
         {
           "Category": "Data",
           "PropertyName": "MenuContent",
-          "RuleProviderType": "System"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",

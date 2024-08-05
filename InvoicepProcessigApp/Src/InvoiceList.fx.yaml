@@ -21,6 +21,37 @@ InvoiceList As screen:
 
             SideNavigation_Compact_2 As SideNavigation_Compact:
                 Height: =Parent.Height
+                MenuContent: |
+                    =Table(
+                        {
+                            MenuIcon: MainIcon,
+                            MenuID: 1, 
+                            MenuName: "Main", 
+                            PageNavigation: 'Power BI Report',
+                            ScreenName: "Overview"
+                            },
+                            {
+                            MenuIcon: CreateInvoice,
+                            MenuID: 2, 
+                            MenuName: "CreateInvoice", 
+                            PageNavigation: 'Create Invoice',
+                            ScreenName: "Create Invoice"
+                            },
+                            {
+                            MenuIcon: CaptureInovice,
+                            MenuID: 3, 
+                            MenuName: "CaptureInvoice", 
+                            PageNavigation: 'Capture Invoice',
+                            ScreenName: "Capture Invoice"
+                            },
+                            {
+                            MenuIcon: InovceList,
+                            MenuID: 4, 
+                            MenuName: "InvoiceList", 
+                            PageNavigation: InvoiceList,
+                            ScreenName: "Invoice List"
+                            }
+                        )
 
     Heading_1 As groupContainer.horizontalAutoLayoutContainer:
         Fill: =RGBA(255, 255, 255, 0.1)
