@@ -280,9 +280,10 @@
                         
                         SubmitForm(Form1);
                         ResetForm(Mainform);
+                        Navigate('Power BI Report');
                         
                         
-                        Clear(Table1, Table1.Items_FieldProperties)
+                        Reset(FormProcessor1_2);
                         
                         
                     PressedBorderColor: =App.Theme.Colors.Darker40
