@@ -276,7 +276,7 @@
                     Text: ="Submit"
                     Width: =Parent.Width*30%
                     X: =229
-                    Y: =597
+                    Y: =Table1.Y + Table1.Height + 5
                     ZIndex: =2
 
                 Form1 As form.PowerApps_CoreControls_Form:
@@ -1236,4 +1236,47 @@
                     X: =Parent.Height * 5%
                     Y: =Form1.Height + Form1.Y + 5
                     ZIndex: =4
+
+                Table1 As Table.pcfdataset:
+                    DisplayMode: =DisplayMode.Edit
+                    HeaderFontColor: =RGBA(141, 73, 58, 1)
+                    Height: =Parent.Height * 25%
+                    Items: =FormProcessor1_2.Tables.Product_Table
+                    onCellValueChange: =false
+                    onFilter: =false
+                    onNavigate: =false
+                    onRowSelect: =false
+                    onSave: =false
+                    OnSelect: =false
+                    Width: =Parent.Width
+                    X: =0
+                    Y: =TextCanvas2.Height + TextCanvas2.Y + 5
+                    ZIndex: =5
+
+                    Item2 As PowerAppsOneGridTemplate_dataField.textualColumn:
+                        FieldDisplayName: ="Item"
+                        FieldName: ="Item"
+                        FieldType: ="s"
+                        FieldVariantName: ="textualColumn"
+                        Order: =1
+                        Width: =0
+                        ZIndex: =6
+
+                    Quantitiy1 As PowerAppsOneGridTemplate_dataField.textualColumn:
+                        FieldDisplayName: ="Quantitiy"
+                        FieldName: ="Quantitiy"
+                        FieldType: ="s"
+                        FieldVariantName: ="textualColumn"
+                        Order: =2
+                        Width: =0
+                        ZIndex: =7
+
+                    Amount1 As PowerAppsOneGridTemplate_dataField.textualColumn:
+                        FieldDisplayName: ="Amount"
+                        FieldName: ="Amount"
+                        FieldType: ="s"
+                        FieldVariantName: ="textualColumn"
+                        Order: =3
+                        Width: =0
+                        ZIndex: =8
 
