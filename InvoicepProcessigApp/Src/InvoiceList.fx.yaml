@@ -632,7 +632,7 @@ InvoiceList As screen:
                             Text: =ThisItem.'Total Amount'
                             VerticalAlign: =VerticalAlign.Top
                             Width: =Gallery6.TemplateWidth * 15%
-                            X: =BillTo.X + BillTo.Width +  45
+                            X: =BillTo.X + BillTo.Width +  75
                             Y: =(Gallery6.TemplateHeight - Self.Height) / 2
                             ZIndex: =6
 
@@ -657,7 +657,7 @@ InvoiceList As screen:
                             FontWeight: =FontWeight.Semibold
                             OnSelect: =Select(Parent)
                             Size: =Parent.Width * 1.2%
-                            Text: =ThisItem.'Invoice Date'
+                            Text: =ThisItem.'Invoice Status'.Value
                             VerticalAlign: =VerticalAlign.Top
                             Width: =Gallery6.TemplateWidth * 15%
                             X: =DueDate.X + DueDate.Width 

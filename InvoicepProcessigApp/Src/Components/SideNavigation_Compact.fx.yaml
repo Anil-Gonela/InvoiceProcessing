@@ -55,7 +55,7 @@ SideNavigation_Compact As CanvasComponent:
 
         Logo As image:
             AlignInContainer: =AlignInContainer.Stretch
-            Height: =50
+            Height: =Parent.Width * 20%
             Image: =SideNavigation_Compact.First_Logo
             LayoutMinWidth: =0
             Width: =Parent.Width
@@ -99,17 +99,6 @@ SideNavigation_Compact As CanvasComponent:
                         Width: =Parent.Width
                         ZIndex: =1
 
-                    Button4 As button:
-                        BorderThickness: =0
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =Parent.Height
-                        HoverFill: =RGBA(0,0,0,0.1)
-                        OnSelect: =Navigate(ThisItem.PageNavigation)
-                        PressedFill: =RGBA(0,0,0,0.2)
-                        Text: =
-                        Width: =Parent.Width
-                        ZIndex: =2
-
                 Label6 As label:
                     Color: =If(ThisItem.IsSelected, RGBA(255, 255,255, 1), RGBA(0, 0, 0, 1))
                     Font: =Font.'Lato Black'
@@ -120,6 +109,19 @@ SideNavigation_Compact As CanvasComponent:
                     X: =Container6.X + Container6.Width
                     Y: =(Parent.Height - Self.Height) / 2
                     ZIndex: =2
+
+                Button4 As button:
+                    BorderThickness: =0
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =Parent.Height
+                    HoverFill: =RGBA(0,0,0,0.1)
+                    OnSelect: =Navigate(ThisItem.PageNavigation)
+                    PressedFill: =RGBA(0,0,0,0.2)
+                    Text: =
+                    Width: =Parent.Width
+                    X: =40
+                    Y: =40
+                    ZIndex: =3
 
         Container3 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.None

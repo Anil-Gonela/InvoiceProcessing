@@ -1,14 +1,7 @@
 App As appinfo:
     BackEnabled: =true
     OnStart: |
-        =ClearCollect(
-            MyCol,
-            {
-                Description: DescriptionInput_5.Text,
-                Units: UnitsInput_4.Text,
-                Amount: TotalAmountInput_4.Text
-            }
-        );
+        =
         Set(
             Group1Visibility,
             true
@@ -52,6 +45,38 @@ App As appinfo:
         ClearCollect(
             PaidItems,
             Filter('Invoice System Demo', InvoiceStatus.Value = "P"));
+        
+        
+        Table(
+            {
+                MenuIcon: MainIcon,
+                MenuID: 1, 
+                MenuName: "Main", 
+                PageNavigation: 'Power BI Report',
+                ScreenName: "Overview"
+                },
+                {
+                MenuIcon: CreateInvoice,
+                MenuID: 2, 
+                MenuName: "CreateInvoice", 
+                PageNavigation: 'Create Invoice',
+                ScreenName: "Create Invoice"
+                },
+                {
+                MenuIcon: CaptureInovice,
+                MenuID: 3, 
+                MenuName: "CaptureInvoice", 
+                PageNavigation: 'Capture Invoice',
+                ScreenName: "Capture Invoice"
+                },
+                {
+                MenuIcon: InovceList,
+                MenuID: 4, 
+                MenuName: "InvoiceList", 
+                PageNavigation: InvoiceList,
+                ScreenName: "Invoice List"
+                }
+            )
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
