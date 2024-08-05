@@ -589,6 +589,237 @@
             },
             {
               "EnumString": "",
+              "Kind": "Table",
+              "Name": "Product_Table",
+              "Type": [
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "Amount",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Record",
+                      "Name": "BoundingBox",
+                      "Type": [
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Height",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Left",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Top",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Width",
+                          "Type": []
+                        }
+                      ]
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Confidence",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "PageNumber",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "String",
+                      "Name": "Value",
+                      "Type": []
+                    }
+                  ]
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "Invoice ID",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Record",
+                      "Name": "BoundingBox",
+                      "Type": [
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Height",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Left",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Top",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Width",
+                          "Type": []
+                        }
+                      ]
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Confidence",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "PageNumber",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "String",
+                      "Name": "Value",
+                      "Type": []
+                    }
+                  ]
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "Item",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Record",
+                      "Name": "BoundingBox",
+                      "Type": [
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Height",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Left",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Top",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Width",
+                          "Type": []
+                        }
+                      ]
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Confidence",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "PageNumber",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "String",
+                      "Name": "Value",
+                      "Type": []
+                    }
+                  ]
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "Quantitiy",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Record",
+                      "Name": "BoundingBox",
+                      "Type": [
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Height",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Left",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Top",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Width",
+                          "Type": []
+                        }
+                      ]
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Confidence",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "PageNumber",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "String",
+                      "Name": "Value",
+                      "Type": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "EnumString": "",
               "Kind": "Record",
               "Name": "Shipping",
               "Type": [
@@ -876,7 +1107,39 @@
           "EnumString": "",
           "Kind": "Record",
           "Name": "Root",
-          "Type": []
+          "Type": [
+            {
+              "EnumString": "",
+              "Kind": "Table",
+              "Name": "Product_Table",
+              "Type": [
+                {
+                  "EnumString": "",
+                  "Kind": "String",
+                  "Name": "Amount",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "String",
+                  "Name": "Invoice ID",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "String",
+                  "Name": "Item",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "String",
+                  "Name": "Quantitiy",
+                  "Type": []
+                }
+              ]
+            }
+          ]
         },
         "Version": "1.343"
       }
@@ -891,11 +1154,11 @@
         "PCFSkipValidation": false
       },
       "Results": {
-        "DynamicSchema": "{\"$schema\":\"http://json-schema.org/draft-04/schema#\",\"type\":\"object\",\"properties\":{\"Tax\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"number\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Shipping\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Billing_Address\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Customer_address\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Total\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"number\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Invoice_id\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Vendor Name\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"DueDate\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Invoice_Date\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"BalanceDue\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"number\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Customer Name\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Subtotal\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"number\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}}}}",
+        "DynamicSchema": "{\"$schema\":\"http://json-schema.org/draft-04/schema#\",\"type\":\"object\",\"properties\":{\"Tax\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"number\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Shipping\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Billing_Address\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Customer_address\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Total\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"number\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Invoice_id\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Vendor Name\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"DueDate\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Invoice_Date\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"BalanceDue\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"number\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Customer Name\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Subtotal\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"number\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Product_Table\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"Item\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Quantitiy\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Invoice ID\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Amount\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}}}}}}}",
         "PCFSkipValidation": false
       },
       "Tables": {
-        "DynamicSchema": "{\"$schema\":\"http://json-schema.org/draft-04/schema#\",\"type\":\"object\",\"properties\":{}}",
+        "DynamicSchema": "{\"$schema\":\"http://json-schema.org/draft-04/schema#\",\"type\":\"object\",\"properties\":{\"Product_Table\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"Item\":{\"type\":\"string\",\"title\":\"value\"},\"Quantitiy\":{\"type\":\"string\",\"title\":\"value\"},\"Invoice ID\":{\"type\":\"string\",\"title\":\"value\"},\"Amount\":{\"type\":\"string\",\"title\":\"value\"}}}}}}",
         "PCFSkipValidation": false
       }
     },

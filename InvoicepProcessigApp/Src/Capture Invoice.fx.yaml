@@ -218,8 +218,7 @@
                     FillColor: =RGBA(132, 40, 38, 1)
                     FontColor: =RGBA(255, 255, 255, 1)
                     Height: =Parent.Height*70%
-                    ModelId: |-
-                        ="Document Processing 23/7/2024, 11:45:07 pm (100d103d-8b67-41ca-a742-66f2574356fb)"
+                    ModelId: ="AKG_Document Processing 05/08 (100d103d-8b67-41ca-a742-66f2574356fb)"
                     Text: ="Upload Invoice"
                     Width: =Parent.Width * 80%
                     X: =(Parent.Width - Self.Width) / 2
@@ -276,16 +275,15 @@
                     Size: =Parent.Width * 2%
                     Text: ="Submit"
                     Width: =Parent.Width*30%
-                    X: =(Parent.Width - Self.Width) / 2 
-                    Y: =Form1.Height + Form1.Y + 20
+                    X: =229
+                    Y: =597
                     ZIndex: =2
 
                 Form1 As form.PowerApps_CoreControls_Form:
                     BorderColor: =App.Theme.Colors.Darker40
                     DataSource: ='Invoice System Demo'
                     DefaultMode: =FormMode.New
-                    Height: =Parent.Height * 85%
-                    NumberOfColumns: =2
+                    Height: =Parent.Height * 55%
                     UseFluentV9Cards: =true
                     Width: =Parent.Width
                     Y: =Parent.Y
@@ -303,7 +301,7 @@
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, Title)
                         Required: =false
                         Update: =DataCardValue3.Value
-                        Width: =327
+                        Width: =218
                         X: =0
                         Y: =0
                         ZIndex: =4
@@ -366,7 +364,7 @@
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Customer Name')
                         Required: =false
                         Update: =DataCardValue4.Value
-                        Width: =327
+                        Width: =218
                         X: =1
                         Y: =0
                         ZIndex: =4
@@ -428,9 +426,9 @@
                         Height: =70
                         Required: =false
                         Update: =DataCardValue5.SelectedDate
-                        Width: =327
-                        X: =0
-                        Y: =1
+                        Width: =218
+                        X: =2
+                        Y: =0
                         ZIndex: =4
 
                         DataCardKey5 As Text:
@@ -491,8 +489,8 @@
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, GST)
                         Required: =false
                         Update: =DataCardValue6.Value
-                        Width: =327
-                        X: =1
+                        Width: =218
+                        X: =0
                         Y: =1
                         ZIndex: =4
 
@@ -554,9 +552,9 @@
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Balance Due')
                         Required: =false
                         Update: =DataCardValue7.Value
-                        Width: =327
-                        X: =0
-                        Y: =2
+                        Width: =218
+                        X: =1
+                        Y: =1
                         ZIndex: =4
 
                         DataCardKey7 As Text:
@@ -617,9 +615,9 @@
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Customer Address')
                         Required: =false
                         Update: =DataCardValue8.Value
-                        Width: =327
-                        X: =1
-                        Y: =2
+                        Width: =218
+                        X: =2
+                        Y: =1
                         ZIndex: =4
 
                         DataCardKey8 As Text:
@@ -679,9 +677,9 @@
                         Height: =70
                         Required: =false
                         Update: =DataCardValue9.SelectedDate
-                        Width: =327
+                        Width: =218
                         X: =0
-                        Y: =3
+                        Y: =2
                         ZIndex: =4
 
                         DataCardKey9 As Text:
@@ -742,9 +740,9 @@
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Shipping Cost')
                         Required: =false
                         Update: =DataCardValue10.Value
-                        Width: =327
+                        Width: =218
                         X: =1
-                        Y: =3
+                        Y: =2
                         ZIndex: =4
 
                         DataCardKey10 As Text:
@@ -804,9 +802,9 @@
                         Height: =70
                         Required: =false
                         Update: =DataCardValue11.Selected
-                        Width: =327
-                        X: =0
-                        Y: =4
+                        Width: =218
+                        X: =2
+                        Y: =2
                         ZIndex: =4
 
                         DataCardKey11 As Text:
@@ -865,9 +863,9 @@
                         Height: =70
                         Required: =false
                         Update: =DataCardValue12.Selected
-                        Width: =327
-                        X: =1
-                        Y: =4
+                        Width: =218
+                        X: =0
+                        Y: =3
                         ZIndex: =4
 
                         DataCardKey12 As Text:
@@ -927,9 +925,9 @@
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Reference Number')
                         Required: =false
                         Update: =DataCardValue13.Value
-                        Width: =327
-                        X: =0
-                        Y: =5
+                        Width: =218
+                        X: =1
+                        Y: =3
                         ZIndex: =4
 
                         DataCardKey13 As Text:
@@ -990,9 +988,9 @@
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Vendor Name')
                         Required: =false
                         Update: =DataCardValue14.Value
-                        Width: =327
-                        X: =1
-                        Y: =5
+                        Width: =218
+                        X: =2
+                        Y: =3
                         ZIndex: =4
 
                         DataCardKey14 As Text:
@@ -1053,9 +1051,9 @@
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, 'Vendor Address')
                         Required: =false
                         Update: =DataCardValue15.Value
-                        Width: =327
+                        Width: =218
                         X: =0
-                        Y: =6
+                        Y: =4
                         ZIndex: =4
 
                         DataCardKey15 As Text:
@@ -1116,9 +1114,9 @@
                         MaxLength: =DataSourceInfo([@'Invoice System Demo'], DataSourceInfo.MaxLength, Subtotal)
                         Required: =false
                         Update: =DataCardValue17.Value
-                        Width: =327
+                        Width: =218
                         X: =1
-                        Y: =6
+                        Y: =4
                         ZIndex: =4
 
                         DataCardKey17 As Text:
@@ -1178,9 +1176,9 @@
                         Height: =70
                         Required: =false
                         Update: =Value(DataCardValue18.Value)
-                        Width: =327
-                        X: =0
-                        Y: =7
+                        Width: =218
+                        X: =2
+                        Y: =4
                         ZIndex: =4
 
                         DataCardKey18 As Text:
@@ -1226,4 +1224,16 @@
                             X: =0
                             Y: =DataCardKey18.Y
                             ZIndex: =4
+
+                TextCanvas2 As Text:
+                    DisplayMode: =DisplayMode.Edit
+                    Font: =Font.Lato
+                    Height: =32
+                    Size: =Parent.Width * 2.5%
+                    Text: ="Product Details"
+                    Weight: ='TextCanvas.Weight'.Bold
+                    Width: =Parent.Width * 30%
+                    X: =Parent.Height * 5%
+                    Y: =Form1.Height + Form1.Y + 5
+                    ZIndex: =4
 

@@ -1356,7 +1356,7 @@
       "MetaDataIDKey": "",
       "Name": "Component_4",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3042,7 +3042,7 @@
       "MetaDataIDKey": "",
       "Name": "Heading_5",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9221,7 +9221,7 @@
       "MetaDataIDKey": "",
       "Name": "Total Due and Paid_3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
