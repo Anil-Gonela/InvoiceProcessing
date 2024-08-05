@@ -464,6 +464,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "App.InvoiceNumber"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.InvoiceNumber",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "InvoiceNumber",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.855936706_medium"
                 }
               ],

@@ -76,7 +76,10 @@ App As appinfo:
                 PageNavigation: InvoiceList,
                 ScreenName: "Invoice List"
                 }
-            )
+            );
+        
+        
+        Set(InvoiceNumber, "");
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

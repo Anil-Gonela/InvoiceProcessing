@@ -67,10 +67,7 @@ InvoiceList As screen:
         ZIndex: =4
 
         Container18_6 As groupContainer.manualLayoutContainer:
-            AlignInContainer: =AlignInContainer.SetByContainer
             Height: =Parent.Height
-            LayoutMinHeight: =0
-            LayoutMinWidth: =0
             RadiusBottomLeft: =20
             RadiusBottomRight: =20
             RadiusTopLeft: =20
@@ -609,12 +606,13 @@ InvoiceList As screen:
                             ZIndex: =2
 
                         Container20 As groupContainer.manualLayoutContainer:
-                            Height: =Gallery6.TemplateHeight * 80%
+                            DropShadow: =DropShadow.None
+                            Height: =Parent.Height * 20%
                             RadiusBottomLeft: =50
                             RadiusBottomRight: =50
                             RadiusTopLeft: =50
                             RadiusTopRight: =50
-                            Width: =80
+                            Width: =Parent.Width * 10%
                             X: =Gallery6.X + 10
                             Y: =(Gallery6.TemplateHeight - Self.Height) / 2
                             ZIndex: =3
@@ -663,7 +661,7 @@ InvoiceList As screen:
                             Text: =ThisItem.'Total Amount'
                             VerticalAlign: =VerticalAlign.Top
                             Width: =Gallery6.TemplateWidth * 15%
-                            X: =BillTo.X + BillTo.Width +  75
+                            X: =BillTo.X + BillTo.Width +  45
                             Y: =(Gallery6.TemplateHeight - Self.Height) / 2
                             ZIndex: =6
 
