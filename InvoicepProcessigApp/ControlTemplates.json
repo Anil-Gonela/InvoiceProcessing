@@ -72,20 +72,6 @@
     "TemplateDisplayName": "Date picker",
     "Version": "0.0.32"
   },
-  "datepicker": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/datepicker",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": true,
-    "LastModifiedTimestamp": "0",
-    "Name": "datepicker",
-    "OverridableProperties": {},
-    "Version": "2.6.0"
-  },
   "form": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -944,20 +930,6 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
-  "group": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/group",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
-    "LastModifiedTimestamp": "0",
-    "Name": "group",
-    "OverridableProperties": {},
-    "Version": "1"
-  },
   "groupContainer": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -986,20 +958,6 @@
     "Name": "hostControl",
     "OverridableProperties": {},
     "Version": "1.6.0"
-  },
-  "icon": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/icon",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": true,
-    "LastModifiedTimestamp": "0",
-    "Name": "icon",
-    "OverridableProperties": {},
-    "Version": "2.5.0"
   },
   "image": {
     "CustomGroupControlTemplateName": "",
@@ -1113,20 +1071,6 @@
     "OverridableProperties": {},
     "TemplateDisplayName": "Table",
     "Version": "1.0.200"
-  },
-  "text": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/text",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": true,
-    "LastModifiedTimestamp": "0",
-    "Name": "text",
-    "OverridableProperties": {},
-    "Version": "2.3.2"
   },
   "Text": {
     "CustomGroupControlTemplateName": "",
