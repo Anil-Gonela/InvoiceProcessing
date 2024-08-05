@@ -112,13 +112,9 @@ SideNavigation_Compact As CanvasComponent:
                     Y: =(Parent.Height - Self.Height) / 2
                     ZIndex: =2
 
-                Button4 As button:
-                    BorderThickness: =0
+                Button1 As button:
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =Parent.Height
-                    HoverFill: =RGBA(0,0,0,0.1)
-                    OnSelect: =Navigate(ThisItem.PageNavigation)
-                    PressedFill: =RGBA(0,0,0,0.2)
                     Text: =
                     Width: =Parent.Width
                     ZIndex: =3
