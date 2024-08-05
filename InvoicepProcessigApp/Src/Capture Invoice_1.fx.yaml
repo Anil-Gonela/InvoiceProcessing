@@ -255,7 +255,7 @@
                         PaddingLeft: =0
                         PaddingRight: =0
                         PaddingTop: =0
-                        Size: =Parent.Width * 3%
+                        Size: =Parent.Width * 2.8%
                         Text: =ThisItem.Item
                         Width: =Gallery3.TemplateWidth * 50%
                         X: =Parent.X + 20
@@ -274,7 +274,7 @@
                         PaddingLeft: =0
                         PaddingRight: =0
                         PaddingTop: =0
-                        Size: =Parent.Width * 3%
+                        Size: =Parent.Width * 2.8%
                         Text: =ThisItem.Qty & "(Qty)" 
                         Width: =Gallery3.TemplateWidth * 15%
                         X: =Item.X + Item.Width
@@ -292,7 +292,7 @@
                         PaddingLeft: =0
                         PaddingRight: =0
                         PaddingTop: =0
-                        Size: =Parent.Width * 3%
+                        Size: =Parent.Width * 2.8%
                         Text: =ThisItem.InvoiceAmount
                         Width: =Gallery3.TemplateWidth * 25%
                         X: =Qty.X + Qty.Width + 2
@@ -312,7 +312,7 @@
                     Font: =Font.Lato
                     FontColor: =RGBA(141, 73, 58, 1)
                     Height: =Parent.Height * 18%
-                    Size: =Parent.Width * 2.8%
+                    Size: =Parent.Width * 3%
                     Text: ="Product Details"
                     Weight: ='TextCanvas.Weight'.Bold
                     Width: =Parent.Width * 40%
