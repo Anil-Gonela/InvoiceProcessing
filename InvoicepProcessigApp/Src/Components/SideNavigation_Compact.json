@@ -1396,7 +1396,7 @@
                       },
                       {
                         "Category": "Design",
-                        "InvariantScript": "If(ThisItem.IsSelected, RGBA(255, 255,255, 1), RGBA(0, 0, 0, 1))",
+                        "InvariantScript": "RGBA(0, 0, 0, 1)",
                         "Property": "Color",
                         "RuleProviderType": "User"
                       },
@@ -1761,7 +1761,7 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "If(ThisItem.IsSelected,RGBA(141, 73, 58, 1), RGBA(255, 255, 255, 0.2))",
+                    "InvariantScript": " RGBA(255, 255, 255, 0.2)",
                     "Property": "Fill",
                     "RuleProviderType": "User"
                   },
@@ -3510,7 +3510,7 @@
       },
       "component_width"
     ],
-    "LastModifiedTimestamp": "638584309911251525",
+    "LastModifiedTimestamp": "638584318116462644",
     "Name": "SideNavigation_Compact",
     "Rules": [
       {
@@ -3630,7 +3630,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638584309911251525",
+  "LastModifiedTimestamp": "638584318116462644",
   "Name": "d4521f6e39724073a64c56d93e35a98f",
   "OverridableProperties": {},
   "Version": "1.0"

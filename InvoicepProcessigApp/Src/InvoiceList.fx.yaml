@@ -584,7 +584,7 @@ InvoiceList As screen:
                                 HoverFill: =RGBA(0,0,0,0.1) 
                                 PressedBorderColor: =App.Theme.Colors.Darker40
                                 PressedColor: =Self.Color
-                                PressedFill: =App.Theme.Colors.Darker40
+                                PressedFill: =RGBA(0,0,0,0.2)
                                 RadiusBottomLeft: =20
                                 RadiusBottomRight: =20
                                 RadiusTopLeft: =20
