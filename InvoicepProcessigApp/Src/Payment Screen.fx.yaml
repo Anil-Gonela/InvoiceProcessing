@@ -502,7 +502,7 @@
                             ="Bill To: " & CustomerName
                         Weight: ='TextCanvas.Weight'.Bold
                         Width: =Parent.Width * 60%
-                        X: =Parent.Width * 10%
+                        X: =Parent.Width * 8%
                         Y: =Heading1.Y + Heading1.Height
                         ZIndex: =2
 
@@ -578,10 +578,10 @@
                         Height: =Parent.Height * 20%
                         Size: =Parent.Width * 5%
                         Text: |-
-                            =" Vendor: " & VendorName
+                            ="Vendor: " & VendorName
                         Weight: ='TextCanvas.Weight'.Bold
                         Width: =Parent.Width 
-                        X: =Parent.Width * 8%
+                        X: =Parent.Width * 7%
                         Y: =Heading1.Y + Heading1.Height
                         ZIndex: =2
 
@@ -603,7 +603,7 @@
                         VerticalAlign: ='TextCanvas.VerticalAlign'.Top
                         Weight: ='TextCanvas.Weight'.Bold
                         Width: =Parent.Width * 90%
-                        X: =Parent.Width * 3%
+                        X: =Parent.Width * 5%
                         Y: =Heading1_1.Y + Heading1_1.Height
                         ZIndex: =3
 
