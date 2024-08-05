@@ -147,7 +147,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 439,
+            "PublishOrderIndex": 440,
             "Rules": [
               {
                 "Category": "Data",
@@ -369,7 +369,7 @@
                 "OptimizeForDevices": "Off",
                 "Parent": "Gallery4",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 441,
+                "PublishOrderIndex": 442,
                 "Rules": [
                   {
                     "Category": "Design",
@@ -483,7 +483,7 @@
                         "OptimizeForDevices": "Off",
                         "Parent": "Container6",
                         "PersistMetaDataIDKey": false,
-                        "PublishOrderIndex": 444,
+                        "PublishOrderIndex": 445,
                         "Rules": [
                           {
                             "Category": "Data",
@@ -801,7 +801,7 @@
                         "OptimizeForDevices": "Off",
                         "Parent": "Container6",
                         "PersistMetaDataIDKey": false,
-                        "PublishOrderIndex": 445,
+                        "PublishOrderIndex": 446,
                         "Rules": [
                           {
                             "Category": "Data",
@@ -1103,7 +1103,7 @@
                     "OptimizeForDevices": "Off",
                     "Parent": "Container5",
                     "PersistMetaDataIDKey": false,
-                    "PublishOrderIndex": 443,
+                    "PublishOrderIndex": 444,
                     "Rules": [
                       {
                         "Category": "Design",
@@ -1368,7 +1368,7 @@
                     "OptimizeForDevices": "Off",
                     "Parent": "Container5",
                     "PersistMetaDataIDKey": false,
-                    "PublishOrderIndex": 446,
+                    "PublishOrderIndex": 447,
                     "Rules": [
                       {
                         "Category": "Data",
@@ -1745,7 +1745,7 @@
                 "OptimizeForDevices": "Off",
                 "Parent": "Gallery4",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 442,
+                "PublishOrderIndex": 443,
                 "Rules": [
                   {
                     "Category": "Design",
@@ -2042,7 +2042,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 440,
+            "PublishOrderIndex": 441,
             "Rules": [
               {
                 "Category": "Data",
@@ -2300,7 +2300,7 @@
                     "OptimizeForDevices": "Off",
                     "Parent": "Container4",
                     "PersistMetaDataIDKey": false,
-                    "PublishOrderIndex": 449,
+                    "PublishOrderIndex": 450,
                     "Rules": [
                       {
                         "Category": "Data",
@@ -2638,7 +2638,7 @@
                 "OptimizeForDevices": "Off",
                 "Parent": "Container3",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 448,
+                "PublishOrderIndex": 449,
                 "Rules": [
                   {
                     "Category": "Design",
@@ -2968,7 +2968,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 447,
+            "PublishOrderIndex": 448,
             "Rules": [
               {
                 "Category": "Design",
@@ -3274,7 +3274,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "SideNavigation_Compact",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 438,
+        "PublishOrderIndex": 439,
         "Rules": [
           {
             "Category": "Design",
@@ -3510,7 +3510,7 @@
       },
       "component_width"
     ],
-    "LastModifiedTimestamp": "638584278130101494",
+    "LastModifiedTimestamp": "638584288831612224",
     "Name": "SideNavigation_Compact",
     "Rules": [
       {
@@ -3630,7 +3630,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638584278130101494",
+  "LastModifiedTimestamp": "638584288831612224",
   "Name": "d4521f6e39724073a64c56d93e35a98f",
   "OverridableProperties": {},
   "Version": "1.0"

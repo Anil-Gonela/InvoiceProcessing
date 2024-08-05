@@ -171,3 +171,14 @@
             Width: =Parent.Width
             ZIndex: =1
 
+            PowerBI2 As powerbi:
+                DashboardId: ="f3c85de2-7d21-411a-ba00-b89ff7a2fd83"
+                Height: =Parent.Height
+                TileUrl: |-
+                    ="https://app.powerbi.com/embed?dashboardId=f3c85de2-7d21-411a-ba00-b89ff7a2fd83&tileId=1e2fbe93-a335-4ad4-93a6-160ea1507fcf&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUVVUk9QRS1OT1JUSC1CLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0IiwiZW1iZWRGZWF0dXJlcyI6e319"
+                Width: =Parent.Width
+                WorkspaceId: ="__my-workspace"
+                X: =40*0
+                Y: =40*0
+                ZIndex: =1
+
