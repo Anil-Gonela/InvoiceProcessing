@@ -38,13 +38,13 @@ App As appinfo:
         
         ClearCollect(
             PendingItems,
-            Filter('Invoice System Demo', InvoiceStatus.Value = "Pending"));
+            Filter('Invoice System Demo', 'Invoice Status'.Value = "Pending"));
         
         
         
         ClearCollect(
             PaidItems,
-            Filter('Invoice System Demo', InvoiceStatus.Value = "P"));
+            Filter('Invoice System Demo', 'Invoice Status'.Value = "P"));
         
         
         Table(

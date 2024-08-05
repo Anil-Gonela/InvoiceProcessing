@@ -389,11 +389,11 @@
                     FontColor: =RGBA(255, 255, 255, 1)
                     FontSize: =Parent.Width * 3.5%
                     Height: =Parent.Height * 40%
-                    OnSelect: |
-                        =If(TextCanvas4.Text = "Pending", "");
+                    OnSelect: |+
+                        =If(TextCanvas4.Text = "Pending", Patch('Invoice System Demo',
+                        LookUp( 'Invoice System Demo', Title = InvoiceNumber ), { 'Invoice Status': {Value: "Paid"} } ));
                         
-                        Patch('Invoice System Demo',
-                        LookUp( 'Invoice System Demo', Title = InvoiceNumber ), { 'Invoice Status': {Value: "Paid"} } )
+                        
                     Text: ="Pay Now"
                     Width: =Parent.Width * 40%
                     X: =TextCanvas5.Width + TextCanvas5.X + 10
@@ -411,6 +411,9 @@
                     FontColor: =RGBA(255, 255, 255, 1)
                     FontSize: =Parent.Width * 3.5%
                     Height: =Parent.Height * 40%
+                    OnSelect: |-
+                        =If(TextCanvas4.Text = "Pending", Patch('Invoice System Demo',
+                        LookUp( 'Invoice System Demo', Title = InvoiceNumber ), { 'Invoice Status': {Value: "Cancelled"} } ));
                     Text: ="Cancel"
                     Width: =Parent.Width * 40%
                     X: =TextCanvas5.Width + TextCanvas5.X + 10
