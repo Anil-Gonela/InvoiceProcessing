@@ -262,8 +262,10 @@
                     Height: =Parent.Height * 5%
                     HoverBorderColor: =App.Theme.Colors.Darker10
                     HoverFill: =App.Theme.Colors.Darker10
-                    OnSelect: |
+                    OnSelect: |+
                         =//update data to the share point list
+                        
+                        
                         ForAll(FormProcessor1_2.Tables.Product_Table,
                             Patch(
                                  'Smart Invoice Product', 
@@ -278,7 +280,11 @@
                         
                         SubmitForm(Form1);
                         ResetForm(Mainform);
-                        Clear(FormProcessor1_2.Tables.Product_Table);
+                        
+                        
+                        Clear(Table1, Table1.Items_FieldProperties)
+                        
+                        
                     PressedBorderColor: =App.Theme.Colors.Darker40
                     PressedColor: =Self.Color
                     PressedFill: =App.Theme.Colors.Darker40
