@@ -369,7 +369,7 @@
                     Align: ='TextCanvas.Align'.Center
                     DisplayMode: =DisplayMode.Edit
                     Font: =Font.'Lato Black'
-                    Height: =Parent.Height * 95%
+                    Height: =Parent.Height * 65%
                     Size: =TextCanvas5.Width * 14%
                     Text: ="$" & AmontToPay
                     Weight: ='TextCanvas.Weight'.Bold
@@ -416,6 +416,27 @@
                     X: =TextCanvas5.Width + TextCanvas5.X + 10
                     Y: =ButtonCanvas1.Y + ButtonCanvas1.Height + 5 
                     ZIndex: =3
+
+                TextCanvas4_2 As Text:
+                    Align: ='TextCanvas.Align'.Start
+                    BorderColor: =RGBA(141, 73, 58, 1)
+                    BorderRadiusBottomLeft: =30
+                    BorderRadiusBottomRight: =30
+                    BorderRadiusTopLeft: =30
+                    BorderRadiusTopRight: =30
+                    BorderStyle: =BorderStyle.Solid
+                    BorderThickness: =0
+                    DisplayMode: =DisplayMode.Edit
+                    Font: =Font.Lato
+                    FontColor: =RGBA(141, 73, 58, 1)
+                    Height: =Parent.Height * 22%
+                    Size: =Parent.Width * 3%
+                    Text: ="INV- " & InvoiceNumber
+                    Weight: ='TextCanvas.Weight'.Bold
+                    Width: =Parent.Width * 40%
+                    X: =Parent.Width * 10%
+                    Y: =TextCanvas5.Height + TextCanvas5.Y
+                    ZIndex: =4
 
             "'Vendor Details' As groupContainer.manualLayoutContainer":
                 DropShadow: =DropShadow.None
