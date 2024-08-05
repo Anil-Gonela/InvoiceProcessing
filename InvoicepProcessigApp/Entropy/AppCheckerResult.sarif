@@ -853,36 +853,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Capture Invoice_1",
-                "type": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3.AccessibleLabel"
                 }
               ],
@@ -907,6 +877,36 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Capture Invoice_1",
+                "type": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
         },
         {
           "locations": [
