@@ -409,7 +409,14 @@
                         "IsLockable": false,
                         "NameMapSourceSchema": "?"
                       },
-                      "BorderColor",
+                      {
+                        "AFDDataSourceName": "",
+                        "AutoRuleBindingEnabled": false,
+                        "AutoRuleBindingString": "ColorFade(Self.Fill, -15%)",
+                        "InvariantPropertyName": "BorderColor",
+                        "IsLockable": false,
+                        "NameMapSourceSchema": "?"
+                      },
                       "DisabledBorderColor",
                       "PressedBorderColor",
                       "HoverBorderColor",
@@ -486,7 +493,14 @@
                       "RadiusTopRight",
                       "RadiusBottomLeft",
                       "RadiusBottomRight",
-                      "BorderThickness",
+                      {
+                        "AFDDataSourceName": "",
+                        "AutoRuleBindingEnabled": false,
+                        "AutoRuleBindingString": "",
+                        "InvariantPropertyName": "BorderThickness",
+                        "IsLockable": false,
+                        "NameMapSourceSchema": "?"
+                      },
                       "FocusedBorderThickness",
                       "Size",
                       "Italic",
@@ -525,9 +539,9 @@
                       },
                       {
                         "Category": "Design",
-                        "InvariantScript": "ColorFade(Self.Fill, -15%)",
+                        "InvariantScript": "If(ThisItem.IsSelected, RGBA(141, 73, 58, 1), RGBA(0, 0, 0, 0))",
                         "Property": "BorderColor",
-                        "RuleProviderType": "Unknown"
+                        "RuleProviderType": "User"
                       },
                       {
                         "Category": "Design",
@@ -693,7 +707,7 @@
                       },
                       {
                         "Category": "Design",
-                        "InvariantScript": "2",
+                        "InvariantScript": "0",
                         "Property": "BorderThickness",
                         "RuleProviderType": "Unknown"
                       },
@@ -1881,7 +1895,7 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "1",
+                    "InvariantScript": "0",
                     "Property": "BorderThickness",
                     "RuleProviderType": "Unknown"
                   }
@@ -3510,7 +3524,7 @@
       },
       "component_width"
     ],
-    "LastModifiedTimestamp": "638584415475167778",
+    "LastModifiedTimestamp": "638584422414843877",
     "Name": "SideNavigation_Compact",
     "Rules": [
       {
@@ -3630,7 +3644,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638584415475167778",
+  "LastModifiedTimestamp": "638584422414843877",
   "Name": "d4521f6e39724073a64c56d93e35a98f",
   "OverridableProperties": {},
   "Version": "1.0"

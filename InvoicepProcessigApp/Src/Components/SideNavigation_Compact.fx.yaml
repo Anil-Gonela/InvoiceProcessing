@@ -76,7 +76,6 @@ SideNavigation_Compact As CanvasComponent:
             Container5 As groupContainer.manualLayoutContainer:
                 BorderColor: =RGBA(141, 73, 58, 1)
                 BorderStyle: =If(ThisItem.IsSelected, BorderStyle.Solid, BorderStyle.None)
-                BorderThickness: =1
                 DropShadow: =DropShadow.Regular
                 Fill: = RGBA(255, 255, 255, 0.2)
                 Height: =Gallery4.TemplateHeight
@@ -113,6 +112,8 @@ SideNavigation_Compact As CanvasComponent:
                     ZIndex: =2
 
                 Button1 As button:
+                    BorderColor: =If(ThisItem.IsSelected, RGBA(141, 73, 58, 1), RGBA(0, 0, 0, 0))
+                    BorderThickness: =0
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =Parent.Height
                     HoverFill: =RGBA(0, 0, 0 , 0.2)
