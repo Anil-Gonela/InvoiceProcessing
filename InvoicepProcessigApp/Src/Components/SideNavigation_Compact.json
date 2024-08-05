@@ -429,8 +429,22 @@
                         "NameMapSourceSchema": "?"
                       },
                       "DisabledFill",
-                      "PressedFill",
-                      "HoverFill",
+                      {
+                        "AFDDataSourceName": "",
+                        "AutoRuleBindingEnabled": false,
+                        "AutoRuleBindingString": "Self.Color",
+                        "InvariantPropertyName": "PressedFill",
+                        "IsLockable": false,
+                        "NameMapSourceSchema": "?"
+                      },
+                      {
+                        "AFDDataSourceName": "",
+                        "AutoRuleBindingEnabled": false,
+                        "AutoRuleBindingString": "ColorFade(RGBA(56, 96, 178, 1), -20%)",
+                        "InvariantPropertyName": "HoverFill",
+                        "IsLockable": false,
+                        "NameMapSourceSchema": "?"
+                      },
                       "Font",
                       "FontWeight",
                       "Align",
@@ -477,7 +491,15 @@
                       "Size",
                       "Italic",
                       "Underline",
-                      "Strikethrough"
+                      "Strikethrough",
+                      {
+                        "AFDDataSourceName": "",
+                        "AutoRuleBindingEnabled": false,
+                        "AutoRuleBindingString": "false",
+                        "InvariantPropertyName": "OnSelect",
+                        "IsLockable": false,
+                        "NameMapSourceSchema": "?"
+                      }
                     ],
                     "ControlUniqueId": "399",
                     "HasDynamicProperties": false,
@@ -581,15 +603,15 @@
                       },
                       {
                         "Category": "Design",
-                        "InvariantScript": "Self.Color",
+                        "InvariantScript": "RGBA(0, 0, 0 , 0.2)",
                         "Property": "PressedFill",
-                        "RuleProviderType": "Unknown"
+                        "RuleProviderType": "User"
                       },
                       {
                         "Category": "Design",
-                        "InvariantScript": "ColorFade(RGBA(56, 96, 178, 1), -20%)",
+                        "InvariantScript": "RGBA(0, 0, 0 , 0.2)",
                         "Property": "HoverFill",
-                        "RuleProviderType": "Unknown"
+                        "RuleProviderType": "User"
                       },
                       {
                         "Category": "Design",
@@ -704,6 +726,12 @@
                         "InvariantScript": "false",
                         "Property": "Strikethrough",
                         "RuleProviderType": "Unknown"
+                      },
+                      {
+                        "Category": "Behavior",
+                        "InvariantScript": "Navigate(ThisItem.PageNavigation)",
+                        "Property": "OnSelect",
+                        "RuleProviderType": "User"
                       }
                     ],
                     "StyleName": "defaultButtonStyle",
@@ -3482,7 +3510,7 @@
       },
       "component_width"
     ],
-    "LastModifiedTimestamp": "638584414345157803",
+    "LastModifiedTimestamp": "638584415475167778",
     "Name": "SideNavigation_Compact",
     "Rules": [
       {
@@ -3602,7 +3630,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638584414345157803",
+  "LastModifiedTimestamp": "638584415475167778",
   "Name": "d4521f6e39724073a64c56d93e35a98f",
   "OverridableProperties": {},
   "Version": "1.0"
