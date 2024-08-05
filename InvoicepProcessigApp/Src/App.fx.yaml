@@ -80,6 +80,9 @@ App As appinfo:
         
         
         Set(InvoiceNumber, "");
+        
+        
+        Set(InvoiceStat, "");
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

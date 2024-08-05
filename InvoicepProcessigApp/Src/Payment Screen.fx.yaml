@@ -1,4 +1,4 @@
-"'Capture Invoice_1' As screen":
+"'Payment Screen' As screen":
     BackgroundImage: =
     Fill: =RGBA(248,237,227,0.3)
     ImagePosition: =ImagePosition.Fill
@@ -234,7 +234,7 @@
                     FontColor: =RGBA(141, 73, 58, 1)
                     Height: =Parent.Height * 30%
                     Size: =Parent.Width * 5%
-                    Text: ="Pending"
+                    Text: =InvoiceStat
                     Weight: ='TextCanvas.Weight'.Bold
                     Width: =Parent.Width * 60%
                     X: =(Parent.Width - Self.Width) / 2 
@@ -286,7 +286,7 @@
                         PaddingLeft: =0
                         PaddingRight: =0
                         PaddingTop: =0
-                        Size: =Parent.Width * 2.8%
+                        Size: =Parent.Width * 2.5%
                         Text: =ThisItem.Item
                         Width: =Gallery3.TemplateWidth * 50%
                         X: =Parent.X + 20
@@ -305,7 +305,7 @@
                         PaddingLeft: =0
                         PaddingRight: =0
                         PaddingTop: =0
-                        Size: =Parent.Width * 2.8%
+                        Size: =Parent.Width * 2.5%
                         Text: =ThisItem.Qty & "(Qty)" 
                         Width: =Gallery3.TemplateWidth * 15%
                         X: =Item.X + Item.Width
@@ -323,7 +323,7 @@
                         PaddingLeft: =0
                         PaddingRight: =0
                         PaddingTop: =0
-                        Size: =Parent.Width * 2.8%
+                        Size: =Parent.Width * 2.5%
                         Text: =ThisItem.InvoiceAmount
                         Width: =Gallery3.TemplateWidth * 25%
                         X: =Qty.X + Qty.Width + 2
@@ -370,8 +370,8 @@
                     DisplayMode: =DisplayMode.Edit
                     Font: =Font.'Lato Black'
                     Height: =Parent.Height * 95%
-                    Size: =TextCanvas5.Width * 12%
-                    Text: ="13456 $"
+                    Size: =TextCanvas5.Width * 14%
+                    Text: ="$" & AmontToPay
                     Weight: ='TextCanvas.Weight'.Bold
                     Width: =Parent.Width * 50%
                     X: =0
@@ -379,7 +379,7 @@
                     ZIndex: =1
 
                 ButtonCanvas1 As Button:
-                    BasePaletteColor: =RGBA(141, 73, 58, 1)
+                    BasePaletteColor: =If(TextCanvas4.Text = "Paid" Or "Cancelled", RGBA(0,0,0,0.5), RGBA(141, 73, 58, 1))
                     BorderRadiusBottomLeft: =30
                     BorderRadiusBottomRight: =30
                     BorderRadiusTopLeft: =30
@@ -396,7 +396,7 @@
                     ZIndex: =2
 
                 ButtonCanvas1_1 As Button:
-                    BasePaletteColor: =RGBA(141, 73, 58, 1)
+                    BasePaletteColor: =If(TextCanvas4.Text = "Paid" Or "Cancelled", RGBA(0,0,0,0.5), RGBA(141, 73, 58, 1))
                     BorderRadiusBottomLeft: =30
                     BorderRadiusBottomRight: =30
                     BorderRadiusTopLeft: =30
@@ -470,7 +470,7 @@
                         Height: =Parent.Height * 20%
                         Size: =Parent.Width * 5%
                         Text: |-
-                            ="Bill To:"
+                            ="Bill To: " & CustomerName
                         Weight: ='TextCanvas.Weight'.Bold
                         Width: =Parent.Width * 60%
                         X: =Parent.Width * 10%
@@ -478,7 +478,7 @@
                         ZIndex: =2
 
                     Heading1_2 As Text:
-                        Align: ='TextCanvas.Align'.Start
+                        Align: ='TextCanvas.Align'.Justify
                         BorderColor: =RGBA(141, 73, 58, 1)
                         BorderRadiusBottomLeft: =30
                         BorderRadiusBottomRight: =30
@@ -491,8 +491,7 @@
                         FontColor: =RGBA(0, 0, 0, 1)
                         Height: =Parent.Height * 50%
                         Size: =Parent.Width * 5%
-                        Text: |-
-                            ="   Bill To:"
+                        Text: ="    "& CustomerAddress
                         VerticalAlign: ='TextCanvas.VerticalAlign'.Top
                         Weight: ='TextCanvas.Weight'.Bold
                         Width: =Parent.Width * 90%
@@ -550,10 +549,10 @@
                         Height: =Parent.Height * 20%
                         Size: =Parent.Width * 5%
                         Text: |-
-                            ="Bill To:"
+                            =" Vendor: " & VendorName
                         Weight: ='TextCanvas.Weight'.Bold
-                        Width: =Parent.Width * 60%
-                        X: =Parent.Width * 10%
+                        Width: =Parent.Width 
+                        X: =Parent.Width * 8%
                         Y: =Heading1.Y + Heading1.Height
                         ZIndex: =2
 
@@ -571,8 +570,7 @@
                         FontColor: =RGBA(0, 0, 0, 1)
                         Height: =Parent.Height * 50%
                         Size: =Parent.Width * 5%
-                        Text: |-
-                            ="   Bill To:"
+                        Text: ="  " & VendorAddress
                         VerticalAlign: ='TextCanvas.VerticalAlign'.Top
                         Weight: ='TextCanvas.Weight'.Bold
                         Width: =Parent.Width * 90%

@@ -314,19 +314,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Amount Details'.ButtonCanvas1.AccessibleLabel"
+                  "fullyQualifiedName": "'Payment Screen'.'Total Due and Paid_3'.Body_3.'Amount Details'.ButtonCanvas1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Amount Details'.ButtonCanvas1.AccessibleLabel",
+                  "fullyQualifiedName": "'Payment Screen'.'Total Due and Paid_3'.Body_3.'Amount Details'.ButtonCanvas1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Capture Invoice_1",
-                "type": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Amount Details'.ButtonCanvas1"
+                "module": "Payment Screen",
+                "type": "'Payment Screen'.'Total Due and Paid_3'.Body_3.'Amount Details'.ButtonCanvas1"
               }
             }
           ],
@@ -344,19 +344,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Amount Details'.ButtonCanvas1_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Payment Screen'.'Total Due and Paid_3'.Body_3.'Amount Details'.ButtonCanvas1_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Amount Details'.ButtonCanvas1_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Payment Screen'.'Total Due and Paid_3'.Body_3.'Amount Details'.ButtonCanvas1_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Capture Invoice_1",
-                "type": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Amount Details'.ButtonCanvas1_1"
+                "module": "Payment Screen",
+                "type": "'Payment Screen'.'Total Due and Paid_3'.Body_3.'Amount Details'.ButtonCanvas1_1"
               }
             }
           ],
@@ -374,19 +374,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3.AccessibleLabel"
+                  "fullyQualifiedName": "'Payment Screen'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3.AccessibleLabel",
+                  "fullyQualifiedName": "'Payment Screen'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Capture Invoice_1",
-                "type": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3"
+                "module": "Payment Screen",
+                "type": "'Payment Screen'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3"
               }
             }
           ],
@@ -404,19 +404,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3.TabIndex"
+                  "fullyQualifiedName": "'Payment Screen'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3.TabIndex",
+                  "fullyQualifiedName": "'Payment Screen'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Capture Invoice_1",
-                "type": "'Capture Invoice_1'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3"
+                "module": "Payment Screen",
+                "type": "'Payment Screen'.'Total Due and Paid_3'.Body_3.'Product Details'.Gallery3"
               }
             }
           ],

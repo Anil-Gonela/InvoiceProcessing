@@ -68,6 +68,8 @@ InvoiceList As screen:
 
         Container18_6 As groupContainer.manualLayoutContainer:
             Height: =Parent.Height
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
             RadiusBottomLeft: =20
             RadiusBottomRight: =20
             RadiusTopLeft: =20
@@ -579,6 +581,16 @@ InvoiceList As screen:
                                 Height: =Parent.Height
                                 HoverBorderColor: =App.Theme.Colors.Darker10
                                 HoverFill: =RGBA(0,0,0,0.1) 
+                                OnSelect: |-
+                                    =Set(InvoiceNumber, ThisItem.Title);
+                                    Set(InvoiceStat, ThisItem.'Invoice Status'.Value);
+                                    Set(AmontToPay, ThisItem.'Balance Due');
+                                    Set(CustomerName, ThisItem.'Customer Name');
+                                    Set(CustomerAddress, ThisItem.'Customer Address');
+                                    Set(VendorName, ThisItem.'Vendor Name');
+                                    Set(VendorAddress, ThisItem.'Vendor Address');
+                                    
+                                    Navigate('Payment Screen');
                                 PressedBorderColor: =App.Theme.Colors.Darker40
                                 PressedColor: =Self.Color
                                 PressedFill: =RGBA(0,0,0,0.2)
