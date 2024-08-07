@@ -90,7 +90,9 @@
                 BorderStyle: =BorderStyle.Solid
                 BorderThickness: =1
                 DisplayMode: =DisplayMode.Edit
+                Fill: =
                 Font: =Font.'Lato Black'
+                FontColor: =
                 Height: =Parent.Height * 20%
                 Size: =Parent.Width * 8%
                 Text: ="INVOICE PROCESSING"

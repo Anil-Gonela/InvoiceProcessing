@@ -230,6 +230,7 @@
                     BorderRadiusTopRight: =30
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
+                    Fill: =
                     Font: =Font.Lato
                     FontColor: =RGBA(141, 73, 58, 1)
                     Height: =Parent.Height * 30%
@@ -340,6 +341,7 @@
                     BorderStyle: =BorderStyle.Solid
                     BorderThickness: =0
                     DisplayMode: =DisplayMode.Edit
+                    Fill: =
                     Font: =Font.Lato
                     FontColor: =RGBA(141, 73, 58, 1)
                     Height: =Parent.Height * 18%
@@ -367,8 +369,11 @@
 
                 TextCanvas5 As Text:
                     Align: ='TextCanvas.Align'.Center
+                    BorderColor: =
                     DisplayMode: =DisplayMode.Edit
+                    Fill: =
                     Font: =Font.'Lato Black'
+                    FontColor: =
                     Height: =Parent.Height * 65%
                     Size: =TextCanvas5.Width * 14%
                     Text: ="$" & AmontToPay
@@ -380,6 +385,7 @@
 
                 ButtonCanvas1 As Button:
                     BasePaletteColor: =If(TextCanvas4.Text = "Paid" Or "Cancelled", RGBA(0,0,0,0.5), RGBA(141, 73, 58, 1))
+                    BorderColor: =
                     BorderRadiusBottomLeft: =30
                     BorderRadiusBottomRight: =30
                     BorderRadiusTopLeft: =30
@@ -402,6 +408,7 @@
 
                 ButtonCanvas1_1 As Button:
                     BasePaletteColor: =If(TextCanvas4.Text = "Paid" Or "Cancelled", RGBA(0,0,0,0.5), RGBA(141, 73, 58, 1))
+                    BorderColor: =
                     BorderRadiusBottomLeft: =30
                     BorderRadiusBottomRight: =30
                     BorderRadiusTopLeft: =30
@@ -430,6 +437,7 @@
                     BorderStyle: =BorderStyle.Solid
                     BorderThickness: =0
                     DisplayMode: =DisplayMode.Edit
+                    Fill: =
                     Font: =Font.Lato
                     FontColor: =RGBA(141, 73, 58, 1)
                     Height: =Parent.Height * 22%
@@ -472,6 +480,7 @@
                         BorderStyle: =BorderStyle.Solid
                         BorderThickness: =0
                         DisplayMode: =DisplayMode.Edit
+                        Fill: =
                         Font: =Font.Lato
                         FontColor: =RGBA(141, 73, 58, 1)
                         Height: =Parent.Height * 20%
@@ -494,6 +503,7 @@
                         BorderStyle: =BorderStyle.Solid
                         BorderThickness: =0
                         DisplayMode: =DisplayMode.Edit
+                        Fill: =
                         Font: =Font.Lato
                         FontColor: =RGBA(0, 0, 0, 1)
                         Height: =Parent.Height * 20%
@@ -516,6 +526,7 @@
                         BorderStyle: =BorderStyle.Solid
                         BorderThickness: =0
                         DisplayMode: =DisplayMode.Edit
+                        Fill: =
                         Font: =Font.Lato
                         FontColor: =RGBA(0, 0, 0, 1)
                         Height: =Parent.Height * 50%
@@ -551,6 +562,7 @@
                         BorderStyle: =BorderStyle.Solid
                         BorderThickness: =0
                         DisplayMode: =DisplayMode.Edit
+                        Fill: =
                         Font: =Font.Lato
                         FontColor: =RGBA(141, 73, 58, 1)
                         Height: =Parent.Height * 20%
@@ -573,6 +585,7 @@
                         BorderStyle: =BorderStyle.Solid
                         BorderThickness: =0
                         DisplayMode: =DisplayMode.Edit
+                        Fill: =
                         Font: =Font.Lato
                         FontColor: =RGBA(0, 0, 0, 1)
                         Height: =Parent.Height * 20%
@@ -595,6 +608,7 @@
                         BorderStyle: =BorderStyle.Solid
                         BorderThickness: =0
                         DisplayMode: =DisplayMode.Edit
+                        Fill: =
                         Font: =Font.Lato
                         FontColor: =RGBA(0, 0, 0, 1)
                         Height: =Parent.Height * 50%

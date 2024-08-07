@@ -44,7 +44,7 @@ App As appinfo:
         
         ClearCollect(
             PaidItems,
-            Filter('Invoice System Demo', 'Invoice Status'.Value = "P"));
+            Filter('Invoice System Demo', 'Invoice Status'.Value = "Paid"));
         
         
         Table(
